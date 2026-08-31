@@ -1,0 +1,2158 @@
+﻿<ui_display_info>
+  <!-- Table_of_Contents -->
+  <!-- Search_Find_All_for *** -->
+  <!-- NOTE: All of the name= entries are CASE SENSITIVE -->
+  <!-- *** RANGED_WEAPONS -->
+  <item_display>
+    <item_display_info display_type="rangedGun" display_group="groupRanged">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkGunslinger,revolver,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="MagazineSize" title_key="statMagazineSize" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="RoundsPerMinute" title_key="statRoundsPerMinute" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <!-- <display_entry name="WeaponHandling" title_key="statWeaponHandling" display_type="Percent" show_inverted="true"/> -->
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="rangedGunNoMag" display_group="groupRanged">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkGunslinger,revolver,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="MagazineSize" title_key="statMagazineSize" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <!-- <display_entry name="WeaponHandling" title_key="statWeaponHandling" display_type="Percent" show_inverted="true"/> -->
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="rangedShotgun" display_group="groupRanged">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageShotgun" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="RoundRayCount" title_key="statRoundRayCount" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="MagazineSize" title_key="statMagazineSize" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="RoundsPerMinute" title_key="statRoundsPerMinute" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dStatStunEffect" title_key="statStunEffect" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="rangedShotgunNoMag" display_group="groupRanged">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageShotgun" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="RoundRayCount" title_key="statRoundRayCount" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="MagazineSize" title_key="statMagazineSize" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dStatStunEffect" title_key="statStunEffect" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="rangedLauncher" display_group="groupRanged">
+      <display_entry name="MagazineSize" title_key="statMagazineSize" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="ProjectileVelocity" title_key="statProjectileVelocity" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkDemolitionsExpert,admin" />
+    </item_display_info>
+    <item_display_info display_type="rangedBow" display_group="groupRanged">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkArchery,admin" />
+      <display_entry name="dEntityDamageSneak" title_key="statEntityDamageSneak" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="ProjectileVelocity" title_key="statProjectileVelocity" tags="perkArchery,admin" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkArchery,admin" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="adminRanged" display_group="groupRanged">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" />
+      <display_entry name="RoundsPerMinute" title_key="statRoundsPerMinute" />
+      <display_entry name="MaxRange" title_key="statMaxRange" />
+    </item_display_info>
+    <!-- *** MELEE_WEAPONS -->
+    <item_display_info display_type="melee" display_group="groupMelee">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageMelee" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statPowerAttack" tags="secondary,perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="StaminaLoss" display_type="Decimal1" title_key="statStaminaLoss" negative_preferred="true" />
+      <display_entry name="AttacksPerMinute" title_key="statAttacksPerMinute" tags="perkFlurryOfBlows,perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+    </item_display_info>
+    <item_display_info display_type="meleeSpear" display_group="groupMelee">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageMelee" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statPowerAttack" tags="secondary,perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="dTargetArmor" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="StaminaLoss" display_type="Decimal1" title_key="statStaminaLoss" negative_preferred="true" />
+      <display_entry name="AttacksPerMinute" title_key="statAttacksPerMinute" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+    </item_display_info>
+    <item_display_info display_type="meleeHeavy" display_group="groupMelee">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageMelee" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statPowerAttack" tags="secondary,perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="StaminaLoss" display_type="Decimal1" title_key="statStaminaLoss" negative_preferred="true" />
+      <display_entry name="AttacksPerMinute" title_key="statAttacksPerMinute" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+    </item_display_info>
+    <item_display_info display_type="meleeKnife" display_group="groupMelee">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageMelee" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statPowerAttack" tags="secondary,perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="dEntityDamageSneak" title_key="statEntityDamageSneak" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="StaminaLoss" display_type="Decimal1" title_key="statStaminaLoss" negative_preferred="true" />
+      <display_entry name="AttacksPerMinute" title_key="statAttacksPerMinute" tags="perkFlurryOfBlows,perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkDeepCuts,admin" />
+    </item_display_info>
+    <item_display_info display_type="meleeRepairTool" display_group="groupMelee">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageMelee" tags="perkMiner69r" />
+      <display_entry name="dBlockRepairAmount" title_key="statBlockRepairAmount" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkMiner69r" />
+      <display_entry name="StaminaLoss" display_type="Decimal1" title_key="statStaminaLoss" negative_preferred="true" />
+      <display_entry name="AttacksPerMinute" title_key="statAttacksPerMinute" tags="perkMiner69r" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkMiner69r,perkAdvancedEngineering,admin" />
+      <display_entry name="dPlayerExpGainRepairToolMelee" title_key="statPlayerExpGainRepairTool" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="rangedRepairTool" display_group="groupMelee">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkMiner69r" />
+      <display_entry name="dBlockRepairAmount" title_key="statBlockRepairAmount" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkMiner69r" />
+      <display_entry name="RoundsPerMinute" title_key="statAttacksPerMinute" tags="perkMiner69r" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkMiner69r,admin" />
+      <display_entry name="dPlayerExpGainRepairToolRange" title_key="statPlayerExpGainRepairTool" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="motorTool" display_group="groupMelee">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageMelee" tags="perkMiner69r" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkMiner69r" />
+      <display_entry name="MagazineSize" title_key="statFuelCapacity" tags="perkMiner69r" />
+      <display_entry name="RoundsPerMinute" title_key="statAttacksPerMinute" tags="perkMiner69r" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkMiner69r,admin" />
+    </item_display_info>
+    <item_display_info display_type="simpleTool" display_group="groupMelee">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageMelee" />
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statPowerAttack" tags="secondary" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" />
+      <display_entry name="StaminaLoss" display_type="Decimal1" title_key="statStaminaLoss" negative_preferred="true" />
+      <display_entry name="AttacksPerMinute" title_key="statAttacksPerMinute" />
+    </item_display_info>
+    <item_display_info display_type="meleeCandle" display_group="groupMelee">
+      <display_entry name="HypothermalResist" display_type="Decimal1" title_key="statHypothermalResist" />
+    </item_display_info>
+    <item_display_info display_type="meleeTorch" display_group="groupMelee">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageMelee" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" />
+      <display_entry name="StaminaLoss" display_type="Decimal1" title_key="statStaminaLoss" negative_preferred="true" />
+      <display_entry name="AttacksPerMinute" title_key="statAttacksPerMinute" />
+      <display_entry name="dBurning" title_key="statBurning" display_type="Percent" />
+      <display_entry name="HypothermalResist" display_type="Decimal1" title_key="statHypothermalResist" />
+    </item_display_info>
+    <item_display_info display_type="meleeTurret" display_group="groupMelee">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageMelee" tags="perkTurrets" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="turretMelee" />
+      <display_entry name="RoundsPerMinute" title_key="statAttacksPerMinute" tags="turretMelee" />
+      <display_entry name="DegradationMax" title_key="statDegradationHPMax" tags="perkTurrets" />
+    </item_display_info>
+    <item_display_info display_type="rangedTurret" display_group="groupRanged">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkTurrets" />
+      <display_entry name="MagazineSize" title_key="statMagazineSize" tags="turretRanged" />
+      <display_entry name="RoundsPerMinute" title_key="statRoundsPerMinute" tags="turretRanged" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkTurrets" />
+      <display_entry name="DegradationMax" title_key="statDegradationHPMax" tags="perkTurrets" />
+    </item_display_info>
+    <item_display_info display_type="droneTurret" display_group="groupRanged">
+      <display_entry name="DegradationMax" title_key="statDegradationHPMax" tags="perkTurrets" />
+    </item_display_info>
+    <item_display_info display_type="droneStunMod" display_group="groupDrone">
+      <display_entry name="dEntityDamage" display_type="Decimal1" title_key="statStunDamage" />
+      <display_entry name="dStunCoolDown" title_key="statStunCooldown" />
+      <!-- <display_entry name="DegradationMax" title_key="statDegradationHPMax"/> -->
+    </item_display_info>
+    <!-- *** AMMO -->
+    <item_display_info display_type="ammoBullet" display_group="groupAmmo">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoBulletAP" display_group="groupAmmo">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dTargetArmor" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dTargetPenetration" title_key="statTargetPenetration" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <!--<display_entry name="dDegradationPerUse" title_key="statDegradationPerUse" display_type="Percent" display_leading_plus="true" negative_preferred="true" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin"/>-->
+    </item_display_info>
+    <item_display_info display_type="ammoBulletHP" display_group="groupAmmo">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <!--<display_entry name="dTargetArmor" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin"/>-->
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoShotgun" display_group="groupAmmo">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageShotgun" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="RoundRayCount" title_key="statRoundRayCount" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <!--<display_entry name="dTargetArmor" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin"/>-->
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoShotgunSlug" display_group="groupAmmo">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="RoundRayCount" title_key="statRoundRayCount" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dTargetArmor" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dTargetPenetration" title_key="statTargetPenetration" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoShotgunBreaching" display_group="groupAmmo">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageShotgun" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="RoundRayCount" title_key="statRoundRayCount" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dDamageDoor" title_key="statBlockDamageDoor" display_leading_plus="true" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoJunkTurretRegular" display_group="groupAmmo">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoJunkTurretAP" display_group="groupAmmo">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dTargetArmor" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dTargetPenetration" title_key="statTargetPenetration" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoArrow" display_group="groupAmmo">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkArchery,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkArchery,admin" />
+      <display_entry name="ProjectileVelocity" title_key="statProjectileVelocity" tags="perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoArrowAP" display_group="groupAmmo">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkArchery,admin" />
+      <display_entry name="dTargetArmor" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" tags="perkArchery,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkArchery,admin" />
+      <display_entry name="ProjectileVelocity" title_key="statProjectileVelocity" tags="perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoDart" display_group="groupAmmo">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkArchery,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkArchery,admin" />
+      <display_entry name="ProjectileVelocity" title_key="statProjectileVelocity" tags="perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoArrowFlaming" display_group="groupAmmo">
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkArchery,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkArchery,admin" />
+      <display_entry name="dEntityDamageFire" title_key="statEntityDamageFire" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="ProjectileVelocity" title_key="statProjectileVelocity" tags="perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoArrowExploding" display_group="groupAmmo">
+      <display_entry name="dExEntityDamage" title_key="statEntityDamageExplosion" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="dExBlockDamage" title_key="statBlockDamageExplosion" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="dExRadius" title_key="statExRadius" />
+      <display_entry name="ProjectileVelocity" title_key="statProjectileVelocity" tags="perkArchery,admin" />
+      <display_entry name="EntityDamage" title_key="statEntityDamageRangedImpact" tags="perkArchery,admin" />
+      <display_entry name="BlockDamage" title_key="statBlockDamageRangedImpact" tags="perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoLauncher" display_group="groupAmmo">
+      <display_entry name="dExEntityDamage" title_key="statEntityDamageExplosion" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="dExBlockDamage" title_key="statBlockDamageExplosion" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="dExRadius" title_key="statExRadius" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="EntityDamage" title_key="statEntityDamageRangedImpact" tags="admin" />
+      <display_entry name="BlockDamage" title_key="statBlockDamageRangedImpact" tags="admin" />
+    </item_display_info>
+    <item_display_info display_type="ammoGrenade" display_group="groupAmmo">
+      <display_entry name="dExEntityDamage" title_key="statEntityDamageExplosion" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="dExBlockDamage" title_key="statBlockDamageExplosion" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="dExRadius" title_key="statExRadius" display_type="Decimal1" />
+      <display_entry name="dFuseTime" title_key="statFuseTime" display_type="Time" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="ammoGrenadeContact" display_group="groupAmmo">
+      <display_entry name="dExEntityDamage" title_key="statEntityDamageExplosion" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="dExBlockDamage" title_key="statBlockDamageExplosion" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="dExRadius" title_key="statExRadius" display_type="Decimal1" />
+    </item_display_info>
+    <item_display_info display_type="ammoGrenadeTimedCharge" display_group="groupAmmo">
+      <display_entry name="dExEntityDamage" title_key="statEntityDamageExplosion" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="dExBlockDamage" title_key="statBlockDamageExplosion" tags="perkDemolitionsExpert,admin" />
+      <display_entry name="dExRadius" title_key="statExRadius" display_type="Decimal1" />
+      <display_entry name="dFuseTime" title_key="statFuseTime" display_type="Time" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="ammoGrenadeFire" display_group="groupAmmo">
+      <display_entry name="dExDamageFire" title_key="statEntityDamageFire" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="dExRadius" title_key="statExRadius" />
+    </item_display_info>
+    <!-- *** MODS -->
+    <item_display_info display_type="modCarryCapacity" display_group="modAttire">
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modNoiseReduction" display_group="modAttire">
+      <display_entry name="dNoiseMultiplier" title_key="statNoiseReduction" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modNoiseStaminaReduction" display_group="groupAttire">
+      <display_entry name="dStaminaChangeOT" title_key="statStaminaChangeOT" display_type="Decimal2" display_leading_plus="true" />
+      <!-- <display_entry name="Mobility" title_key="statMobility" display_type="Percent" show_inverted="true" negative_preferred="false"/> -->
+      <display_entry name="dNoiseMultiplier" title_key="statNoiseIncrease" display_type="Percent" show_inverted="false" negative_preferred="true" />
+    </item_display_info>
+    <!-- <item_display_info display_type="modTempResist" display_group="modAttire"> -->
+    <!-- <display_entry name="HypothermalResist" display_type="Decimal1" title_key="statHypothermalResist" display_leading_plus="true"/> -->
+    <!-- <display_entry name="HyperthermalResist" display_type="Decimal1" title_key="statHyperthermalResist" display_leading_plus="true"/> -->
+    <!-- <display_entry name="ElementalDamageResist" display_type="Decimal1" title_key="statExplosionResistance" display_leading_plus="true" tags="heat,electrical"/> -->
+    <!-- </item_display_info> -->
+    <item_display_info display_type="modArmor" display_group="modAttire">
+      <display_entry name="PhysicalDamageResist" display_type="Decimal1" title_key="statPhysicalDamageResist" display_leading_plus="true" />
+      <display_entry name="ElementalDamageResist" display_type="Decimal1" title_key="statExplosionResistance" display_leading_plus="true" tags="heat,electrical" />
+    </item_display_info>
+    <item_display_info display_type="modArmorMobility" display_group="modAttire">
+      <display_entry name="dStaminaChangeOT" title_key="statStaminaChangeOT" display_type="Decimal2" display_leading_plus="true" />
+      <display_entry name="Mobility" title_key="statMobility" display_type="Percent" display_leading_plus="true" show_inverted="true" negative_preferred="false" />
+    </item_display_info>
+    <item_display_info display_type="modArmorLiners" display_group="groupAttire">
+      <display_entry name="HypothermalResist" title_key="statHypothermalResist" display_type="Decimal1" />
+      <display_entry name="HyperthermalResist" title_key="statHyperthermalResist" display_type="Decimal1" />
+    </item_display_info>
+    <item_display_info display_type="modGunMagazineExtender" display_group="modGunMagazine">
+      <display_entry name="dMagazineSize" title_key="statMagazineSize" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modGunDrumMagazineExtender" display_group="modGunMagazine">
+      <display_entry name="dMagazineSize" title_key="statMagazineSize" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dReloadSpeedMul" title_key="xuiSkillReloadSpeed" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modGunShotgunTubeExtenderMagazine" display_group="modGunMagazine">
+      <display_entry name="dMagazineSize" title_key="statMagazineSize" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modGunBowPolymerString" display_group="groupRanged">
+      <display_entry name="dProjectileVelocity" title_key="statProjectileVelocity" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modGunBowArrowRest" display_group="groupRanged">
+      <display_entry name="dSpreadMultiplierAiming" title_key="statSpreadMultiplierAiming" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dSpreadMultiplierHip" title_key="statSpreadMultiplierHip" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modGunCrippleEm" display_group="groupRanged">
+      <display_entry name="dCrippleChance" title_key="statCrippleChance" display_type="Percent" negative_preferred="true" />
+      <display_entry name="dDismemberChance" title_key="statDismemberChance" display_type="Percent" negative_preferred="false" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="modGunMeleeTheHunter" display_group="groupRanged">
+      <display_entry name="dAnimalDamage" title_key="statAnimalDamage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dZombieDamage" title_key="statZombieDamage" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="modGunMeleeRadRemover" display_group="groupRanged">
+      <display_entry name="dRegenerationBlocker" title_key="statRegenerationBlocker" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeTemperedBlade" display_group="groupRanged">
+      <display_entry name="dBlockDamage" title_key="statBlockDamage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDegradationPerUse" title_key="statDegradationPerUse" display_type="Percent" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeSerratedBlade" display_group="groupRanged">
+      <display_entry name="dBleedChance" title_key="statBleedChance" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeWeightedHead" display_group="groupRanged">
+      <display_entry name="dStunChance" title_key="statStunChance" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeStructuralBrace" display_group="groupRanged">
+      <display_entry name="dDegradationPerUse" title_key="statDegradationPerUse" display_type="Percent" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeErgonomicGrip" display_group="groupRanged">
+      <display_entry name="dStaminaLoss" title_key="statMeleeStaminaLoss" display_type="Percent" negative_preferred="true" />
+      <display_entry name="dAttacksSpeedMelee" title_key="statAttacksSpeedMelee" display_type="Percent" negative_preferred="false" display_leading_plus="true">
+        <!--Element inserted by: "ProjectZ"-->
+      </display_entry>
+      <display_entry name="dWeaponHandling" title_key="statBowHandling" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeFortifyingGrip" display_group="groupRanged">
+      <display_entry name="dHPRegenValue" title_key="statHPRegenValue" display_type="Integer" />
+      <display_entry name="dHPRegenTime" title_key="statHPRegenTime" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeClubBarbedWire" display_group="groupRanged">
+      <display_entry name="dbarbBleedPrimary" title_key="statbarbBleedPrimary" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dbarbBleedSecondary" title_key="statbarbBleedSecondary" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeClubMetalSpikes" display_group="groupRanged">
+      <display_entry name="dmeatlSpikes" title_key="statMeatlSpikes" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeClubMetalChain" display_group="groupRanged">
+      <display_entry name="dmetalChain" title_key="statMetalChain" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeClubBurningShaft" display_group="groupRanged">
+      <display_entry name="dburningShaft" title_key="statBurningShaft" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeFiremansAxeMod" display_group="groupRanged">
+      <display_entry name="dBlockDamage" title_key="statBlockDamage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dEntityDamage" title_key="statEntityDamage" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeGraveDigger" display_group="groupRanged">
+      <display_entry name="dBlockDamageDirt" title_key="statBlockDamageDirt" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeBunkerBuster" display_group="groupRanged">
+      <display_entry name="dBlockDamageStone" title_key="statBlockDamageStone" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeIronBreaker" display_group="groupRanged">
+      <display_entry name="dBlockDamageMetal" title_key="statBlockDamageMetal" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeWoodSplitter" display_group="groupRanged">
+      <display_entry name="dBlockDamageWood" title_key="statBlockDamageWood" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeDiamondTip" display_group="groupRanged">
+      <display_entry name="dDegradationPerUse" title_key="statDegradationPerUse" display_type="Percent" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeFuelTank" display_group="groupRanged">
+      <display_entry name="dMagazineSize" title_key="statMagazineSize" display_type="Percent" display_leading_plus="true" tags="motorTool" />
+    </item_display_info>
+    <item_display_info display_type="modArmorBandolier" display_group="groupRanged">
+      <display_entry name="dBandolier" title_key="xuiSkillReloadSpeed" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modArmorTreasureHunter" display_group="groupAttire">
+      <display_entry name="dLootStage" title_key="statLootStage" display_leading_plus="true" />
+      <display_entry name="dPlayerExpGain" title_key="statPlayerExpGain" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dTreasureBlocksPerReduction" title_key="statTreasureRadius" display_leading_plus="true" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="modVehicleFuelSaver" display_group="groupRanged">
+      <display_entry name="dVehicleFuelUsePer" title_key="statFuelUsage" display_type="Percent" display_leading_plus="true" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="modVehicleReserveFuelTank" display_group="groupRanged">
+      <display_entry name="dVehicleFuelMaxPer" title_key="statFuelCapacity" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <!-- *** ARMOR -->
+    <item_display_info display_type="armor" display_group="groupAttire">
+      <!-- This works to display individual resistances
+			<display_entry name="BuffResistance" title_key="statBuffResistance1" tags="buffInjuryBleeding"/>
+			<display_entry name="BuffResistance" title_key="statBuffResistance2" tags="buffInjuryStunned01"/>
+			<display_entry name="BuffResistance" title_key="statBuffResistance3" tags="buffInfectionCatch"/> -->
+      <display_entry name="PhysicalDamageResist" display_type="Decimal1" title_key="statPhysicalDamageResist" />
+      <!-- <display_entry name="BuffResistance" title_key="statBuffResistance" display_type="Percent" tags="critResistDisplay" show_inverted="false"/> -->
+      <display_entry name="dStaminaChangeOT" title_key="statStaminaChangeOT" display_type="Decimal2" />
+      <display_entry name="Mobility" title_key="statMobility" display_type="Percent" show_inverted="true" negative_preferred="false" />
+      <!-- <display_entry name="HypothermalResist" display_type="Decimal1" title_key="statHypothermalResist"/> -->
+      <!-- <display_entry name="HyperthermalResist" display_type="Decimal1" title_key="statHyperthermalResist"/> -->
+      <display_entry name="DegradationMax" title_key="statDegradationMax" />
+    </item_display_info>
+    <item_display_info display_type="armorMedium" display_group="groupAttire">
+      <display_entry name="PhysicalDamageResist" display_type="Decimal1" title_key="statPhysicalDamageResistMedium" />
+      <display_entry name="ElementalDamageResist" display_type="Decimal1" title_key="statExplosionResistance" tags="heat,electrical" />
+      <!-- <display_entry name="BuffResistance" title_key="statBuffResistance" display_type="Percent" tags="critResistDisplay" show_inverted="false"/> -->
+      <display_entry name="dStaminaChangeOT" title_key="statStaminaChangeOT" display_type="Decimal2" />
+      <display_entry name="Mobility" title_key="statMobility" display_type="Percent" show_inverted="true" negative_preferred="false" />
+      <display_entry name="dNoiseMultiplier" title_key="statNoiseIncrease" display_type="Percent" show_inverted="false" negative_preferred="true" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="mediumArmorDeg,admin" />
+    </item_display_info>
+    <item_display_info display_type="armorHeavy" display_group="groupAttire">
+      <display_entry name="PhysicalDamageResist" display_type="Decimal1" title_key="statPhysicalDamageResistHeavy" />
+      <!--<display_entry name="ElementalDamageResist" display_type="Decimal1" title_key="statExplosionResistance" tags="heat,electrical"/>-->
+      <!--<display_entry name="BuffResistance" title_key="statBuffResistance" display_type="Percent" tags="critResistDisplay" show_inverted="false"/>-->
+      <display_entry name="dStaminaChangeOT" title_key="statStaminaChangeOT" display_type="Decimal2" />
+      <display_entry name="Mobility" title_key="statMobility" display_type="Percent" show_inverted="true" negative_preferred="false" />
+      <display_entry name="dNoiseMultiplier" title_key="statNoiseIncrease" display_type="Percent" show_inverted="false" negative_preferred="true" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="heavyArmorDeg,admin" />
+    </item_display_info>
+    <item_display_info display_type="armorMediumNew" display_group="groupAttire">
+      <display_entry name="PhysicalDamageResist" display_type="Decimal1" title_key="statPhysicalDamageResistMedium" />
+      <!-- <display_entry name="HypothermalResist" display_type="Decimal1" title_key="statInsulation"/> -->
+      <display_entry name="dStaminaChangeOT" title_key="statStaminaChangeOT" display_type="Decimal2" />
+      <display_entry name="Mobility" title_key="statMobility" display_type="Percent" show_inverted="true" negative_preferred="false" />
+      <display_entry name="dNoiseMultiplier" title_key="statNoiseIncrease" display_type="Percent" show_inverted="false" negative_preferred="true" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="mediumArmorDeg,admin" />
+    </item_display_info>
+    <item_display_info display_type="armorLight" display_group="groupAttire">
+      <display_entry name="PhysicalDamageResist" display_type="Decimal1" title_key="statPhysicalDamageResistLight" />
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorLight']/display_entry[@name='dStaminaChangeOT']")-->
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorLight']/display_entry[@name='Mobility']")-->
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorLight']/display_entry[@name='dNoiseMultiplier']")-->
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="lightArmorDeg,admin" />
+    </item_display_info>
+    <!-- *** LIGHT_ARMORS -->
+    <!-- *** PRIMITIVE -->
+    <item_display_info display_type="armorPrimitiveHelmet" display_group="groupAttire" extends="armorLight"></item_display_info>
+    <item_display_info display_type="armorPrimitiveOutfit" display_group="groupAttire" extends="armorLight"></item_display_info>
+    <item_display_info display_type="armorPrimitiveGloves" display_group="groupAttire" extends="armorLight"></item_display_info>
+    <item_display_info display_type="armorPrimitiveBoots" display_group="groupAttire" extends="armorLight"></item_display_info>
+    <!-- *** LUMBERJACK -->
+    <item_display_info display_type="armorLumberjackHelmet" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorLumberjackHelmet']/display_entry[@name='dHarvestCount']")-->
+      <display_entry name="dPlayerExpGainRepairTool" title_key="statPlayerExpGainRepairTool" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorLumberjackOutfit" display_group="groupAttire" extends="armorLight">
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_type="Decimal1" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorLumberjackGloves" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorLumberjackGloves']/display_entry[@name='dLumberJackDamage']")-->
+      <display_entry name="dBlockDamage" title_key="statBlockDamageAxe" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorLumberjackBoots" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorLumberjackBoots']/display_entry[@name='dStaminaRegen']")-->
+      <display_entry name="dStaminaLossAxe" title_key="statStaminaLossAxe" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <!-- *** PREACHER -->
+    <item_display_info display_type="armorPreacherHelmet" display_group="groupAttire" extends="armorLight">
+      <display_entry name="dBartering" title_key="statBarteringBuy" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorPreacherOutfit" display_group="groupAttire" extends="armorLight">
+      <display_entry name="dDamageResist" title_key="statUndeadDamageResist" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorPreacherGloves" display_group="groupAttire" extends="armorLight">
+      <display_entry name="dEntityDamage" title_key="statUndeadDamage" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorPreacherBoots" display_group="groupAttire" extends="armorLight">
+      <display_entry name="dTreatedCritHealing" title_key="statTreatedCritHealing" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <!-- *** ROGUE -->
+    <item_display_info display_type="armorRogueHelmet" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorRogueHelmet']/display_entry[@name='dLootStage']")-->
+      <display_entry name="dLootQuantity" title_key="statMoneyLootQuantity" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorRogueOutfit" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorRogueOutfit']/display_entry[@name='dSneakEffectiveness']")-->
+      <display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorRogueGloves" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorRogueGloves']/display_entry[@name='dLockpickSpeed']")-->
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorRogueGloves']/display_entry[@name='dLockpickSuccess']")-->
+      <display_entry name="dReloadSpeedMultiplierArchery" title_key="statReloadSpeedArchery" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+      <display_entry name="dLootTime" title_key="statLootTime" display_type="Percent" display_leading_plus="true" negative_preferred="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorRogueBoots" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorRogueBoots']/display_entry[@name='dFallDamage']")-->
+      <display_entry name="dCrouchSpeed" title_key="statCrouchSpeed" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+      <display_entry name="dSneakEffectiveness" title_key="statSneakEffectiveness" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <!-- *** ATHLETIC -->
+    <item_display_info display_type="armorAthleticHelmet" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorAthleticHelmet']/display_entry[@name='dFitnessBartering']")-->
+      <display_entry name="dFoodAndWaterLoss" title_key="statFoodAndWaterLost" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorAthleticOutfit" display_group="groupAttire" extends="armorLight">
+      <display_entry name="dHealthMax" title_key="statMaxHealthBonus" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorAthleticGloves" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorAthleticGloves']/display_entry[@name='dStaminaMax']")-->
+      <display_entry name="dReloadSpeedMultiplier" title_key="statReloadSpeed" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorAthleticBoots" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorAthleticBoots']/display_entry[@name='dRunSpeed']")-->
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegenRunning" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <!-- *** ENFORCER -->
+    <item_display_info display_type="armorEnforcerHelmet" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorEnforcerHelmet']/display_entry[@name='BarteringBuying']")-->
+      <display_entry name="dBarteringSelling" title_key="statBarteringSelling" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorEnforcerOutfit" display_group="groupAttire" extends="armorLight">
+      <display_entry name="dCritResist" title_key="statCritResist" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorEnforcerGloves" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorEnforcerGloves']/display_entry[@name='dFuelUsage']")-->
+      <display_entry name="dReloadSpeedMultiplierGunslinger" title_key="statReloadSpeedGunslinger" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorEnforcerBoots" display_group="groupAttire" extends="armorLight">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorEnforcerBoots']/display_entry[@name='dRunSpeed']")-->
+      <display_entry name="dStaminaMax" title_key="statMaxStaminaBonus" display_type="Decimal1" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <!-- *** LIGHT_ARMORS -->
+    <!-- *** FARMER -->
+    <item_display_info display_type="armorFarmerHelmet" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dLootProb" title_key="statBonusSeeds" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorFarmerOutfit" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorFarmerOutfit']/display_entry[@name='dHarvestCount']")-->
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_type="Decimal1" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorFarmerGloves" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorFarmerGloves']/display_entry[@name='dRifleDamage']")-->
+      <display_entry name="dAttacksPerMinute" title_key="statAttacksPerMinuteKnives" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorFarmerBoots" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dHarvestCount" title_key="statSeedHarvestCount" display_type="Percent" />
+    </item_display_info>
+    <!-- *** BIKER -->
+    <item_display_info display_type="armorBikerHelmet" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorBikerHelmet']/display_entry[@name='dStunResist']")-->
+      <display_entry name="dPlayerExpGainWinterDesertBiomesKill" title_key="statPlayerExpGainWinterDesertBiomes" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorBikerOutfit" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dHealthMax" title_key="statMaxHealthBonus" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorBikerGloves" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorBikerGloves']/display_entry[@name='dEntityDamage']")-->
+      <display_entry name="dAttacksPerMinute" title_key="statAttacksPerMinuteClubs" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorBikerBoots" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorBikerBoots']/display_entry[@name='dStaminaLoss']")-->
+      <display_entry name="dFuelUsage" title_key="statFuelUsage" display_type="Percent" negative_preferred="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <!-- *** SCAVENGER -->
+    <item_display_info display_type="armorScavengerHelmet" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGainScavenger" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorScavengerOutfit" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorScavengerGloves" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dHarvestSalvage" title_key="statHarvestSalvage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dAttacksPerMinute" title_key="statAttacksPerMinuteSalvaging" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorScavengerBoots" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dStaminaLoss" title_key="statSalvageStaminaLoss" display_type="Percent" negative_preferred="true" />
+    </item_display_info>
+    <!-- *** RANGER -->
+    <item_display_info display_type="armorRangerHelmet" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="BarteringBuying" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRangerOutfit" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dHealthMax" title_key="statMaxHealthBonus" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRangerGloves" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorRangerGloves']/display_entry[@name='dRangerDamage']")-->
+      <display_entry name="dReloadSpeedMultiplier" title_key="statReloadSpeedMultiplier" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorRangerBoots" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dStaminaMax" title_key="statMaxStaminaBonus" display_leading_plus="true" />
+    </item_display_info>
+    <!-- *** COMMANDO -->
+    <item_display_info display_type="armorCommandoHelmet" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorCommandoHelmet']/display_entry[@name='dStunResist']")-->
+      <display_entry name="dHealingSpeed" title_key="statHealingSpeed" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorCommandoOutfit" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorCommandoGloves" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorCommandoGloves']/display_entry[@name='dEntityDamage']")-->
+      <display_entry name="dReloadSpeedAutomaticWeapon" title_key="statReloadSpeedAutomaticWeapon" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorCommandoBoots" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorCommandoBoots']/display_entry[@name='dRunSpeed']")-->
+      <display_entry name="dFallDamage" title_key="statSafeFallDist" display_type="Decimal1" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <!-- *** WASTELAND_ASSASSIN -->
+    <item_display_info display_type="armorAssassinHelmet" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dEntityDamageSneak" title_key="statEntityDamageSneak" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorAssassinOutfit" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dSneakEffectiveness" title_key="statSneakEffectiveness" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorAssassinGloves" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorAssassinGloves']/display_entry[@name='dAttackSpeed']")-->
+      <display_entry name="dReloadSpeedMultiplierSniper" title_key="statReloadSpeedSniper" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorAssassinBoots" display_group="groupAttire" extends="armorMediumNew">
+      <display_entry name="dNoiseMultiplier" title_key="statSneakSprint" display_type="Percent" show_inverted="true" />
+    </item_display_info>
+    <!-- *** HEAVY_ARMORS -->
+    <!-- *** MINER -->
+    <item_display_info display_type="armorMinerHelmet" display_group="groupAttire" extends="armorHeavy">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorMinerHelmet']/display_entry[@name='dHarvestCount']")-->
+      <display_entry name="dPlayerExpGainMining" title_key="statPlayerExpGainMining" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorMinerOutfit" display_group="groupAttire" extends="armorHeavy">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorMinerOutfit']/display_entry[@name='dStaminaLoss']")-->
+      <display_entry name="dDegradationPerUse" title_key="statDegradationPerUse" display_type="Percent" show_inverted="false" negative_preferred="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorMinerGloves" display_group="groupAttire" extends="armorHeavy">
+      <display_entry name="dBlockDamage" title_key="statOreBlockDamage" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="armorMinerBoots" display_group="groupAttire" extends="armorHeavy">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorMinerBoots']/display_entry[@name='dFallDamage']")-->
+      <display_entry name="dStaminaLossPickaxe" title_key="statStaminaLossPickaxe" display_type="Percent" show_inverted="false" negative_preferred="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <!-- *** NOMAD -->
+    <item_display_info display_type="armorNomadHelmet" display_group="groupAttire" extends="armorHeavy">
+      <display_entry name="dFoodWaterUse" title_key="statNomadFoodWater" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="armorNomadOutfit" display_group="groupAttire" extends="armorHeavy">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorNomadOutfit']/display_entry[@name='dCarryCapacity']")-->
+      <display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorNomadGloves" display_group="groupAttire" extends="armorHeavy">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorNomadGloves']/display_entry[@name='dEntityDamage']")-->
+      <display_entry name="dReloadSpeedShotgun" title_key="statReloadSpeedShotgun" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorNomadBoots" display_group="groupAttire" extends="armorHeavy">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorNomadBoots']/display_entry[@name='dRunSpeed']")-->
+      <display_entry name="dFallDamage" title_key="statSafeFallDist" display_type="Decimal1" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <!-- *** NERD -->
+    <item_display_info display_type="armorNerdHelmet" display_group="groupAttire" extends="armorHeavy">
+      <display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorNerdOutfit" display_group="groupAttire" extends="armorHeavy">
+      <display_entry name="dAttributeLevel" title_key="statNerdSkillPointChance" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorNerdGloves" display_group="groupAttire" extends="armorHeavy">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorNerdGloves']/display_entry[@name='dNerdDamage']")-->
+      <display_entry name="dNerdAtackSpeed" title_key="statAttacksPerMinuteStunBaton" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorNerdBoots" display_group="groupAttire" extends="armorHeavy">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorNerdBoots']/display_entry[@name='dFallDamage']")-->
+      <display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <!-- *** RAIDER -->
+    <item_display_info display_type="armorRaiderHelmet" display_group="groupAttire" extends="armorHeavy">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorRaiderHelmet']/display_entry[@name='dStunResist']")-->
+      <display_entry name="dHealingSpeed" title_key="statHealingSpeed" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorRaiderOutfit" display_group="groupAttire" extends="armorHeavy">
+      <display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRaiderGloves" display_group="groupAttire" extends="armorHeavy">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorRaiderGloves']/display_entry[@name='dEntityDamage']")-->
+      <display_entry name="dRaiderAtackSpeed" title_key="statAttacksPerMinuteMelee" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="armorRaiderBoots" display_group="groupAttire" extends="armorHeavy">
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='armorRaiderBoots']/display_entry[@name='dFallDamage']")-->
+      <display_entry name="dStaminaLossMelee" title_key="statStaminaLossMelee" display_type="Percent" display_leading_plus="true">
+        <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <!-- *** CLOTHING -->
+    <item_display_info display_type="clothingDisplay" display_group="groupAttire">
+      <display_entry name="HypothermalResist" title_key="statHypothermalResist" display_type="Decimal1" />
+      <display_entry name="HyperthermalResist" title_key="statHyperthermalResist" display_type="Decimal1" />
+    </item_display_info>
+    <item_display_info display_type="clothingShades" display_group="groupAttire">
+      <display_entry name="AttributeLevel" tags="attPerception" title_key="statShowPerception" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="apparelToughGuySunglasses" display_group="groupAttire">
+      <display_entry name="AttributeLevel" tags="attFortitude" title_key="statShowFortitude" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="clothingAviatorGoggles" display_group="groupAttire">
+      <display_entry name="LootStage" title_key="statLootStage" display_leading_plus="true" />
+      <display_entry name="dTreasureBlocksPerReduction" title_key="statTreasureRadius" display_leading_plus="true" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="clothingSkiGoggles" display_group="groupAttire">
+      <display_entry name="AttributeLevel" tags="attAgility" title_key="statShowAgility" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="clothingNerdGlasses" display_group="groupAttire">
+      <display_entry name="AttributeLevel" tags="attIntellect" title_key="statShowIntellect" display_leading_plus="true" />
+      <display_entry name="dCraftingTime" title_key="statCraftingTime" display_type="Percent" display_leading_plus="true" negative_preferred="true" />
+      <display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="clothingBarter" display_group="groupAttire">
+      <display_entry name="Bartering" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="clothingToughGuy" display_group="groupAttire">
+      <display_entry name="dBiomeBadgeLevel" title_key="statBiomeBadgeLevel" display_type="Decimal1" display_leading_plus="true" />
+      <display_entry name="dHealthMax" title_key="statHealthAmount" display_leading_plus="true" />
+      <display_entry name="dLootTime" title_key="xuiSkillLootTime" display_leading_plus="false" />
+    </item_display_info>
+    <item_display_info display_type="clothingStaminaBoots" display_group="groupAttire">
+      <display_entry name="dStaminaMax" title_key="statStaminaAmount" display_leading_plus="true" />
+      <display_entry name="dFallDamage" title_key="statFallDamage" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="clothingStaminaOnlyBoots" display_group="groupAttire">
+      <display_entry name="dStaminaMax" title_key="statStaminaAmount" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="clothingCigar" display_group="groupAttire">
+      <display_entry name="dAttributeLevel" tags="attStrength" title_key="statShowStrength" display_leading_plus="true" />
+      <display_entry name="dBarteringBuying" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <!-- *** DRINKS -->
+    <item_display_info display_type="water" display_group="groupConsumables">
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="waterDysentery" display_group="groupConsumables">
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="dDysenteryRisk" title_key="statDysenteryRisk" display_type="Percent" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="waterGoldenrod" display_group="groupConsumables">
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dCureDysentery" title_key="statCureDysentery" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="waterRedTea" display_group="groupConsumables">
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dEfficientDigestion" title_key="statEfficientDigestion" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="waterGoldenrodRedTea" display_group="groupConsumables">
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dCureDysentery" title_key="statCureDysentery" display_type="Percent" />
+      <display_entry name="dEfficientDigestion" title_key="statEfficientDigestion" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="drinkWithHoney" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dCureDysentery" title_key="statCureDysentery" display_type="Percent" />
+      <display_entry name="dCureInfection" title_key="statCureInfection" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="waterCoffee" display_group="groupConsumables">
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dHypothermalResist" title_key="statHypothermalResist" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="waterMegaCrush" display_group="groupConsumables">
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="waterBeer" display_group="groupConsumables">
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dEntityDamageBrawling" title_key="statEntityDamageBrawling" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dStunResist" title_key="statStunResist" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="waterGrandpasMoonshine" display_group="groupConsumables">
+      <display_entry name="dEntityDamage" title_key="statEntityDamageMelee" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dStunResist" title_key="statStunResist" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dHealthAmount" title_key="statHealthChangeOT" display_leading_plus="true" />
+      <!-- <display_entry name="dHealthLoss" title_key="statHealthLoss" display_type="Percent" display_leading_plus="true"/> -->
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="waterGrandpasAwesomeSauce" display_group="groupConsumables">
+      <display_entry name="dBartering" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="waterGrandpasLearningElixir" display_group="groupConsumables">
+      <display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <!-- *** FOOD -->
+    <item_display_info display_type="food" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+    </item_display_info>
+    <item_display_info display_type="foodChickenNuggets" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus" />
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+    </item_display_info>
+    <item_display_info display_type="foodChickenWings" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus" />
+      <display_entry name="dEntityDamage" title_key="statEntityDamageMelee" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dInfectionImmunity" title_key="buffInfectionImmunityName" display_type="Percent" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+    </item_display_info>
+    <item_display_info display_type="foodRoadrunnerChickenJerky" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus" />
+      <display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+    </item_display_info>
+    <item_display_info display_type="foodWithHoney" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus" />
+      <display_entry name="dCureInfection" title_key="statCureInfection" display_type="Percent" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+    </item_display_info>
+    <item_display_info display_type="foodRaw" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="ddummyNoBonus" title_key="statFoodStaminaBonus" display_type="Bool" />
+      <display_entry name="dDysenteryRisk" title_key="statDysenteryRisk" display_type="Percent" negative_preferred="true" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+    </item_display_info>
+    <item_display_info display_type="foodRawMeat" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="ddummyNoBonus" title_key="statFoodStaminaBonus" display_type="Bool" />
+      <display_entry name="dDysenteryRisk" title_key="statDysenteryRisk" display_type="Percent" negative_preferred="true" />
+      <display_entry name="dSmell" title_key="statFoodSmellAlways" display_type="Bool" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+    </item_display_info>
+    <item_display_info display_type="foodCureInfection" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="ddummyNoBonus" title_key="statFoodStaminaBonus" display_type="Bool" />
+      <display_entry name="dCureInfection" title_key="statCureInfection" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="foodWater" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+    </item_display_info>
+    <item_display_info display_type="foodWaterRaw" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="ddummyNoBonus" title_key="statFoodStaminaBonus" display_type="Bool" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+    </item_display_info>
+    <item_display_info display_type="foodWaterNegative" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+    </item_display_info>
+    <item_display_info display_type="foodShamChowder" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus" />
+      <display_entry name="dFortitude" title_key="statShowFortitude" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+    </item_display_info>
+    <item_display_info display_type="foodPumpkinCheesecake" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name=".foodStaminaBonusAdd" title_key="statFoodStaminaBonus" />
+      <display_entry name="dBartering" title_key="statBarteringBuy" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+    </item_display_info>
+    <item_display_info display_type="drinkYuccaSmoothie" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dHyperthermalResist" title_key="statHyperthermalResist" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="foodWaterOnlyRaw" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="ddummyNoBonus" title_key="statFoodStaminaBonus" display_type="Bool" />
+    </item_display_info>
+    <!-- *** MEDICAL -->
+    <item_display_info display_type="cureInfection" display_group="groupConsumables">
+      <display_entry name="dCureInfection" title_key="statCureInfection" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="medical" display_group="groupConsumables">
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="dhealAbrasionMult" title_key="statHealAbrasionMult" display_type="Percent" />
+      <display_entry name="dStopsBleeding" title_key="statStopsBleeding" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="medicalFirstAidKit" display_group="groupConsumables">
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="dhealAbrasionMult" title_key="statHealAbrasionMult" display_type="Percent" />
+      <display_entry name="dStopsBleeding" title_key="statStopsBleeding" display_type="Percent" />
+      <display_entry name="dStopsLaceration" title_key="statStopsLaceration" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="medicalVitamins" display_group="groupConsumables">
+      <display_entry name="dDiseaseResist" title_key="statDiseaseResist" display_type="Percent" />
+      <display_entry name="dStopsWeakness" title_key="statStopsWeakness" display_type="Percent" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="medicalPainkillers" display_group="groupConsumables">
+      <display_entry name="dInstantHealth" title_key="statShowInstantHealth" />
+      <!-- <display_entry name="dHealthLoss" title_key="statHealthLoss" display_type="Percent" display_leading_plus="true"/> -->
+      <display_entry name="dStunResist" title_key="statStunResist" display_type="Percent" />
+      <display_entry name="dStopsConcussion" title_key="statStopsConcussion" display_type="Percent" />
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="sewingKit" display_group="groupConsumables">
+      <display_entry name="dStopsBleeding" title_key="statStopsBleeding" display_type="Percent" />
+      <display_entry name="dStopsLaceration" title_key="statStopsLaceration" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="drugSteroids" display_group="groupConsumables">
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true" />
+      <display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="drugRecog" display_group="groupConsumables">
+      <display_entry name="dEntityDamage" title_key="statEntityDamageRanged" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="drugFortBites" display_group="groupConsumables">
+      <display_entry name="dHealthLoss" title_key="statHealthLoss" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="drugAtomJunkies" display_group="groupConsumables">
+      <display_entry name="dExEntityDamage" display_type="Percent" title_key="statEntityDamageExplosion" display_leading_plus="true" />
+      <display_entry name="dExBlockDamage" display_type="Percent" title_key="statBlockDamageExplosion" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+    </item_display_info>
+    <item_display_info display_type="drugCovertCats" display_group="groupConsumables">
+      <display_entry name="dEntityDamageSneak" title_key="statEntityDamageSneak" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+    </item_display_info>
+    <item_display_info display_type="drugEyeKandy" display_group="groupConsumables">
+      <display_entry name="dLootStageFlat" title_key="statLootStage" display_leading_plus="true" />
+      <display_entry name="dLootStagePerc" title_key="statLootStage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+    </item_display_info>
+    <item_display_info display_type="drugHackers" display_group="groupConsumables">
+      <display_entry name="dHarvestSalvage" title_key="statHarvestSalvage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+    </item_display_info>
+    <item_display_info display_type="drugHealthBar" display_group="groupConsumables">
+      <display_entry name="dMaxHealthBonus" title_key="statMaxHealthBonus" display_leading_plus="true" />
+      <display_entry name="dBuffResistance" title_key="statBuffResistance" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+    </item_display_info>
+    <item_display_info display_type="drugJailBreakers" display_group="groupConsumables">
+      <display_entry name="dLockpickSuccess" title_key="statLockpickSuccess" display_type="Percent" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+    </item_display_info>
+    <item_display_info display_type="drugNerdTats" display_group="groupConsumables">
+      <display_entry name="dShockAOERadius" title_key="statShockAOERadius" display_type="Decimal2" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+    </item_display_info>
+    <item_display_info display_type="drugOhShitzDrops" display_group="groupConsumables">
+      <display_entry name="dFallDamage" title_key="statFallDamage" display_type="Percent" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+    </item_display_info>
+    <item_display_info display_type="drugRockBusters" display_group="groupConsumables">
+      <display_entry name="dHarvestMining" title_key="statHarvestMining" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+    </item_display_info>
+    <item_display_info display_type="drugSkullCrushers" display_group="groupConsumables">
+      <display_entry name="dEntityDamage" title_key="statEntityDamageMelee" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+    </item_display_info>
+    <item_display_info display_type="drugSugarButts" display_group="groupConsumables">
+      <display_entry name="dBarteringSellBuy" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+    </item_display_info>
+    <!-- *** HAZARD_REDUCERS -->
+    <item_display_info display_type="foodSmoothie" display_group="groupConsumables">
+      <display_entry name="$foodAmountAdd" title_key="statFoodAmount" />
+      <display_entry name="$waterAmountAdd" title_key="statWaterAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="drugHazardReducer" display_group="groupConsumables">
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <!-- *** BLOCKS -->
+    <!-- UNODIR every block will show this display -->
+    <item_display_info display_type="defaultBlock" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMass" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="StabilitySupport" title_key="statStabilitySupport" display_type="Bool" />
+      <!-- will show 0 or 1 without show_bool -->
+      <display_entry name="LightOpacity" title_key="statLightOpacity" />
+    </item_display_info>
+    <item_display_info display_type="blockFallDamage" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMass" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="StabilitySupport" title_key="statStabilitySupport" display_type="Bool" />
+      <display_entry name="LightOpacity" title_key="statLightOpacity" />
+      <display_entry name="FallDamage" title_key="statFallDamage" display_type="Percent" display_leading_plus="true" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="blockHardened" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMass" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="ExplosionResistance" title_key="statExplosionResistance" display_type="Percent" />
+      <display_entry name="StabilitySupport" title_key="statStabilitySupport" display_type="Bool" />
+      <display_entry name="LightOpacity" title_key="statLightOpacity" />
+    </item_display_info>
+    <item_display_info display_type="blockHardenedMulti" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMassMultiblock" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="ExplosionResistance" title_key="statExplosionResistance" display_type="Percent" />
+      <display_entry name="StabilitySupport" title_key="statStabilitySupport" display_type="Bool" />
+      <display_entry name="LightOpacity" title_key="statLightOpacity" />
+    </item_display_info>
+    <item_display_info display_type="blockMulti" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMassMultiblock" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="StabilitySupport" title_key="statStabilitySupport" display_type="Bool" />
+      <display_entry name="LightOpacity" title_key="statLightOpacity" />
+    </item_display_info>
+    <item_display_info display_type="blockShootThrough" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMass" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="StabilitySupport" title_key="statStabilitySupport" display_type="Bool" />
+      <display_entry name="canShootThrough" title_key="statCanShootThrough" display_type="Bool" />
+      <display_entry name="LightOpacity" title_key="statLightOpacity" />
+    </item_display_info>
+    <item_display_info display_type="blockShootThroughHardened" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMass" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="ExplosionResistance" title_key="statExplosionResistance" display_type="Percent" />
+      <display_entry name="StabilitySupport" title_key="statStabilitySupport" display_type="Bool" />
+      <display_entry name="canShootThrough" title_key="statCanShootThrough" display_type="Bool" />
+      <display_entry name="LightOpacity" title_key="statLightOpacity" />
+    </item_display_info>
+    <item_display_info display_type="blockElectrical" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMass" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="StabilitySupport" title_key="statStabilitySupport" display_type="Bool" />
+      <display_entry name="LightOpacity" title_key="statLightOpacity" />
+      <display_entry name="RequiredPower" title_key="statRequiredPower" />
+    </item_display_info>
+    <item_display_info display_type="blockElectricalHardened" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMass" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="ExplosionResistance" title_key="statExplosionResistance" display_type="Percent" />
+      <display_entry name="StabilitySupport" title_key="statStabilitySupport" display_type="Bool" />
+      <display_entry name="LightOpacity" title_key="statLightOpacity" />
+      <display_entry name="RequiredPower" title_key="statRequiredPower" />
+    </item_display_info>
+    <item_display_info display_type="blockElectricalMulti" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMassMultiblock" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="StabilitySupport" title_key="statStabilitySupport" display_type="Bool" />
+      <display_entry name="LightOpacity" title_key="statLightOpacity" />
+      <display_entry name="RequiredPower" title_key="statRequiredPower" />
+    </item_display_info>
+    <item_display_info display_type="blockElectricalHardenedMulti" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMassMultiblock" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="ExplosionResistance" title_key="statExplosionResistance" display_type="Percent" />
+      <display_entry name="StabilitySupport" title_key="statStabilitySupport" display_type="Bool" />
+      <!--Element removed by: "ProjectZ" (XPath: "/ui_display_info/item_display/item_display_info[@display_type='blockElectricalHardenedMulti']/display_entry[@name='LightOpacity']")-->
+      <display_entry name="RequiredPower" title_key="statRequiredPower" />
+    </item_display_info>
+    <item_display_info display_type="blockTerrain" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMass" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+    </item_display_info>
+    <item_display_info display_type="blockTerrainFertile" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMass" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="FertileLevel" title_key="statFertileLevel" />
+    </item_display_info>
+    <item_display_info display_type="blockTerrainHardened" display_group="groupBlocks">
+      <display_entry name="Mass" title_key="statMass" negative_preferred="true" />
+      <display_entry name="StabilityGlue" title_key="statStabilityGlue" />
+      <display_entry name="MaxDamage" title_key="statMaxDamage" />
+      <display_entry name="ExplosionResistance" title_key="statExplosionResistance" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="blockLandmine" display_group="groupBlocks">
+      <display_entry name="Explosion.RadiusBlocks" title_key="statLandmineBlockRadius" />
+      <display_entry name="Explosion.BlockDamage" title_key="statLandmineBlockDMG" />
+      <display_entry name="Explosion.RadiusEntities" title_key="statLandmineEntRadius" />
+      <display_entry name="Explosion.EntityDamage" title_key="statLandmineEntDMG" />
+    </item_display_info>
+    <item_display_info display_type="toolCookingPot" display_group="workstationTools">
+      <display_entry name="dCraftingTime" title_key="statCookingTime" display_type="Percent" display_leading_plus="true" negative_preferred="true">
+        <!--Attribute "negative_preferred" replaced by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <item_display_info display_type="toolAnvil" display_group="workstationTools">
+      <display_entry name="dCraftingTime" title_key="statCraftingTimeForge" display_type="Percent" display_leading_plus="true" negative_preferred="false" />
+    </item_display_info>
+    <item_display_info display_type="toolBellows" display_group="workstationTools">
+      <display_entry name="dCraftingSmeltTime" title_key="statCraftingSmeltTime" display_type="Percent" display_leading_plus="true" negative_preferred="true">
+        <!--Attribute "negative_preferred" replaced by: "ProjectZ"-->
+      </display_entry>
+    </item_display_info>
+    <!-- *** ADMIN -->
+    <item_display_info display_type="armorLumberjackHelmetDemo" display_group="groupAttire" extends="armorLight">
+      <display_entry name="dTraderStage" title_key="Trader Stage" display_type="Decimal2" />
+    </item_display_info>
+    <item_display_info display_type="armorRogueHelmetImp" display_group="groupAttire" extends="armorLight">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGainKill" title_key="statPlayerExpGainKill" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dLootQuantity" title_key="statMoneyLootQuantity" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRogueOutfitImp" display_group="groupAttire" extends="armorLight">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true" />
+      <display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRogueGlovesImp" display_group="groupAttire" extends="armorLight">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dEnhancedAtackSpeed" title_key="statAttacksPerMinuteEnhanced" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dReloadSpeedMultiplierArchery" title_key="statReloadSpeedArchery" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dLootTime" title_key="statLootTime" display_type="Percent" display_leading_plus="true" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRogueBootsImp" display_group="groupAttire" extends="armorLight">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaRestEnhanced" title_key="statStaminaRestEnhanced" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dCrouchSpeed" title_key="statCrouchSpeed" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dSneakEffectiveness" title_key="statSneakEffectiveness" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorEnforcerHelmetImp" display_group="groupAttire" extends="armorLight">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGainKill" title_key="statPlayerExpGainKill" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dBarteringSelling" title_key="statBarteringSelling" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorEnforcerOutfitImp" display_group="groupAttire" extends="armorLight">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true" />
+      <display_entry name="dCritResist" title_key="statCritResist" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorEnforcerGlovesImp" display_group="groupAttire" extends="armorLight">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dEnhancedAtackSpeed" title_key="statAttacksPerMinuteEnhanced" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dReloadSpeedMultiplierGunslinger" title_key="statReloadSpeedGunslinger" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorEnforcerBootsImp" display_group="groupAttire" extends="armorLight">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaRestEnhanced" title_key="statStaminaRestEnhanced" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dStaminaMax" title_key="statMaxStaminaBonus" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRangerHelmetImp" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGainKill" title_key="statPlayerExpGainKill" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="BarteringBuying" title_key="statBarteringSellBuy" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRangerOutfitImp" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true" />
+      <display_entry name="dHealthMax" title_key="statMaxHealthBonus" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRangerGlovesImp" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dEnhancedAtackSpeed" title_key="statAttacksPerMinuteEnhanced" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dReloadSpeedMultiplier" title_key="statReloadSpeedMultiplier" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRangerBootsImp" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaRestEnhanced" title_key="statStaminaRestEnhanced" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dStaminaMax" title_key="statMaxStaminaBonus" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorCommandoHelmetImp" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGainKill" title_key="statPlayerExpGainKill" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dHealingSpeed" title_key="statHealingSpeed" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorCommandoOutfitImp" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true" />
+      <display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorCommandoGlovesImp" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dEnhancedAtackSpeed" title_key="statAttacksPerMinuteEnhanced" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dReloadSpeedAutomaticWeapon" title_key="statReloadSpeedAutomaticWeapon" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorCommandoBootsImp" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaRestEnhanced" title_key="statStaminaRestEnhanced" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dFallDamage" title_key="statSafeFallDist" display_type="Decimal1" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorAssassinHelmetImp" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGainKill" title_key="statPlayerExpGainKill" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dEntityDamageSneak" title_key="statEntityDamageSneak" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorAssassinOutfitImp" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true" />
+      <display_entry name="dSneakEffectiveness" title_key="statSneakEffectiveness" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorAssassinGlovesImp" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dEnhancedAtackSpeed" title_key="statAttacksPerMinuteEnhanced" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dReloadSpeedMultiplierSniper" title_key="statReloadSpeedSniper" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorAssassinBootsImp" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaRestEnhanced" title_key="statStaminaRestEnhanced" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dNoiseMultiplier" title_key="statSneakSprint" display_type="Percent" show_inverted="true" />
+    </item_display_info>
+    <item_display_info display_type="armorGathererHelmetImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGainRepairTool" title_key="statPlayerExpGainRepairTool" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dPlayerExpGainMining" title_key="statPlayerExpGainMining" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorGathererOutfitImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dHealthMax" title_key="statMaxHealthBonus" display_leading_plus="true" />
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorGathererGlovesImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dBlockDamage" title_key="statOreBlockDamage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDegradationPerUseConst" title_key="statDegradationPerUseConst" display_type="Percent" display_leading_plus="true" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="armorGathererBootsImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaMax" title_key="statStaminaAmount" display_leading_plus="true" />
+      <display_entry name="dFallDamage" title_key="statSafeFallDist" display_type="Decimal1" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorNomadHelmetImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGainKill" title_key="statPlayerExpGainKill" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dFoodWaterUse" title_key="statNomadFoodWater" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="armorNomadOutfitImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true" />
+      <display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorNomadGlovesImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dEnhancedAtackSpeed" title_key="statAttacksPerMinuteEnhanced" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dReloadSpeedShotgun" title_key="statReloadSpeedShotgun" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorNomadBootsImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaRestEnhanced" title_key="statStaminaRestEnhanced" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dFallDamage" title_key="statSafeFallDist" display_type="Decimal1" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorNerdHelmetImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dTrapsExpGain" title_key="statTrapsExpGain" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorNerdOutfitImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dAttributeLevel" title_key="statNerdSkillPointChance" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dBookwormChance" title_key="statBookwormChance" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorNerdGlovesImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dNerdAtackSpeed" title_key="statAttacksPerMinuteStunBaton" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dNerdReloadSpeed" title_key="statReloadSpeedTurrets" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorNerdBootsImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dRunSpeed" title_key="statRunSpeed" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dFallDamage" title_key="statSafeFallDist" display_type="Decimal1" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRaiderHelmetImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGainKillMelee" title_key="statPlayerExpGainKillMelee" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dHealingSpeed" title_key="statHealingSpeed" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRaiderOutfitImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dHealthMax" title_key="statMaxHealthBonus" display_leading_plus="true" />
+      <display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRaiderGlovesImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dRaiderAtackSpeed" title_key="statAttacksPerMinuteMelee" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dReloadSpeedMultiplier" title_key="statReloadSpeedMultiplier" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRaiderBootsImp" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaRestMelee" title_key="statStaminaRestMelee" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dFallDamage" title_key="statSafeFallDist" display_type="Decimal1" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="Hygiene" display_group="groupConsumables">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dHygiene" title_key="statHygiene" display_type="Percent" />
+    </item_display_info>
+    <item_display_info display_type="rangedSniper" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkGunslinger,revolver,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dEntityDamageSneak" title_key="statEntityDamageSneak" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="MagazineSize" title_key="statMagazineSize" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="RoundsPerMinute" title_key="statRoundsPerMinute" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="DamageFalloffRange" title_key="statDamageFalloffRange" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <!-- <display_entry name="WeaponHandling" title_key="statWeaponHandling" display_type="Percent" show_inverted="true"/> -->
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+    </item_display_info>
+    <item_display_info display_type="reactorTools" display_group="groupMelee">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageMelee" tags="perkMiner69r" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkMiner69r" />
+      <display_entry name="RoundsPerMinute" title_key="statAttacksPerMinute" tags="perkMiner69r" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkMiner69r,admin" />
+    </item_display_info>
+    <item_display_info display_type="meleeImp" display_group="groupMelee">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageMelee" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statPowerAttack" tags="secondary,perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="dTargetArmor" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="StaminaLoss" display_type="Decimal1" title_key="statStaminaLoss" negative_preferred="true" />
+      <display_entry name="AttacksPerMinute" title_key="statAttacksPerMinute" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+    </item_display_info>
+    <item_display_info display_type="armorRescuerHelmet" display_group="groupAttire" extends="armorLight">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dLootStage2" title_key="statLootStage2" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dFoodWaterUseAOE" title_key="statFoodWaterUseAOE" display_type="Percent" display_leading_plus="true" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRescuerOutfit" display_group="groupAttire" extends="armorLight">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dHealthMax" title_key="statMaxHealthBonus" display_leading_plus="true" />
+      <display_entry name="dCarryCapacityAOE" title_key="statCarryCapacityAOE" display_leading_plus="true" />
+      <display_entry name="dRegHealthIncreaseSpeedAOE" title_key="statRegHealthIncreaseSpeedAOE" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRescuerGloves" display_group="groupAttire" extends="armorLight">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dLootTime" title_key="statLootTime" display_type="Percent" display_leading_plus="true" negative_preferred="true" />
+      <display_entry name="dHarvestSalvage" title_key="statHarvestSalvage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dLootQuantityFood" title_key="statLootQuantityFood" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorRescuerBoots" display_group="groupAttire" extends="armorLight">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dStaminaMax" title_key="statMaxStaminaBonus" display_type="Decimal1" display_leading_plus="true" />
+      <display_entry name="dRunSpeedAOE" title_key="statRunSpeedAOE" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorPredatorHelmet" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dLootStage" title_key="statLootStage" display_type="Decimal1" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorPredatorOutfit" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dHealthMax" title_key="statMaxHealthBonus" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorPredatorGloves" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dReloadSpeedMultiplier" title_key="statReloadSpeed" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dRoundsPerMinute" title_key="statRoundsPerMinute" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorPredatorBoots" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dFallDamage" title_key="statSafeFallDist" display_type="Decimal1" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorPlundererHelmet" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dPerkPlunderer" title_key="statPerkPlunderer" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorPlundererOutfit" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dHealthMax" title_key="statMaxHealthBonus" display_leading_plus="true" />
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorPlundererGloves" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dRaiderAtackSpeed" title_key="statAttacksPerMinuteMelee" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dReloadSpeedMultiplier" title_key="statReloadSpeed" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorPlundererBoots" display_group="groupAttire" extends="armorMediumNew">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dFallDamage" title_key="statSafeFallDist" display_type="Decimal1" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorSonnyHelmet" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dLootStage" title_key="statLootStage" display_type="Decimal1" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorSonnyOutfit" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dSonnyRareRecources" title_key="statSonnyRareRecources" display_type="Decimal1" display_leading_plus="true" />
+      <display_entry name="dHealthMax" title_key="statMaxHealthBonus" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorSonnyGloves" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dRaiderAtackSpeed" title_key="statAttacksPerMinuteMelee" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dHarvestSalvage" title_key="statHarvestSalvage" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorSonnyBoots" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dVehicleSpeed" title_key="statVehicleSpeed" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dStaminaLossMelee" title_key="statStaminaLossMelee" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorMausHelmet" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dLootStage" title_key="statLootStage" display_type="Decimal1" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorMausOutfit" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dNaturalCritHealing" title_key="statNaturalCritHealing" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dHealthMax" title_key="statMaxHealthBonus" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorMausGloves" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dRaiderAtackSpeed" title_key="statAttacksPerMinuteMelee" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dCritResistance" title_key="statCritResist" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="armorMausBoots" display_group="groupAttire" extends="armorHeavy">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dStaminaLossMelee" title_key="statStaminaLossMelee" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="ammoBulletDU" display_group="groupAmmo">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dTargetArmor" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dTargetPenetration" title_key="statTargetPenetration" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="BlockDamage" display_type="Decimal1" title_key="statBlockDamage" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dDegradationPerUseDU" title_key="statDegradationPerUseDU" display_type="Percent" display_leading_plus="true" negative_preferred="true" />
+      <display_entry name="dEliteDamage" title_key="statEliteDamage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dBossDamage" title_key="statBossDamage" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="ammoShotgunSlugDU" display_group="groupAmmo">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageRanged" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="RoundRayCount" title_key="statRoundRayCount" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dTargetPenetration" title_key="statTargetPenetration" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dTargetArmor" title_key="statTargetArmor" display_type="Percent" display_leading_plus="true" negative_preferred="true" tags="perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+      <display_entry name="dDegradationPerUseDU" title_key="statDegradationPerUseDU" display_type="Percent" display_leading_plus="true" negative_preferred="true" />
+      <display_entry name="dEliteDamage" title_key="statEliteDamage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dBossDamage" title_key="statBossDamage" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="meleeGardenKnife" display_group="groupMelee">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGainHarvesting" title_key="statPlayerExpGainHarvesting" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="EntityDamage" display_type="Decimal1" title_key="statEntityDamageMelee" tags="perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="StaminaLoss" display_type="Decimal1" title_key="statStaminaLoss" negative_preferred="true" />
+      <display_entry name="AttacksPerMinute" title_key="statAttacksPerMinute" tags="perkFlurryOfBlows,perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,admin" />
+      <display_entry name="DegradationMax" title_key="statDegradationMax" tags="perkDeepCuts,admin" />
+    </item_display_info>
+    <item_display_info display_type="lunch_small" display_group="groupConsumables">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dFood" title_key="statFoodAmount" />
+      <display_entry name="dWater" title_key="statWaterAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="lunch_medium" display_group="groupConsumables">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dFood" title_key="statFoodAmount" />
+      <display_entry name="dWater" title_key="statWaterAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dEfficientDigestion" title_key="statEfficientDigestion" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="lunch_big" display_group="groupConsumables">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dFood" title_key="statFoodAmount" />
+      <display_entry name="dWater" title_key="statWaterAmount" />
+      <display_entry name="foodHealthAmount" title_key="statHealthAmount" />
+      <display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent" />
+      <display_entry name="dEfficientDigestion" title_key="statEfficientDigestion" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dSmellUse" title_key="statFoodSmell" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="drugAntidote" display_group="groupConsumables">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPoisoningResist" title_key="statPoisoningResist" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="SmartGlass" display_group="groupAttire">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dPlayerExpGain" title_key="statShowPlayerExpGain" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dLootStage" title_key="statLootStage" display_type="Decimal1" display_leading_plus="true" />
+      <display_entry name="dTreasureBlocksPerReduction" title_key="statTreasureRadius" display_leading_plus="true" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="modArmorHeadset" display_group="groupAttire">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaChangeOT" title_key="statStaminaChangeOT" display_type="Decimal2" display_leading_plus="true" />
+      <display_entry name="dMobility" title_key="statMobility" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dNoiseMultiplier" title_key="statNoiseReduction" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="BandolierImp" display_group="groupAttire">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_type="Decimal1" display_leading_plus="true" />
+      <display_entry name="dReloadSpeedMultiplier" title_key="statReloadSpeed" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modGunMagazineExtenderUnique" display_group="modGunMagazine">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dMagazineSize" title_key="statMagazineSize" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dReloadSpeedMul" title_key="xuiSkillReloadSpeed" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dRoundsPerMinute" title_key="statRoundsPerMinute" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modGunMeleeRadRemoverImp" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dRegenerationBlocker" title_key="statRegenerationBlocker" display_type="Time" />
+      <display_entry name="dRadBlocker" title_key="statRadBlocker" display_type="Time" />
+      <display_entry name="dBossRegenBlocker" title_key="statBossRegenerationBlocker" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="modGunCrippleEmImp" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dCrippleChance" title_key="statCrippleChance" display_type="Percent" negative_preferred="false" />
+      <display_entry name="dDismemberChance" title_key="statDismemberChance" display_type="Percent" negative_preferred="false" display_leading_plus="true" />
+      <display_entry name="dReducedEnemyDamage" title_key="statReducedEnemyDamage" display_type="Percent" negative_preferred="true" />
+      <display_entry name="dReducedEnemyResist" title_key="statReducedEnemyResist" display_type="Percent" negative_preferred="true" />
+      <display_entry name="dReducedDuration" title_key="statReducedDuration" display_type="Time" />
+    </item_display_info>
+    <item_display_info display_type="modGunMeleeTheHunterImp" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dAnimalDamage" title_key="statAnimalDamage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dZombieDamage" title_key="statZombieDamage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dEliteZombieDamage" title_key="statEliteZombieDamage" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modGunMeleeTheHunterUnique" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dAnimalDamage" title_key="statAnimalDamage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dZombieDamage" title_key="statZombieDamage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dEliteZombieDamage" title_key="statEliteZombieDamage" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dBossDamage" title_key="statBossDamage" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modMeleeErgonomicGripImp" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dStaminaLoss" title_key="statMeleeStaminaLoss" display_type="Percent" negative_preferred="true" />
+      <display_entry name="dAttacksSpeedMelee" title_key="statAttacksSpeedMelee" display_type="Percent" negative_preferred="false" display_leading_plus="true" />
+      <display_entry name="dWeaponHandling" title_key="statBowHandling" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dRoundsPerMinuteArchery" title_key="statRoundsPerMinuteArchery" display_type="Percent" negative_preferred="false" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modReinforcedPartsImp" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dBlockDamageAny" title_key="statBlockDamageAny" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modElongatedCore" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dHarvestCount" title_key="statHarvestCount" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modEnhancedMechanisms" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dBlockDamageSalvage" title_key="statBlockDamageSalvage" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modFastMechanisms" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dAttacksPerMinuteSalvage" title_key="statAttacksPerMinuteSalvage" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modSpareBox" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dHarvestCountSalvage" title_key="statHarvestCountSalvage" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modIncreasedBattery" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dDegradationMaxReactor" title_key="statDegradationMaxReactor" display_type="Percent" display_leading_plus="true" />
+    </item_display_info>
+    <item_display_info display_type="modReactorElectric" display_group="groupRanged">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dDegradationPerUseReactor" title_key="statDegradationPerUseReactor" display_type="Percent" negative_preferred="true" />
+    </item_display_info>
+    <item_display_info display_type="medicalAntiRad" display_group="groupConsumables">
+      <!--Element appended by: "ProjectZ"-->
+      <display_entry name="dIrradiation" title_key="statIrradiation" display_type="Percent" display_leading_plus="true" />
+      <display_entry name="dRadIncreasing" title_key="statRadIncreasing" display_type="Percent" />
+      <display_entry name="dRadEffectResist" title_key="statRadEffectResist" display_type="Decimal1" />
+      <display_entry name="dDuration" title_key="statDuration" display_type="Time" />
+    </item_display_info>
+  </item_display>
+  <!-- *************************************************************************************************** -->
+  <!-- *** CHARACTER_STATS -->
+  <character_stat_display>
+    <display_entry name="HealthMaxBlockage" title_key="statHealthMaxBlockage" />
+    <display_entry name="StaminaMaxBlockage" title_key="statStaminaMaxBlockage" />
+    <display_entry name="PhysicalDamageResist" display_type="Decimal1" title_key="statPhysicalDamageResist" />
+    <display_entry name="ElementalDamageResist" display_type="Decimal1" title_key="statExplosionResistance" tags="heat,electrical" />
+    <display_entry name="BuffResistance" title_key="statBuffResistance" display_type="Percent" show_inverted="true" tags="buffLaceration" />
+    <display_entry name="StaminaChangeOT" title_key="statStaminaChangeOT" display_type="Decimal2" />
+    <display_entry name="HealthChangeOT" title_key="statHealthChangeOT" display_type="Decimal2" />
+    <display_entry name="HealthMaxModifierOT" title_key="statHealthMaxModifierOT" display_type="Decimal2" />
+    <display_entry name="HypothermalResist" display_type="Decimal1" title_key="statHypothermalResist" />
+    <display_entry name="HyperthermalResist" display_type="Decimal1" title_key="statHyperthermalResist" />
+    <display_entry name="Mobility" title_key="statMobility" display_type="Percent" />
+    <display_entry name="JumpStrength" title_key="statJumpStrength" display_type="Percent" />
+    <display_entry name="CarryCapacity" title_key="statCarryCapacity" />
+    <!-- <display_entry name="LootStage" title_key="statLootStage"/> -->
+    <!-- <display_entry name="TreasureRadius" title_key="statTreasureRadius"/> -->
+    <!-- <display_entry name="CraftingTier" title_key="statCraftingTier"/> -->
+    <!-- <display_entry name="PlayerExpGain" title_key="statPlayerExpGain" display_type="Percent"/> -->
+    <display_entry name="EntityDamage" title_key="statEntityDamage" tags="EntityDamage,perkMiner69r,perkSalvageOperations,perkElectrocutioner,perkJavelinMaster,perkPummelPete,perkSkullCrusher,perkDeepCuts,perkBrawler,perkGunslinger,perkBoomstick,perkDeadEye,perkMachineGunner,perkBookAutoWeapons,perkTurrets,perkArchery,admin" />
+    <display_entry name="BlockDamage" title_key="statBlockDamage" />
+    <display_entry name="RoundsPerMinute" title_key="statRoundsPerMinute" />
+    <display_entry name="AttacksPerMinute" title_key="statAttacksPerMinute" />
+    <!-- <display_entry name="BuffResistance" title_key="TEST - Stun Res" display_type="Percent" tags="buffInjuryStunned01"/> -->
+    <!-- <display_entry name="HealthChangeOT" title_key="statJumpStrength" display_type="Percent"/> -->
+    <!-- <display_entry name="BuffResistance" title_key="statArmorResistStun" display_type="Percent"/> -->
+    <!-- <display_entry name="BuffResistance" title_key="statArmorResistBleed" display_type="Percent" tags="buffInjuryBleeding"/> -->
+    <!-- <display_entry name="BuffResistance" title_key="statArmorResistInfection" display_type="Percent" tags="buffInfectionCatch"/> -->
+  </character_stat_display>
+  <!-- *************************************************************************************************** -->
+  <!-- *** CRAFTING -->
+  <crafting_category_display>
+    <crafting_category_list display_type="">
+      <crafting_category name="Basics" icon="ui_game_symbol_hammer" display_name="lblCategoryBasics" />
+      <crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+      <crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+      <crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+      <crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFoodCooking" />
+      <crafting_category name="Science" icon="ui_game_symbol_science" display_name="lblCategoryScience" />
+      <crafting_category name="Clothing" icon="ui_game_symbol_armor_iron" display_name="lblCategoryArmor" />
+      <crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" />
+    </crafting_category_list>
+    <crafting_category_list display_type="forge">
+      <!-- <crafting_category name="" icon="ui_game_symbol_forge" display_name="lblAll" /> -->
+      <crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+      <crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+      <!-- <crafting_category name="AdvBuilding" icon="ui_game_symbol_map_fortress" display_name="lblCategoryAdvBuilding" /> -->
+      <crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+      <crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+      <!-- <crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" /> -->
+    </crafting_category_list>
+    <crafting_category_list display_type="campfire">
+      <!-- <crafting_category name="" icon="ui_game_symbol_campfire" display_name="lblAll" />
+			<crafting_category name="Drink/Cooking" icon="ui_game_symbol_water" display_name="lblCategoryChemicals" /> -->
+      <crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+      <crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+      <crafting_category name="CFMedical" icon="ui_game_symbol_medical" display_name="lblCategoryMedicine" />
+      <crafting_category name="CFChemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+    </crafting_category_list>
+    <crafting_category_list display_type="workbench">
+      <!-- <crafting_category name="" icon="ui_game_symbol_workbench" display_name="lblAll" /> -->
+      <crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+      <crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+      <crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+      <crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+      <crafting_category name="Science" icon="ui_game_symbol_science" display_name="lblCategoryScience" />
+      <crafting_category name="Mods" icon="ui_game_symbol_assemble" display_name="lblCategoryMods" />
+      <crafting_category name="Clothing" icon="ui_game_symbol_armor_iron" display_name="lblCategoryArmor" />
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFoodCooking" />
+      <crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" />
+      <!-- <crafting_category name="Vehicles" icon="ui_game_symbol_4x4" display_name="lblCategoryVehicles" /> -->
+    </crafting_category_list>
+    <crafting_category_list display_type="cementMixer">
+      <crafting_category name="" icon="ui_game_symbol_cement" display_name="lblCategoryCementMixer" />
+    </crafting_category_list>
+    <crafting_category_list display_type="chemistryStation">
+      <!-- <crafting_category name="" icon="ui_game_symbol_chemistry" display_name="lblAll" /> -->
+      <crafting_category name="Chemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+      <crafting_category name="Medical" icon="ui_game_symbol_medical" display_name="lblCategoryMedicine" />
+    </crafting_category_list>
+    <crafting_category_list display_type="tableSaw">
+      <!-- <crafting_category name="" icon="ui_game_symbol_table_saw" display_name="lblAll" /> -->
+      <crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+      <!-- <crafting_category name="AdvBuilding" icon="ui_game_symbol_map_fortress" display_name="lblCategoryAdvBuilding" /> -->
+      <crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" />
+    </crafting_category_list>
+    <crafting_category_list display_type="forgeImp">
+      <!--Element appended by: "ProjectZ"-->
+      <!-- <crafting_category name="" icon="ui_game_symbol_forge" display_name="lblAll" /> -->
+      <crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+      <crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+      <!-- <crafting_category name="AdvBuilding" icon="ui_game_symbol_map_fortress" display_name="lblCategoryAdvBuilding" /> -->
+      <crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+      <crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+      <!-- <crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" /> -->
+    </crafting_category_list>
+    <crafting_category_list display_type="workbenchImp">
+      <!--Element appended by: "ProjectZ"-->
+      <!-- <crafting_category name="" icon="ui_game_symbol_workbench" display_name="lblAll" /> -->
+      <crafting_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" />
+      <crafting_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+      <crafting_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+      <crafting_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+      <crafting_category name="Science" icon="ui_game_symbol_science" display_name="lblCategoryScience" />
+      <crafting_category name="Mods" icon="ui_game_symbol_assemble" display_name="lblCategoryMods" />
+      <crafting_category name="Clothing" icon="ui_game_symbol_shirt" display_name="lblCategoryClothing" />
+      <crafting_category name="Food/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFoodCooking" />
+      <crafting_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" />
+      <!-- <crafting_category name="Vehicles" icon="ui_game_symbol_4x4" display_name="lblCategoryVehicles" /> -->
+    </crafting_category_list>
+    <crafting_category_list display_type="recycler">
+      <!--Element appended by: "ProjectZ"-->
+      <crafting_category name="RecAll" icon="server_refresh" display_name="lblCategoryRecAll" />
+      <crafting_category name="RecSmall" icon="server_refresh" display_name="lblCategoryRecSmall" />
+      <crafting_category name="RecMedium" icon="server_refresh" display_name="lblCategoryRecMedium" />
+      <crafting_category name="RecLarge" icon="server_refresh" display_name="lblCategoryRecLarge" />
+    </crafting_category_list>
+    <crafting_category_list display_type="chemistryStationImp">
+      <!--Element appended by: "ProjectZ"-->
+      <crafting_category name="Chemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+      <crafting_category name="Medical" icon="ui_game_symbol_medical" display_name="lblCategoryMedicine" />
+      <crafting_category name="Booster" icon="ui_game_symbol_block_upgrade" display_name="lblCategoryBooster" />
+      <crafting_category name="Stimulants" icon="ui_game_symbol_steroids" display_name="lblCategoryStimulants" />
+    </crafting_category_list>
+    <crafting_category_list display_type="kitchenStove">
+      <!--Element appended by: "ProjectZ"-->
+      <!-- <crafting_category name="" icon="ui_game_symbol_campfire" display_name="lblAll" />
+				<crafting_category name="Drink/Cooking" icon="ui_game_symbol_water" display_name="lblCategoryChemicals" /> -->
+      <crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+      <crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+      <crafting_category name="CFMedical" icon="ui_game_symbol_medical" display_name="lblCategoryMedicine" />
+      <crafting_category name="CFElixirs" icon="ui_game_symbol_beer" display_name="lblCategoryElixirs" />
+      <crafting_category name="CFBakery" icon="ui_game_symbol_cookware" display_name="lblCategoryBakery" />
+      <crafting_category name="CFComplexes" icon="ui_game_symbol_harvest" display_name="lblCategoryComplexes" />
+      <crafting_category name="CFChemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" />
+    </crafting_category_list>
+    <crafting_category_list display_type="cementMixerImp">
+      <!--Element appended by: "ProjectZ"-->
+      <crafting_category name="" icon="ui_game_symbol_cement" display_name="lblCategoryCementMixer" />
+    </crafting_category_list>
+    <crafting_category_list display_type="HydroponicStation">
+      <!--Element appended by: "ProjectZ"-->
+      <crafting_category name="Plants" icon="ui_game_symbol_crops" display_name="lblCategoryPlants" />
+    </crafting_category_list>
+    <crafting_category_list display_type="farmerStation">
+      <!--Element appended by: "ProjectZ"-->
+      <crafting_category name="Seedling" icon="ui_game_symbol_foliage" display_name="lblCategorySeedling" />
+      <crafting_category name="Selection" icon="ui_game_symbol_block_repair" display_name="lblCategorySelection" />
+      <crafting_category name="AdvSelection" icon="ui_game_symbol_block_upgrade" display_name="lblCategoryAdvSelection" />
+    </crafting_category_list>
+    <crafting_category_list display_type="radioStation">
+      <!--Element appended by: "ProjectZ"-->
+      <!-- <crafting_category name="" icon="ui_game_symbol_forge" display_name="lblAll" /> -->
+      <crafting_category name="Notes" icon="ui_game_symbol_quest" display_name="lblCategoryNotes" />
+      <crafting_category name="Request" icon="ui_game_symbol_airdrop" display_name="lblCategoryRequest" />
+      <crafting_category name="RareAmmo" icon="ui_game_symbol_knife" display_name="lblCategoryRequestAmmo" />
+      <crafting_category name="RareMedicine" icon="ui_game_symbol_add" display_name="lblCategoryRareMedicine" />
+      <crafting_category name="CallBoss" icon="ui_game_symbol_map_cursor" display_name="lblCategoryCallBoss" />
+      <crafting_category name="Expedition" icon="ui_game_symbol_adventure" display_name="lblCategoryExpedition" />
+    </crafting_category_list>
+    <crafting_category_list display_type="aecExtremeModCraftingTable">
+      <!--Element appended by: "AEC_ENDGAME_OVERHAUL"-->
+      <crafting_category name="AECworkbenchMain" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchMain">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchPower" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchPower">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchKnockback" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchKnockback">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchStun" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchStun">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchTargetArmor" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchTargetArmor">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchAiming" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchAiming">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchRPM" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchRPM">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchReloadSpeed" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchReloadSpeed">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchDrum" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchDrum">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchRange" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchRange">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchDegradation" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchDegradation">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchFlaming" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchFlaming">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchShocking" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchShocking">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchSneakAttack" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchSneakAttack">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchDismemberChance" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchDismemberChance">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchAPM" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchAPM">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchStaminaLoss" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchStaminaLoss">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchBlockDamage" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchBlockDamage">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchBlockHarvest" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchBlockHarvest">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchStaminaMax" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchStaminaMax">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchStaminaRegenRun" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchStaminaRegenRun">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchStaminaRegen" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchStaminaRegen">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchCrouchBoost" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchCrouchBoost">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchHealthRegen" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchHealthRegen">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchJumpBoost" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchJumpBoost">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchRunBoost" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchRunBoost">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchWalkBoost" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchWalkBoost">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchXPKill" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchXPKill">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchUnique" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchUnique">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchRare" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchRare">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchAtypical" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchAtypical">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECworkbenchLegendary" icon="ui_game_symbol_block_upgrade" display_name="modpackTabMutator_AECworkbenchLegendary">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+    </crafting_category_list>
+    <!--Element removed by: "AECxProjectZ_Tweaks" (XPath: "/ui_display_info/crafting_category_display/crafting_category_list[@display_type='aecHeadConverter']")-->
+    <crafting_category_list display_type="internationalMarket">
+      <!--Element appended by: "AEC_ENDGAME_OVERHAUL"-->
+      <crafting_category name="CryptoMining" icon="ui_game_symbol_computer" display_name="modpackTabMarket_CryptoMining">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoBattery" icon="ui_game_symbol_twitch_energize" display_name="modpackTabMarket_CryptoBattery">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoConnexionCard" icon="ui_game_symbol_vending" display_name="modpackTabMarket_CryptoConnexionCard">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoPassiveMiner" icon="ui_game_symbol_electric_generator" display_name="modpackTabMarket_CryptoPassiveMiner">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoResearchPapers" icon="ui_game_symbol_twitch_history" display_name="modpackTabMarket_CryptoResearchPapers">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoBuilding" icon="ui_game_symbol_cement" display_name="modpackTabMarket_CryptoBuilding">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoAmmo" icon="ui_game_symbol_gunslinger" display_name="modpackTabMarket_CryptoAmmo">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoTools" icon="ui_game_symbol_tool" display_name="modpackTabMarket_CryptoTools">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoArmor" icon="ui_game_symbol_light_armor" display_name="modpackTabMarket_CryptoArmor">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoScience" icon="ui_game_symbol_science" display_name="modpackTabMarket_CryptoScience">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoMods" icon="ui_game_symbol_assemble" display_name="modpackTabMarket_CryptoMods">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoBooks" icon="ui_game_symbol_book_read" display_name="modpackTabMarket_CryptoBooks">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoRessources" icon="ui_game_symbol_challenge_harvesting_pipes" display_name="modpackTabMarket_CryptoRessources">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoFood" icon="ui_game_symbol_challenge_harvesting_rotting_meat" display_name="modpackTabMarket_CryptoFood">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoSeeds" icon="ui_game_symbol_crops" display_name="modpackTabMarket_CryptoSeeds">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoDecoration" icon="ui_game_symbol_chair" display_name="modpackTabMarket_CryptoDecoration">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoQuest" icon="ui_game_symbol_quest" display_name="modpackTabMarket_CryptoQuest">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="CryptoModding" icon="ui_game_symbol_schematic" display_name="modpackTabMarket_CryptoModding">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+    </crafting_category_list>
+    <crafting_category_list display_type="GenerationCoin">
+      <!--Element appended by: "AEC_ENDGAME_OVERHAUL"-->
+      <crafting_category name="GenerationCoin" icon="ui_game_symbol_science" display_name="modpackTabMarket_GenerationCoin">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+    </crafting_category_list>
+    <crafting_category_list display_type="aecNecroforgeWorkbench">
+      <!--Element appended by: "AEC_ENDGAME_OVERHAUL"-->
+      <crafting_category name="aecNecroforgeAmmo9mm" icon="ui_game_symbol_knife" display_name="modpackTabNecro_aecNecroforgeAmmo9mm">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="aecNecroforgeAmmo44" icon="ui_game_symbol_knife" display_name="modpackTabNecro_aecNecroforgeAmmo44">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="aecNecroforgeAmmo762" icon="ui_game_symbol_knife" display_name="modpackTabNecro_aecNecroforgeAmmo762">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="aecNecroforgeAmmo12g" icon="ui_game_symbol_knife" display_name="modpackTabNecro_aecNecroforgeAmmo12g">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+    </crafting_category_list>
+    <!--Element removed by: "AECxProjectZ_Tweaks" (XPath: "/ui_display_info/crafting_category_display/crafting_category_list[@display_type='aecQuestArchiveRadio']")-->
+    <crafting_category_list display_type="aecVehicleModifierBench">
+      <!--Element appended by: "AEC_Vehicles_NoMicrocraft"-->
+      <crafting_category name="AECvehicleModifierFuelSaver" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleModifier_AECvehicleModifierFuelSaver">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+        <!--Attribute "name" added/overwritten by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleModifierLightIntensity" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleModifier_AECvehicleModifierLightIntensity">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleModifierEntityDamage" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleModifier_AECvehicleModifierEntityDamage">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleModifierBlockDamage" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleModifier_AECvehicleModifierBlockDamage">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleModifierTorque" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleModifier_AECvehicleModifierTorque">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+        <!--Attribute "name" added/overwritten by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleModifierVelocity" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleModifier_AECvehicleModifierVelocity">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleModifierFuelMax" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleModifier_AECvehicleModifierFuelMax">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleModifierSelfDamage" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleModifier_AECvehicleModifierSelfDamage">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+    </crafting_category_list>
+    <crafting_category_list display_type="aecVehicleFinalAssemblyBench">
+      <!--Element appended by: "AEC_Vehicles_NoMicrocraft"-->
+      <crafting_category name="AECvehicleFinalAssembly" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleFinal_AECvehicleFinalAssembly">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleFinalCar" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleFinal_AECvehicleFinalCar">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleFinalBus" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleFinal_AECvehicleFinalBus">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleFinalTruck" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleFinal_AECvehicleFinalTruck">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleFinalAirplane" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleFinal_AECvehicleFinalAirplane">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleFinalRocket" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleFinal_AECvehicleFinalRocket">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleFinalOther" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleFinal_AECvehicleFinalOther">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+      <crafting_category name="AECvehicleFinalRepairs" icon="ui_game_symbol_block_upgrade" display_name="modpackTabVehicleFinal_AECvehicleFinalRepairs">
+        <!--Attribute "display_name" replaced by: "AECxProjectZ_Tweaks"-->
+      </crafting_category>
+    </crafting_category_list>
+    <crafting_category_list display_type="aecMutationIncubator">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <crafting_category name="researchMaterialOutput" icon="ui_game_symbol_science" display_name="researchMaterialOutputCategory" />
+      <crafting_category name="researchSampleOutput" icon="ui_game_symbol_block_upgrade" display_name="researchSampleOutputCategory" />
+    </crafting_category_list>
+    <crafting_category_list display_type="aecQuestArchiveRadio">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <crafting_category name="aecQuestArchiveGuide" icon="ui_game_symbol_book_read" display_name="PZAEC_GuideTab_All" />
+    </crafting_category_list>
+  </crafting_category_display>
+  <!-- *************************************************************************************************** -->
+  <!-- *** TRADER -->
+  <trader_category_display>
+    <!-- <trader_category name="Building" icon="ui_game_symbol_map_house" display_name="lblCategoryBuilding" /> -->
+    <trader_category name="TCReading" icon="ui_game_symbol_book" display_name="lblCategoryReading" />
+    <trader_category name="Resources" icon="ui_game_symbol_resource" display_name="lblCategoryResources" />
+    <trader_category name="Ammo/Weapons" icon="ui_game_symbol_knife" display_name="lblCategoryAmmoWeapons" />
+    <trader_category name="Tools/Traps" icon="ui_game_symbol_tool" display_name="lblCategoryToolsTraps" />
+    <trader_category name="TCScience" icon="ui_game_symbol_science" display_name="lblCategoryScience" />
+    <trader_category name="Mods" icon="ui_game_symbol_assemble" display_name="lblCategoryMods" />
+    <!-- <trader_category name="TCClothing" icon="ui_game_symbol_shirt" display_name="lblCategoryClothing" /> -->
+    <trader_category name="Food/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFoodCooking" />
+    <trader_category name="Decor/Miscellaneous" icon="ui_game_symbol_chair" display_name="lblCategoryDecorMisc" />
+    <!-- <trader_category name="Chemicals" icon="ui_game_symbol_chemistry" display_name="lblCategoryChemicals" /> -->
+    <trader_category name="TCMedical" icon="ui_game_symbol_medical" display_name="lblCategoryMedicine" />
+    <trader_category name="TCArmor" icon="ui_game_symbol_armor_iron" display_name="lblCategoryArmor" />
+  </trader_category_display>
+</ui_display_info>
+<!-- *** NOTES -->
+<!-- = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+This UI system can display all passive effects on an item - the base stats.
+
+It can also display CVARS that are added when using the item with these exact 2 actions:
+onSelfPrimaryActionEnd
+onSelfSecondaryActionEnd
+
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="medicalRegHealthAmount" operation="add" value="14"/>
+
+The "name" is the name of the cvar.
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+display_type="Integer"	;	The values are "Integer", "Decimal", "Bool", and "Percent"
+show_inverted="true"	;
+negative_preferred="true";	For item comparisons sometimes lower is better.
+
+display_group: Used for the compare function. i.e. groupConsumables are not compared against groupRanged
+-->
