@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <persistentplayerdata version="1">
-  <player platform="EOS" userid="00025fe27d8444baa871ac91c524ca08" nativeplatform="Steam" nativeuserid="76561198189632499" playername="森" playgroup="Standalone" lastlogin="2026-08-31 18:26:53" position="-1615,62,-1140">
+  <player platform="EOS" userid="00025fe27d8444baa871ac91c524ca08" nativeplatform="Steam" nativeuserid="76561198189632499" playername="森" playgroup="Standalone" lastlogin="2026-08-31 23:44:02" position="-1664,66,-1256">
     <bedroll pos="-1618,67,-1141" />
     <questpositions>
       <position id="1919388085" positiondatatype="4" pos="1743,71,1033" />
@@ -42,7 +42,7 @@
       <position id="823956143" positiondatatype="7" pos="-1348,64,-1460" />
     </questpositions>
   </player>
-  <player platform="EOS" userid="0002908e50a64ea0b14ac31f97e68d34" nativeplatform="Steam" nativeuserid="76561198040307689" playername="ITGOU" playgroup="Standalone" lastlogin="2026-08-31 14:20:20" position="-1611,68,-1145">
+  <player platform="EOS" userid="0002908e50a64ea0b14ac31f97e68d34" nativeplatform="Steam" nativeuserid="76561198040307689" playername="ITGOU" playgroup="Standalone" lastlogin="2026-08-31 23:39:55" position="-1670,65,-1253">
     <lpblock pos="730,60,643" />
     <lpblock pos="-1626,61,-1130" />
     <bedroll pos="-1621,67,-1138" />
@@ -52,6 +52,8 @@
       <position id="-1569292091" positiondatatype="4" pos="-2482,106,-1384" />
       <position id="846244111" positiondatatype="2" pos="-1668,60,-1685" />
       <position id="846244111" positiondatatype="0" pos="-1568,71,-1184" />
+      <position id="458044620" positiondatatype="2" pos="-1633,48,-719" />
+      <position id="458044620" positiondatatype="0" pos="-1568,71,-1184" />
       <position id="453705109" positiondatatype="2" pos="1301,54,-1136" />
       <position id="453705109" positiondatatype="0" pos="976,67,-1529" />
       <position id="895607087" positiondatatype="2" pos="-1172,142,2039" />
@@ -70,8 +72,6 @@
       <position id="-977595832" positiondatatype="0" pos="-1568,71,-1184" />
       <position id="-1521960837" positiondatatype="2" pos="-1409,50,-1480" />
       <position id="-1521960837" positiondatatype="0" pos="-1568,71,-1184" />
-      <position id="458044620" positiondatatype="2" pos="-1633,48,-719" />
-      <position id="458044620" positiondatatype="0" pos="-1568,71,-1184" />
     </questpositions>
   </player>
   <allies>
