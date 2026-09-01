@@ -285562,6 +285562,14 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
     </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
   <entity_class name="RunningKamikazeT16" extends="RunningKamikazeT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -285581,6 +285589,14 @@ Kinda sorta works but is buggy and we don't have time for that.
     <effect_group name="PZAEC T16 Boss Skill Damage">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+    </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
   </entity_class>
   <entity_class name="AECDoomlordDemolishmanBossT16" extends="AECDoomlordDemolishmanBossT15">
@@ -285602,6 +285618,14 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
     </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
   <entity_class name="AECTheWitchAngelBossT16" extends="AECTheWitchAngelBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -285621,6 +285645,14 @@ Kinda sorta works but is buggy and we don't have time for that.
     <effect_group name="PZAEC T16 Boss Skill Damage">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+    </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
   </entity_class>
   <entity_class name="AECElectricDemonRunnerBossT16" extends="AECElectricDemonRunnerBossT15">
@@ -285642,6 +285674,14 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
     </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
   <entity_class name="AECExplosiveEagleBossT16" extends="AECExplosiveEagleBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -285661,6 +285701,14 @@ Kinda sorta works but is buggy and we don't have time for that.
     <effect_group name="PZAEC T16 Boss Skill Damage">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+    </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
   </entity_class>
   <entity_class name="AECHammerGuardianT16" extends="AECHammerGuardianT15">
@@ -285682,6 +285730,14 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
     </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
   <entity_class name="AECTheMechanicianBossT16" extends="AECTheMechanicianBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -285701,6 +285757,14 @@ Kinda sorta works but is buggy and we don't have time for that.
     <effect_group name="PZAEC T16 Boss Skill Damage">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+    </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
   </entity_class>
   <entity_class name="AECTheDruidBossT16" extends="AECTheDruidBossT15">
@@ -285722,6 +285786,14 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
     </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
   <entity_class name="AECTheExecutionerBossT16" extends="AECTheExecutionerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -285741,6 +285813,14 @@ Kinda sorta works but is buggy and we don't have time for that.
     <effect_group name="PZAEC T16 Boss Skill Damage">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+    </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
   </entity_class>
   <entity_class name="AECPartyBeachBossT16" extends="AECPartyBeachBossT15">
@@ -285762,6 +285842,14 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
     </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
   <entity_class name="AECMykirBossT16" extends="AECMykirBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -285781,6 +285869,14 @@ Kinda sorta works but is buggy and we don't have time for that.
     <effect_group name="PZAEC T16 Boss Skill Damage">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+    </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
   </entity_class>
   <entity_class name="AECHellskyliBossT16" extends="AECHellskyliBossT15">
@@ -285802,6 +285898,14 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
     </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
   <entity_class name="AECRockbreakerBossT16" extends="AECRockbreakerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -285821,6 +285925,14 @@ Kinda sorta works but is buggy and we don't have time for that.
     <effect_group name="PZAEC T16 Boss Skill Damage">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+    </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
   </entity_class>
   <entity_class name="AECSingerieBossT16" extends="AECSingerieBossT15">
@@ -285842,6 +285954,14 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
     </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
   <entity_class name="AECGhostBossT16" extends="AECGhostBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -285861,6 +285981,14 @@ Kinda sorta works but is buggy and we don't have time for that.
     <effect_group name="PZAEC T16 Boss Skill Damage">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+    </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
   </entity_class>
   <entity_class name="AECSirenHeadBossT16" extends="AECSirenHeadBossT15">
@@ -285882,6 +286010,14 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
     </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
   <entity_class name="AECMushroomBossT16" extends="AECMushroomBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -285897,6 +286033,14 @@ Kinda sorta works but is buggy and we don't have time for that.
     <effect_group name="PZAEC T16 Siege Damage">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
+    </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
   </entity_class>
   <entity_class name="AECTheArcherBossT16" extends="AECTheArcherBossT15">
@@ -285918,6 +286062,14 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
     </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
   <entity_class name="AECSheriffBossT16" extends="AECSheriffBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -285938,6 +286090,14 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
     </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
   <entity_class name="AECHeadlessBossT16" extends="AECHeadlessBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -285957,6 +286117,14 @@ Kinda sorta works but is buggy and we don't have time for that.
     <effect_group name="PZAEC T16 Boss Skill Damage">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+    </effect_group>
+    <effect_group name="PZAEC T16 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="40000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="6" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="10" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="35" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.5" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
   </entity_class>
   <entity_class name="AECDumdumBossLootBagT16" extends="AECDumdumBossLootBagT15">
@@ -286676,7 +286844,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieArleneTier17Ascendant" extends="AECZombieArleneTier16Transcendent">
+  <entity_class name="AECZombieArleneTier17Ascendant" extends="AECZombieArleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieArlene,Arlene,PZFamily_zombieArlene,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286686,7 +286854,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBikerTier17Ascendant" extends="AECZombieBikerTier16Transcendent">
+  <entity_class name="AECZombieBikerTier17Ascendant" extends="AECZombieBikerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBiker,biker,Biker,PZFamily_zombieBiker,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286696,7 +286864,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBoeTier17Ascendant" extends="AECZombieBoeTier16Transcendent">
+  <entity_class name="AECZombieBoeTier17Ascendant" extends="AECZombieBoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBoe,Boe,PZFamily_zombieBoe,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286706,7 +286874,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBowlerTier17Ascendant" extends="AECZombieBowlerTier16Transcendent">
+  <entity_class name="AECZombieBowlerTier17Ascendant" extends="AECZombieBowlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBowler,Bowler,PZFamily_zombieBowler,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286716,7 +286884,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBurntTier17Ascendant" extends="AECZombieBurntTier16Transcendent">
+  <entity_class name="AECZombieBurntTier17Ascendant" extends="AECZombieBurntTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBurnt,BurntZombie,PZFamily_zombieBurnt,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286726,7 +286894,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBusinessManTier17Ascendant" extends="AECZombieBusinessManTier16Transcendent">
+  <entity_class name="AECZombieBusinessManTier17Ascendant" extends="AECZombieBusinessManTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBusinessMan,businessman,PZFamily_zombieBusinessMan,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286736,7 +286904,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieChuckTier17Ascendant" extends="AECZombieChuckTier16Transcendent">
+  <entity_class name="AECZombieChuckTier17Ascendant" extends="AECZombieChuckTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieChuck,Chuck,frostClaw,PZFamily_zombieChuck,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286746,7 +286914,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieDarleneTier17Ascendant" extends="AECZombieDarleneTier16Transcendent">
+  <entity_class name="AECZombieDarleneTier17Ascendant" extends="AECZombieDarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieDarlene,Darlene,PZFamily_zombieDarlene,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286756,7 +286924,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieDemolitionTier17Ascendant" extends="AECZombieDemolitionTier16Transcendent">
+  <entity_class name="AECZombieDemolitionTier17Ascendant" extends="AECZombieDemolitionTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieDemolition,Demolition,PZFamily_zombieDemolition,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286766,7 +286934,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieFatCopTier17Ascendant" extends="AECZombieFatCopTier16Transcendent">
+  <entity_class name="AECZombieFatCopTier17Ascendant" extends="AECZombieFatCopTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieFatCop,Cop,PZFamily_zombieFatCop,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286776,7 +286944,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieFatHawaiianTier17Ascendant" extends="AECZombieFatHawaiianTier16Transcendent">
+  <entity_class name="AECZombieFatHawaiianTier17Ascendant" extends="AECZombieFatHawaiianTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieFatHawaiian,FatHawaiian,PZFamily_zombieFatHawaiian,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286786,7 +286954,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieFemaleFatTier17Ascendant" extends="AECZombieFemaleFatTier16Transcendent">
+  <entity_class name="AECZombieFemaleFatTier17Ascendant" extends="AECZombieFemaleFatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieFemaleFat,FemaleFat,PZFamily_zombieFemaleFat,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286796,7 +286964,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieInmateTier17Ascendant" extends="AECZombieInmateTier16Transcendent">
+  <entity_class name="AECZombieInmateTier17Ascendant" extends="AECZombieInmateTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieInmate,Inmate,PZFamily_zombieInmate,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286806,7 +286974,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieJanitorTier17Ascendant" extends="AECZombieJanitorTier16Transcendent">
+  <entity_class name="AECZombieJanitorTier17Ascendant" extends="AECZombieJanitorTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieJanitor,janitor,PZFamily_zombieJanitor,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286816,7 +286984,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieJoeTier17Ascendant" extends="AECZombieJoeTier16Transcendent">
+  <entity_class name="AECZombieJoeTier17Ascendant" extends="AECZombieJoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieJoe,Joe,PZFamily_zombieJoe,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286826,7 +286994,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieLabTier17Ascendant" extends="AECZombieLabTier16Transcendent">
+  <entity_class name="AECZombieLabTier17Ascendant" extends="AECZombieLabTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieLab,Lab,PZFamily_zombieLab,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286836,7 +287004,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieLumberjackTier17Ascendant" extends="AECZombieLumberjackTier16Transcendent">
+  <entity_class name="AECZombieLumberjackTier17Ascendant" extends="AECZombieLumberjackTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieLumberjack,Lumberjack,PZFamily_zombieLumberjack,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286846,7 +287014,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieMaleHazmatTier17Ascendant" extends="AECZombieMaleHazmatTier16Transcendent">
+  <entity_class name="AECZombieMaleHazmatTier17Ascendant" extends="AECZombieMaleHazmatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieMaleHazmat,Hazmat,PZFamily_zombieMaleHazmat,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286856,7 +287024,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieMarleneTier17Ascendant" extends="AECZombieMarleneTier16Transcendent">
+  <entity_class name="AECZombieMarleneTier17Ascendant" extends="AECZombieMarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieMarlene,Marlene,PZFamily_zombieMarlene,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286866,7 +287034,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieMoeTier17Ascendant" extends="AECZombieMoeTier16Transcendent">
+  <entity_class name="AECZombieMoeTier17Ascendant" extends="AECZombieMoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieMoe,Moe,PZFamily_zombieMoe,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286876,7 +287044,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieMutatedTier17Ascendant" extends="AECZombieMutatedTier16Transcendent">
+  <entity_class name="AECZombieMutatedTier17Ascendant" extends="AECZombieMutatedTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieMutated,Mutated,PZFamily_zombieMutated,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286886,7 +287054,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieNurseTier17Ascendant" extends="AECZombieNurseTier16Transcendent">
+  <entity_class name="AECZombieNurseTier17Ascendant" extends="AECZombieNurseTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieNurse,Nurse,PZFamily_zombieNurse,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286896,7 +287064,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombiePartyGirlTier17Ascendant" extends="AECZombiePartyGirlTier16Transcendent">
+  <entity_class name="AECZombiePartyGirlTier17Ascendant" extends="AECZombiePartyGirlTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombiePartyGirl,PartyGirl,PZFamily_zombiePartyGirl,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286906,7 +287074,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombiePlagueSpitterTier17Ascendant" extends="AECZombiePlagueSpitterTier16Transcendent">
+  <entity_class name="AECZombiePlagueSpitterTier17Ascendant" extends="AECZombiePlagueSpitterTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombiePlagueSpitter,PlagueSpitter,PZFamily_zombiePlagueSpitter,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286916,7 +287084,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieRancherTier17Ascendant" extends="AECZombieRancherTier16Transcendent">
+  <entity_class name="AECZombieRancherTier17Ascendant" extends="AECZombieRancherTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieRancher,Rancher,PZFamily_zombieRancher,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286926,7 +287094,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieScreamerTier17Ascendant" extends="AECZombieScreamerTier16Transcendent">
+  <entity_class name="AECZombieScreamerTier17Ascendant" extends="AECZombieScreamerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieScreamer,Screamer,PZFamily_zombieScreamer,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286936,7 +287104,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSkateboarderTier17Ascendant" extends="AECZombieSkateboarderTier16Transcendent">
+  <entity_class name="AECZombieSkateboarderTier17Ascendant" extends="AECZombieSkateboarderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSkateboarder,Skateboarder,PZFamily_zombieSkateboarder,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286946,7 +287114,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSoldierTier17Ascendant" extends="AECZombieSoldierTier16Transcendent">
+  <entity_class name="AECZombieSoldierTier17Ascendant" extends="AECZombieSoldierTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSoldier,Soldier,PZFamily_zombieSoldier,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286956,7 +287124,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSpiderTier17Ascendant" extends="AECZombieSpiderTier16Transcendent">
+  <entity_class name="AECZombieSpiderTier17Ascendant" extends="AECZombieSpiderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSpider,Spider,spider,PZFamily_zombieSpider,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286966,7 +287134,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSteveCrawlerTier17Ascendant" extends="AECZombieSteveCrawlerTier16Transcendent">
+  <entity_class name="AECZombieSteveCrawlerTier17Ascendant" extends="AECZombieSteveCrawlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSteveCrawler,SteveCrawler,PZFamily_zombieSteveCrawler,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286976,7 +287144,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSteveTier17Ascendant" extends="AECZombieSteveTier16Transcendent">
+  <entity_class name="AECZombieSteveTier17Ascendant" extends="AECZombieSteveTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSteve,Steve,PZFamily_zombieSteve,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286986,7 +287154,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieTomClarkTier17Ascendant" extends="AECZombieTomClarkTier16Transcendent">
+  <entity_class name="AECZombieTomClarkTier17Ascendant" extends="AECZombieTomClarkTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieTomClark,TomClark,PZFamily_zombieTomClark,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -286996,7 +287164,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieUtilityWorkerTier17Ascendant" extends="AECZombieUtilityWorkerTier16Transcendent">
+  <entity_class name="AECZombieUtilityWorkerTier17Ascendant" extends="AECZombieUtilityWorkerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieUtilityWorker,UtilityWorker,PZFamily_zombieUtilityWorker,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -287006,7 +287174,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieWightFeralTier17Ascendant" extends="AECZombieWightFeralTier16Transcendent">
+  <entity_class name="AECZombieWightFeralTier17Ascendant" extends="AECZombieWightFeralTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieWightFeral,WightFeral,PZFamily_zombieWightFeral,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -287016,7 +287184,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieYoTier17Ascendant" extends="AECZombieYoTier16Transcendent">
+  <entity_class name="AECZombieYoTier17Ascendant" extends="AECZombieYoTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieYo,Yo,PZFamily_zombieYo,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -287026,217 +287194,385 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="bossAECDumdumT17" extends="bossAECDumdumT16">
+  <entity_class name="bossAECDumdumT17" extends="bossAECDumdumT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="RunningKamikazeT17" extends="RunningKamikazeT16">
+  <entity_class name="RunningKamikazeT17" extends="RunningKamikazeT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECDoomlordDemolishmanBossT17" extends="AECDoomlordDemolishmanBossT16">
+  <entity_class name="AECDoomlordDemolishmanBossT17" extends="AECDoomlordDemolishmanBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheWitchAngelBossT17" extends="AECTheWitchAngelBossT16">
+  <entity_class name="AECTheWitchAngelBossT17" extends="AECTheWitchAngelBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECElectricDemonRunnerBossT17" extends="AECElectricDemonRunnerBossT16">
+  <entity_class name="AECElectricDemonRunnerBossT17" extends="AECElectricDemonRunnerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECExplosiveEagleBossT17" extends="AECExplosiveEagleBossT16">
+  <entity_class name="AECExplosiveEagleBossT17" extends="AECExplosiveEagleBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECHammerGuardianT17" extends="AECHammerGuardianT16">
+  <entity_class name="AECHammerGuardianT17" extends="AECHammerGuardianT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheMechanicianBossT17" extends="AECTheMechanicianBossT16">
+  <entity_class name="AECTheMechanicianBossT17" extends="AECTheMechanicianBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheDruidBossT17" extends="AECTheDruidBossT16">
+  <entity_class name="AECTheDruidBossT17" extends="AECTheDruidBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheExecutionerBossT17" extends="AECTheExecutionerBossT16">
+  <entity_class name="AECTheExecutionerBossT17" extends="AECTheExecutionerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECPartyBeachBossT17" extends="AECPartyBeachBossT16">
+  <entity_class name="AECPartyBeachBossT17" extends="AECPartyBeachBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECMykirBossT17" extends="AECMykirBossT16">
+  <entity_class name="AECMykirBossT17" extends="AECMykirBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECHellskyliBossT17" extends="AECHellskyliBossT16">
+  <entity_class name="AECHellskyliBossT17" extends="AECHellskyliBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECRockbreakerBossT17" extends="AECRockbreakerBossT16">
+  <entity_class name="AECRockbreakerBossT17" extends="AECRockbreakerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECSingerieBossT17" extends="AECSingerieBossT16">
+  <entity_class name="AECSingerieBossT17" extends="AECSingerieBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECGhostBossT17" extends="AECGhostBossT16">
+  <entity_class name="AECGhostBossT17" extends="AECGhostBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECSirenHeadBossT17" extends="AECSirenHeadBossT16">
+  <entity_class name="AECSirenHeadBossT17" extends="AECSirenHeadBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECMushroomBossT17" extends="AECMushroomBossT16">
+  <entity_class name="AECMushroomBossT17" extends="AECMushroomBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheArcherBossT17" extends="AECTheArcherBossT16">
+  <entity_class name="AECTheArcherBossT17" extends="AECTheArcherBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECSheriffBossT17" extends="AECSheriffBossT16">
+  <entity_class name="AECSheriffBossT17" extends="AECSheriffBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECHeadlessBossT17" extends="AECHeadlessBossT16">
+  <entity_class name="AECHeadlessBossT17" extends="AECHeadlessBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17,boss" />
     <property name="ExperienceGain" value="150000" />
     <effect_group name="AEC Tier 17 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="24000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <effect_group name="PZAEC T17 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="80000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="8" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="14" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionBearT17" extends="AECDruidMinionBearT16">
+  <entity_class name="AECDruidMinionBearT17" extends="AECDruidMinionBearT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -287246,7 +287582,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionBoarAggroT17" extends="AECDruidMinionBoarAggroT16">
+  <entity_class name="AECDruidMinionBoarAggroT17" extends="AECDruidMinionBoarAggroT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -287256,7 +287592,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionBossBoarT17" extends="AECDruidMinionBossBoarT16">
+  <entity_class name="AECDruidMinionBossBoarT17" extends="AECDruidMinionBossBoarT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -287266,7 +287602,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionC4WolfT17" extends="AECDruidMinionC4WolfT16">
+  <entity_class name="AECDruidMinionC4WolfT17" extends="AECDruidMinionC4WolfT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -287276,7 +287612,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionDireWolfT17" extends="AECDruidMinionDireWolfT16">
+  <entity_class name="AECDruidMinionDireWolfT17" extends="AECDruidMinionDireWolfT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -287286,7 +287622,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionWolfAggroT17" extends="AECDruidMinionWolfAggroT16">
+  <entity_class name="AECDruidMinionWolfAggroT17" extends="AECDruidMinionWolfAggroT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -287296,7 +287632,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionZombieBearT17" extends="AECDruidMinionZombieBearT16">
+  <entity_class name="AECDruidMinionZombieBearT17" extends="AECDruidMinionZombieBearT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -287306,7 +287642,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECSheriffWolfMinion01T17" extends="AECSheriffWolfMinion01T16">
+  <entity_class name="AECSheriffWolfMinion01T17" extends="AECSheriffWolfMinion01T15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier17,AECtier17" />
     <property name="ExperienceGain" value="45000" />
@@ -287316,7 +287652,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieArleneTier18Eternal" extends="AECZombieArleneTier17Ascendant">
+  <entity_class name="AECZombieArleneTier18Eternal" extends="AECZombieArleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieArlene,Arlene,PZFamily_zombieArlene,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287326,7 +287662,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBikerTier18Eternal" extends="AECZombieBikerTier17Ascendant">
+  <entity_class name="AECZombieBikerTier18Eternal" extends="AECZombieBikerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBiker,biker,Biker,PZFamily_zombieBiker,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287336,7 +287672,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBoeTier18Eternal" extends="AECZombieBoeTier17Ascendant">
+  <entity_class name="AECZombieBoeTier18Eternal" extends="AECZombieBoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBoe,Boe,PZFamily_zombieBoe,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287346,7 +287682,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBowlerTier18Eternal" extends="AECZombieBowlerTier17Ascendant">
+  <entity_class name="AECZombieBowlerTier18Eternal" extends="AECZombieBowlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBowler,Bowler,PZFamily_zombieBowler,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287356,7 +287692,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBurntTier18Eternal" extends="AECZombieBurntTier17Ascendant">
+  <entity_class name="AECZombieBurntTier18Eternal" extends="AECZombieBurntTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBurnt,BurntZombie,PZFamily_zombieBurnt,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287366,7 +287702,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBusinessManTier18Eternal" extends="AECZombieBusinessManTier17Ascendant">
+  <entity_class name="AECZombieBusinessManTier18Eternal" extends="AECZombieBusinessManTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBusinessMan,businessman,PZFamily_zombieBusinessMan,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287376,7 +287712,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieChuckTier18Eternal" extends="AECZombieChuckTier17Ascendant">
+  <entity_class name="AECZombieChuckTier18Eternal" extends="AECZombieChuckTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieChuck,Chuck,frostClaw,PZFamily_zombieChuck,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287386,7 +287722,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieDarleneTier18Eternal" extends="AECZombieDarleneTier17Ascendant">
+  <entity_class name="AECZombieDarleneTier18Eternal" extends="AECZombieDarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieDarlene,Darlene,PZFamily_zombieDarlene,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287396,7 +287732,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieDemolitionTier18Eternal" extends="AECZombieDemolitionTier17Ascendant">
+  <entity_class name="AECZombieDemolitionTier18Eternal" extends="AECZombieDemolitionTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieDemolition,Demolition,PZFamily_zombieDemolition,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287406,7 +287742,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieFatCopTier18Eternal" extends="AECZombieFatCopTier17Ascendant">
+  <entity_class name="AECZombieFatCopTier18Eternal" extends="AECZombieFatCopTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieFatCop,Cop,PZFamily_zombieFatCop,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287416,7 +287752,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieFatHawaiianTier18Eternal" extends="AECZombieFatHawaiianTier17Ascendant">
+  <entity_class name="AECZombieFatHawaiianTier18Eternal" extends="AECZombieFatHawaiianTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieFatHawaiian,FatHawaiian,PZFamily_zombieFatHawaiian,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287426,7 +287762,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieFemaleFatTier18Eternal" extends="AECZombieFemaleFatTier17Ascendant">
+  <entity_class name="AECZombieFemaleFatTier18Eternal" extends="AECZombieFemaleFatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieFemaleFat,FemaleFat,PZFamily_zombieFemaleFat,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287436,7 +287772,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieInmateTier18Eternal" extends="AECZombieInmateTier17Ascendant">
+  <entity_class name="AECZombieInmateTier18Eternal" extends="AECZombieInmateTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieInmate,Inmate,PZFamily_zombieInmate,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287446,7 +287782,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieJanitorTier18Eternal" extends="AECZombieJanitorTier17Ascendant">
+  <entity_class name="AECZombieJanitorTier18Eternal" extends="AECZombieJanitorTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieJanitor,janitor,PZFamily_zombieJanitor,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287456,7 +287792,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieJoeTier18Eternal" extends="AECZombieJoeTier17Ascendant">
+  <entity_class name="AECZombieJoeTier18Eternal" extends="AECZombieJoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieJoe,Joe,PZFamily_zombieJoe,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287466,7 +287802,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieLabTier18Eternal" extends="AECZombieLabTier17Ascendant">
+  <entity_class name="AECZombieLabTier18Eternal" extends="AECZombieLabTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieLab,Lab,PZFamily_zombieLab,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287476,7 +287812,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieLumberjackTier18Eternal" extends="AECZombieLumberjackTier17Ascendant">
+  <entity_class name="AECZombieLumberjackTier18Eternal" extends="AECZombieLumberjackTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieLumberjack,Lumberjack,PZFamily_zombieLumberjack,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287486,7 +287822,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieMaleHazmatTier18Eternal" extends="AECZombieMaleHazmatTier17Ascendant">
+  <entity_class name="AECZombieMaleHazmatTier18Eternal" extends="AECZombieMaleHazmatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieMaleHazmat,Hazmat,PZFamily_zombieMaleHazmat,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287496,7 +287832,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieMarleneTier18Eternal" extends="AECZombieMarleneTier17Ascendant">
+  <entity_class name="AECZombieMarleneTier18Eternal" extends="AECZombieMarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieMarlene,Marlene,PZFamily_zombieMarlene,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287506,7 +287842,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieMoeTier18Eternal" extends="AECZombieMoeTier17Ascendant">
+  <entity_class name="AECZombieMoeTier18Eternal" extends="AECZombieMoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieMoe,Moe,PZFamily_zombieMoe,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287516,7 +287852,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieMutatedTier18Eternal" extends="AECZombieMutatedTier17Ascendant">
+  <entity_class name="AECZombieMutatedTier18Eternal" extends="AECZombieMutatedTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieMutated,Mutated,PZFamily_zombieMutated,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287526,7 +287862,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieNurseTier18Eternal" extends="AECZombieNurseTier17Ascendant">
+  <entity_class name="AECZombieNurseTier18Eternal" extends="AECZombieNurseTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieNurse,Nurse,PZFamily_zombieNurse,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287536,7 +287872,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombiePartyGirlTier18Eternal" extends="AECZombiePartyGirlTier17Ascendant">
+  <entity_class name="AECZombiePartyGirlTier18Eternal" extends="AECZombiePartyGirlTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombiePartyGirl,PartyGirl,PZFamily_zombiePartyGirl,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287546,7 +287882,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombiePlagueSpitterTier18Eternal" extends="AECZombiePlagueSpitterTier17Ascendant">
+  <entity_class name="AECZombiePlagueSpitterTier18Eternal" extends="AECZombiePlagueSpitterTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombiePlagueSpitter,PlagueSpitter,PZFamily_zombiePlagueSpitter,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287556,7 +287892,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieRancherTier18Eternal" extends="AECZombieRancherTier17Ascendant">
+  <entity_class name="AECZombieRancherTier18Eternal" extends="AECZombieRancherTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieRancher,Rancher,PZFamily_zombieRancher,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287566,7 +287902,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieScreamerTier18Eternal" extends="AECZombieScreamerTier17Ascendant">
+  <entity_class name="AECZombieScreamerTier18Eternal" extends="AECZombieScreamerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieScreamer,Screamer,PZFamily_zombieScreamer,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287576,7 +287912,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSkateboarderTier18Eternal" extends="AECZombieSkateboarderTier17Ascendant">
+  <entity_class name="AECZombieSkateboarderTier18Eternal" extends="AECZombieSkateboarderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSkateboarder,Skateboarder,PZFamily_zombieSkateboarder,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287586,7 +287922,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSoldierTier18Eternal" extends="AECZombieSoldierTier17Ascendant">
+  <entity_class name="AECZombieSoldierTier18Eternal" extends="AECZombieSoldierTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSoldier,Soldier,PZFamily_zombieSoldier,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287596,7 +287932,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSpiderTier18Eternal" extends="AECZombieSpiderTier17Ascendant">
+  <entity_class name="AECZombieSpiderTier18Eternal" extends="AECZombieSpiderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSpider,Spider,spider,PZFamily_zombieSpider,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287606,7 +287942,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSteveCrawlerTier18Eternal" extends="AECZombieSteveCrawlerTier17Ascendant">
+  <entity_class name="AECZombieSteveCrawlerTier18Eternal" extends="AECZombieSteveCrawlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSteveCrawler,SteveCrawler,PZFamily_zombieSteveCrawler,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287616,7 +287952,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSteveTier18Eternal" extends="AECZombieSteveTier17Ascendant">
+  <entity_class name="AECZombieSteveTier18Eternal" extends="AECZombieSteveTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSteve,Steve,PZFamily_zombieSteve,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287626,7 +287962,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieTomClarkTier18Eternal" extends="AECZombieTomClarkTier17Ascendant">
+  <entity_class name="AECZombieTomClarkTier18Eternal" extends="AECZombieTomClarkTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieTomClark,TomClark,PZFamily_zombieTomClark,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287636,7 +287972,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieUtilityWorkerTier18Eternal" extends="AECZombieUtilityWorkerTier17Ascendant">
+  <entity_class name="AECZombieUtilityWorkerTier18Eternal" extends="AECZombieUtilityWorkerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieUtilityWorker,UtilityWorker,PZFamily_zombieUtilityWorker,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287646,7 +287982,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieWightFeralTier18Eternal" extends="AECZombieWightFeralTier17Ascendant">
+  <entity_class name="AECZombieWightFeralTier18Eternal" extends="AECZombieWightFeralTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieWightFeral,WightFeral,PZFamily_zombieWightFeral,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287656,7 +287992,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieYoTier18Eternal" extends="AECZombieYoTier17Ascendant">
+  <entity_class name="AECZombieYoTier18Eternal" extends="AECZombieYoTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieYo,Yo,PZFamily_zombieYo,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287666,217 +288002,385 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="bossAECDumdumT18" extends="bossAECDumdumT17">
+  <entity_class name="bossAECDumdumT18" extends="bossAECDumdumT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="RunningKamikazeT18" extends="RunningKamikazeT17">
+  <entity_class name="RunningKamikazeT18" extends="RunningKamikazeT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECDoomlordDemolishmanBossT18" extends="AECDoomlordDemolishmanBossT17">
+  <entity_class name="AECDoomlordDemolishmanBossT18" extends="AECDoomlordDemolishmanBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheWitchAngelBossT18" extends="AECTheWitchAngelBossT17">
+  <entity_class name="AECTheWitchAngelBossT18" extends="AECTheWitchAngelBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECElectricDemonRunnerBossT18" extends="AECElectricDemonRunnerBossT17">
+  <entity_class name="AECElectricDemonRunnerBossT18" extends="AECElectricDemonRunnerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECExplosiveEagleBossT18" extends="AECExplosiveEagleBossT17">
+  <entity_class name="AECExplosiveEagleBossT18" extends="AECExplosiveEagleBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECHammerGuardianT18" extends="AECHammerGuardianT17">
+  <entity_class name="AECHammerGuardianT18" extends="AECHammerGuardianT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheMechanicianBossT18" extends="AECTheMechanicianBossT17">
+  <entity_class name="AECTheMechanicianBossT18" extends="AECTheMechanicianBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheDruidBossT18" extends="AECTheDruidBossT17">
+  <entity_class name="AECTheDruidBossT18" extends="AECTheDruidBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheExecutionerBossT18" extends="AECTheExecutionerBossT17">
+  <entity_class name="AECTheExecutionerBossT18" extends="AECTheExecutionerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECPartyBeachBossT18" extends="AECPartyBeachBossT17">
+  <entity_class name="AECPartyBeachBossT18" extends="AECPartyBeachBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECMykirBossT18" extends="AECMykirBossT17">
+  <entity_class name="AECMykirBossT18" extends="AECMykirBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECHellskyliBossT18" extends="AECHellskyliBossT17">
+  <entity_class name="AECHellskyliBossT18" extends="AECHellskyliBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECRockbreakerBossT18" extends="AECRockbreakerBossT17">
+  <entity_class name="AECRockbreakerBossT18" extends="AECRockbreakerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECSingerieBossT18" extends="AECSingerieBossT17">
+  <entity_class name="AECSingerieBossT18" extends="AECSingerieBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECGhostBossT18" extends="AECGhostBossT17">
+  <entity_class name="AECGhostBossT18" extends="AECGhostBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECSirenHeadBossT18" extends="AECSirenHeadBossT17">
+  <entity_class name="AECSirenHeadBossT18" extends="AECSirenHeadBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECMushroomBossT18" extends="AECMushroomBossT17">
+  <entity_class name="AECMushroomBossT18" extends="AECMushroomBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheArcherBossT18" extends="AECTheArcherBossT17">
+  <entity_class name="AECTheArcherBossT18" extends="AECTheArcherBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECSheriffBossT18" extends="AECSheriffBossT17">
+  <entity_class name="AECSheriffBossT18" extends="AECSheriffBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECHeadlessBossT18" extends="AECHeadlessBossT17">
+  <entity_class name="AECHeadlessBossT18" extends="AECHeadlessBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18,boss" />
     <property name="ExperienceGain" value="225000" />
     <effect_group name="AEC Tier 18 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="36000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <effect_group name="PZAEC T18 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="150000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="11" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="20" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionBearT18" extends="AECDruidMinionBearT17">
+  <entity_class name="AECDruidMinionBearT18" extends="AECDruidMinionBearT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287886,7 +288390,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionBoarAggroT18" extends="AECDruidMinionBoarAggroT17">
+  <entity_class name="AECDruidMinionBoarAggroT18" extends="AECDruidMinionBoarAggroT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287896,7 +288400,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionBossBoarT18" extends="AECDruidMinionBossBoarT17">
+  <entity_class name="AECDruidMinionBossBoarT18" extends="AECDruidMinionBossBoarT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287906,7 +288410,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionC4WolfT18" extends="AECDruidMinionC4WolfT17">
+  <entity_class name="AECDruidMinionC4WolfT18" extends="AECDruidMinionC4WolfT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287916,7 +288420,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionDireWolfT18" extends="AECDruidMinionDireWolfT17">
+  <entity_class name="AECDruidMinionDireWolfT18" extends="AECDruidMinionDireWolfT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287926,7 +288430,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionWolfAggroT18" extends="AECDruidMinionWolfAggroT17">
+  <entity_class name="AECDruidMinionWolfAggroT18" extends="AECDruidMinionWolfAggroT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287936,7 +288440,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionZombieBearT18" extends="AECDruidMinionZombieBearT17">
+  <entity_class name="AECDruidMinionZombieBearT18" extends="AECDruidMinionZombieBearT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287946,7 +288450,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECSheriffWolfMinion01T18" extends="AECSheriffWolfMinion01T17">
+  <entity_class name="AECSheriffWolfMinion01T18" extends="AECSheriffWolfMinion01T15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier18,AECtier18" />
     <property name="ExperienceGain" value="65000" />
@@ -287956,7 +288460,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieArleneTier19Apocalyptic" extends="AECZombieArleneTier18Eternal">
+  <entity_class name="AECZombieArleneTier19Apocalyptic" extends="AECZombieArleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieArlene,Arlene,PZFamily_zombieArlene,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -287966,7 +288470,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBikerTier19Apocalyptic" extends="AECZombieBikerTier18Eternal">
+  <entity_class name="AECZombieBikerTier19Apocalyptic" extends="AECZombieBikerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBiker,biker,Biker,PZFamily_zombieBiker,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -287976,7 +288480,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBoeTier19Apocalyptic" extends="AECZombieBoeTier18Eternal">
+  <entity_class name="AECZombieBoeTier19Apocalyptic" extends="AECZombieBoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBoe,Boe,PZFamily_zombieBoe,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -287986,7 +288490,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBowlerTier19Apocalyptic" extends="AECZombieBowlerTier18Eternal">
+  <entity_class name="AECZombieBowlerTier19Apocalyptic" extends="AECZombieBowlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBowler,Bowler,PZFamily_zombieBowler,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -287996,7 +288500,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBurntTier19Apocalyptic" extends="AECZombieBurntTier18Eternal">
+  <entity_class name="AECZombieBurntTier19Apocalyptic" extends="AECZombieBurntTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBurnt,BurntZombie,PZFamily_zombieBurnt,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288006,7 +288510,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieBusinessManTier19Apocalyptic" extends="AECZombieBusinessManTier18Eternal">
+  <entity_class name="AECZombieBusinessManTier19Apocalyptic" extends="AECZombieBusinessManTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieBusinessMan,businessman,PZFamily_zombieBusinessMan,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288016,7 +288520,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieChuckTier19Apocalyptic" extends="AECZombieChuckTier18Eternal">
+  <entity_class name="AECZombieChuckTier19Apocalyptic" extends="AECZombieChuckTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieChuck,Chuck,frostClaw,PZFamily_zombieChuck,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288026,7 +288530,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieDarleneTier19Apocalyptic" extends="AECZombieDarleneTier18Eternal">
+  <entity_class name="AECZombieDarleneTier19Apocalyptic" extends="AECZombieDarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieDarlene,Darlene,PZFamily_zombieDarlene,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288036,7 +288540,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieDemolitionTier19Apocalyptic" extends="AECZombieDemolitionTier18Eternal">
+  <entity_class name="AECZombieDemolitionTier19Apocalyptic" extends="AECZombieDemolitionTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieDemolition,Demolition,PZFamily_zombieDemolition,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288046,7 +288550,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieFatCopTier19Apocalyptic" extends="AECZombieFatCopTier18Eternal">
+  <entity_class name="AECZombieFatCopTier19Apocalyptic" extends="AECZombieFatCopTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieFatCop,Cop,PZFamily_zombieFatCop,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288056,7 +288560,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieFatHawaiianTier19Apocalyptic" extends="AECZombieFatHawaiianTier18Eternal">
+  <entity_class name="AECZombieFatHawaiianTier19Apocalyptic" extends="AECZombieFatHawaiianTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieFatHawaiian,FatHawaiian,PZFamily_zombieFatHawaiian,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288066,7 +288570,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieFemaleFatTier19Apocalyptic" extends="AECZombieFemaleFatTier18Eternal">
+  <entity_class name="AECZombieFemaleFatTier19Apocalyptic" extends="AECZombieFemaleFatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieFemaleFat,FemaleFat,PZFamily_zombieFemaleFat,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288076,7 +288580,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieInmateTier19Apocalyptic" extends="AECZombieInmateTier18Eternal">
+  <entity_class name="AECZombieInmateTier19Apocalyptic" extends="AECZombieInmateTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieInmate,Inmate,PZFamily_zombieInmate,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288086,7 +288590,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieJanitorTier19Apocalyptic" extends="AECZombieJanitorTier18Eternal">
+  <entity_class name="AECZombieJanitorTier19Apocalyptic" extends="AECZombieJanitorTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieJanitor,janitor,PZFamily_zombieJanitor,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288096,7 +288600,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieJoeTier19Apocalyptic" extends="AECZombieJoeTier18Eternal">
+  <entity_class name="AECZombieJoeTier19Apocalyptic" extends="AECZombieJoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieJoe,Joe,PZFamily_zombieJoe,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288106,7 +288610,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieLabTier19Apocalyptic" extends="AECZombieLabTier18Eternal">
+  <entity_class name="AECZombieLabTier19Apocalyptic" extends="AECZombieLabTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieLab,Lab,PZFamily_zombieLab,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288116,7 +288620,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieLumberjackTier19Apocalyptic" extends="AECZombieLumberjackTier18Eternal">
+  <entity_class name="AECZombieLumberjackTier19Apocalyptic" extends="AECZombieLumberjackTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieLumberjack,Lumberjack,PZFamily_zombieLumberjack,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288126,7 +288630,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieMaleHazmatTier19Apocalyptic" extends="AECZombieMaleHazmatTier18Eternal">
+  <entity_class name="AECZombieMaleHazmatTier19Apocalyptic" extends="AECZombieMaleHazmatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieMaleHazmat,Hazmat,PZFamily_zombieMaleHazmat,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288136,7 +288640,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieMarleneTier19Apocalyptic" extends="AECZombieMarleneTier18Eternal">
+  <entity_class name="AECZombieMarleneTier19Apocalyptic" extends="AECZombieMarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieMarlene,Marlene,PZFamily_zombieMarlene,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288146,7 +288650,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieMoeTier19Apocalyptic" extends="AECZombieMoeTier18Eternal">
+  <entity_class name="AECZombieMoeTier19Apocalyptic" extends="AECZombieMoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieMoe,Moe,PZFamily_zombieMoe,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288156,7 +288660,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieMutatedTier19Apocalyptic" extends="AECZombieMutatedTier18Eternal">
+  <entity_class name="AECZombieMutatedTier19Apocalyptic" extends="AECZombieMutatedTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieMutated,Mutated,PZFamily_zombieMutated,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288166,7 +288670,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieNurseTier19Apocalyptic" extends="AECZombieNurseTier18Eternal">
+  <entity_class name="AECZombieNurseTier19Apocalyptic" extends="AECZombieNurseTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieNurse,Nurse,PZFamily_zombieNurse,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288176,7 +288680,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombiePartyGirlTier19Apocalyptic" extends="AECZombiePartyGirlTier18Eternal">
+  <entity_class name="AECZombiePartyGirlTier19Apocalyptic" extends="AECZombiePartyGirlTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombiePartyGirl,PartyGirl,PZFamily_zombiePartyGirl,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288186,7 +288690,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombiePlagueSpitterTier19Apocalyptic" extends="AECZombiePlagueSpitterTier18Eternal">
+  <entity_class name="AECZombiePlagueSpitterTier19Apocalyptic" extends="AECZombiePlagueSpitterTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombiePlagueSpitter,PlagueSpitter,PZFamily_zombiePlagueSpitter,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288196,7 +288700,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieRancherTier19Apocalyptic" extends="AECZombieRancherTier18Eternal">
+  <entity_class name="AECZombieRancherTier19Apocalyptic" extends="AECZombieRancherTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieRancher,Rancher,PZFamily_zombieRancher,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288206,7 +288710,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieScreamerTier19Apocalyptic" extends="AECZombieScreamerTier18Eternal">
+  <entity_class name="AECZombieScreamerTier19Apocalyptic" extends="AECZombieScreamerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieScreamer,Screamer,PZFamily_zombieScreamer,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288216,7 +288720,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSkateboarderTier19Apocalyptic" extends="AECZombieSkateboarderTier18Eternal">
+  <entity_class name="AECZombieSkateboarderTier19Apocalyptic" extends="AECZombieSkateboarderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSkateboarder,Skateboarder,PZFamily_zombieSkateboarder,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288226,7 +288730,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSoldierTier19Apocalyptic" extends="AECZombieSoldierTier18Eternal">
+  <entity_class name="AECZombieSoldierTier19Apocalyptic" extends="AECZombieSoldierTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSoldier,Soldier,PZFamily_zombieSoldier,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288236,7 +288740,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSpiderTier19Apocalyptic" extends="AECZombieSpiderTier18Eternal">
+  <entity_class name="AECZombieSpiderTier19Apocalyptic" extends="AECZombieSpiderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSpider,Spider,spider,PZFamily_zombieSpider,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288246,7 +288750,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSteveCrawlerTier19Apocalyptic" extends="AECZombieSteveCrawlerTier18Eternal">
+  <entity_class name="AECZombieSteveCrawlerTier19Apocalyptic" extends="AECZombieSteveCrawlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSteveCrawler,SteveCrawler,PZFamily_zombieSteveCrawler,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288256,7 +288760,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieSteveTier19Apocalyptic" extends="AECZombieSteveTier18Eternal">
+  <entity_class name="AECZombieSteveTier19Apocalyptic" extends="AECZombieSteveTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieSteve,Steve,PZFamily_zombieSteve,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288266,7 +288770,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieTomClarkTier19Apocalyptic" extends="AECZombieTomClarkTier18Eternal">
+  <entity_class name="AECZombieTomClarkTier19Apocalyptic" extends="AECZombieTomClarkTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieTomClark,TomClark,PZFamily_zombieTomClark,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288276,7 +288780,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieUtilityWorkerTier19Apocalyptic" extends="AECZombieUtilityWorkerTier18Eternal">
+  <entity_class name="AECZombieUtilityWorkerTier19Apocalyptic" extends="AECZombieUtilityWorkerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieUtilityWorker,UtilityWorker,PZFamily_zombieUtilityWorker,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288286,7 +288790,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieWightFeralTier19Apocalyptic" extends="AECZombieWightFeralTier18Eternal">
+  <entity_class name="AECZombieWightFeralTier19Apocalyptic" extends="AECZombieWightFeralTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieWightFeral,WightFeral,PZFamily_zombieWightFeral,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288296,7 +288800,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECZombieYoTier19Apocalyptic" extends="AECZombieYoTier18Eternal">
+  <entity_class name="AECZombieYoTier19Apocalyptic" extends="AECZombieYoTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieYo,Yo,PZFamily_zombieYo,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288306,217 +288810,385 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="bossAECDumdumT19" extends="bossAECDumdumT18">
+  <entity_class name="bossAECDumdumT19" extends="bossAECDumdumT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="RunningKamikazeT19" extends="RunningKamikazeT18">
+  <entity_class name="RunningKamikazeT19" extends="RunningKamikazeT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECDoomlordDemolishmanBossT19" extends="AECDoomlordDemolishmanBossT18">
+  <entity_class name="AECDoomlordDemolishmanBossT19" extends="AECDoomlordDemolishmanBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheWitchAngelBossT19" extends="AECTheWitchAngelBossT18">
+  <entity_class name="AECTheWitchAngelBossT19" extends="AECTheWitchAngelBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECElectricDemonRunnerBossT19" extends="AECElectricDemonRunnerBossT18">
+  <entity_class name="AECElectricDemonRunnerBossT19" extends="AECElectricDemonRunnerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECExplosiveEagleBossT19" extends="AECExplosiveEagleBossT18">
+  <entity_class name="AECExplosiveEagleBossT19" extends="AECExplosiveEagleBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECHammerGuardianT19" extends="AECHammerGuardianT18">
+  <entity_class name="AECHammerGuardianT19" extends="AECHammerGuardianT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheMechanicianBossT19" extends="AECTheMechanicianBossT18">
+  <entity_class name="AECTheMechanicianBossT19" extends="AECTheMechanicianBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheDruidBossT19" extends="AECTheDruidBossT18">
+  <entity_class name="AECTheDruidBossT19" extends="AECTheDruidBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheExecutionerBossT19" extends="AECTheExecutionerBossT18">
+  <entity_class name="AECTheExecutionerBossT19" extends="AECTheExecutionerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECPartyBeachBossT19" extends="AECPartyBeachBossT18">
+  <entity_class name="AECPartyBeachBossT19" extends="AECPartyBeachBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECMykirBossT19" extends="AECMykirBossT18">
+  <entity_class name="AECMykirBossT19" extends="AECMykirBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECHellskyliBossT19" extends="AECHellskyliBossT18">
+  <entity_class name="AECHellskyliBossT19" extends="AECHellskyliBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECRockbreakerBossT19" extends="AECRockbreakerBossT18">
+  <entity_class name="AECRockbreakerBossT19" extends="AECRockbreakerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECSingerieBossT19" extends="AECSingerieBossT18">
+  <entity_class name="AECSingerieBossT19" extends="AECSingerieBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECGhostBossT19" extends="AECGhostBossT18">
+  <entity_class name="AECGhostBossT19" extends="AECGhostBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECSirenHeadBossT19" extends="AECSirenHeadBossT18">
+  <entity_class name="AECSirenHeadBossT19" extends="AECSirenHeadBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECMushroomBossT19" extends="AECMushroomBossT18">
+  <entity_class name="AECMushroomBossT19" extends="AECMushroomBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECTheArcherBossT19" extends="AECTheArcherBossT18">
+  <entity_class name="AECTheArcherBossT19" extends="AECTheArcherBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECSheriffBossT19" extends="AECSheriffBossT18">
+  <entity_class name="AECSheriffBossT19" extends="AECSheriffBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECHeadlessBossT19" extends="AECHeadlessBossT18">
+  <entity_class name="AECHeadlessBossT19" extends="AECHeadlessBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
-    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
+    <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19,boss" />
     <property name="ExperienceGain" value="325000" />
     <effect_group name="AEC Tier 19 Boss Effects">
       <passive_effect name="HealthMax" operation="base_set" value="54000000" />
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <effect_group name="PZAEC T19 Boss Final Escalation">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+      <passive_effect name="HealthMax" operation="base_set" value="260000000" />
+      <passive_effect name="EntityDamage" operation="perc_set" value="15" />
+      <passive_effect name="BlockDamage" operation="perc_set" value="28" />
+      <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
+      <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
+    </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionBearT19" extends="AECDruidMinionBearT18">
+  <entity_class name="AECDruidMinionBearT19" extends="AECDruidMinionBearT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288526,7 +289198,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionBoarAggroT19" extends="AECDruidMinionBoarAggroT18">
+  <entity_class name="AECDruidMinionBoarAggroT19" extends="AECDruidMinionBoarAggroT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288536,7 +289208,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionBossBoarT19" extends="AECDruidMinionBossBoarT18">
+  <entity_class name="AECDruidMinionBossBoarT19" extends="AECDruidMinionBossBoarT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288546,7 +289218,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionC4WolfT19" extends="AECDruidMinionC4WolfT18">
+  <entity_class name="AECDruidMinionC4WolfT19" extends="AECDruidMinionC4WolfT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288556,7 +289228,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionDireWolfT19" extends="AECDruidMinionDireWolfT18">
+  <entity_class name="AECDruidMinionDireWolfT19" extends="AECDruidMinionDireWolfT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288566,7 +289238,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionWolfAggroT19" extends="AECDruidMinionWolfAggroT18">
+  <entity_class name="AECDruidMinionWolfAggroT19" extends="AECDruidMinionWolfAggroT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288576,7 +289248,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECDruidMinionZombieBearT19" extends="AECDruidMinionZombieBearT18">
+  <entity_class name="AECDruidMinionZombieBearT19" extends="AECDruidMinionZombieBearT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />
@@ -288586,7 +289258,7 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
   </entity_class>
-  <entity_class name="AECSheriffWolfMinion01T19" extends="AECSheriffWolfMinion01T18">
+  <entity_class name="AECSheriffWolfMinion01T19" extends="AECSheriffWolfMinion01T15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Tags" value="entity,zombie,hostile,AECTier19,AECtier19" />
     <property name="ExperienceGain" value="90000" />

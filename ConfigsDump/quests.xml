@@ -337369,4 +337369,202 @@
     <reward type="Item" id="resourceAECMutationSampleT5" value="3750" />
     <reward type="Item" id="itemPZAECBossLootBundleT16" value="1" />
   </quest>
+  <quest id="aec_quest_T17_A1_clear" template="aec_base_A1">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T17_A1_name" />
+    <variable name="offer" value="aec_quest_T17_A1_offer" />
+    <reward type="Exp" value="400000" />
+    <reward type="Item" id="casinoCoin" value="20000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="350" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="1500" />
+  </quest>
+  <quest id="aec_quest_T17_A2_clear" template="aec_base_A2">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T17_A2_name" />
+    <variable name="offer" value="aec_quest_T17_A2_offer" />
+    <reward type="Exp" value="800000" />
+    <reward type="Item" id="casinoCoin" value="20000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="375" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="3000" />
+  </quest>
+  <quest id="aec_quest_T17_A3_clear" template="aec_base_A3">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T17_A3_name" />
+    <variable name="offer" value="aec_quest_T17_A3_offer" />
+    <reward type="Exp" value="1200000" />
+    <reward type="Item" id="casinoCoin" value="20000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="400" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="4500" />
+  </quest>
+  <quest id="aec_quest_T17_A4_clear" template="aec_base_A4">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T17_A4_name" />
+    <variable name="offer" value="aec_quest_T17_A4_offer" />
+    <reward type="Exp" value="1600000" />
+    <reward type="Item" id="casinoCoin" value="20000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="425" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="6000" />
+  </quest>
+  <quest id="aec_quest_T17_A5_clear" template="aec_base_A5">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T17_A5_name" />
+    <variable name="offer" value="aec_quest_T17_A5_offer" />
+    <reward type="Exp" value="2000000" />
+    <reward type="Item" id="casinoCoin" value="20000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="450" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="7500" />
+    <reward type="Item" id="itemPZAECBossLootBundleT16" value="1" />
+  </quest>
+  <quest id="aec_quest_T18_A1_clear" template="aec_base_A1">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T18_A1_name" />
+    <variable name="offer" value="aec_quest_T18_A1_offer" />
+    <reward type="Exp" value="800000" />
+    <reward type="Item" id="casinoCoin" value="35000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="500" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="3000" />
+  </quest>
+  <quest id="aec_quest_T18_A2_clear" template="aec_base_A2">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T18_A2_name" />
+    <variable name="offer" value="aec_quest_T18_A2_offer" />
+    <reward type="Exp" value="1600000" />
+    <reward type="Item" id="casinoCoin" value="35000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="540" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="6000" />
+  </quest>
+  <quest id="aec_quest_T18_A3_clear" template="aec_base_A3">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T18_A3_name" />
+    <variable name="offer" value="aec_quest_T18_A3_offer" />
+    <reward type="Exp" value="2400000" />
+    <reward type="Item" id="casinoCoin" value="35000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="580" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="9000" />
+  </quest>
+  <quest id="aec_quest_T18_A4_clear" template="aec_base_A4">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T18_A4_name" />
+    <variable name="offer" value="aec_quest_T18_A4_offer" />
+    <reward type="Exp" value="3200000" />
+    <reward type="Item" id="casinoCoin" value="35000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="620" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="12000" />
+  </quest>
+  <quest id="aec_quest_T18_A5_clear" template="aec_base_A5">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T18_A5_name" />
+    <variable name="offer" value="aec_quest_T18_A5_offer" />
+    <reward type="Exp" value="4000000" />
+    <reward type="Item" id="casinoCoin" value="35000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="660" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="15000" />
+    <reward type="Item" id="itemPZAECBossLootBundleT16" value="1" />
+  </quest>
+  <quest id="aec_quest_T19_A1_clear" template="aec_base_A1">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T19_A1_name" />
+    <variable name="offer" value="aec_quest_T19_A1_offer" />
+    <reward type="Exp" value="1600000" />
+    <reward type="Item" id="casinoCoin" value="50000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="750" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="6000" />
+  </quest>
+  <quest id="aec_quest_T19_A2_clear" template="aec_base_A2">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T19_A2_name" />
+    <variable name="offer" value="aec_quest_T19_A2_offer" />
+    <reward type="Exp" value="3200000" />
+    <reward type="Item" id="casinoCoin" value="50000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="825" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="12000" />
+  </quest>
+  <quest id="aec_quest_T19_A3_clear" template="aec_base_A3">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T19_A3_name" />
+    <variable name="offer" value="aec_quest_T19_A3_offer" />
+    <reward type="Exp" value="4800000" />
+    <reward type="Item" id="casinoCoin" value="50000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="900" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="18000" />
+  </quest>
+  <quest id="aec_quest_T19_A4_clear" template="aec_base_A4">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T19_A4_name" />
+    <variable name="offer" value="aec_quest_T19_A4_offer" />
+    <reward type="Exp" value="6400000" />
+    <reward type="Item" id="casinoCoin" value="50000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="975" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="24000" />
+  </quest>
+  <quest id="aec_quest_T19_A5_clear" template="aec_base_A5">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="difficulty_tier" value="6" />
+    <variable name="name" value="aec_quest_T19_A5_name" />
+    <variable name="offer" value="aec_quest_T19_A5_offer" />
+    <reward type="Exp" value="8000000" />
+    <reward type="Item" id="casinoCoin" value="50000" />
+    <reward type="LootItem" id="groupQuestAmmo,groupQuestSchematics,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMedical,groupQuestAmmo,groupQuestMods" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestGas,groupQuestSteel02,groupQuestResourcesT1" ischosen="true" value="6" />
+    <reward type="Item" id="aecUniversalToken" value="1050" />
+    <reward type="Item" id="resourceAECMutationSampleT5" value="30000" />
+    <reward type="Item" id="itemPZAECBossLootBundleT16" value="1" />
+  </quest>
 </quests>
