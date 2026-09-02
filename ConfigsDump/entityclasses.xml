@@ -287211,6 +287211,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECDumdumBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="RunningKamikazeT17" extends="RunningKamikazeT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287229,6 +287232,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="RunningKamikazeBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECDoomlordDemolishmanBossT17" extends="AECDoomlordDemolishmanBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287247,6 +287253,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="DoomlordBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheWitchAngelBossT17" extends="AECTheWitchAngelBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287265,6 +287274,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECWitchBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECElectricDemonRunnerBossT17" extends="AECElectricDemonRunnerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287283,6 +287295,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECElectricDemonBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECExplosiveEagleBossT17" extends="AECExplosiveEagleBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287301,6 +287316,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECExplosiveEagleBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECHammerGuardianT17" extends="AECHammerGuardianT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287319,6 +287337,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECHammerGuardianBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheMechanicianBossT17" extends="AECTheMechanicianBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287337,6 +287358,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECMechanicianBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheDruidBossT17" extends="AECTheDruidBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287355,6 +287379,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECDruidBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheExecutionerBossT17" extends="AECTheExecutionerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287373,6 +287400,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECExecutionerBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECPartyBeachBossT17" extends="AECPartyBeachBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287391,6 +287421,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECPartyBeachBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECMykirBossT17" extends="AECMykirBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287409,6 +287442,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECMykirBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECHellskyliBossT17" extends="AECHellskyliBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287427,6 +287463,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECHellskyliLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECRockbreakerBossT17" extends="AECRockbreakerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287445,6 +287484,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECRockbreakerLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECSingerieBossT17" extends="AECSingerieBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287463,6 +287505,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECSingerieBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECGhostBossT17" extends="AECGhostBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287481,6 +287526,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECGhostBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECSirenHeadBossT17" extends="AECSirenHeadBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287499,6 +287547,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECSirenHeadBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECMushroomBossT17" extends="AECMushroomBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287517,6 +287568,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECMushroomBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheArcherBossT17" extends="AECTheArcherBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287535,6 +287589,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECArcherBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECSheriffBossT17" extends="AECSheriffBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287553,6 +287610,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECSheriffBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECHeadlessBossT17" extends="AECHeadlessBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287571,6 +287631,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="45" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.65" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECHeadlessBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECDruidMinionBearT17" extends="AECDruidMinionBearT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288019,6 +288082,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECDumdumBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="RunningKamikazeT18" extends="RunningKamikazeT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288037,6 +288103,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="RunningKamikazeBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECDoomlordDemolishmanBossT18" extends="AECDoomlordDemolishmanBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288055,6 +288124,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="DoomlordBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheWitchAngelBossT18" extends="AECTheWitchAngelBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288073,6 +288145,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECWitchBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECElectricDemonRunnerBossT18" extends="AECElectricDemonRunnerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288091,6 +288166,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECElectricDemonBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECExplosiveEagleBossT18" extends="AECExplosiveEagleBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288109,6 +288187,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECExplosiveEagleBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECHammerGuardianT18" extends="AECHammerGuardianT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288127,6 +288208,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECHammerGuardianBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheMechanicianBossT18" extends="AECTheMechanicianBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288145,6 +288229,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECMechanicianBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheDruidBossT18" extends="AECTheDruidBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288163,6 +288250,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECDruidBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheExecutionerBossT18" extends="AECTheExecutionerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288181,6 +288271,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECExecutionerBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECPartyBeachBossT18" extends="AECPartyBeachBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288199,6 +288292,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECPartyBeachBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECMykirBossT18" extends="AECMykirBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288217,6 +288313,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECMykirBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECHellskyliBossT18" extends="AECHellskyliBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288235,6 +288334,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECHellskyliLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECRockbreakerBossT18" extends="AECRockbreakerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288253,6 +288355,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECRockbreakerLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECSingerieBossT18" extends="AECSingerieBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288271,6 +288376,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECSingerieBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECGhostBossT18" extends="AECGhostBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288289,6 +288397,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECGhostBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECSirenHeadBossT18" extends="AECSirenHeadBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288307,6 +288418,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECSirenHeadBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECMushroomBossT18" extends="AECMushroomBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288325,6 +288439,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECMushroomBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheArcherBossT18" extends="AECTheArcherBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288343,6 +288460,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECArcherBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECSheriffBossT18" extends="AECSheriffBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288361,6 +288481,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECSheriffBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECHeadlessBossT18" extends="AECHeadlessBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288379,6 +288502,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="55" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.8" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECHeadlessBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECDruidMinionBearT18" extends="AECDruidMinionBearT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288827,6 +288953,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECDumdumBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="RunningKamikazeT19" extends="RunningKamikazeT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288845,6 +288974,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="RunningKamikazeBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECDoomlordDemolishmanBossT19" extends="AECDoomlordDemolishmanBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288863,6 +288995,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="DoomlordBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheWitchAngelBossT19" extends="AECTheWitchAngelBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288881,6 +289016,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECWitchBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECElectricDemonRunnerBossT19" extends="AECElectricDemonRunnerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288899,6 +289037,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECElectricDemonBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECExplosiveEagleBossT19" extends="AECExplosiveEagleBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288917,6 +289058,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECExplosiveEagleBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECHammerGuardianT19" extends="AECHammerGuardianT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288935,6 +289079,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECHammerGuardianBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheMechanicianBossT19" extends="AECTheMechanicianBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288953,6 +289100,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECMechanicianBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheDruidBossT19" extends="AECTheDruidBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288971,6 +289121,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECDruidBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheExecutionerBossT19" extends="AECTheExecutionerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288989,6 +289142,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECExecutionerBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECPartyBeachBossT19" extends="AECPartyBeachBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289007,6 +289163,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECPartyBeachBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECMykirBossT19" extends="AECMykirBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289025,6 +289184,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECMykirBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECHellskyliBossT19" extends="AECHellskyliBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289043,6 +289205,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECHellskyliLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECRockbreakerBossT19" extends="AECRockbreakerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289061,6 +289226,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECRockbreakerLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECSingerieBossT19" extends="AECSingerieBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289079,6 +289247,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECSingerieBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECGhostBossT19" extends="AECGhostBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289097,6 +289268,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECGhostBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECSirenHeadBossT19" extends="AECSirenHeadBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289115,6 +289289,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECSirenHeadBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECMushroomBossT19" extends="AECMushroomBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289133,6 +289310,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECMushroomBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheArcherBossT19" extends="AECTheArcherBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289151,6 +289331,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECArcherBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECSheriffBossT19" extends="AECSheriffBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289169,6 +289352,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECSheriffBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECHeadlessBossT19" extends="AECHeadlessBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289187,6 +289373,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="PhysicalDamageResist" operation="base_set" value="65" />
       <passive_effect name="BuffResistance" operation="base_set" value="0.9" tags="buffInjuryKnockdown01,buffInjuryKnockdown02,buffInjuryConcussion,buffInjuryStunned01CHTrigger,buffShocked" />
     </effect_group>
+    <property name="LootDropEntityClass" value="AECHeadlessBossLootBagT16">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECDruidMinionBearT19" extends="AECDruidMinionBearT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->

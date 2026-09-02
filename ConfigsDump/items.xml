@@ -51377,7 +51377,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="WeaponHandling" operation="base_set" value="1" tags="perkDeadEye" />
       <passive_effect name="DegradationMax" operation="base_set" value="800,1250" tier="1,6" tags="perkDeadEye" />
       <passive_effect name="DegradationPerUse" operation="base_set" value="1.4" tags="perkDeadEye" />
-      <passive_effect name="DamageModifier" operation="base_add" value="300" tags="head" />
+      <passive_effect name="DamageModifier" operation="base_add" value="2000" tags="head">
+        <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
+      </passive_effect>
       <passive_effect name="TargetArmor" operation="perc_add" value="-.5" tags="perkDeadEye" />
       <passive_effect name="EntityPenetrationCount" operation="perc_add" value="5" tags="perkDeadEye" />
       <triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffWeaponShock" />
@@ -51551,7 +51553,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="WeaponHandling" operation="base_set" value="1" tags="perkDeadEye" />
       <passive_effect name="DegradationMax" operation="base_set" value="800,1250" tier="1,6" tags="perkDeadEye" />
       <passive_effect name="DegradationPerUse" operation="base_set" value="1.8" tags="perkDeadEye" />
-      <passive_effect name="DamageModifier" operation="base_add" value="300" tags="head" />
+      <passive_effect name="DamageModifier" operation="base_add" value="2000" tags="head">
+        <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
+      </passive_effect>
       <passive_effect name="TargetArmor" operation="perc_add" value="-1" tags="perkDeadEye" />
       <passive_effect name="EntityPenetrationCount" operation="perc_add" value="5" tags="perkDeadEye" />
       <triggered_effect trigger="onSelfPrimaryActionRayHit" action="AddBuff" target="other" buff="buffInjuryKnockdown01">
