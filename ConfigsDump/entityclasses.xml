@@ -286225,6 +286225,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBikerTier16Transcendent" extends="AECZombieBikerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286240,6 +286243,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerThug">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBoeTier16Transcendent" extends="AECZombieBoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286255,6 +286261,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBowlerTier16Transcendent" extends="AECZombieBowlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286270,6 +286279,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBurntTier16Transcendent" extends="AECZombieBurntTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286285,6 +286297,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBusinessManTier16Transcendent" extends="AECZombieBusinessManTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286300,6 +286315,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieChuckTier16Transcendent" extends="AECZombieChuckTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286315,6 +286333,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieDarleneTier16Transcendent" extends="AECZombieDarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286330,11 +286351,14 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieDemolitionTier16Transcendent" extends="AECZombieDemolitionTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="UserSpawnType" value="Menu" />
-    <property name="MatColor" value="AECTier16TranscendentColor" />
+    <!-- Keep the Demolition model's native materials, as T15/T17-T19 do. It cannot safely use generic MatColor tinting. -->
     <property name="Tags" value="entity,zombie,walker,allbiome,feral,infernal,AECtier16,AECtier15,AECbase_zombieDemolition,Demolition,PZFamily_zombieDemolition" />
     <property name="ExperienceGain" value="30000" />
     <effect_group name="AEC Tier 16 Effects">
@@ -286345,6 +286369,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerBoss">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieFatCopTier16Transcendent" extends="AECZombieFatCopTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286360,6 +286387,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieFatHawaiianTier16Transcendent" extends="AECZombieFatHawaiianTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286375,6 +286405,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieFemaleFatTier16Transcendent" extends="AECZombieFemaleFatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286390,6 +286423,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieInmateTier16Transcendent" extends="AECZombieInmateTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286405,6 +286441,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieJanitorTier16Transcendent" extends="AECZombieJanitorTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286420,6 +286459,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieJoeTier16Transcendent" extends="AECZombieJoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286435,6 +286477,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieLabTier16Transcendent" extends="AECZombieLabTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286450,6 +286495,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerLab">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieLumberjackTier16Transcendent" extends="AECZombieLumberjackTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286465,6 +286513,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMaleHazmatTier16Transcendent" extends="AECZombieMaleHazmatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286480,6 +286531,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMarleneTier16Transcendent" extends="AECZombieMarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286495,6 +286549,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMoeTier16Transcendent" extends="AECZombieMoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286510,6 +286567,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMutatedTier16Transcendent" extends="AECZombieMutatedTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286525,6 +286585,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieNurseTier16Transcendent" extends="AECZombieNurseTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286540,6 +286603,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerNurse">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombiePartyGirlTier16Transcendent" extends="AECZombiePartyGirlTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286555,6 +286621,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombiePlagueSpitterTier16Transcendent" extends="AECZombiePlagueSpitterTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286570,6 +286639,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular,1,PZAECMobT16_EntityLootContainerPlague,1">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieRancherTier16Transcendent" extends="AECZombieRancherTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286585,6 +286657,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular,1,PZAECMobT16_EntityLootContainerPlague,1">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieScreamerTier16Transcendent" extends="AECZombieScreamerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286600,6 +286675,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSkateboarderTier16Transcendent" extends="AECZombieSkateboarderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286615,6 +286693,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerThug">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSoldierTier16Transcendent" extends="AECZombieSoldierTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286630,6 +286711,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerSoldier">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSpiderTier16Transcendent" extends="AECZombieSpiderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286645,6 +286729,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSteveCrawlerTier16Transcendent" extends="AECZombieSteveCrawlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286660,6 +286747,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSteveTier16Transcendent" extends="AECZombieSteveTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286675,6 +286765,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieTomClarkTier16Transcendent" extends="AECZombieTomClarkTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286690,6 +286783,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieUtilityWorkerTier16Transcendent" extends="AECZombieUtilityWorkerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286705,6 +286801,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerUtility">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieWightFeralTier16Transcendent" extends="AECZombieWightFeralTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286720,6 +286819,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieYoTier16Transcendent" extends="AECZombieYoTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286735,6 +286837,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <passive_effect name="BlockDamage" operation="perc_set" value="4.5" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT16_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECDruidMinionBearT16" extends="AECDruidMinionBearT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286853,6 +286958,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBikerTier17Ascendant" extends="AECZombieBikerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286863,6 +286971,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerThug">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBoeTier17Ascendant" extends="AECZombieBoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286873,6 +286984,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBowlerTier17Ascendant" extends="AECZombieBowlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286883,6 +286997,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBurntTier17Ascendant" extends="AECZombieBurntTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286893,6 +287010,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBusinessManTier17Ascendant" extends="AECZombieBusinessManTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286903,6 +287023,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieChuckTier17Ascendant" extends="AECZombieChuckTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286913,6 +287036,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieDarleneTier17Ascendant" extends="AECZombieDarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286923,6 +287049,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieDemolitionTier17Ascendant" extends="AECZombieDemolitionTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286933,6 +287062,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerBoss">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieFatCopTier17Ascendant" extends="AECZombieFatCopTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286943,6 +287075,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieFatHawaiianTier17Ascendant" extends="AECZombieFatHawaiianTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286953,6 +287088,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieFemaleFatTier17Ascendant" extends="AECZombieFemaleFatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286963,6 +287101,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieInmateTier17Ascendant" extends="AECZombieInmateTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286973,6 +287114,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieJanitorTier17Ascendant" extends="AECZombieJanitorTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286983,6 +287127,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieJoeTier17Ascendant" extends="AECZombieJoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -286993,6 +287140,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieLabTier17Ascendant" extends="AECZombieLabTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287003,6 +287153,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerLab">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieLumberjackTier17Ascendant" extends="AECZombieLumberjackTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287013,6 +287166,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMaleHazmatTier17Ascendant" extends="AECZombieMaleHazmatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287023,6 +287179,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMarleneTier17Ascendant" extends="AECZombieMarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287033,6 +287192,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMoeTier17Ascendant" extends="AECZombieMoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287043,6 +287205,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMutatedTier17Ascendant" extends="AECZombieMutatedTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287053,6 +287218,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieNurseTier17Ascendant" extends="AECZombieNurseTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287063,6 +287231,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerNurse">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombiePartyGirlTier17Ascendant" extends="AECZombiePartyGirlTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287073,6 +287244,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombiePlagueSpitterTier17Ascendant" extends="AECZombiePlagueSpitterTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287083,6 +287257,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular,1,PZAECMobT17_EntityLootContainerPlague,1">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieRancherTier17Ascendant" extends="AECZombieRancherTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287093,6 +287270,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular,1,PZAECMobT17_EntityLootContainerPlague,1">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieScreamerTier17Ascendant" extends="AECZombieScreamerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287103,6 +287283,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSkateboarderTier17Ascendant" extends="AECZombieSkateboarderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287113,6 +287296,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerThug">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSoldierTier17Ascendant" extends="AECZombieSoldierTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287123,6 +287309,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerSoldier">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSpiderTier17Ascendant" extends="AECZombieSpiderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287133,6 +287322,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSteveCrawlerTier17Ascendant" extends="AECZombieSteveCrawlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287143,6 +287335,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSteveTier17Ascendant" extends="AECZombieSteveTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287153,6 +287348,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieTomClarkTier17Ascendant" extends="AECZombieTomClarkTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287163,6 +287361,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieUtilityWorkerTier17Ascendant" extends="AECZombieUtilityWorkerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287173,6 +287374,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerUtility">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieWightFeralTier17Ascendant" extends="AECZombieWightFeralTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287183,6 +287387,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieYoTier17Ascendant" extends="AECZombieYoTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287193,6 +287400,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
       <passive_effect name="BlockDamage" operation="perc_set" value="6" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT17_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="bossAECDumdumT17" extends="bossAECDumdumT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287724,6 +287934,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBikerTier18Eternal" extends="AECZombieBikerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287734,6 +287947,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerThug">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBoeTier18Eternal" extends="AECZombieBoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287744,6 +287960,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBowlerTier18Eternal" extends="AECZombieBowlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287754,6 +287973,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBurntTier18Eternal" extends="AECZombieBurntTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287764,6 +287986,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBusinessManTier18Eternal" extends="AECZombieBusinessManTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287774,6 +287999,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieChuckTier18Eternal" extends="AECZombieChuckTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287784,6 +288012,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieDarleneTier18Eternal" extends="AECZombieDarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287794,6 +288025,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieDemolitionTier18Eternal" extends="AECZombieDemolitionTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287804,6 +288038,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerBoss">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieFatCopTier18Eternal" extends="AECZombieFatCopTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287814,6 +288051,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieFatHawaiianTier18Eternal" extends="AECZombieFatHawaiianTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287824,6 +288064,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieFemaleFatTier18Eternal" extends="AECZombieFemaleFatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287834,6 +288077,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieInmateTier18Eternal" extends="AECZombieInmateTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287844,6 +288090,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieJanitorTier18Eternal" extends="AECZombieJanitorTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287854,6 +288103,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieJoeTier18Eternal" extends="AECZombieJoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287864,6 +288116,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieLabTier18Eternal" extends="AECZombieLabTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287874,6 +288129,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerLab">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieLumberjackTier18Eternal" extends="AECZombieLumberjackTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287884,6 +288142,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMaleHazmatTier18Eternal" extends="AECZombieMaleHazmatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287894,6 +288155,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMarleneTier18Eternal" extends="AECZombieMarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287904,6 +288168,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMoeTier18Eternal" extends="AECZombieMoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287914,6 +288181,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMutatedTier18Eternal" extends="AECZombieMutatedTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287924,6 +288194,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieNurseTier18Eternal" extends="AECZombieNurseTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287934,6 +288207,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerNurse">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombiePartyGirlTier18Eternal" extends="AECZombiePartyGirlTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287944,6 +288220,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombiePlagueSpitterTier18Eternal" extends="AECZombiePlagueSpitterTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287954,6 +288233,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular,1,PZAECMobT18_EntityLootContainerPlague,1">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieRancherTier18Eternal" extends="AECZombieRancherTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287964,6 +288246,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular,1,PZAECMobT18_EntityLootContainerPlague,1">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieScreamerTier18Eternal" extends="AECZombieScreamerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287974,6 +288259,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSkateboarderTier18Eternal" extends="AECZombieSkateboarderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287984,6 +288272,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerThug">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSoldierTier18Eternal" extends="AECZombieSoldierTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287994,6 +288285,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerSoldier">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSpiderTier18Eternal" extends="AECZombieSpiderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288004,6 +288298,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSteveCrawlerTier18Eternal" extends="AECZombieSteveCrawlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288014,6 +288311,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSteveTier18Eternal" extends="AECZombieSteveTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288024,6 +288324,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieTomClarkTier18Eternal" extends="AECZombieTomClarkTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288034,6 +288337,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieUtilityWorkerTier18Eternal" extends="AECZombieUtilityWorkerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288044,6 +288350,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerUtility">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieWightFeralTier18Eternal" extends="AECZombieWightFeralTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288054,6 +288363,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieYoTier18Eternal" extends="AECZombieYoTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288064,6 +288376,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.25" />
       <passive_effect name="BlockDamage" operation="perc_set" value="8" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT18_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="bossAECDumdumT18" extends="bossAECDumdumT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288595,6 +288910,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBikerTier19Apocalyptic" extends="AECZombieBikerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288605,6 +288923,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerThug">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBoeTier19Apocalyptic" extends="AECZombieBoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288615,6 +288936,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBowlerTier19Apocalyptic" extends="AECZombieBowlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288625,6 +288949,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBurntTier19Apocalyptic" extends="AECZombieBurntTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288635,6 +288962,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieBusinessManTier19Apocalyptic" extends="AECZombieBusinessManTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288645,6 +288975,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieChuckTier19Apocalyptic" extends="AECZombieChuckTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288655,6 +288988,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieDarleneTier19Apocalyptic" extends="AECZombieDarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288665,6 +289001,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieDemolitionTier19Apocalyptic" extends="AECZombieDemolitionTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288675,6 +289014,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerBoss">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieFatCopTier19Apocalyptic" extends="AECZombieFatCopTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288685,6 +289027,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieFatHawaiianTier19Apocalyptic" extends="AECZombieFatHawaiianTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288695,6 +289040,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieFemaleFatTier19Apocalyptic" extends="AECZombieFemaleFatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288705,6 +289053,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieInmateTier19Apocalyptic" extends="AECZombieInmateTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288715,6 +289066,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieJanitorTier19Apocalyptic" extends="AECZombieJanitorTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288725,6 +289079,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieJoeTier19Apocalyptic" extends="AECZombieJoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288735,6 +289092,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieLabTier19Apocalyptic" extends="AECZombieLabTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288745,6 +289105,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerLab">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieLumberjackTier19Apocalyptic" extends="AECZombieLumberjackTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288755,6 +289118,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMaleHazmatTier19Apocalyptic" extends="AECZombieMaleHazmatTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288765,6 +289131,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMarleneTier19Apocalyptic" extends="AECZombieMarleneTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288775,6 +289144,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMoeTier19Apocalyptic" extends="AECZombieMoeTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288785,6 +289157,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieMutatedTier19Apocalyptic" extends="AECZombieMutatedTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288795,6 +289170,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerStrong">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieNurseTier19Apocalyptic" extends="AECZombieNurseTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288805,6 +289183,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerNurse">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombiePartyGirlTier19Apocalyptic" extends="AECZombiePartyGirlTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288815,6 +289196,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombiePlagueSpitterTier19Apocalyptic" extends="AECZombiePlagueSpitterTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288825,6 +289209,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular,1,PZAECMobT19_EntityLootContainerPlague,1">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieRancherTier19Apocalyptic" extends="AECZombieRancherTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288835,6 +289222,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular,1,PZAECMobT19_EntityLootContainerPlague,1">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieScreamerTier19Apocalyptic" extends="AECZombieScreamerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288845,6 +289235,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSkateboarderTier19Apocalyptic" extends="AECZombieSkateboarderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288855,6 +289248,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerThug">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSoldierTier19Apocalyptic" extends="AECZombieSoldierTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288865,6 +289261,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerSoldier">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSpiderTier19Apocalyptic" extends="AECZombieSpiderTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288875,6 +289274,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSteveCrawlerTier19Apocalyptic" extends="AECZombieSteveCrawlerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288885,6 +289287,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieSteveTier19Apocalyptic" extends="AECZombieSteveTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288895,6 +289300,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieTomClarkTier19Apocalyptic" extends="AECZombieTomClarkTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288905,6 +289313,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieUtilityWorkerTier19Apocalyptic" extends="AECZombieUtilityWorkerTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288915,6 +289326,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerUtility">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieWightFeralTier19Apocalyptic" extends="AECZombieWightFeralTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288925,6 +289339,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="AECZombieYoTier19Apocalyptic" extends="AECZombieYoTier15Mythic">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288935,6 +289352,9 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+    <property name="LootDropEntityClass" value="PZAECMobT19_EntityLootContainerRegular">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </entity_class>
   <entity_class name="bossAECDumdumT19" extends="bossAECDumdumT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289456,5 +289876,149 @@ Kinda sorta works but is buggy and we don't have time for that.
       <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
       <passive_effect name="BlockDamage" operation="perc_set" value="10" />
     </effect_group>
+  </entity_class>
+  <entity_class name="PZAECMobT16_EntityLootContainerRegular" extends="EntityLootContainerRegular">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT16_zPackReg" />
+  </entity_class>
+  <entity_class name="PZAECMobT16_EntityLootContainerStrong" extends="EntityLootContainerStrong">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT16_zPackStrong" />
+  </entity_class>
+  <entity_class name="PZAECMobT16_EntityLootContainerBoss" extends="EntityLootContainerBoss">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT16_zPackBoss" />
+  </entity_class>
+  <entity_class name="PZAECMobT16_EntityLootContainerLab" extends="EntityLootContainerLab">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT16_zPackLab" />
+  </entity_class>
+  <entity_class name="PZAECMobT16_EntityLootContainerNurse" extends="EntityLootContainerNurse">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT16_zPackNurse" />
+  </entity_class>
+  <entity_class name="PZAECMobT16_EntityLootContainerSoldier" extends="EntityLootContainerSoldier">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT16_zPackSoldier" />
+  </entity_class>
+  <entity_class name="PZAECMobT16_EntityLootContainerThug" extends="EntityLootContainerThug">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT16_zPackThug" />
+  </entity_class>
+  <entity_class name="PZAECMobT16_EntityLootContainerUtility" extends="EntityLootContainerUtility">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT16_zPackUtility" />
+  </entity_class>
+  <entity_class name="PZAECMobT16_EntityLootContainerPlague" extends="EntityLootContainerPlague">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT16_zPackPlague" />
+  </entity_class>
+  <entity_class name="PZAECMobT17_EntityLootContainerRegular" extends="EntityLootContainerRegular">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT17_zPackReg" />
+  </entity_class>
+  <entity_class name="PZAECMobT17_EntityLootContainerStrong" extends="EntityLootContainerStrong">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT17_zPackStrong" />
+  </entity_class>
+  <entity_class name="PZAECMobT17_EntityLootContainerBoss" extends="EntityLootContainerBoss">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT17_zPackBoss" />
+  </entity_class>
+  <entity_class name="PZAECMobT17_EntityLootContainerLab" extends="EntityLootContainerLab">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT17_zPackLab" />
+  </entity_class>
+  <entity_class name="PZAECMobT17_EntityLootContainerNurse" extends="EntityLootContainerNurse">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT17_zPackNurse" />
+  </entity_class>
+  <entity_class name="PZAECMobT17_EntityLootContainerSoldier" extends="EntityLootContainerSoldier">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT17_zPackSoldier" />
+  </entity_class>
+  <entity_class name="PZAECMobT17_EntityLootContainerThug" extends="EntityLootContainerThug">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT17_zPackThug" />
+  </entity_class>
+  <entity_class name="PZAECMobT17_EntityLootContainerUtility" extends="EntityLootContainerUtility">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT17_zPackUtility" />
+  </entity_class>
+  <entity_class name="PZAECMobT17_EntityLootContainerPlague" extends="EntityLootContainerPlague">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT17_zPackPlague" />
+  </entity_class>
+  <entity_class name="PZAECMobT18_EntityLootContainerRegular" extends="EntityLootContainerRegular">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT18_zPackReg" />
+  </entity_class>
+  <entity_class name="PZAECMobT18_EntityLootContainerStrong" extends="EntityLootContainerStrong">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT18_zPackStrong" />
+  </entity_class>
+  <entity_class name="PZAECMobT18_EntityLootContainerBoss" extends="EntityLootContainerBoss">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT18_zPackBoss" />
+  </entity_class>
+  <entity_class name="PZAECMobT18_EntityLootContainerLab" extends="EntityLootContainerLab">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT18_zPackLab" />
+  </entity_class>
+  <entity_class name="PZAECMobT18_EntityLootContainerNurse" extends="EntityLootContainerNurse">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT18_zPackNurse" />
+  </entity_class>
+  <entity_class name="PZAECMobT18_EntityLootContainerSoldier" extends="EntityLootContainerSoldier">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT18_zPackSoldier" />
+  </entity_class>
+  <entity_class name="PZAECMobT18_EntityLootContainerThug" extends="EntityLootContainerThug">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT18_zPackThug" />
+  </entity_class>
+  <entity_class name="PZAECMobT18_EntityLootContainerUtility" extends="EntityLootContainerUtility">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT18_zPackUtility" />
+  </entity_class>
+  <entity_class name="PZAECMobT18_EntityLootContainerPlague" extends="EntityLootContainerPlague">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT18_zPackPlague" />
+  </entity_class>
+  <entity_class name="PZAECMobT19_EntityLootContainerRegular" extends="EntityLootContainerRegular">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT19_zPackReg" />
+  </entity_class>
+  <entity_class name="PZAECMobT19_EntityLootContainerStrong" extends="EntityLootContainerStrong">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT19_zPackStrong" />
+  </entity_class>
+  <entity_class name="PZAECMobT19_EntityLootContainerBoss" extends="EntityLootContainerBoss">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT19_zPackBoss" />
+  </entity_class>
+  <entity_class name="PZAECMobT19_EntityLootContainerLab" extends="EntityLootContainerLab">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT19_zPackLab" />
+  </entity_class>
+  <entity_class name="PZAECMobT19_EntityLootContainerNurse" extends="EntityLootContainerNurse">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT19_zPackNurse" />
+  </entity_class>
+  <entity_class name="PZAECMobT19_EntityLootContainerSoldier" extends="EntityLootContainerSoldier">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT19_zPackSoldier" />
+  </entity_class>
+  <entity_class name="PZAECMobT19_EntityLootContainerThug" extends="EntityLootContainerThug">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT19_zPackThug" />
+  </entity_class>
+  <entity_class name="PZAECMobT19_EntityLootContainerUtility" extends="EntityLootContainerUtility">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT19_zPackUtility" />
+  </entity_class>
+  <entity_class name="PZAECMobT19_EntityLootContainerPlague" extends="EntityLootContainerPlague">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="LootList" value="PZAECMobT19_zPackPlague" />
   </entity_class>
 </entity_classes>

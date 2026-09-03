@@ -47706,6 +47706,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_health1" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="RareCont_HealthT2">
     <!--Element appended by: "ProjectZ"-->
@@ -47715,6 +47718,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="RareCont_HealthT2Desc" />
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_health2" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="RareCont_HealthT3">
@@ -47726,6 +47732,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_health3" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="RareCont_StaminaT1">
     <!--Element appended by: "ProjectZ"-->
@@ -47735,6 +47744,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="RareCont_StaminaT1Desc" />
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_stamina1" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="RareCont_StaminaT2">
@@ -47746,6 +47758,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_stamina2" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="RareCont_StaminaT3">
     <!--Element appended by: "ProjectZ"-->
@@ -47755,6 +47770,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="RareCont_StaminaT3Desc" />
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_stamina3" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="RareCont_JumpStrength">
@@ -47766,6 +47784,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_jump" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="RareCont_Mobility">
     <!--Element appended by: "ProjectZ"-->
@@ -47775,6 +47796,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="RareCont_MobilityDesc" />
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_mobility" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="RareCont_HiddenStrike">
@@ -47786,6 +47810,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_hiddenstrike" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="RareCont_Damage_Forest">
     <!--Element appended by: "ProjectZ"-->
@@ -47795,6 +47822,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="RareCont_Damage_ForestDesc" />
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_forest" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="RareCont_Damage_BurntForest">
@@ -47806,6 +47836,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_burntforest" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="RareCont_Damage_Desert">
     <!--Element appended by: "ProjectZ"-->
@@ -47815,6 +47848,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="RareCont_Damage_DesertDesc" />
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_desert" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="RareCont_Damage_Snow">
@@ -47826,6 +47862,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_snow" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="RareCont_Damage_Wasteland">
     <!--Element appended by: "ProjectZ"-->
@@ -47835,6 +47874,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="RareCont_Damage_WastelandDesc" />
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_wasteland" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="RareCont_Damage_Rifle">
@@ -47846,6 +47888,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_rifle" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="RareCont_Damage_MachineGun">
     <!--Element appended by: "ProjectZ"-->
@@ -47855,6 +47900,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="RareCont_Damage_MachineGunDesc" />
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_machinegun" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="RareCont_Damage_Shotgun">
@@ -47866,6 +47914,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_shotgun" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="RareCont_Damage_Pistol">
     <!--Element appended by: "ProjectZ"-->
@@ -47875,6 +47926,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="RareCont_Damage_PistolDesc" />
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_pistol" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="RareCont_Damage_MeleeLight">
@@ -47886,6 +47940,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_meleelight" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="RareCont_Damage_MeleeHeavy">
     <!--Element appended by: "ProjectZ"-->
@@ -47896,6 +47953,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_meleeheavy" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="RareCont_Damage_All">
     <!--Element appended by: "ProjectZ"-->
@@ -47905,6 +47965,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="RareCont_Damage_AllDesc" />
     <property class="Action0">
       <property name="QuestGiven" value="treasure_rare_all" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="RareCont_Bundle">
@@ -47922,6 +47985,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="Random_item" value="RareCont_HealthT1,RareCont_HealthT2,RareCont_HealthT3,RareCont_StaminaT1,RareCont_StaminaT2,RareCont_StaminaT3,RareCont_JumpStrength,RareCont_Mobility,RareCont_HiddenStrike,RareCont_Damage_Forest,RareCont_Damage_BurntForest,RareCont_Damage_Desert,RareCont_Damage_Snow,RareCont_Damage_Wasteland,RareCont_Damage_Rifle,RareCont_Damage_MachineGun,RareCont_Damage_Shotgun,RareCont_Damage_Pistol,RareCont_Damage_MeleeLight,RareCont_Damage_MeleeHeavy,RareCont_Damage_All" />
       <property name="Random_item_count" value="1" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <!--Element removed by: "AECxProjectZ_Tweaks" (XPath: "/items/item[@name='LegCont_SamplesT1']")-->
@@ -48889,6 +48955,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT5M60Bulldog">
     <!--Element appended by: "ProjectZ"-->
@@ -49047,6 +49116,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="BulldogLegArsonist">
     <!--Element appended by: "ProjectZ"-->
@@ -49206,6 +49278,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="BulldogLegURANUS">
     <!--Element appended by: "ProjectZ"-->
@@ -49383,6 +49458,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="BulldogLegBreeze">
     <!--Element appended by: "ProjectZ"-->
@@ -49541,6 +49619,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="BulldogLegUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -49699,6 +49780,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="BulldogLegAvenger">
     <!--Element appended by: "ProjectZ"-->
@@ -49857,6 +49941,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="BulldogLegBerserk">
     <!--Element appended by: "ProjectZ"-->
@@ -50019,6 +50106,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT4AutoShotgunImp">
     <!--Element appended by: "ProjectZ"-->
@@ -50179,6 +50269,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT5AutoShotgunEraser">
     <!--Element appended by: "ProjectZ"-->
@@ -50351,6 +50444,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="EraserLegArsonist">
     <!--Element appended by: "ProjectZ"-->
@@ -50523,6 +50619,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="EraserLegURANUS">
     <!--Element appended by: "ProjectZ"-->
@@ -50708,6 +50807,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="EraserLegUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -50879,6 +50981,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="EraserLegAvenger">
     <!--Element appended by: "ProjectZ"-->
@@ -51050,6 +51155,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="EraserLegBerserk">
     <!--Element appended by: "ProjectZ"-->
@@ -51225,6 +51333,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT4SniperRifleImp">
     <!--Element appended by: "ProjectZ"-->
@@ -51401,6 +51512,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT5SniperRifleGaus">
     <!--Element appended by: "ProjectZ"-->
@@ -51581,6 +51695,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="GausLegArsonist">
     <!--Element appended by: "ProjectZ"-->
@@ -51758,6 +51875,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="GausLegTesla">
     <!--Element appended by: "ProjectZ"-->
@@ -51935,6 +52055,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="GausLegURANUS">
     <!--Element appended by: "ProjectZ"-->
@@ -52111,6 +52234,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="GausLegUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -52287,6 +52413,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT5Hellgun">
     <!--Element appended by: "ProjectZ"-->
@@ -52467,6 +52596,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT4SMG5Imp">
     <!--Element appended by: "ProjectZ"-->
@@ -52630,6 +52762,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT5SMG5Zinger">
     <!--Element appended by: "ProjectZ"-->
@@ -52794,6 +52929,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="ZingerLegArsonist">
     <!--Element appended by: "ProjectZ"-->
@@ -52958,6 +53096,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="ZingerLegURANUS">
     <!--Element appended by: "ProjectZ"-->
@@ -53140,6 +53281,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="ZingerLegBreeze">
     <!--Element appended by: "ProjectZ"-->
@@ -53303,6 +53447,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="ZingerLegUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -53466,6 +53613,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="ZingerLegAvenger">
     <!--Element appended by: "ProjectZ"-->
@@ -53629,6 +53779,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="ZingerLegBerserk">
     <!--Element appended by: "ProjectZ"-->
@@ -53796,6 +53949,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunExplosivesT4RocketLauncherImp">
     <!--Element appended by: "ProjectZ"-->
@@ -54152,6 +54308,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT4CompoundCrossbowImp">
     <!--Element appended by: "ProjectZ"-->
@@ -54319,6 +54478,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT5CompoundCrossbowMantis">
     <!--Element appended by: "ProjectZ"-->
@@ -54492,6 +54654,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".75" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSpearT4SteelSpearImp">
     <!--Element appended by: "ProjectZ"-->
@@ -54644,6 +54809,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSpearT5SteelSpearCombistick">
     <!--Element appended by: "ProjectZ"-->
@@ -54856,6 +55024,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="CombistickLegCrisis">
     <!--Element appended by: "ProjectZ"-->
@@ -55068,6 +55239,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="CombistickLegCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -55280,6 +55454,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="CombistickLegMasterpiece">
     <!--Element appended by: "ProjectZ"-->
@@ -55494,6 +55671,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="CombistickLegGuardian">
     <!--Element appended by: "ProjectZ"-->
@@ -55721,6 +55901,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="CombistickLegSurgeon">
     <!--Element appended by: "ProjectZ"-->
@@ -55936,6 +56119,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnClubT4SteelClubImp">
     <!--Element appended by: "ProjectZ"-->
@@ -56118,6 +56304,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnClubT5SteelAxeBarbarian">
     <!--Element appended by: "ProjectZ"-->
@@ -56318,6 +56507,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Axe,Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="BarbarianLegCrisis">
     <!--Element appended by: "ProjectZ"-->
@@ -56518,6 +56710,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Axe,Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="BarbarianLegCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -56718,6 +56913,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Axe,Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="BarbarianLegMasterpiece">
     <!--Element appended by: "ProjectZ"-->
@@ -56920,6 +57118,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Axe,Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="BarbarianLegGuardian">
     <!--Element appended by: "ProjectZ"-->
@@ -57135,6 +57336,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Axe,Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSledgeT4SteelSledgehammerImp">
     <!--Element appended by: "ProjectZ"-->
@@ -57325,6 +57529,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSledgeT5SteelSledgehammerDestructor">
     <!--Element appended by: "ProjectZ"-->
@@ -57548,6 +57755,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="DestructorLegCrisis">
     <!--Element appended by: "ProjectZ"-->
@@ -57771,6 +57981,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="DestructorLegCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -57994,6 +58207,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="DestructorLegMasterpiece">
     <!--Element appended by: "ProjectZ"-->
@@ -58219,6 +58435,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="DestructorLegGuardian">
     <!--Element appended by: "ProjectZ"-->
@@ -58456,6 +58675,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnKnucklesT4SteelKnucklesImp">
     <!--Element appended by: "ProjectZ"-->
@@ -58618,6 +58840,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnMausClaws">
     <!--Element appended by: "ProjectZ"-->
@@ -58786,6 +59011,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="MausClawsLegCrisis">
     <!--Element appended by: "ProjectZ"-->
@@ -58954,6 +59182,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="MausClawsLegCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -59122,6 +59353,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="MausClawsLegMasterpiece">
     <!--Element appended by: "ProjectZ"-->
@@ -59292,6 +59526,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="MausClawsLegGuardian">
     <!--Element appended by: "ProjectZ"-->
@@ -59475,6 +59712,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="MausClawsLegSurgeon">
     <!--Element appended by: "ProjectZ"-->
@@ -59646,6 +59886,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBladeT4MacheteImp">
     <!--Element appended by: "ProjectZ"-->
@@ -59837,6 +60080,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBladeT5MacheteIndiana">
     <!--Element appended by: "ProjectZ"-->
@@ -60046,6 +60292,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="IndianaLegCrisis">
     <!--Element appended by: "ProjectZ"-->
@@ -60255,6 +60504,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="IndianaLegCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -60464,6 +60716,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="IndianaLegMasterpiece">
     <!--Element appended by: "ProjectZ"-->
@@ -60675,6 +60930,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="IndianaLegGuardian">
     <!--Element appended by: "ProjectZ"-->
@@ -60899,6 +61157,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="IndianaLegSurgeon">
     <!--Element appended by: "ProjectZ"-->
@@ -61111,6 +61372,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBatonT2StunBaton">
     <!--Element appended by: "ProjectZ"-->
@@ -61902,6 +62166,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_StunBaton,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBatonT5PlasmaBatonFlugen">
     <!--Element appended by: "ProjectZ"-->
@@ -62322,6 +62589,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25" />
       <triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Health" operation="add" value="25" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="FlugenLegCrisis">
     <!--Element appended by: "ProjectZ"-->
@@ -62743,6 +63013,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25" />
       <triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Health" operation="add" value="25" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="FlugenLegCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -63164,6 +63437,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25" />
       <triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Health" operation="add" value="25" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="FlugenLegMasterpiece">
     <!--Element appended by: "ProjectZ"-->
@@ -63587,6 +63863,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25" />
       <triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Health" operation="add" value="25" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="FlugenLegGuardian">
     <!--Element appended by: "ProjectZ"-->
@@ -64023,6 +64302,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25" />
       <triggered_effect trigger="onSelfKilledOther" action="ModifyStats" stat="Health" operation="add" value="25" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnGardenKnife">
     <!--Element appended by: "ProjectZ"-->
@@ -64419,6 +64701,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$ReactorAmplifierUnique" operation="Equals" value="1" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBotJunkTurretImp">
     <!--Element appended by: "ProjectZ"-->
@@ -64519,6 +64804,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="ModPowerBonus" operation="perc_add" value=".14" tags="EntityDamage" />
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" target="other" buff="buffTurretSlowed" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="ammoJunkTurretDU">
     <!--Element appended by: "ProjectZ"-->
@@ -64577,6 +64865,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="EconomicValue" value="7500" />
     <property name="SellableToTrader" value="false" />
     <property name="NoScrapping" value="true" />
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="UniqueBuldogBundle">
     <!--Element appended by: "ProjectZ"-->
@@ -64591,6 +64882,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="Random_item" value="BulldogLegArsonist,BulldogLegURANUS,BulldogLegBreeze,BulldogLegUnkillable,BulldogLegAvenger,BulldogLegBerserk" />
       <property name="Random_item_count" value="6,6,6,6,6,6" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="UniqueEraserBundle">
@@ -64607,6 +64901,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <property name="Random_item" value="EraserLegArsonist,EraserLegURANUS,EraserLegUnkillable,EraserLegAvenger,EraserLegBerserk" />
       <property name="Random_item_count" value="6,6,6,6,6" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="UniqueGausBundle">
     <!--Element appended by: "ProjectZ"-->
@@ -64621,6 +64918,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="Random_item" value="GausLegArsonist,GausLegTesla,GausLegURANUS,GausLegUnkillable" />
       <property name="Random_item_count" value="6,6,6,6" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="UniqueZingerBundle">
@@ -64637,6 +64937,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <property name="Random_item" value="ZingerLegArsonist,ZingerLegURANUS,ZingerLegBreeze,ZingerLegUnkillable,ZingerLegAvenger,ZingerLegBerserk" />
       <property name="Random_item_count" value="6,6,6,6,6,6" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="UniqueCombistickBundle">
     <!--Element appended by: "ProjectZ"-->
@@ -64651,6 +64954,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="Random_item" value="CombistickLegCrisis,CombistickLegCrusher,CombistickLegMasterpiece,CombistickLegGuardian,CombistickLegSurgeon" />
       <property name="Random_item_count" value="6,6,6,6,6" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="UniqueBarbarianBundle">
@@ -64667,6 +64973,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <property name="Random_item" value="BarbarianLegCrisis,BarbarianLegCrusher,BarbarianLegMasterpiece,BarbarianLegGuardian" />
       <property name="Random_item_count" value="6,6,6,6" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="UniqueDestructorBundle">
     <!--Element appended by: "ProjectZ"-->
@@ -64681,6 +64990,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="Random_item" value="DestructorLegCrisis,DestructorLegCrusher,DestructorLegMasterpiece,DestructorLegGuardian" />
       <property name="Random_item_count" value="6,6,6,6" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="UniqueMausClawsBundle">
@@ -64697,6 +65009,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <property name="Random_item" value="MausClawsLegCrisis,MausClawsLegCrusher,MausClawsLegMasterpiece,MausClawsLegGuardian,MausClawsLegSurgeon" />
       <property name="Random_item_count" value="6,6,6,6,6" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="UniqueIndianaBundle">
     <!--Element appended by: "ProjectZ"-->
@@ -64712,6 +65027,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <property name="Random_item" value="IndianaLegCrisis,IndianaLegCrusher,IndianaLegMasterpiece,IndianaLegGuardian,IndianaLegSurgeon" />
       <property name="Random_item_count" value="6,6,6,6,6" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="UniqueFlugenBundle">
     <!--Element appended by: "ProjectZ"-->
@@ -64726,6 +65044,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="Random_item" value="FlugenLegCrisis,FlugenLegCrusher,FlugenLegMasterpiece,FlugenLegGuardian" />
       <property name="Random_item_count" value="6,6,6,6" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="meleeToolAxeT4ChainsawImp">
@@ -70087,6 +70408,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Material" value="Mcloth" />
     <property name="SoundPickup" value="firstaidkit_grab" />
     <property name="SoundPlace" value="firstaidkit_place" />
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="resourceMutagenConcentrate">
     <!--Element appended by: "ProjectZ"-->
@@ -72959,6 +73283,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <property name="Create_item" value="resourceRareMedicines" />
       <property name="Create_item_count" value="10" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="rewardRareMedicines_BigBundle">
     <!--Element appended by: "ProjectZ"-->
@@ -72970,6 +73297,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="Create_item" value="resourceRareMedicines" />
       <property name="Create_item_count" value="100" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="reward_randomAlloys">
@@ -73175,6 +73505,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT0PipeRifleRareKnockdown">
     <!--Element appended by: "ProjectZ"-->
@@ -73269,6 +73602,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT0PipeRifleRareFasthands">
     <!--Element appended by: "ProjectZ"-->
@@ -73357,6 +73693,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT1HuntingRifleRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -73448,6 +73787,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT1HuntingRifleRareApple">
     <!--Element appended by: "ProjectZ"-->
@@ -73538,6 +73880,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT1HuntingRifleRareFasthands">
     <!--Element appended by: "ProjectZ"-->
@@ -73628,6 +73973,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT2LeverActionRifleRareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -73734,6 +74082,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT2LeverActionRifleRareVampire">
     <!--Element appended by: "ProjectZ"-->
@@ -73841,6 +74192,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT2LeverActionRifleRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -73947,6 +74301,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT3SniperRifleRareCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -74051,6 +74408,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT3SniperRifleRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -74155,6 +74515,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT3SniperRifleRareKnockdown">
     <!--Element appended by: "ProjectZ"-->
@@ -74264,6 +74627,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunRifleT3SniperRifleRareStable">
     <!--Element appended by: "ProjectZ"-->
@@ -74368,6 +74734,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Rifle,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT0PipeShotgunRareCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -74447,6 +74816,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT0PipeShotgunRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -74530,6 +74902,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT0PipeShotgunRareFasthands">
     <!--Element appended by: "ProjectZ"-->
@@ -74610,6 +74985,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT1DoubleBarrelRareSweeper">
     <!--Element appended by: "ProjectZ"-->
@@ -74697,6 +75075,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT1DoubleBarrelRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -74775,6 +75156,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT1DoubleBarrelRareFasthands">
     <!--Element appended by: "ProjectZ"-->
@@ -74854,6 +75238,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT2PumpShotgunRareCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -74959,6 +75346,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT2PumpShotgunRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -75065,6 +75455,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT2PumpShotgunRareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -75170,6 +75563,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT3AutoShotgunRareCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -75266,6 +75662,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT3AutoShotgunRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -75362,6 +75761,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT3AutoShotgunRareSnowstorm">
     <!--Element appended by: "ProjectZ"-->
@@ -75459,6 +75861,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunShotgunT3AutoShotgunRareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -75555,6 +75960,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Shotgun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT0PipeMachineGunRareCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -75660,6 +76068,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT0PipeMachineGunRareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -75765,6 +76176,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT0PipeMachineGunRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -75870,6 +76284,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT1AK47RareCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -75976,6 +76393,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT1AK47RareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -76083,6 +76503,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT1AK47RareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -76190,6 +76613,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT2TacticalARRareRapidfire">
     <!--Element appended by: "ProjectZ"-->
@@ -76294,6 +76720,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT2TacticalARRareApple">
     <!--Element appended by: "ProjectZ"-->
@@ -76401,6 +76830,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT2TacticalARRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -76508,6 +76940,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT3M60RareSnowstorm">
     <!--Element appended by: "ProjectZ"-->
@@ -76614,6 +77049,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT3M60RareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -76719,6 +77157,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT3M60RareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -76824,6 +77265,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunMGT3M60RareStable">
     <!--Element appended by: "ProjectZ"-->
@@ -76929,6 +77373,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_MachineGun,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT0PrimitiveBowRareRobinhood">
     <!--Element appended by: "ProjectZ"-->
@@ -77039,6 +77486,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT0PrimitiveBowRareNinja">
     <!--Element appended by: "ProjectZ"-->
@@ -77146,6 +77596,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT0PrimitiveBowRareVampire">
     <!--Element appended by: "ProjectZ"-->
@@ -77254,6 +77707,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT1WoodenBowRareRobinhood">
     <!--Element appended by: "ProjectZ"-->
@@ -77364,6 +77820,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT1WoodenBowRareNinja">
     <!--Element appended by: "ProjectZ"-->
@@ -77471,6 +77930,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT1WoodenBowRareVampire">
     <!--Element appended by: "ProjectZ"-->
@@ -77579,6 +78041,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT1IronCrossbowRareRobinhood">
     <!--Element appended by: "ProjectZ"-->
@@ -77689,6 +78154,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT1IronCrossbowRareNinja">
     <!--Element appended by: "ProjectZ"-->
@@ -77796,6 +78264,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT1IronCrossbowRareVampire">
     <!--Element appended by: "ProjectZ"-->
@@ -77904,6 +78375,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT3CompoundBowRareRobinhood">
     <!--Element appended by: "ProjectZ"-->
@@ -78015,6 +78489,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT3CompoundBowRareNinja">
     <!--Element appended by: "ProjectZ"-->
@@ -78123,6 +78600,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT3CompoundBowRareVampire">
     <!--Element appended by: "ProjectZ"-->
@@ -78232,6 +78712,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT3CompoundCrossbowRareRobinhood">
     <!--Element appended by: "ProjectZ"-->
@@ -78344,6 +78827,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT3CompoundCrossbowRareNinja">
     <!--Element appended by: "ProjectZ"-->
@@ -78453,6 +78939,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunBowT3CompoundCrossbowRareVampire">
     <!--Element appended by: "ProjectZ"-->
@@ -78563,6 +79052,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <requirement name="HitLocation" body_parts="Head" />
       <passive_effect name="PlayerExpGain" operation="perc_add" value=".25" tags="Kill" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT0PipePistolRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -78667,6 +79159,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT0PipePistolRareApple">
     <!--Element appended by: "ProjectZ"-->
@@ -78771,6 +79266,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT0PipePistolRareFasthands">
     <!--Element appended by: "ProjectZ"-->
@@ -78875,6 +79373,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT1PistolRareCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -78977,6 +79478,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT1PistolRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -79079,6 +79583,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT1PistolRareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -79181,6 +79688,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT2Magnum44RareFasthands">
     <!--Element appended by: "ProjectZ"-->
@@ -79285,6 +79795,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT2Magnum44RareSweeper">
     <!--Element appended by: "ProjectZ"-->
@@ -79397,6 +79910,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT2Magnum44RareRespect">
     <!--Element appended by: "ProjectZ"-->
@@ -79501,6 +80017,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT3SMG5RareSnowstorm">
     <!--Element appended by: "ProjectZ"-->
@@ -79605,6 +80124,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT3SMG5RareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -79708,6 +80230,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT3SMG5RareStable">
     <!--Element appended by: "ProjectZ"-->
@@ -79811,6 +80336,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT3SMG5RareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -79914,6 +80442,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT3DesertVultureRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -80020,6 +80551,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT3DesertVultureRareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -80122,6 +80656,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT3DesertVultureRareKnockdown">
     <!--Element appended by: "ProjectZ"-->
@@ -80229,6 +80766,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="gunHandgunT3DesertVultureRareVampire">
     <!--Element appended by: "ProjectZ"-->
@@ -80332,6 +80872,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Pistol,Holding_Range" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSpearT0StoneSpearRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -80454,6 +80997,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSpearT0StoneSpearRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -80580,6 +81126,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSpearT0StoneSpearRareVampire">
     <!--Element appended by: "ProjectZ"-->
@@ -80704,6 +81253,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSpearT1IronSpearRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -80829,6 +81381,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSpearT1IronSpearRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -80951,6 +81506,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSpearT1IronSpearRareCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -81073,6 +81631,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSpearT3SteelSpearRareAwl">
     <!--Element appended by: "ProjectZ"-->
@@ -81200,6 +81761,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSpearT3SteelSpearRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -81324,6 +81888,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSpearT3SteelSpearRareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -81448,6 +82015,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Spear,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnClubT0WoodenClubRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -81563,6 +82133,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnClubT0WoodenClubRareCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -81678,6 +82251,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnClubT0WoodenClubRareKnockdown">
     <!--Element appended by: "ProjectZ"-->
@@ -81796,6 +82372,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnClubT1BaseballBatRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -81914,6 +82493,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnClubT1BaseballBatRareChampion">
     <!--Element appended by: "ProjectZ"-->
@@ -82038,6 +82620,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnClubT1BaseballBatRareVampire">
     <!--Element appended by: "ProjectZ"-->
@@ -82155,6 +82740,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnClubT3SteelClubRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -82273,6 +82861,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnClubT3SteelClubRareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -82387,6 +82978,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnClubT3SteelClubRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -82501,6 +83095,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Club,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSledgeT0StoneSledgehammerRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -82623,6 +83220,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSledgeT0StoneSledgehammerRareCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -82745,6 +83345,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSledgeT0StoneSledgehammerRareKnockdown">
     <!--Element appended by: "ProjectZ"-->
@@ -82870,6 +83473,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSledgeT1IronSledgehammerRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -82994,6 +83600,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSledgeT1IronSledgehammerRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -83115,6 +83724,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSledgeT1IronSledgehammerRareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -83236,6 +83848,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSledgeT3SteelSledgehammerRareChampion">
     <!--Element appended by: "ProjectZ"-->
@@ -83365,6 +83980,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSledgeT3SteelSledgehammerRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -83485,6 +84103,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnSledgeT3SteelSledgehammerRareVampire">
     <!--Element appended by: "ProjectZ"-->
@@ -83607,6 +84228,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Sledgehammer,Holding_Melee,Holding_Melee_Heavy" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnKnucklesT0LeatherKnucklesRareStunner">
     <!--Element appended by: "ProjectZ"-->
@@ -83726,6 +84350,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnKnucklesT0LeatherKnucklesRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -83843,6 +84470,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnKnucklesT0LeatherKnucklesRareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -83956,6 +84586,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnKnucklesT1IronKnucklesRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -84069,6 +84702,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnKnucklesT1IronKnucklesRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -84182,6 +84818,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnKnucklesT1IronKnucklesRareCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -84295,6 +84934,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnKnucklesT3SteelKnucklesRareAwl">
     <!--Element appended by: "ProjectZ"-->
@@ -84414,6 +85056,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnKnucklesT3SteelKnucklesRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -84530,6 +85175,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnKnucklesT3SteelKnucklesRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -84650,6 +85298,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnKnucklesT3SteelKnucklesRareButcher">
     <!--Element appended by: "ProjectZ"-->
@@ -84768,6 +85419,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knuckles,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBladeT0BoneKnifeRareAwl">
     <!--Element appended by: "ProjectZ"-->
@@ -84894,6 +85548,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBladeT0BoneKnifeRareVampire">
     <!--Element appended by: "ProjectZ"-->
@@ -85019,6 +85676,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBladeT0BoneKnifeRareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -85142,6 +85802,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBladeT1HuntingKnifeRareButcher">
     <!--Element appended by: "ProjectZ"-->
@@ -85266,6 +85929,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBladeT1HuntingKnifeRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -85391,6 +86057,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBladeT1HuntingKnifeRareCrusher">
     <!--Element appended by: "ProjectZ"-->
@@ -85513,6 +86182,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBladeT3MacheteRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -85632,6 +86304,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBladeT3MacheteRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -85751,6 +86426,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBladeT3MacheteRareUniversal">
     <!--Element appended by: "ProjectZ"-->
@@ -85870,6 +86548,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_Knife,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBatonT0PipeBatonRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -85985,6 +86666,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_StunBaton,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBatonT0PipeBatonRareVampire">
     <!--Element appended by: "ProjectZ"-->
@@ -86106,6 +86790,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_StunBaton,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBatonT0PipeBatonRareStunner">
     <!--Element appended by: "ProjectZ"-->
@@ -86227,6 +86914,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_StunBaton,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBatonT2StunBatonRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -86558,6 +87248,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_StunBaton,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBatonT2StunBatonRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -86889,6 +87582,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_StunBaton,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeWpnBatonT2StunBatonRareExperienced">
     <!--Element appended by: "ProjectZ"-->
@@ -87223,6 +87919,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       </triggered_effect>
       <triggered_effect trigger="onSelfEquipStop" action="RemoveBuff" buff="Holding_StunBaton,Holding_Melee,Holding_Melee_Light" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolRepairT0StoneAxeRareLumberjack">
     <!--Element appended by: "ProjectZ"-->
@@ -87357,6 +88056,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolRepairT0StoneAxeRareMiner">
     <!--Element appended by: "ProjectZ"-->
@@ -87491,6 +88193,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolRepairT0StoneAxeRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -87623,6 +88328,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolRepairT0StoneAxeRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -87755,6 +88463,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolAxeT1IronFireaxeRareLumberjack">
     <!--Element appended by: "ProjectZ"-->
@@ -87919,6 +88630,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="!HoldingItemHasTags" tags="heavy" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolAxeT1IronFireaxeRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -88082,6 +88796,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="!HoldingItemHasTags" tags="heavy" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolAxeT1IronFireaxeRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -88245,6 +88962,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="!HoldingItemHasTags" tags="heavy" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolAxeT2SteelAxeRareLumberjack">
     <!--Element appended by: "ProjectZ"-->
@@ -88409,6 +89129,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="!HoldingItemHasTags" tags="heavy" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolAxeT2SteelAxeRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -88572,6 +89295,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="!HoldingItemHasTags" tags="heavy" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolAxeT2SteelAxeRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -88735,6 +89461,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="!HoldingItemHasTags" tags="heavy" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolAxeT2SteelAxeRareChampion">
     <!--Element appended by: "ProjectZ"-->
@@ -88907,6 +89636,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="!HoldingItemHasTags" tags="heavy" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolPickT1IronPickaxeRareMetalist">
     <!--Element appended by: "ProjectZ"-->
@@ -89042,6 +89774,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolPickT1IronPickaxeRareMason">
     <!--Element appended by: "ProjectZ"-->
@@ -89177,6 +89912,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolPickT1IronPickaxeRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -89310,6 +90048,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolPickT2SteelPickaxeRareMetalist">
     <!--Element appended by: "ProjectZ"-->
@@ -89446,6 +90187,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolPickT2SteelPickaxeRareMason">
     <!--Element appended by: "ProjectZ"-->
@@ -89582,6 +90326,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolPickT2SteelPickaxeRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -89716,6 +90463,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolPickT2SteelPickaxeRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -89850,6 +90600,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolShovelT0StoneShovelRareDigger">
     <!--Element appended by: "ProjectZ"-->
@@ -89985,6 +90738,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolShovelT0StoneShovelRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -90118,6 +90874,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolShovelT0StoneShovelRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -90251,6 +91010,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolShovelT1IronShovelRareDigger">
     <!--Element appended by: "ProjectZ"-->
@@ -90386,6 +91148,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolShovelT1IronShovelRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -90519,6 +91284,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolShovelT1IronShovelRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -90652,6 +91420,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolShovelT2SteelShovelRareDigger">
     <!--Element appended by: "ProjectZ"-->
@@ -90794,6 +91565,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolShovelT2SteelShovelRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -90934,6 +91708,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolShovelT2SteelShovelRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -91071,6 +91848,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolSalvageT1WrenchRareScavenger">
     <!--Element appended by: "ProjectZ"-->
@@ -91170,6 +91950,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary" />
       <passive_effect name="StaminaLoss" operation="base_set" value="25" tags="secondary" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolSalvageT1WrenchRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -91268,6 +92051,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary" />
       <passive_effect name="StaminaLoss" operation="base_set" value="25" tags="secondary" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolSalvageT1WrenchRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -91366,6 +92152,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary" />
       <passive_effect name="StaminaLoss" operation="base_set" value="20" tags="secondary" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolSalvageT2RatchetRareScavenger">
     <!--Element appended by: "ProjectZ"-->
@@ -91465,6 +92254,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary" />
       <passive_effect name="StaminaLoss" operation="base_set" value="30" tags="secondary" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolSalvageT2RatchetRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -91562,6 +92354,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary" />
       <passive_effect name="StaminaLoss" operation="base_set" value="30" tags="secondary" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolSalvageT2RatchetRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -91659,6 +92454,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary" />
       <passive_effect name="StaminaLoss" operation="base_set" value="24" tags="secondary" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolSalvageT3ImpactDriverRareScavenger">
     <!--Element appended by: "ProjectZ"-->
@@ -91758,6 +92556,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary" />
       <passive_effect name="StaminaLoss" operation="base_set" value="35" tags="secondary" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolSalvageT3ImpactDriverRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -91855,6 +92656,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary" />
       <passive_effect name="StaminaLoss" operation="base_set" value="35" tags="secondary" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolSalvageT3ImpactDriverRareConvenient">
     <!--Element appended by: "ProjectZ"-->
@@ -91952,6 +92756,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <passive_effect name="BlockDamage" operation="perc_add" value="1" tags="secondary" />
       <passive_effect name="StaminaLoss" operation="base_set" value="28" tags="secondary" />
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolPickT3AugerRareMetalist">
     <!--Element appended by: "ProjectZ"-->
@@ -92094,6 +92901,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolPickT3AugerRareMason">
     <!--Element appended by: "ProjectZ"-->
@@ -92236,6 +93046,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolPickT3AugerRareDigger">
     <!--Element appended by: "ProjectZ"-->
@@ -92378,6 +93191,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolPickT3AugerRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -92518,6 +93334,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolAxeT3ChainsawRareLumberjack">
     <!--Element appended by: "ProjectZ"-->
@@ -92662,6 +93481,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="meleeToolAxeT3ChainsawRareUnkillable">
     <!--Element appended by: "ProjectZ"-->
@@ -92805,6 +93627,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
         <requirement name="CVarCompare" cvar="$minerCheck" operation="LTE" value="0" />
       </triggered_effect>
     </effect_group>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="rareSniperRifleBundle">
     <!--Element appended by: "ProjectZ"-->
@@ -94315,6 +95140,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="BetterWeaponUniqueMods" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="BetterWeapon_UniqueModsMelee">
     <!--Element appended by: "ProjectZ"-->
@@ -94324,6 +95152,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="QuestGiven" value="BetterWeaponMeleeUniqueMods" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="BetterWeapon_UniqueModsRange">
     <!--Element appended by: "ProjectZ"-->
@@ -94332,6 +95163,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIcon" value="bundleRangedMods" />
     <property class="Action0">
       <property name="QuestGiven" value="BetterWeaponRangeUniqueMods" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="BetterWeapon_LastHunt1">
@@ -94957,6 +95791,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <property name="Random_item" value="modIncreasedBatteryUnique,modReactorElectricUnique,modElongatedCoreUnique,modReinforcedPartsUnique,modLuckyMiningUnique,modEnhancedMechanismsUnique,modFastMechanismsUnique,modSpareBoxUnique" />
       <property name="Random_item_count" value="1" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="ImpModsBundle">
     <!--Element appended by: "ProjectZ"-->
@@ -95003,6 +95840,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <property name="Random_item" value="modIncreasedBatteryUnique,modReactorElectricUnique,modElongatedCoreUnique,modReinforcedPartsUnique,modLuckyMiningUnique,modReliableWinding,modGunDrumMagazineExtenderUnique,modGunMagazineExtenderUnique,modGunMeleeRadRemoverUnique,modGunCrippleEmUnique,modGunRiflePartsUnique,modGunPistolPartsUnique,modGunM60PartsUnique,modGunShotgunPartsUnique,modGunForegripUnique,modGunBipodUnique,modGunSoundSuppressorSilencerUnique,modGunBoosterUnique,modGunDamageAccumulatorUnique,modOkGoogle,modMeleeDimondPartsHeavyUnique,modMeleeDimondPartsLightUnique,modMeleeErgonomicGripUnique,modMeleeTheHunterUnique,modMeleeTerribleSpikesUnique,modMeleeClubBurningUnique,modMeleeElectroUnique,modVehicleSuperChargerUnique,modReactorAcceleratorExp,modVehicleFuelSystemUnique,modVehiclePlowUnique,modVehicleArmorUnique,modStabilityBooster" />
       <property name="Random_item_count" value="1" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="UniqueModsMeleeBundle">
     <!--Element appended by: "ProjectZ"-->
@@ -95012,6 +95852,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <property name="Random_item" value="modMeleeErgonomicGripUnique,modMeleeTheHunterUnique,modMeleeTerribleSpikesUnique,modMeleeElectroUnique,modMeleeDimondPartsHeavyUnique,modMeleeDimondPartsLightUnique" />
       <property name="Random_item_count" value="1" />
     </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </item>
   <item name="UniqueModsRangeBundle">
     <!--Element appended by: "ProjectZ"-->
@@ -95020,6 +95863,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property class="Action0">
       <property name="Random_item" value="modGunDrumMagazineExtenderUnique,modGunMagazineExtenderUnique,modGunMeleeRadRemoverUnique,modGunCrippleEmUnique,modGunForegripUnique,modGunBipodUnique,modGunSoundSuppressorSilencerUnique,modGunBoosterUnique,modGunDamageAccumulatorUnique,modGunRiflePartsUnique,modGunPistolPartsUnique,modGunM60PartsUnique,modGunShotgunPartsUnique" />
       <property name="Random_item_count" value="1" />
+    </property>
+    <property name="PZAECAdvancedLoot" value="true">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </item>
   <item name="superElixirTradeMaster">

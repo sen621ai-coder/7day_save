@@ -5286,21 +5286,25 @@ Console command: gamestage
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
       <spawn group="PZAECBloodMoonGS030000" num="999" maxAlive="256" />
     </gamestage>
-    <gamestage stage="40000">
-      <!--Element appended by: "AECxProjectZ_Tweaks"-->
-      <spawn group="PZAECBloodMoonGS040000" num="999" maxAlive="256" />
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 30001]")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 30001]")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 30001]")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 30001]")-->
+    <gamestage stage="30001">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      <spawn group="PZAECBloodMoonT16Fallback" num="999" maxAlive="256" />
     </gamestage>
-    <gamestage stage="60000">
-      <!--Element appended by: "AECxProjectZ_Tweaks"-->
-      <spawn group="PZAECBloodMoonGS060000" num="999" maxAlive="256" />
+    <gamestage stage="50000">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      <spawn group="PZAECBloodMoonT17Fallback" num="999" maxAlive="256" />
     </gamestage>
-    <gamestage stage="99999">
-      <!--Element appended by: "AECxProjectZ_Tweaks"-->
-      <spawn group="PZAECBloodMoonGS099999" num="999" maxAlive="256" />
+    <gamestage stage="70000">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      <spawn group="PZAECBloodMoonT18Fallback" num="999" maxAlive="256" />
     </gamestage>
-    <gamestage stage="999999">
-      <!--Element appended by: "AECxProjectZ_Tweaks"-->
-      <spawn group="PZAECBloodMoonGS999999" num="999" maxAlive="256" />
+    <gamestage stage="90000">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      <spawn group="PZAECBloodMoonT19Fallback" num="999" maxAlive="256" />
     </gamestage>
   </spawner>
   <!-- *** ZOMBIE_POLICE_CAR_HORDE -->
