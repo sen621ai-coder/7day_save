@@ -287424,6 +287424,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECDumdumBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECDumdumBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="RunningKamikazeT17" extends="RunningKamikazeT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287444,6 +287447,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="RunningKamikazeBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="RunningKamikazeBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECDoomlordDemolishmanBossT17" extends="AECDoomlordDemolishmanBossT15">
@@ -287466,6 +287472,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="DoomlordBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="DoomlordBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheWitchAngelBossT17" extends="AECTheWitchAngelBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287486,6 +287495,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECWitchBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECWitchBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECElectricDemonRunnerBossT17" extends="AECElectricDemonRunnerBossT15">
@@ -287508,6 +287520,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECElectricDemonBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECElectricDemonBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECExplosiveEagleBossT17" extends="AECExplosiveEagleBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287528,6 +287543,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECExplosiveEagleBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECExplosiveEagleBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECHammerGuardianT17" extends="AECHammerGuardianT15">
@@ -287550,6 +287568,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECHammerGuardianBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECHammerGuardianBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheMechanicianBossT17" extends="AECTheMechanicianBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287570,6 +287591,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECMechanicianBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECMechanicianBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECTheDruidBossT17" extends="AECTheDruidBossT15">
@@ -287592,6 +287616,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECDruidBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECDruidBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheExecutionerBossT17" extends="AECTheExecutionerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287612,6 +287639,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECExecutionerBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECExecutionerBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECPartyBeachBossT17" extends="AECPartyBeachBossT15">
@@ -287634,6 +287664,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECPartyBeachBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECPartyBeachBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECMykirBossT17" extends="AECMykirBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287654,6 +287687,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECMykirBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECMykirBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECHellskyliBossT17" extends="AECHellskyliBossT15">
@@ -287676,6 +287712,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECHellskyliLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECHellskyliLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECRockbreakerBossT17" extends="AECRockbreakerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287696,6 +287735,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECRockbreakerLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECRockbreakerLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECSingerieBossT17" extends="AECSingerieBossT15">
@@ -287718,6 +287760,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECSingerieBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECSingerieBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECGhostBossT17" extends="AECGhostBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287738,6 +287783,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECGhostBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECGhostBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECSirenHeadBossT17" extends="AECSirenHeadBossT15">
@@ -287760,6 +287808,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECSirenHeadBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECSirenHeadBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECMushroomBossT17" extends="AECMushroomBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287780,6 +287831,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECMushroomBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECMushroomBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECTheArcherBossT17" extends="AECTheArcherBossT15">
@@ -287802,6 +287856,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECArcherBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECArcherBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECSheriffBossT17" extends="AECSheriffBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287823,6 +287880,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECSheriffBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECSheriffBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECHeadlessBossT17" extends="AECHeadlessBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -287843,6 +287903,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECHeadlessBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECHeadlessBossLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECDruidMinionBearT17" extends="AECDruidMinionBearT15">
@@ -288400,6 +288463,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECDumdumBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECDumdumBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="RunningKamikazeT18" extends="RunningKamikazeT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288420,6 +288486,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="RunningKamikazeBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="RunningKamikazeBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECDoomlordDemolishmanBossT18" extends="AECDoomlordDemolishmanBossT15">
@@ -288442,6 +288511,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="DoomlordBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="DoomlordBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheWitchAngelBossT18" extends="AECTheWitchAngelBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288462,6 +288534,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECWitchBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECWitchBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECElectricDemonRunnerBossT18" extends="AECElectricDemonRunnerBossT15">
@@ -288484,6 +288559,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECElectricDemonBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECElectricDemonBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECExplosiveEagleBossT18" extends="AECExplosiveEagleBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288504,6 +288582,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECExplosiveEagleBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECExplosiveEagleBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECHammerGuardianT18" extends="AECHammerGuardianT15">
@@ -288526,6 +288607,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECHammerGuardianBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECHammerGuardianBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheMechanicianBossT18" extends="AECTheMechanicianBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288546,6 +288630,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECMechanicianBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECMechanicianBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECTheDruidBossT18" extends="AECTheDruidBossT15">
@@ -288568,6 +288655,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECDruidBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECDruidBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheExecutionerBossT18" extends="AECTheExecutionerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288588,6 +288678,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECExecutionerBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECExecutionerBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECPartyBeachBossT18" extends="AECPartyBeachBossT15">
@@ -288610,6 +288703,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECPartyBeachBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECPartyBeachBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECMykirBossT18" extends="AECMykirBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288630,6 +288726,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECMykirBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECMykirBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECHellskyliBossT18" extends="AECHellskyliBossT15">
@@ -288652,6 +288751,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECHellskyliLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECHellskyliLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECRockbreakerBossT18" extends="AECRockbreakerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288672,6 +288774,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECRockbreakerLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECRockbreakerLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECSingerieBossT18" extends="AECSingerieBossT15">
@@ -288694,6 +288799,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECSingerieBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECSingerieBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECGhostBossT18" extends="AECGhostBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288714,6 +288822,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECGhostBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECGhostBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECSirenHeadBossT18" extends="AECSirenHeadBossT15">
@@ -288736,6 +288847,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECSirenHeadBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECSirenHeadBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECMushroomBossT18" extends="AECMushroomBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288756,6 +288870,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECMushroomBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECMushroomBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECTheArcherBossT18" extends="AECTheArcherBossT15">
@@ -288778,6 +288895,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECArcherBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECArcherBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECSheriffBossT18" extends="AECSheriffBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288799,6 +288919,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECSheriffBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECSheriffBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECHeadlessBossT18" extends="AECHeadlessBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -288819,6 +288942,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECHeadlessBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECHeadlessBossLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECDruidMinionBearT18" extends="AECDruidMinionBearT15">
@@ -289376,6 +289502,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECDumdumBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECDumdumBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="RunningKamikazeT19" extends="RunningKamikazeT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289396,6 +289525,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="RunningKamikazeBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="RunningKamikazeBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECDoomlordDemolishmanBossT19" extends="AECDoomlordDemolishmanBossT15">
@@ -289418,6 +289550,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="DoomlordBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="DoomlordBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheWitchAngelBossT19" extends="AECTheWitchAngelBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289438,6 +289573,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECWitchBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECWitchBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECElectricDemonRunnerBossT19" extends="AECElectricDemonRunnerBossT15">
@@ -289460,6 +289598,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECElectricDemonBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECElectricDemonBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECExplosiveEagleBossT19" extends="AECExplosiveEagleBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289480,6 +289621,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECExplosiveEagleBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECExplosiveEagleBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECHammerGuardianT19" extends="AECHammerGuardianT15">
@@ -289502,6 +289646,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECHammerGuardianBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECHammerGuardianBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheMechanicianBossT19" extends="AECTheMechanicianBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289522,6 +289669,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECMechanicianBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECMechanicianBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECTheDruidBossT19" extends="AECTheDruidBossT15">
@@ -289544,6 +289694,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECDruidBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECDruidBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECTheExecutionerBossT19" extends="AECTheExecutionerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289564,6 +289717,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECExecutionerBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECExecutionerBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECPartyBeachBossT19" extends="AECPartyBeachBossT15">
@@ -289586,6 +289742,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECPartyBeachBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECPartyBeachBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECMykirBossT19" extends="AECMykirBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289606,6 +289765,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECMykirBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECMykirBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECHellskyliBossT19" extends="AECHellskyliBossT15">
@@ -289628,6 +289790,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECHellskyliLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECHellskyliLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECRockbreakerBossT19" extends="AECRockbreakerBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289648,6 +289813,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECRockbreakerLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECRockbreakerLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECSingerieBossT19" extends="AECSingerieBossT15">
@@ -289670,6 +289838,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECSingerieBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECSingerieBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECGhostBossT19" extends="AECGhostBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289690,6 +289861,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECGhostBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECGhostBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECSirenHeadBossT19" extends="AECSirenHeadBossT15">
@@ -289712,6 +289886,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECSirenHeadBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECSirenHeadBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECMushroomBossT19" extends="AECMushroomBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289732,6 +289909,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECMushroomBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECMushroomBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECTheArcherBossT19" extends="AECTheArcherBossT15">
@@ -289754,6 +289934,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECArcherBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECArcherBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECSheriffBossT19" extends="AECSheriffBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289775,6 +289958,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="LootDropEntityClass" value="AECSheriffBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
+    <property name="LootDropEntityClass" value="AECSheriffBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECHeadlessBossT19" extends="AECHeadlessBossT15">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -289795,6 +289981,9 @@ Kinda sorta works but is buggy and we don't have time for that.
     </effect_group>
     <property name="LootDropEntityClass" value="AECHeadlessBossLootBagT16">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="LootDropEntityClass" value="AECHeadlessBossLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </entity_class>
   <entity_class name="AECDruidMinionBearT19" extends="AECDruidMinionBearT15">
@@ -290020,5 +290209,625 @@ Kinda sorta works but is buggy and we don't have time for that.
   <entity_class name="PZAECMobT19_EntityLootContainerPlague" extends="EntityLootContainerPlague">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="LootList" value="PZAECMobT19_zPackPlague" />
+  </entity_class>
+  <entity_class name="PZAECAffix_hunter_T16" extends="AECTheExecutionerBossT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="hunter" />
+  </entity_class>
+  <entity_class name="PZAECTrial_hunter_T16" extends="AECTheExecutionerBossT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="hunter" />
+  </entity_class>
+  <entity_class name="PZAECAffix_bulwark_T16" extends="AECTheMechanicianBossT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="bulwark" />
+    <effect_group name="Legendary overheat cycle">
+      <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffPZAECCharge" />
+    </effect_group>
+  </entity_class>
+  <entity_class name="PZAECTrial_bulwark_T16" extends="AECTheMechanicianBossT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="bulwark" />
+    <effect_group name="Legendary overheat cycle">
+      <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffPZAECCharge" />
+    </effect_group>
+  </entity_class>
+  <entity_class name="PZAECAffix_storm_T16" extends="AECTheArcherBossT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="storm" />
+  </entity_class>
+  <entity_class name="PZAECTrial_storm_T16" extends="AECTheArcherBossT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="storm" />
+  </entity_class>
+  <entity_class name="PZAECAffix_hunter_T17" extends="AECTheExecutionerBossT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="hunter" />
+  </entity_class>
+  <entity_class name="PZAECTrial_hunter_T17" extends="AECTheExecutionerBossT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="hunter" />
+  </entity_class>
+  <entity_class name="PZAECAffix_bulwark_T17" extends="AECTheMechanicianBossT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="bulwark" />
+    <effect_group name="Legendary overheat cycle">
+      <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffPZAECCharge" />
+    </effect_group>
+  </entity_class>
+  <entity_class name="PZAECTrial_bulwark_T17" extends="AECTheMechanicianBossT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="bulwark" />
+    <effect_group name="Legendary overheat cycle">
+      <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffPZAECCharge" />
+    </effect_group>
+  </entity_class>
+  <entity_class name="PZAECAffix_storm_T17" extends="AECTheArcherBossT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="storm" />
+  </entity_class>
+  <entity_class name="PZAECTrial_storm_T17" extends="AECTheArcherBossT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="storm" />
+  </entity_class>
+  <entity_class name="PZAECAffix_hunter_T18" extends="AECTheExecutionerBossT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="hunter" />
+  </entity_class>
+  <entity_class name="PZAECTrial_hunter_T18" extends="AECTheExecutionerBossT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="hunter" />
+  </entity_class>
+  <entity_class name="PZAECAffix_bulwark_T18" extends="AECTheMechanicianBossT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="bulwark" />
+    <effect_group name="Legendary overheat cycle">
+      <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffPZAECCharge" />
+    </effect_group>
+  </entity_class>
+  <entity_class name="PZAECTrial_bulwark_T18" extends="AECTheMechanicianBossT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="bulwark" />
+    <effect_group name="Legendary overheat cycle">
+      <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffPZAECCharge" />
+    </effect_group>
+  </entity_class>
+  <entity_class name="PZAECAffix_storm_T18" extends="AECTheArcherBossT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="storm" />
+  </entity_class>
+  <entity_class name="PZAECTrial_storm_T18" extends="AECTheArcherBossT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="storm" />
+  </entity_class>
+  <entity_class name="PZAECAffix_hunter_T19" extends="AECTheExecutionerBossT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="hunter" />
+  </entity_class>
+  <entity_class name="PZAECTrial_hunter_T19" extends="AECTheExecutionerBossT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="hunter" />
+  </entity_class>
+  <entity_class name="PZAECAffix_bulwark_T19" extends="AECTheMechanicianBossT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="bulwark" />
+    <effect_group name="Legendary overheat cycle">
+      <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffPZAECCharge" />
+    </effect_group>
+  </entity_class>
+  <entity_class name="PZAECTrial_bulwark_T19" extends="AECTheMechanicianBossT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="bulwark" />
+    <effect_group name="Legendary overheat cycle">
+      <triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffPZAECCharge" />
+    </effect_group>
+  </entity_class>
+  <entity_class name="PZAECAffix_storm_T19" extends="AECTheArcherBossT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="storm" />
+  </entity_class>
+  <entity_class name="PZAECTrial_storm_T19" extends="AECTheArcherBossT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECEncounterKind" value="storm" />
+  </entity_class>
+  <entity_class name="PZAECDefense_runner_T16_W1" extends="AECZombieArleneTier16Transcendent">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_spider_T16_W1" extends="AECZombieSpiderTier16Transcendent">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_cop_T16_W1" extends="AECZombieFatCopTier16Transcendent">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_biker_T16_W2" extends="AECZombieBikerTier16Transcendent">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_demo_T16_W2" extends="AECZombieDemolitionTier16Transcendent">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_spitter_T16_W2" extends="AECZombiePlagueSpitterTier16Transcendent">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_wolf_T16_W2" extends="AECDruidMinionWolfAggroT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_wight_T16_W3" extends="AECZombieWightFeralTier16Transcendent">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_cop_T16_W3" extends="AECZombieFatCopTier16Transcendent">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_bulwark_T16_W3" extends="PZAECAffix_bulwark_T16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_storm_T16_W3" extends="PZAECAffix_storm_T16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_runner_T17_W1" extends="AECZombieArleneTier17Ascendant">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_spider_T17_W1" extends="AECZombieSpiderTier17Ascendant">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_cop_T17_W1" extends="AECZombieFatCopTier17Ascendant">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_biker_T17_W2" extends="AECZombieBikerTier17Ascendant">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_demo_T17_W2" extends="AECZombieDemolitionTier17Ascendant">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_spitter_T17_W2" extends="AECZombiePlagueSpitterTier17Ascendant">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_wolf_T17_W2" extends="AECDruidMinionWolfAggroT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_wight_T17_W3" extends="AECZombieWightFeralTier17Ascendant">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_cop_T17_W3" extends="AECZombieFatCopTier17Ascendant">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_bulwark_T17_W3" extends="PZAECAffix_bulwark_T17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_storm_T17_W3" extends="PZAECAffix_storm_T17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_runner_T18_W1" extends="AECZombieArleneTier18Eternal">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_spider_T18_W1" extends="AECZombieSpiderTier18Eternal">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_cop_T18_W1" extends="AECZombieFatCopTier18Eternal">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_biker_T18_W2" extends="AECZombieBikerTier18Eternal">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_demo_T18_W2" extends="AECZombieDemolitionTier18Eternal">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_spitter_T18_W2" extends="AECZombiePlagueSpitterTier18Eternal">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_wolf_T18_W2" extends="AECDruidMinionWolfAggroT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_wight_T18_W3" extends="AECZombieWightFeralTier18Eternal">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_cop_T18_W3" extends="AECZombieFatCopTier18Eternal">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_bulwark_T18_W3" extends="PZAECAffix_bulwark_T18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_storm_T18_W3" extends="PZAECAffix_storm_T18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_runner_T19_W1" extends="AECZombieArleneTier19Apocalyptic">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_spider_T19_W1" extends="AECZombieSpiderTier19Apocalyptic">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_cop_T19_W1" extends="AECZombieFatCopTier19Apocalyptic">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_biker_T19_W2" extends="AECZombieBikerTier19Apocalyptic">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_demo_T19_W2" extends="AECZombieDemolitionTier19Apocalyptic">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_spitter_T19_W2" extends="AECZombiePlagueSpitterTier19Apocalyptic">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_wolf_T19_W2" extends="AECDruidMinionWolfAggroT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_wight_T19_W3" extends="AECZombieWightFeralTier19Apocalyptic">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_cop_T19_W3" extends="AECZombieFatCopTier19Apocalyptic">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_bulwark_T19_W3" extends="PZAECAffix_bulwark_T19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECDefense_storm_T19_W3" extends="PZAECAffix_storm_T19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+  </entity_class>
+  <entity_class name="PZAECSiege_heavy_T16" extends="AECZombieFatCopTier16Transcendent">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="HandItem" value="meleeHandPZAECSiege_heavy_T16" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=10;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiege_acid_T16" extends="AECZombiePlagueSpitterTier16Transcendent">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="HandItem" value="meleeHandPZAECSiege_acid_T16" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=6;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiege_heavy_T17" extends="AECZombieFatCopTier17Ascendant">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="HandItem" value="meleeHandPZAECSiege_heavy_T17" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=10;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiege_acid_T17" extends="AECZombiePlagueSpitterTier17Ascendant">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="HandItem" value="meleeHandPZAECSiege_acid_T17" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=6;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiege_heavy_T18" extends="AECZombieFatCopTier18Eternal">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="HandItem" value="meleeHandPZAECSiege_heavy_T18" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=10;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiege_acid_T18" extends="AECZombiePlagueSpitterTier18Eternal">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="HandItem" value="meleeHandPZAECSiege_acid_T18" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=6;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiege_heavy_T19" extends="AECZombieFatCopTier19Apocalyptic">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="HandItem" value="meleeHandPZAECSiege_heavy_T19" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=10;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiege_acid_T19" extends="AECZombiePlagueSpitterTier19Apocalyptic">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="HandItem" value="meleeHandPZAECSiege_acid_T19" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=6;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="AECDumdumBossLootBagT17" extends="AECDumdumBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECDumdumBossLootT17" />
+  </entity_class>
+  <entity_class name="RunningKamikazeBossLootBagT17" extends="RunningKamikazeBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="RunningKamikazeBossLootT17" />
+  </entity_class>
+  <entity_class name="DoomlordBossLootBagT17" extends="DoomlordBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="DoomlordBossLootT17" />
+  </entity_class>
+  <entity_class name="AECWitchBossLootBagT17" extends="AECWitchBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECWitchBossLootT17" />
+  </entity_class>
+  <entity_class name="AECElectricDemonBossLootBagT17" extends="AECElectricDemonBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECElectricDemonBossLootT17" />
+  </entity_class>
+  <entity_class name="AECExplosiveEagleBossLootBagT17" extends="AECExplosiveEagleBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECExplosiveEagleBossLootT17" />
+  </entity_class>
+  <entity_class name="AECHammerGuardianBossLootBagT17" extends="AECHammerGuardianBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECHammerGuardianBossLootT17" />
+  </entity_class>
+  <entity_class name="AECMechanicianBossLootBagT17" extends="AECMechanicianBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECMechanicianBossLootT17" />
+  </entity_class>
+  <entity_class name="AECDruidBossLootBagT17" extends="AECDruidBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECDruidBossLootT17" />
+  </entity_class>
+  <entity_class name="AECExecutionerBossLootBagT17" extends="AECExecutionerBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECExecutionerBossLootT17" />
+  </entity_class>
+  <entity_class name="AECPartyBeachBossLootBagT17" extends="AECPartyBeachBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECPartyBeachBossLootT17" />
+  </entity_class>
+  <entity_class name="AECMykirBossLootBagT17" extends="AECMykirBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECMykirBossLootT17" />
+  </entity_class>
+  <entity_class name="AECHellskyliLootBagT17" extends="AECHellskyliLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECHellskyliLootT17" />
+  </entity_class>
+  <entity_class name="AECRockbreakerLootBagT17" extends="AECRockbreakerLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECRockbreakerLootT17" />
+  </entity_class>
+  <entity_class name="AECSingerieBossLootBagT17" extends="AECSingerieBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECSingerieBossLootT17" />
+  </entity_class>
+  <entity_class name="AECGhostBossLootBagT17" extends="AECGhostBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECGhostBossLootT17" />
+  </entity_class>
+  <entity_class name="AECSirenHeadBossLootBagT17" extends="AECSirenHeadBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECSirenHeadBossLootT17" />
+  </entity_class>
+  <entity_class name="AECMushroomBossLootBagT17" extends="AECMushroomBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECMushroomBossLootT17" />
+  </entity_class>
+  <entity_class name="AECArcherBossLootBagT17" extends="AECArcherBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECArcherBossLootT17" />
+  </entity_class>
+  <entity_class name="AECSheriffBossLootBagT17" extends="AECSheriffBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECSheriffBossLootT17" />
+  </entity_class>
+  <entity_class name="AECHeadlessBossLootBagT17" extends="AECHeadlessBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECHeadlessBossLootT17" />
+  </entity_class>
+  <entity_class name="AECDumdumBossLootBagT18" extends="AECDumdumBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECDumdumBossLootT18" />
+  </entity_class>
+  <entity_class name="RunningKamikazeBossLootBagT18" extends="RunningKamikazeBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="RunningKamikazeBossLootT18" />
+  </entity_class>
+  <entity_class name="DoomlordBossLootBagT18" extends="DoomlordBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="DoomlordBossLootT18" />
+  </entity_class>
+  <entity_class name="AECWitchBossLootBagT18" extends="AECWitchBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECWitchBossLootT18" />
+  </entity_class>
+  <entity_class name="AECElectricDemonBossLootBagT18" extends="AECElectricDemonBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECElectricDemonBossLootT18" />
+  </entity_class>
+  <entity_class name="AECExplosiveEagleBossLootBagT18" extends="AECExplosiveEagleBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECExplosiveEagleBossLootT18" />
+  </entity_class>
+  <entity_class name="AECHammerGuardianBossLootBagT18" extends="AECHammerGuardianBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECHammerGuardianBossLootT18" />
+  </entity_class>
+  <entity_class name="AECMechanicianBossLootBagT18" extends="AECMechanicianBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECMechanicianBossLootT18" />
+  </entity_class>
+  <entity_class name="AECDruidBossLootBagT18" extends="AECDruidBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECDruidBossLootT18" />
+  </entity_class>
+  <entity_class name="AECExecutionerBossLootBagT18" extends="AECExecutionerBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECExecutionerBossLootT18" />
+  </entity_class>
+  <entity_class name="AECPartyBeachBossLootBagT18" extends="AECPartyBeachBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECPartyBeachBossLootT18" />
+  </entity_class>
+  <entity_class name="AECMykirBossLootBagT18" extends="AECMykirBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECMykirBossLootT18" />
+  </entity_class>
+  <entity_class name="AECHellskyliLootBagT18" extends="AECHellskyliLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECHellskyliLootT18" />
+  </entity_class>
+  <entity_class name="AECRockbreakerLootBagT18" extends="AECRockbreakerLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECRockbreakerLootT18" />
+  </entity_class>
+  <entity_class name="AECSingerieBossLootBagT18" extends="AECSingerieBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECSingerieBossLootT18" />
+  </entity_class>
+  <entity_class name="AECGhostBossLootBagT18" extends="AECGhostBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECGhostBossLootT18" />
+  </entity_class>
+  <entity_class name="AECSirenHeadBossLootBagT18" extends="AECSirenHeadBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECSirenHeadBossLootT18" />
+  </entity_class>
+  <entity_class name="AECMushroomBossLootBagT18" extends="AECMushroomBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECMushroomBossLootT18" />
+  </entity_class>
+  <entity_class name="AECArcherBossLootBagT18" extends="AECArcherBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECArcherBossLootT18" />
+  </entity_class>
+  <entity_class name="AECSheriffBossLootBagT18" extends="AECSheriffBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECSheriffBossLootT18" />
+  </entity_class>
+  <entity_class name="AECHeadlessBossLootBagT18" extends="AECHeadlessBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECHeadlessBossLootT18" />
+  </entity_class>
+  <entity_class name="AECDumdumBossLootBagT19" extends="AECDumdumBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECDumdumBossLootT19" />
+  </entity_class>
+  <entity_class name="RunningKamikazeBossLootBagT19" extends="RunningKamikazeBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="RunningKamikazeBossLootT19" />
+  </entity_class>
+  <entity_class name="DoomlordBossLootBagT19" extends="DoomlordBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="DoomlordBossLootT19" />
+  </entity_class>
+  <entity_class name="AECWitchBossLootBagT19" extends="AECWitchBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECWitchBossLootT19" />
+  </entity_class>
+  <entity_class name="AECElectricDemonBossLootBagT19" extends="AECElectricDemonBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECElectricDemonBossLootT19" />
+  </entity_class>
+  <entity_class name="AECExplosiveEagleBossLootBagT19" extends="AECExplosiveEagleBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECExplosiveEagleBossLootT19" />
+  </entity_class>
+  <entity_class name="AECHammerGuardianBossLootBagT19" extends="AECHammerGuardianBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECHammerGuardianBossLootT19" />
+  </entity_class>
+  <entity_class name="AECMechanicianBossLootBagT19" extends="AECMechanicianBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECMechanicianBossLootT19" />
+  </entity_class>
+  <entity_class name="AECDruidBossLootBagT19" extends="AECDruidBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECDruidBossLootT19" />
+  </entity_class>
+  <entity_class name="AECExecutionerBossLootBagT19" extends="AECExecutionerBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECExecutionerBossLootT19" />
+  </entity_class>
+  <entity_class name="AECPartyBeachBossLootBagT19" extends="AECPartyBeachBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECPartyBeachBossLootT19" />
+  </entity_class>
+  <entity_class name="AECMykirBossLootBagT19" extends="AECMykirBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECMykirBossLootT19" />
+  </entity_class>
+  <entity_class name="AECHellskyliLootBagT19" extends="AECHellskyliLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECHellskyliLootT19" />
+  </entity_class>
+  <entity_class name="AECRockbreakerLootBagT19" extends="AECRockbreakerLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECRockbreakerLootT19" />
+  </entity_class>
+  <entity_class name="AECSingerieBossLootBagT19" extends="AECSingerieBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECSingerieBossLootT19" />
+  </entity_class>
+  <entity_class name="AECGhostBossLootBagT19" extends="AECGhostBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECGhostBossLootT19" />
+  </entity_class>
+  <entity_class name="AECSirenHeadBossLootBagT19" extends="AECSirenHeadBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECSirenHeadBossLootT19" />
+  </entity_class>
+  <entity_class name="AECMushroomBossLootBagT19" extends="AECMushroomBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECMushroomBossLootT19" />
+  </entity_class>
+  <entity_class name="AECArcherBossLootBagT19" extends="AECArcherBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECArcherBossLootT19" />
+  </entity_class>
+  <entity_class name="AECSheriffBossLootBagT19" extends="AECSheriffBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECSheriffBossLootT19" />
+  </entity_class>
+  <entity_class name="AECHeadlessBossLootBagT19" extends="AECHeadlessBossLootBagT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="AECHeadlessBossLootT19" />
   </entity_class>
 </entity_classes>

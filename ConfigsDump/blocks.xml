@@ -104891,7 +104891,9 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="DescriptionKey" value="aecQuestRelayDesc" />
     <property name="CustomIcon" value="radioHam" />
     <property name="Class" value="GameEvent" />
-    <property name="ActivateEvent" value="eventAECQuestRelayActivate" />
+    <property name="ActivateEvent" value="eventAECQuestRelaySpawn">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="CustomIconTint" value="B22222" />
     <property name="TintColor" value="B22222" />
     <property name="Tags" value="radio,aecQuestRelay" />
@@ -104904,12 +104906,17 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="Stacknumber" value="20000">
       <!--Element appended by: "AEC_ENDGAME_OVERHAUL"-->
     </property>
+    <property name="CanPickup" value="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </block>
   <block name="aecQuestRelay1star">
     <!--Element appended by: "AEC_AIO_BOSS_EXTREME_EDITION"-->
     <property name="Extends" value="aecQuestRelay" />
     <property name="DescriptionKey" value="aecQuestRelay1starDesc" />
-    <property name="ActivateEvent" value="eventAECQuestRelayActivate1star" />
+    <property name="ActivateEvent" value="eventAECQuestRelaySpawn1star">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="CustomIconTint" value="FFD700" />
     <property name="TintColor" value="FFD700" />
     <property name="EconomicValue" value="500" />
@@ -104924,7 +104931,9 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <!--Element appended by: "AEC_AIO_BOSS_EXTREME_EDITION"-->
     <property name="Extends" value="aecQuestRelay" />
     <property name="DescriptionKey" value="aecQuestRelay2starDesc" />
-    <property name="ActivateEvent" value="eventAECQuestRelayActivate2star" />
+    <property name="ActivateEvent" value="eventAECQuestRelaySpawn2star">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="CustomIconTint" value="FF8C00" />
     <property name="TintColor" value="FF8C00" />
     <property name="EconomicValue" value="1000" />
@@ -104939,7 +104948,9 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <!--Element appended by: "AEC_AIO_BOSS_EXTREME_EDITION"-->
     <property name="Extends" value="aecQuestRelay" />
     <property name="DescriptionKey" value="aecQuestRelay3starDesc" />
-    <property name="ActivateEvent" value="eventAECQuestRelayActivate3star" />
+    <property name="ActivateEvent" value="eventAECQuestRelaySpawn3star">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="CustomIconTint" value="00BFFF" />
     <property name="TintColor" value="00BFFF" />
     <property name="EconomicValue" value="2500" />
@@ -104954,7 +104965,9 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <!--Element appended by: "AEC_AIO_BOSS_EXTREME_EDITION"-->
     <property name="Extends" value="aecQuestRelay" />
     <property name="DescriptionKey" value="aecQuestRelay4starDesc" />
-    <property name="ActivateEvent" value="eventAECQuestRelayActivate4star" />
+    <property name="ActivateEvent" value="eventAECQuestRelaySpawn4star">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="CustomIconTint" value="9400D3" />
     <property name="TintColor" value="9400D3" />
     <property name="EconomicValue" value="5000" />
@@ -104969,7 +104982,9 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <!--Element appended by: "AEC_AIO_BOSS_EXTREME_EDITION"-->
     <property name="Extends" value="aecQuestRelay" />
     <property name="DescriptionKey" value="aecQuestRelay5starDesc" />
-    <property name="ActivateEvent" value="eventAECQuestRelayActivate5star" />
+    <property name="ActivateEvent" value="eventAECQuestRelaySpawn5star">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="CustomIconTint" value="FF1493" />
     <property name="TintColor" value="FF1493" />
     <property name="EconomicValue" value="10000" />
@@ -115630,6 +115645,65 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceForgedIron" value="20" />
       <property name="resourceMechanicalParts" value="5" />
+    </property>
+  </block>
+  <block name="PZAECStrongholdCore">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="cntSteelWallCabinetSecure" />
+    <property name="CreativeMode" value="Player" />
+    <property name="CustomIcon" value="keystoneBlock" />
+    <property name="CustomIconTint" value="FF6633" />
+    <property name="DescriptionKey" value="PZAECStrongholdCoreDesc" />
+    <property name="MaxDamage" value="20000" />
+    <property name="LPHardnessScale" value="4" />
+    <property name="Stacknumber" value="1" />
+    <property name="EconomicValue" value="5000" />
+    <property name="SellableToTrader" value="false" />
+    <property name="TakeDelay" value="30" />
+    <property name="Group" value="Science,advBuilding" />
+    <property name="FilterTags" value="MC_playerBlocks,SC_electrical" />
+    <property class="RepairItems">
+      <property name="resourceForgedSteel" value="40" />
+      <property name="resourceElectricParts" value="10" />
+    </property>
+  </block>
+  <block name="PZAECStrongholdPower">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="generatorbank" />
+    <property name="CreativeMode" value="Player" />
+    <property name="CustomIconTint" value="55CCFF" />
+    <property name="DescriptionKey" value="PZAECStrongholdPowerDesc" />
+    <property name="MaxDamage" value="12000" />
+    <property name="LPHardnessScale" value="4" />
+    <property name="MaxPower" value="15000" />
+    <property name="Stacknumber" value="1" />
+    <property name="EconomicValue" value="4000" />
+    <property name="SellableToTrader" value="false" />
+    <property name="TakeDelay" value="30" />
+    <property class="RepairItems">
+      <property name="resourceForgedSteel" value="25" />
+      <property name="resourceMechanicalParts" value="10" />
+      <property name="resourceElectricParts" value="20" />
+    </property>
+  </block>
+  <block name="PZAECStrongholdSupply">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="cntSteelWallCabinetSecure" />
+    <property name="CreativeMode" value="Player" />
+    <property name="CustomIcon" value="cntSteelWallCabinetSecure" />
+    <property name="CustomIconTint" value="FFD34D" />
+    <property name="DescriptionKey" value="PZAECStrongholdSupplyDesc" />
+    <property name="MaxDamage" value="12000" />
+    <property name="LPHardnessScale" value="4" />
+    <property name="Stacknumber" value="1" />
+    <property name="EconomicValue" value="3500" />
+    <property name="SellableToTrader" value="false" />
+    <property name="TakeDelay" value="30" />
+    <property name="Group" value="Building,advBuilding" />
+    <property name="FilterTags" value="MC_building,SC_loot" />
+    <property class="RepairItems">
+      <property name="resourceForgedSteel" value="25" />
+      <property name="resourceMechanicalParts" value="10" />
     </property>
   </block>
 </blocks>

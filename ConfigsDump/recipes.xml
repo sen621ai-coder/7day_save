@@ -65886,6 +65886,162 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <ingredient name="resourcePaper" count="1" />
   </recipe>
+  <recipe name="PZAECStrongholdCore" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="resourceForgedSteel" count="100" />
+    <ingredient name="resourceMechanicalParts" count="30" />
+    <ingredient name="resourceElectricParts" count="30" />
+    <ingredient name="resourceLegendaryParts" count="2" />
+  </recipe>
+  <recipe name="PZAECStrongholdPower" count="1" craft_area="workbench" craft_time="45" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="generatorbank" count="1" />
+    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceMechanicalParts" count="20" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="PZAECStrongholdSupply" count="1" craft_area="workbench" craft_time="45" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="resourceForgedSteel" count="75" />
+    <ingredient name="resourceMechanicalParts" count="20" />
+    <ingredient name="resourceSpring" count="20" />
+  </recipe>
+  <recipe name="PZAECDefenseBeaconT16" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECChallengeVoucherT16" count="1" />
+    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="PZAECDefenseBeaconT17" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECChallengeVoucherT17" count="1" />
+    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="PZAECDefenseBeaconT18" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECChallengeVoucherT18" count="1" />
+    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="PZAECDefenseBeaconT19" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECChallengeVoucherT19" count="1" />
+    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECPrecisionR2" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR2" count="6" />
+    <ingredient name="resourceLegendaryParts" count="5" />
+    <ingredient name="resourceForgedSteel" count="20" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECBreakerR2" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR2" count="6" />
+    <ingredient name="resourceLegendaryParts" count="5" />
+    <ingredient name="resourceForgedSteel" count="20" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECBarrageR2" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR2" count="6" />
+    <ingredient name="resourceLegendaryParts" count="5" />
+    <ingredient name="resourceForgedSteel" count="20" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECSkirmisherR2" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR2" count="6" />
+    <ingredient name="resourceLegendaryParts" count="5" />
+    <ingredient name="resourceForgedSteel" count="20" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECPrecisionR3" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR3" count="6" />
+    <ingredient name="resourceLegendaryParts" count="10" />
+    <ingredient name="resourceForgedSteel" count="30" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECBreakerR3" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR3" count="6" />
+    <ingredient name="resourceLegendaryParts" count="10" />
+    <ingredient name="resourceForgedSteel" count="30" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECBarrageR3" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR3" count="6" />
+    <ingredient name="resourceLegendaryParts" count="10" />
+    <ingredient name="resourceForgedSteel" count="30" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECSkirmisherR3" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR3" count="6" />
+    <ingredient name="resourceLegendaryParts" count="10" />
+    <ingredient name="resourceForgedSteel" count="30" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECPrecisionR4" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR4" count="6" />
+    <ingredient name="resourceLegendaryParts" count="20" />
+    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECBreakerR4" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR4" count="6" />
+    <ingredient name="resourceLegendaryParts" count="20" />
+    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECBarrageR4" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR4" count="6" />
+    <ingredient name="resourceLegendaryParts" count="20" />
+    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECSkirmisherR4" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR4" count="6" />
+    <ingredient name="resourceLegendaryParts" count="20" />
+    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECPrecisionR5" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR5" count="6" />
+    <ingredient name="resourceLegendaryParts" count="35" />
+    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECBreakerR5" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR5" count="6" />
+    <ingredient name="resourceLegendaryParts" count="35" />
+    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECBarrageR5" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR5" count="6" />
+    <ingredient name="resourceLegendaryParts" count="35" />
+    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
+  <recipe name="modPZAECSkirmisherR5" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="PZAECBuildPartsR5" count="6" />
+    <ingredient name="resourceLegendaryParts" count="35" />
+    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceElectricParts" count="20" />
+  </recipe>
 </recipes>
 <!-- Standardized order for mod ingredients -->
 <!-- resourceCloth -->
