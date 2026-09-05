@@ -5292,17 +5292,21 @@ Console command: gamestage
     <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/gamestages/spawner[@name='BloodMoonHorde']/gamestage[@stage >= 30001]")-->
     <gamestage stage="30001">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      <spawn group="PZAECBloodMoonGS030000" num="999" maxAlive="256" />
+    </gamestage>
+    <gamestage stage="180000">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
       <spawn group="PZAECBloodMoonT16Fallback" num="999" maxAlive="256" />
     </gamestage>
-    <gamestage stage="50000">
+    <gamestage stage="240000">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
       <spawn group="PZAECBloodMoonT17Fallback" num="999" maxAlive="256" />
     </gamestage>
-    <gamestage stage="70000">
+    <gamestage stage="270000">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
       <spawn group="PZAECBloodMoonT18Fallback" num="999" maxAlive="256" />
     </gamestage>
-    <gamestage stage="90000">
+    <gamestage stage="300000">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
       <spawn group="PZAECBloodMoonT19Fallback" num="999" maxAlive="256" />
     </gamestage>

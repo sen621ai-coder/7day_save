@@ -4963,7 +4963,7 @@
     </response>
     <response id="pzaec_go_to_t17" text="pzaec_aec_browse_t17" nextstatementid="pzaec_t17_small">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
-      <requirement type="AECLegendaryGameStage, AEC.T16.RuntimeFix" value="50000" requirementtype="Hide" />
+      <requirement type="AECLegendaryGameStage, AEC.T16.RuntimeFix" value="240000" requirementtype="Hide" />
     </response>
     <response id="pzaec_sep_t17_small" text="aec_dialog_a1_t17_header" nextstatementid="pzaec_t17_small">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -5006,7 +5006,7 @@
     </response>
     <response id="pzaec_go_to_t18" text="pzaec_aec_browse_t18" nextstatementid="pzaec_t18_small">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
-      <requirement type="AECLegendaryGameStage, AEC.T16.RuntimeFix" value="70000" requirementtype="Hide" />
+      <requirement type="AECLegendaryGameStage, AEC.T16.RuntimeFix" value="270000" requirementtype="Hide" />
     </response>
     <response id="pzaec_sep_t18_small" text="aec_dialog_a1_t18_header" nextstatementid="pzaec_t18_small">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -5049,7 +5049,7 @@
     </response>
     <response id="pzaec_go_to_t19" text="pzaec_aec_browse_t19" nextstatementid="pzaec_t19_small">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
-      <requirement type="AECLegendaryGameStage, AEC.T16.RuntimeFix" value="90000" requirementtype="Hide" />
+      <requirement type="AECLegendaryGameStage, AEC.T16.RuntimeFix" value="300000" requirementtype="Hide" />
     </response>
     <response id="pzaec_sep_t19_small" text="aec_dialog_a1_t19_header" nextstatementid="pzaec_t19_small">
       <!--Element appended by: "AECxProjectZ_Tweaks"-->

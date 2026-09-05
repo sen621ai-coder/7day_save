@@ -51022,6 +51022,245 @@
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <item group="PZAECBossLootBundleT15_Content" />
   </lootcontainer>
+  <lootgroup name="PZAECArmorDropT16" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="armorPZAECHarrierHelmetT16" count="1" />
+    <item name="armorPZAECHarrierOutfitT16" count="1" />
+    <item name="armorPZAECHarrierGlovesT16" count="1" />
+    <item name="armorPZAECHarrierBootsT16" count="1" />
+    <item name="armorPZAECStormHelmetT16" count="1" />
+    <item name="armorPZAECStormOutfitT16" count="1" />
+    <item name="armorPZAECStormGlovesT16" count="1" />
+    <item name="armorPZAECStormBootsT16" count="1" />
+    <item name="armorPZAECTremorHelmetT16" count="1" />
+    <item name="armorPZAECTremorOutfitT16" count="1" />
+    <item name="armorPZAECTremorGlovesT16" count="1" />
+    <item name="armorPZAECTremorBootsT16" count="1" />
+    <item name="armorPZAECWardenHelmetT16" count="1" />
+    <item name="armorPZAECWardenOutfitT16" count="1" />
+    <item name="armorPZAECWardenGlovesT16" count="1" />
+    <item name="armorPZAECWardenBootsT16" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECSiegeMaterialsT16" count="all">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="resourcePZAECSiegeCapacitorT16" count="1" />
+    <item name="resourceForgedSteel" count="10" />
+    <item name="resourcePZAECCapacitorFragmentT16" count="1,3" prob=".75">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="thrownPZAECCounterJammerT16" count="1" prob="0.08">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECDefenseBlueprintCrateT16" count="1" prob="0.04">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+  </lootgroup>
+  <lootgroup name="PZAECArmorDropT17" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="armorPZAECHarrierHelmetT17" count="1" />
+    <item name="armorPZAECHarrierOutfitT17" count="1" />
+    <item name="armorPZAECHarrierGlovesT17" count="1" />
+    <item name="armorPZAECHarrierBootsT17" count="1" />
+    <item name="armorPZAECStormHelmetT17" count="1" />
+    <item name="armorPZAECStormOutfitT17" count="1" />
+    <item name="armorPZAECStormGlovesT17" count="1" />
+    <item name="armorPZAECStormBootsT17" count="1" />
+    <item name="armorPZAECTremorHelmetT17" count="1" />
+    <item name="armorPZAECTremorOutfitT17" count="1" />
+    <item name="armorPZAECTremorGlovesT17" count="1" />
+    <item name="armorPZAECTremorBootsT17" count="1" />
+    <item name="armorPZAECWardenHelmetT17" count="1" />
+    <item name="armorPZAECWardenOutfitT17" count="1" />
+    <item name="armorPZAECWardenGlovesT17" count="1" />
+    <item name="armorPZAECWardenBootsT17" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECSiegeMaterialsT17" count="all">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="resourcePZAECSiegeCapacitorT17" count="1" />
+    <item name="resourceForgedSteel" count="15" />
+    <item name="resourcePZAECCapacitorFragmentT17" count="1,3" prob=".75">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="thrownPZAECCounterJammerT17" count="1" prob="0.12">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECDefenseBlueprintCrateT17" count="1" prob="0.06">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+  </lootgroup>
+  <lootgroup name="PZAECArmorDropT18" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="armorPZAECHarrierHelmetT18" count="1" />
+    <item name="armorPZAECHarrierOutfitT18" count="1" />
+    <item name="armorPZAECHarrierGlovesT18" count="1" />
+    <item name="armorPZAECHarrierBootsT18" count="1" />
+    <item name="armorPZAECStormHelmetT18" count="1" />
+    <item name="armorPZAECStormOutfitT18" count="1" />
+    <item name="armorPZAECStormGlovesT18" count="1" />
+    <item name="armorPZAECStormBootsT18" count="1" />
+    <item name="armorPZAECTremorHelmetT18" count="1" />
+    <item name="armorPZAECTremorOutfitT18" count="1" />
+    <item name="armorPZAECTremorGlovesT18" count="1" />
+    <item name="armorPZAECTremorBootsT18" count="1" />
+    <item name="armorPZAECWardenHelmetT18" count="1" />
+    <item name="armorPZAECWardenOutfitT18" count="1" />
+    <item name="armorPZAECWardenGlovesT18" count="1" />
+    <item name="armorPZAECWardenBootsT18" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECSiegeMaterialsT18" count="all">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="resourcePZAECSiegeCapacitorT18" count="1,2" />
+    <item name="resourceForgedSteel" count="20" />
+    <item name="resourcePZAECCapacitorFragmentT18" count="1,3" prob=".75">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="thrownPZAECCounterJammerT18" count="1" prob="0.18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECDefenseBlueprintCrateT18" count="1" prob="0.09">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+  </lootgroup>
+  <lootgroup name="PZAECArmorDropT19" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="armorPZAECHarrierHelmetT19" count="1" />
+    <item name="armorPZAECHarrierOutfitT19" count="1" />
+    <item name="armorPZAECHarrierGlovesT19" count="1" />
+    <item name="armorPZAECHarrierBootsT19" count="1" />
+    <item name="armorPZAECStormHelmetT19" count="1" />
+    <item name="armorPZAECStormOutfitT19" count="1" />
+    <item name="armorPZAECStormGlovesT19" count="1" />
+    <item name="armorPZAECStormBootsT19" count="1" />
+    <item name="armorPZAECTremorHelmetT19" count="1" />
+    <item name="armorPZAECTremorOutfitT19" count="1" />
+    <item name="armorPZAECTremorGlovesT19" count="1" />
+    <item name="armorPZAECTremorBootsT19" count="1" />
+    <item name="armorPZAECWardenHelmetT19" count="1" />
+    <item name="armorPZAECWardenOutfitT19" count="1" />
+    <item name="armorPZAECWardenGlovesT19" count="1" />
+    <item name="armorPZAECWardenBootsT19" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECSiegeMaterialsT19" count="all">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="resourcePZAECSiegeCapacitorT19" count="1,2" />
+    <item name="resourceForgedSteel" count="25" />
+    <item name="resourcePZAECCapacitorFragmentT19" count="1,3" prob=".75">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="thrownPZAECCounterJammerT19" count="1" prob="0.25">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECDefenseBlueprintCrateT19" count="1" prob="0.12">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+  </lootgroup>
+  <lootgroup name="PZAECExpansionWeaponT16" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="gunPZAECHorizonNeedleT16" count="1" />
+    <item name="gunPZAECStormReservoirT16" count="1" />
+    <item name="meleePZAECFaultlineHammerT16" count="1" />
+    <item name="gunPZAECBastionShotgunT16" count="1" />
+    <item name="gunPZAECEchoRepeaterT16" count="1" />
+    <item name="gunPZAECCounterSiegeT16" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECExpansionComponentT16" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="modPZAECThreatLensT16" count="1" />
+    <item name="modPZAECCoolingSinkT16" count="1" />
+    <item name="modPZAECKineticRecyclerT16" count="1" />
+    <item name="modPZAECRepairServoT16" count="1" />
+    <item name="modPZAECPhaseRangefinderT16" count="1" />
+    <item name="modPZAECNearfieldReflexT16" count="1" />
+    <item name="modPZAECClosedLoopFeedT16" count="1" />
+    <item name="modPZAECPulseCapacitorT16" count="1" />
+    <item name="modPZAECStanceBreakerT16" count="1" />
+    <item name="modPZAECGatekeeperHookT16" count="1" />
+    <item name="modPZAECEmergencyLinerT16" count="1" />
+    <item name="modPZAECInsulatedTreadsT16" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECExpansionWeaponT17" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="gunPZAECHorizonNeedleT17" count="1" />
+    <item name="gunPZAECStormReservoirT17" count="1" />
+    <item name="meleePZAECFaultlineHammerT17" count="1" />
+    <item name="gunPZAECBastionShotgunT17" count="1" />
+    <item name="gunPZAECEchoRepeaterT17" count="1" />
+    <item name="gunPZAECCounterSiegeT17" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECExpansionComponentT17" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="modPZAECThreatLensT17" count="1" />
+    <item name="modPZAECCoolingSinkT17" count="1" />
+    <item name="modPZAECKineticRecyclerT17" count="1" />
+    <item name="modPZAECRepairServoT17" count="1" />
+    <item name="modPZAECPhaseRangefinderT17" count="1" />
+    <item name="modPZAECNearfieldReflexT17" count="1" />
+    <item name="modPZAECClosedLoopFeedT17" count="1" />
+    <item name="modPZAECPulseCapacitorT17" count="1" />
+    <item name="modPZAECStanceBreakerT17" count="1" />
+    <item name="modPZAECGatekeeperHookT17" count="1" />
+    <item name="modPZAECEmergencyLinerT17" count="1" />
+    <item name="modPZAECInsulatedTreadsT17" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECExpansionWeaponT18" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="gunPZAECHorizonNeedleT18" count="1" />
+    <item name="gunPZAECStormReservoirT18" count="1" />
+    <item name="meleePZAECFaultlineHammerT18" count="1" />
+    <item name="gunPZAECBastionShotgunT18" count="1" />
+    <item name="gunPZAECEchoRepeaterT18" count="1" />
+    <item name="gunPZAECCounterSiegeT18" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECExpansionComponentT18" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="modPZAECThreatLensT18" count="1" />
+    <item name="modPZAECCoolingSinkT18" count="1" />
+    <item name="modPZAECKineticRecyclerT18" count="1" />
+    <item name="modPZAECRepairServoT18" count="1" />
+    <item name="modPZAECPhaseRangefinderT18" count="1" />
+    <item name="modPZAECNearfieldReflexT18" count="1" />
+    <item name="modPZAECClosedLoopFeedT18" count="1" />
+    <item name="modPZAECPulseCapacitorT18" count="1" />
+    <item name="modPZAECStanceBreakerT18" count="1" />
+    <item name="modPZAECGatekeeperHookT18" count="1" />
+    <item name="modPZAECEmergencyLinerT18" count="1" />
+    <item name="modPZAECInsulatedTreadsT18" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECExpansionWeaponT19" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="gunPZAECHorizonNeedleT19" count="1" />
+    <item name="gunPZAECStormReservoirT19" count="1" />
+    <item name="meleePZAECFaultlineHammerT19" count="1" />
+    <item name="gunPZAECBastionShotgunT19" count="1" />
+    <item name="gunPZAECEchoRepeaterT19" count="1" />
+    <item name="gunPZAECCounterSiegeT19" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECExpansionComponentT19" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="modPZAECThreatLensT19" count="1" />
+    <item name="modPZAECCoolingSinkT19" count="1" />
+    <item name="modPZAECKineticRecyclerT19" count="1" />
+    <item name="modPZAECRepairServoT19" count="1" />
+    <item name="modPZAECPhaseRangefinderT19" count="1" />
+    <item name="modPZAECNearfieldReflexT19" count="1" />
+    <item name="modPZAECClosedLoopFeedT19" count="1" />
+    <item name="modPZAECPulseCapacitorT19" count="1" />
+    <item name="modPZAECStanceBreakerT19" count="1" />
+    <item name="modPZAECGatekeeperHookT19" count="1" />
+    <item name="modPZAECEmergencyLinerT19" count="1" />
+    <item name="modPZAECInsulatedTreadsT19" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECCalibrationT19" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="modPZAECHarrierStableT19" count="1" />
+    <item name="modPZAECHarrierOverloadT19" count="1" />
+    <item name="modPZAECStormStableT19" count="1" />
+    <item name="modPZAECStormOverloadT19" count="1" />
+    <item name="modPZAECTremorStableT19" count="1" />
+    <item name="modPZAECTremorOverloadT19" count="1" />
+    <item name="modPZAECWardenStableT19" count="1" />
+    <item name="modPZAECWardenOverloadT19" count="1" />
+  </lootgroup>
   <lootgroup name="PZAECBossLootBundleT16_Content" count="all">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <item group="groupAmmoImpLarge" count="6" prob="1" force_prob="true">
@@ -51079,6 +51318,24 @@
     <item group="groupUniqueParts" count="1" prob=".08" force_prob="true">
       <!--Attribute "prob" replaced by: "AEC_T16_RuntimeFix"-->
       <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="resourcePZAECMutantHeartT16" count="1" prob="1" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="resourcePZAECMutantHeartT16" count="1" prob=".25" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECArmorDropT16" count="1" prob=".10" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECArmoryBlueprintCrateT16" count="1" prob="0.08" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECComponentChoiceCrateT16" count="1" prob="0.18" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECExpansionWeaponT16" count="1" prob="0.02" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
   </lootgroup>
   <lootcontainer name="PZAECBossLootBundleT16" count="1" size="7,8" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="empty" unique_item="true" ignore_loot_abundance="true" unmodified_lootstage="true">
@@ -52063,6 +52320,24 @@
     <item group="groupLegend_Weapon" count="1" prob=".16" force_prob="true" />
     <item group="groupLegend_MeleeWeapon" count="1" prob=".20" force_prob="true" />
     <item group="groupUniqueParts" count="1" prob=".12" force_prob="true" />
+    <item name="resourcePZAECMutantHeartT17" count="1" prob="1" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="resourcePZAECMutantHeartT17" count="1" prob=".40" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECArmorDropT17" count="1" prob=".15" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECArmoryBlueprintCrateT17" count="1" prob="0.12" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECComponentChoiceCrateT17" count="1" prob="0.25" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECExpansionWeaponT17" count="1" prob="0.03" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
   </lootgroup>
   <lootcontainer name="PZAECBossLootBundleT17" count="1" size="7,8" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="empty" unique_item="true" ignore_loot_abundance="true" unmodified_lootstage="true">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -52085,6 +52360,24 @@
     <item group="groupLegend_Weapon" count="1" prob=".24" force_prob="true" />
     <item group="groupLegend_MeleeWeapon" count="1" prob=".28" force_prob="true" />
     <item group="groupUniqueParts" count="1" prob=".18" force_prob="true" />
+    <item name="resourcePZAECMutantHeartT18" count="1" prob="1" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="resourcePZAECMutantHeartT18" count="1" prob=".60" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECArmorDropT18" count="1" prob=".22" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECArmoryBlueprintCrateT18" count="1" prob="0.18" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECComponentChoiceCrateT18" count="1" prob="0.35" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECExpansionWeaponT18" count="1" prob="0.04" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
   </lootgroup>
   <lootcontainer name="PZAECBossLootBundleT18" count="1" size="7,8" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="empty" unique_item="true" ignore_loot_abundance="true" unmodified_lootstage="true">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -52107,6 +52400,27 @@
     <item group="groupLegend_Weapon" count="1" prob=".34" force_prob="true" />
     <item group="groupLegend_MeleeWeapon" count="1" prob=".40" force_prob="true" />
     <item group="groupUniqueParts" count="1" prob=".25" force_prob="true" />
+    <item name="resourcePZAECMutantHeartT19" count="1" prob="1" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="resourcePZAECMutantHeartT19" count="1" prob=".80" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECArmorDropT19" count="1" prob=".30" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECArmoryBlueprintCrateT19" count="1" prob="0.25" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECComponentChoiceCrateT19" count="1" prob="0.5" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECExpansionWeaponT19" count="1" prob="0.06" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECCalibrationT19" count="1" prob=".15" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
   </lootgroup>
   <lootcontainer name="PZAECBossLootBundleT19" count="1" size="7,8" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="empty" unique_item="true" ignore_loot_abundance="true" unmodified_lootstage="true">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -53119,5 +53433,21 @@
     <item name="resourceScrapIron" count="120,260" />
     <item name="resourceAECMutationSampleT4" count="1212" />
     <item name="resourceAECMutationSampleT5" count="1436" />
+  </lootcontainer>
+  <lootcontainer name="PZAECSiegeLootT16" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true" unmodified_lootstage="true">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <item group="PZAECSiegeMaterialsT16" />
+  </lootcontainer>
+  <lootcontainer name="PZAECSiegeLootT17" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true" unmodified_lootstage="true">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <item group="PZAECSiegeMaterialsT17" />
+  </lootcontainer>
+  <lootcontainer name="PZAECSiegeLootT18" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true" unmodified_lootstage="true">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <item group="PZAECSiegeMaterialsT18" />
+  </lootcontainer>
+  <lootcontainer name="PZAECSiegeLootT19" count="1" size="4,2" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" ignore_loot_abundance="true" unmodified_lootstage="true">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <item group="PZAECSiegeMaterialsT19" />
   </lootcontainer>
 </lootcontainers>

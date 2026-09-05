@@ -95774,6 +95774,15 @@
     <e n="AECZombieScreamerTier16Transcendent" p="0.012668984164" />
     <e n="AECZombieWightFeralTier16Transcendent" p="0.007601390498" />
     <e n="AECZombieDemolitionTier16Transcendent" p="0.007601390498" />
+    <e n="PZAECSiegeDisruptorT16" p=".018">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </e>
+    <e n="PZAECSiegeSpotterT16" p=".014">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </e>
+    <e n="PZAECSiegeLinesmanT16" p=".022">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </e>
   </entitygroup>
   <entitygroup name="PZAECBloodMoonT17Fallback">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -95841,6 +95850,15 @@
     <e n="AECDruidMinionWolfAggroT17" p="0.019320200850" />
     <e n="AECDruidMinionZombieBearT17" p="0.019320200850" />
     <e n="AECSheriffWolfMinion01T17" p="0.019003476246" />
+    <e n="PZAECSiegeDisruptorT17" p=".018">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </e>
+    <e n="PZAECSiegeSpotterT17" p=".014">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </e>
+    <e n="PZAECSiegeLinesmanT17" p=".022">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </e>
   </entitygroup>
   <entitygroup name="PZAECBloodMoonT18Fallback">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -95908,6 +95926,15 @@
     <e n="AECDruidMinionWolfAggroT18" p="0.019320200850" />
     <e n="AECDruidMinionZombieBearT18" p="0.019320200850" />
     <e n="AECSheriffWolfMinion01T18" p="0.019003476246" />
+    <e n="PZAECSiegeDisruptorT18" p=".018">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </e>
+    <e n="PZAECSiegeSpotterT18" p=".014">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </e>
+    <e n="PZAECSiegeLinesmanT18" p=".022">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </e>
   </entitygroup>
   <entitygroup name="PZAECBloodMoonT19Fallback">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -95975,5 +96002,14 @@
     <e n="AECDruidMinionWolfAggroT19" p="0.019320200850" />
     <e n="AECDruidMinionZombieBearT19" p="0.019320200850" />
     <e n="AECSheriffWolfMinion01T19" p="0.019003476246" />
+    <e n="PZAECSiegeDisruptorT19" p=".018">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </e>
+    <e n="PZAECSiegeSpotterT19" p=".014">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </e>
+    <e n="PZAECSiegeLinesmanT19" p=".022">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </e>
   </entitygroup>
 </entitygroups>

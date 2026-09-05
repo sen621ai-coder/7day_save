@@ -290535,48 +290535,96 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="UserSpawnType" value="None" />
     <property name="HandItem" value="meleeHandPZAECSiege_heavy_T16" />
     <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=10;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+    <property name="LootDropProb" value=".35">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
+    <property name="LootDropEntityClass" value="PZAECSiegeLootBagT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="PZAECSiege_acid_T16" extends="AECZombiePlagueSpitterTier16Transcendent">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="UserSpawnType" value="None" />
     <property name="HandItem" value="meleeHandPZAECSiege_acid_T16" />
     <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=6;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+    <property name="LootDropProb" value=".35">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
+    <property name="LootDropEntityClass" value="PZAECSiegeLootBagT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="PZAECSiege_heavy_T17" extends="AECZombieFatCopTier17Ascendant">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="UserSpawnType" value="None" />
     <property name="HandItem" value="meleeHandPZAECSiege_heavy_T17" />
     <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=10;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+    <property name="LootDropProb" value=".45">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
+    <property name="LootDropEntityClass" value="PZAECSiegeLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="PZAECSiege_acid_T17" extends="AECZombiePlagueSpitterTier17Ascendant">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="UserSpawnType" value="None" />
     <property name="HandItem" value="meleeHandPZAECSiege_acid_T17" />
     <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=6;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+    <property name="LootDropProb" value=".45">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
+    <property name="LootDropEntityClass" value="PZAECSiegeLootBagT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="PZAECSiege_heavy_T18" extends="AECZombieFatCopTier18Eternal">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="UserSpawnType" value="None" />
     <property name="HandItem" value="meleeHandPZAECSiege_heavy_T18" />
     <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=10;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+    <property name="LootDropProb" value=".55">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
+    <property name="LootDropEntityClass" value="PZAECSiegeLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="PZAECSiege_acid_T18" extends="AECZombiePlagueSpitterTier18Eternal">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="UserSpawnType" value="None" />
     <property name="HandItem" value="meleeHandPZAECSiege_acid_T18" />
     <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=6;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+    <property name="LootDropProb" value=".55">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
+    <property name="LootDropEntityClass" value="PZAECSiegeLootBagT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="PZAECSiege_heavy_T19" extends="AECZombieFatCopTier19Apocalyptic">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="UserSpawnType" value="None" />
     <property name="HandItem" value="meleeHandPZAECSiege_heavy_T19" />
     <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=10;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+    <property name="LootDropProb" value=".70">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
+    <property name="LootDropEntityClass" value="PZAECSiegeLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="PZAECSiege_acid_T19" extends="AECZombiePlagueSpitterTier19Apocalyptic">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="UserSpawnType" value="None" />
     <property name="HandItem" value="meleeHandPZAECSiege_acid_T19" />
     <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=6;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+    <property name="LootDropProb" value=".70">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
+    <property name="LootDropEntityClass" value="PZAECSiegeLootBagT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </entity_class>
   <entity_class name="AECDumdumBossLootBagT17" extends="AECDumdumBossLootBagT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -290829,5 +290877,101 @@ Kinda sorta works but is buggy and we don't have time for that.
   <entity_class name="AECHeadlessBossLootBagT19" extends="AECHeadlessBossLootBagT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="LootList" value="AECHeadlessBossLootT19" />
+  </entity_class>
+  <entity_class name="PZAECSiegeLootBagT16" extends="EntityLootContainerStrong">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="PZAECSiegeLootT16" />
+  </entity_class>
+  <entity_class name="PZAECSiegeLootBagT17" extends="EntityLootContainerStrong">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="PZAECSiegeLootT17" />
+  </entity_class>
+  <entity_class name="PZAECSiegeLootBagT18" extends="EntityLootContainerStrong">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="PZAECSiegeLootT18" />
+  </entity_class>
+  <entity_class name="PZAECSiegeLootBagT19" extends="EntityLootContainerStrong">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="LootList" value="PZAECSiegeLootT19" />
+  </entity_class>
+  <entity_class name="PZAECSiegeDisruptorT16" extends="PZAECSiege_acid_T16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECSiegeRole" value="Disruptor" />
+    <property name="HandItem" value="meleeHandPZAECSiege_acid_T16" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=8;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiegeSpotterT16" extends="PZAECSiege_heavy_T16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECSiegeRole" value="Spotter" />
+    <property name="HandItem" value="meleeHandPZAECSiege_heavy_T16" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=12;duration=7;minRange=10;maxRange=60;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiegeLinesmanT16" extends="AECZombieUtilityWorkerTier16Transcendent">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECSiegeRole" value="Linesman" />
+    <property name="AITask" value="BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiegeDisruptorT17" extends="PZAECSiege_acid_T17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECSiegeRole" value="Disruptor" />
+    <property name="HandItem" value="meleeHandPZAECSiege_acid_T17" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=8;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiegeSpotterT17" extends="PZAECSiege_heavy_T17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECSiegeRole" value="Spotter" />
+    <property name="HandItem" value="meleeHandPZAECSiege_heavy_T17" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=12;duration=7;minRange=10;maxRange=60;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiegeLinesmanT17" extends="AECZombieUtilityWorkerTier17Ascendant">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECSiegeRole" value="Linesman" />
+    <property name="AITask" value="BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiegeDisruptorT18" extends="PZAECSiege_acid_T18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECSiegeRole" value="Disruptor" />
+    <property name="HandItem" value="meleeHandPZAECSiege_acid_T18" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=8;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiegeSpotterT18" extends="PZAECSiege_heavy_T18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECSiegeRole" value="Spotter" />
+    <property name="HandItem" value="meleeHandPZAECSiege_heavy_T18" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=12;duration=7;minRange=10;maxRange=60;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiegeLinesmanT18" extends="AECZombieUtilityWorkerTier18Eternal">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECSiegeRole" value="Linesman" />
+    <property name="AITask" value="BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiegeDisruptorT19" extends="PZAECSiege_acid_T19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECSiegeRole" value="Disruptor" />
+    <property name="HandItem" value="meleeHandPZAECSiege_acid_T19" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=8;duration=7;minRange=8;maxRange=52;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiegeSpotterT19" extends="PZAECSiege_heavy_T19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECSiegeRole" value="Spotter" />
+    <property name="HandItem" value="meleeHandPZAECSiege_heavy_T19" />
+    <property name="AITask" value="PZAECSiege,AEC.T16.RuntimeFix itemType=1;cooldown=12;duration=7;minRange=10;maxRange=60;sndStart=hulkvomitwarning|BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
+  </entity_class>
+  <entity_class name="PZAECSiegeLinesmanT19" extends="AECZombieUtilityWorkerTier19Apocalyptic">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="UserSpawnType" value="None" />
+    <property name="PZAECSiegeRole" value="Linesman" />
+    <property name="AITask" value="BreakBlock|ApproachAndAttackTarget class=EntityPlayer,0|ApproachSpot|Look|Wander" />
   </entity_class>
 </entity_classes>
