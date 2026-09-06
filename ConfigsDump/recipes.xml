@@ -65254,6 +65254,30 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "ProjectZ_AEC_Endgame_Overhaul_Integration"-->
     <ingredient name="resourceCloth" count="44" />
   </recipe>
+  <recipe name="logicAlarmPerimeter" count="1" craft_area="workbench" craft_time="30" always_unlocked="true">
+    <!--Element appended by: "LogicCircuitGates"-->
+    <ingredient name="resourceForgedIron" count="10" />
+    <ingredient name="resourceElectricParts" count="12" />
+    <ingredient name="resourceMechanicalParts" count="4" />
+  </recipe>
+  <recipe name="logicAlarmBreach" count="1" craft_area="workbench" craft_time="25" always_unlocked="true">
+    <!--Element appended by: "LogicCircuitGates"-->
+    <ingredient name="resourceForgedIron" count="8" />
+    <ingredient name="resourceElectricParts" count="8" />
+    <ingredient name="resourceMechanicalParts" count="4" />
+  </recipe>
+  <recipe name="logicAlarmSiege" count="1" craft_area="workbench" craft_time="60" always_unlocked="true">
+    <!--Element appended by: "LogicCircuitGates"-->
+    <ingredient name="resourceForgedSteel" count="10" />
+    <ingredient name="resourceElectricParts" count="25" />
+    <ingredient name="resourceMechanicalParts" count="8" />
+  </recipe>
+  <recipe name="logicAlarmBloodMoon" count="1" craft_area="workbench" craft_time="20" always_unlocked="true">
+    <!--Element appended by: "LogicCircuitGates"-->
+    <ingredient name="resourceForgedIron" count="5" />
+    <ingredient name="resourceElectricParts" count="8" />
+    <ingredient name="resourceMechanicalParts" count="2" />
+  </recipe>
   <recipe name="logicGateAND" count="1" craft_area="workbench" always_unlocked="true">
     <!--Element appended by: "LogicCircuitGates"-->
     <ingredient name="resourceForgedIron" count="2" />
@@ -65888,7 +65912,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="PZAECStrongholdCore" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourceForgedSteel" count="100" />
+    <ingredient name="resourceDurablAlloys" count="100" />
     <ingredient name="resourceMechanicalParts" count="30" />
     <ingredient name="resourceElectricParts" count="30" />
     <ingredient name="resourceLegendaryParts" count="2" />
@@ -65896,45 +65920,45 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   <recipe name="PZAECStrongholdPower" count="1" craft_area="workbench" craft_time="45" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="generatorbank" count="1" />
-    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceDurablAlloys" count="50" />
     <ingredient name="resourceMechanicalParts" count="20" />
     <ingredient name="resourceElectricParts" count="20" />
   </recipe>
   <recipe name="PZAECStrongholdSupply" count="1" craft_area="workbench" craft_time="45" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourceForgedSteel" count="75" />
+    <ingredient name="resourceDurablAlloys" count="75" />
     <ingredient name="resourceMechanicalParts" count="20" />
     <ingredient name="resourceSpring" count="20" />
   </recipe>
   <recipe name="PZAECDefenseBeaconT16" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECChallengeVoucherT16" count="1" />
-    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceDurablAlloys" count="50" />
     <ingredient name="resourceElectricParts" count="20" />
   </recipe>
   <recipe name="PZAECDefenseBeaconT17" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECChallengeVoucherT17" count="1" />
-    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceDurablAlloys" count="50" />
     <ingredient name="resourceElectricParts" count="20" />
   </recipe>
   <recipe name="PZAECDefenseBeaconT18" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECChallengeVoucherT18" count="1" />
-    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceDurablAlloys" count="50" />
     <ingredient name="resourceElectricParts" count="20" />
   </recipe>
   <recipe name="PZAECDefenseBeaconT19" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECChallengeVoucherT19" count="1" />
-    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceDurablAlloys" count="50" />
     <ingredient name="resourceElectricParts" count="20" />
   </recipe>
   <recipe name="modPZAECPrecisionR2" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR2" count="6" />
     <ingredient name="resourceLegendaryParts" count="5" />
-    <ingredient name="resourceForgedSteel" count="20" />
+    <ingredient name="resourceDurablAlloys" count="20" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECWeaponChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -65950,7 +65974,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR2" count="6" />
     <ingredient name="resourceLegendaryParts" count="5" />
-    <ingredient name="resourceForgedSteel" count="20" />
+    <ingredient name="resourceDurablAlloys" count="20" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECWeaponChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -65966,7 +65990,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR2" count="6" />
     <ingredient name="resourceLegendaryParts" count="5" />
-    <ingredient name="resourceForgedSteel" count="20" />
+    <ingredient name="resourceDurablAlloys" count="20" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECWeaponChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -65982,7 +66006,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR2" count="6" />
     <ingredient name="resourceLegendaryParts" count="5" />
-    <ingredient name="resourceForgedSteel" count="20" />
+    <ingredient name="resourceDurablAlloys" count="20" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECArmorChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -65998,7 +66022,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR3" count="6" />
     <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourceForgedSteel" count="30" />
+    <ingredient name="resourceDurablAlloys" count="30" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECWeaponChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66014,7 +66038,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR3" count="6" />
     <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourceForgedSteel" count="30" />
+    <ingredient name="resourceDurablAlloys" count="30" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECWeaponChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66030,7 +66054,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR3" count="6" />
     <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourceForgedSteel" count="30" />
+    <ingredient name="resourceDurablAlloys" count="30" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECWeaponChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66046,7 +66070,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR3" count="6" />
     <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourceForgedSteel" count="30" />
+    <ingredient name="resourceDurablAlloys" count="30" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECArmorChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66062,7 +66086,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR4" count="6" />
     <ingredient name="resourceLegendaryParts" count="20" />
-    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceDurablAlloys" count="40" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECWeaponChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66078,7 +66102,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR4" count="6" />
     <ingredient name="resourceLegendaryParts" count="20" />
-    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceDurablAlloys" count="40" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECWeaponChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66094,7 +66118,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR4" count="6" />
     <ingredient name="resourceLegendaryParts" count="20" />
-    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceDurablAlloys" count="40" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECWeaponChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66110,7 +66134,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR4" count="6" />
     <ingredient name="resourceLegendaryParts" count="20" />
-    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceDurablAlloys" count="40" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECArmorChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66126,7 +66150,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR5" count="6" />
     <ingredient name="resourceLegendaryParts" count="35" />
-    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceDurablAlloys" count="50" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECWeaponChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66142,7 +66166,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR5" count="6" />
     <ingredient name="resourceLegendaryParts" count="35" />
-    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceDurablAlloys" count="50" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECWeaponChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66158,7 +66182,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR5" count="6" />
     <ingredient name="resourceLegendaryParts" count="35" />
-    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceDurablAlloys" count="50" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECWeaponChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66174,7 +66198,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="PZAECBuildPartsR5" count="6" />
     <ingredient name="resourceLegendaryParts" count="35" />
-    <ingredient name="resourceForgedSteel" count="50" />
+    <ingredient name="resourceDurablAlloys" count="50" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourcePZAECArmorChassis" count="1">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66188,7 +66212,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="resourcePZAECWeaponChassis" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourceForgedSteel" count="100" />
+    <ingredient name="resourceDurablAlloys" count="100" />
     <ingredient name="resourceMechanicalParts" count="40" />
     <ingredient name="resourceElectricParts" count="30" />
     <ingredient name="resourceDuctTape" count="10" />
@@ -66196,7 +66220,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="resourcePZAECArmorChassis" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourceForgedSteel" count="60" />
+    <ingredient name="resourceDurablAlloys" count="60" />
     <ingredient name="resourceMechanicalParts" count="20" />
     <ingredient name="resourceElectricParts" count="20" />
     <ingredient name="resourceSewingKit" count="20" />
@@ -66205,7 +66229,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="resourcePZAECDeviceChassis" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourceForgedSteel" count="80" />
+    <ingredient name="resourceDurablAlloys" count="80" />
     <ingredient name="resourceMechanicalParts" count="30" />
     <ingredient name="resourceElectricParts" count="50" />
     <ingredient name="resourceScrapPolymers" count="40" />
@@ -66214,6 +66238,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECHarrierHelmetT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorPredatorHelmet" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
@@ -66223,6 +66248,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECHarrierOutfitT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorPredatorOutfit" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
@@ -66232,6 +66258,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECHarrierGlovesT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorPredatorGloves" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
@@ -66241,29 +66268,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECHarrierBootsT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorPredatorBoots" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
     <ingredient name="resourcePZAECMutantHeartT16" count="1" />
     <ingredient name="resourceElectricParts" count="20" />
-  </recipe>
-  <recipe name="itemPZAECHarrierDeviceT16" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR2" count="6" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT16" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
-  </recipe>
-  <recipe name="armorPZAECHarrierHelmetT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
   </recipe>
   <recipe name="armorPZAECHarrierHelmetT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66273,15 +66284,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="armorPZAECHarrierOutfitT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
-  </recipe>
   <recipe name="armorPZAECHarrierOutfitT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECHarrierOutfitT16" count="1" />
@@ -66289,15 +66291,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="6" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-  </recipe>
-  <recipe name="armorPZAECHarrierGlovesT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
   </recipe>
   <recipe name="armorPZAECHarrierGlovesT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66307,15 +66300,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="armorPZAECHarrierBootsT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
-  </recipe>
   <recipe name="armorPZAECHarrierBootsT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECHarrierBootsT16" count="1" />
@@ -66323,31 +66307,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="6" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-  </recipe>
-  <recipe name="itemPZAECHarrierDeviceT17" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="7" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="5" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="2" />
-  </recipe>
-  <recipe name="itemPZAECHarrierDeviceT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="itemPZAECHarrierDeviceT16" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="4" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-  </recipe>
-  <recipe name="armorPZAECHarrierHelmetT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
   </recipe>
   <recipe name="armorPZAECHarrierHelmetT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66357,15 +66316,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
   </recipe>
-  <recipe name="armorPZAECHarrierOutfitT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
-  </recipe>
   <recipe name="armorPZAECHarrierOutfitT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECHarrierOutfitT17" count="1" />
@@ -66373,15 +66323,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="10" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="armorPZAECHarrierGlovesT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
   </recipe>
   <recipe name="armorPZAECHarrierGlovesT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66391,15 +66332,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
   </recipe>
-  <recipe name="armorPZAECHarrierBootsT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
-  </recipe>
   <recipe name="armorPZAECHarrierBootsT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECHarrierBootsT17" count="1" />
@@ -66407,31 +66339,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="10" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="itemPZAECHarrierDeviceT18" count="1" craft_area="workbench" craft_time="150" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="7" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-  </recipe>
-  <recipe name="itemPZAECHarrierDeviceT18" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="itemPZAECHarrierDeviceT17" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="5" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="5" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-  </recipe>
-  <recipe name="armorPZAECHarrierHelmetT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
   </recipe>
   <recipe name="armorPZAECHarrierHelmetT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66441,15 +66348,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
-  <recipe name="armorPZAECHarrierOutfitT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
-  </recipe>
   <recipe name="armorPZAECHarrierOutfitT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECHarrierOutfitT18" count="1" />
@@ -66457,15 +66355,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="16" />
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
-  </recipe>
-  <recipe name="armorPZAECHarrierGlovesT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
   </recipe>
   <recipe name="armorPZAECHarrierGlovesT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66475,15 +66364,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
-  <recipe name="armorPZAECHarrierBootsT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
-  </recipe>
   <recipe name="armorPZAECHarrierBootsT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECHarrierBootsT18" count="1" />
@@ -66492,24 +66372,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
-  <recipe name="itemPZAECHarrierDeviceT19" count="1" craft_area="workbench" craft_time="180" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="10" />
-    <ingredient name="resourceLegendaryParts" count="36" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="9" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-  </recipe>
-  <recipe name="itemPZAECHarrierDeviceT19" count="1" craft_area="workbench" craft_time="150" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="itemPZAECHarrierDeviceT18" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="6" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="2" />
-  </recipe>
   <recipe name="armorPZAECStormHelmetT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorPlundererHelmet" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
@@ -66519,6 +66384,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECStormOutfitT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorPlundererOutfit" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
@@ -66528,6 +66394,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECStormGlovesT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorPlundererGloves" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
@@ -66537,29 +66404,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECStormBootsT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorPlundererBoots" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
     <ingredient name="resourcePZAECMutantHeartT16" count="1" />
     <ingredient name="resourceElectricParts" count="20" />
-  </recipe>
-  <recipe name="itemPZAECStormDeviceT16" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR2" count="6" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT16" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
-  </recipe>
-  <recipe name="armorPZAECStormHelmetT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
   </recipe>
   <recipe name="armorPZAECStormHelmetT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66569,15 +66420,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="armorPZAECStormOutfitT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
-  </recipe>
   <recipe name="armorPZAECStormOutfitT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECStormOutfitT16" count="1" />
@@ -66585,15 +66427,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="6" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-  </recipe>
-  <recipe name="armorPZAECStormGlovesT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
   </recipe>
   <recipe name="armorPZAECStormGlovesT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66603,15 +66436,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="armorPZAECStormBootsT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
-  </recipe>
   <recipe name="armorPZAECStormBootsT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECStormBootsT16" count="1" />
@@ -66619,31 +66443,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="6" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-  </recipe>
-  <recipe name="itemPZAECStormDeviceT17" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="7" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="5" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="2" />
-  </recipe>
-  <recipe name="itemPZAECStormDeviceT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="itemPZAECStormDeviceT16" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="4" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-  </recipe>
-  <recipe name="armorPZAECStormHelmetT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
   </recipe>
   <recipe name="armorPZAECStormHelmetT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66653,15 +66452,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
   </recipe>
-  <recipe name="armorPZAECStormOutfitT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
-  </recipe>
   <recipe name="armorPZAECStormOutfitT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECStormOutfitT17" count="1" />
@@ -66669,15 +66459,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="10" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="armorPZAECStormGlovesT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
   </recipe>
   <recipe name="armorPZAECStormGlovesT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66687,15 +66468,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
   </recipe>
-  <recipe name="armorPZAECStormBootsT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
-  </recipe>
   <recipe name="armorPZAECStormBootsT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECStormBootsT17" count="1" />
@@ -66703,31 +66475,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="10" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="itemPZAECStormDeviceT18" count="1" craft_area="workbench" craft_time="150" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="7" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-  </recipe>
-  <recipe name="itemPZAECStormDeviceT18" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="itemPZAECStormDeviceT17" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="5" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="5" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-  </recipe>
-  <recipe name="armorPZAECStormHelmetT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
   </recipe>
   <recipe name="armorPZAECStormHelmetT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66737,15 +66484,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
-  <recipe name="armorPZAECStormOutfitT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
-  </recipe>
   <recipe name="armorPZAECStormOutfitT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECStormOutfitT18" count="1" />
@@ -66753,15 +66491,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="16" />
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
-  </recipe>
-  <recipe name="armorPZAECStormGlovesT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
   </recipe>
   <recipe name="armorPZAECStormGlovesT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66771,15 +66500,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
-  <recipe name="armorPZAECStormBootsT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
-  </recipe>
   <recipe name="armorPZAECStormBootsT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECStormBootsT18" count="1" />
@@ -66788,24 +66508,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
-  <recipe name="itemPZAECStormDeviceT19" count="1" craft_area="workbench" craft_time="180" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="10" />
-    <ingredient name="resourceLegendaryParts" count="36" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="9" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-  </recipe>
-  <recipe name="itemPZAECStormDeviceT19" count="1" craft_area="workbench" craft_time="150" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="itemPZAECStormDeviceT18" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="6" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="2" />
-  </recipe>
   <recipe name="armorPZAECTremorHelmetT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorMausHelmet" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
@@ -66815,6 +66520,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECTremorOutfitT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorMausOutfit" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
@@ -66824,6 +66530,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECTremorGlovesT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorMausGloves" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
@@ -66833,29 +66540,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECTremorBootsT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorMausBoots" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
     <ingredient name="resourcePZAECMutantHeartT16" count="1" />
     <ingredient name="resourceElectricParts" count="20" />
-  </recipe>
-  <recipe name="itemPZAECTremorDeviceT16" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR2" count="6" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT16" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
-  </recipe>
-  <recipe name="armorPZAECTremorHelmetT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
   </recipe>
   <recipe name="armorPZAECTremorHelmetT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66865,15 +66556,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="armorPZAECTremorOutfitT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
-  </recipe>
   <recipe name="armorPZAECTremorOutfitT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECTremorOutfitT16" count="1" />
@@ -66881,15 +66563,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="6" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-  </recipe>
-  <recipe name="armorPZAECTremorGlovesT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
   </recipe>
   <recipe name="armorPZAECTremorGlovesT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66899,15 +66572,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="armorPZAECTremorBootsT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
-  </recipe>
   <recipe name="armorPZAECTremorBootsT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECTremorBootsT16" count="1" />
@@ -66915,31 +66579,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="6" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-  </recipe>
-  <recipe name="itemPZAECTremorDeviceT17" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="7" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="5" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="2" />
-  </recipe>
-  <recipe name="itemPZAECTremorDeviceT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="itemPZAECTremorDeviceT16" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="4" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-  </recipe>
-  <recipe name="armorPZAECTremorHelmetT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
   </recipe>
   <recipe name="armorPZAECTremorHelmetT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66949,15 +66588,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
   </recipe>
-  <recipe name="armorPZAECTremorOutfitT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
-  </recipe>
   <recipe name="armorPZAECTremorOutfitT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECTremorOutfitT17" count="1" />
@@ -66965,15 +66595,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="10" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="armorPZAECTremorGlovesT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
   </recipe>
   <recipe name="armorPZAECTremorGlovesT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -66983,15 +66604,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
   </recipe>
-  <recipe name="armorPZAECTremorBootsT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
-  </recipe>
   <recipe name="armorPZAECTremorBootsT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECTremorBootsT17" count="1" />
@@ -66999,31 +66611,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="10" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="itemPZAECTremorDeviceT18" count="1" craft_area="workbench" craft_time="150" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="7" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-  </recipe>
-  <recipe name="itemPZAECTremorDeviceT18" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="itemPZAECTremorDeviceT17" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="5" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="5" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-  </recipe>
-  <recipe name="armorPZAECTremorHelmetT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
   </recipe>
   <recipe name="armorPZAECTremorHelmetT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67033,15 +66620,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
-  <recipe name="armorPZAECTremorOutfitT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
-  </recipe>
   <recipe name="armorPZAECTremorOutfitT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECTremorOutfitT18" count="1" />
@@ -67049,15 +66627,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="16" />
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
-  </recipe>
-  <recipe name="armorPZAECTremorGlovesT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
   </recipe>
   <recipe name="armorPZAECTremorGlovesT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67067,15 +66636,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
-  <recipe name="armorPZAECTremorBootsT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
-  </recipe>
   <recipe name="armorPZAECTremorBootsT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECTremorBootsT18" count="1" />
@@ -67084,24 +66644,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
-  <recipe name="itemPZAECTremorDeviceT19" count="1" craft_area="workbench" craft_time="180" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="10" />
-    <ingredient name="resourceLegendaryParts" count="36" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="9" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-  </recipe>
-  <recipe name="itemPZAECTremorDeviceT19" count="1" craft_area="workbench" craft_time="150" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="itemPZAECTremorDeviceT18" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="6" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="2" />
-  </recipe>
   <recipe name="armorPZAECWardenHelmetT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorRescuerHelmet" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
@@ -67111,6 +66656,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECWardenOutfitT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorRescuerOutfit" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
@@ -67120,6 +66666,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECWardenGlovesT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorRescuerGloves" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
@@ -67129,29 +66676,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="armorPZAECWardenBootsT16" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="armorRescuerBoots" count="1" />
     <ingredient name="resourcePZAECArmorChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="4" />
     <ingredient name="resourceLegendaryParts" count="6" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
     <ingredient name="resourcePZAECMutantHeartT16" count="1" />
     <ingredient name="resourceElectricParts" count="20" />
-  </recipe>
-  <recipe name="itemPZAECWardenDeviceT16" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR2" count="6" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT16" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
-  </recipe>
-  <recipe name="armorPZAECWardenHelmetT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
   </recipe>
   <recipe name="armorPZAECWardenHelmetT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67161,15 +66692,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="armorPZAECWardenOutfitT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
-  </recipe>
   <recipe name="armorPZAECWardenOutfitT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECWardenOutfitT16" count="1" />
@@ -67177,15 +66699,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="6" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-  </recipe>
-  <recipe name="armorPZAECWardenGlovesT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
   </recipe>
   <recipe name="armorPZAECWardenGlovesT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67195,15 +66708,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="armorPZAECWardenBootsT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="5" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="resourceElectricParts" count="30" />
-  </recipe>
   <recipe name="armorPZAECWardenBootsT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECWardenBootsT16" count="1" />
@@ -67211,31 +66715,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="6" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-  </recipe>
-  <recipe name="itemPZAECWardenDeviceT17" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="7" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="5" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="2" />
-  </recipe>
-  <recipe name="itemPZAECWardenDeviceT17" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="itemPZAECWardenDeviceT16" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="4" />
-    <ingredient name="resourceLegendaryParts" count="10" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-  </recipe>
-  <recipe name="armorPZAECWardenHelmetT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
   </recipe>
   <recipe name="armorPZAECWardenHelmetT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67245,15 +66724,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
   </recipe>
-  <recipe name="armorPZAECWardenOutfitT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
-  </recipe>
   <recipe name="armorPZAECWardenOutfitT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECWardenOutfitT17" count="1" />
@@ -67261,15 +66731,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="10" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="armorPZAECWardenGlovesT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
   </recipe>
   <recipe name="armorPZAECWardenGlovesT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67279,15 +66740,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
   </recipe>
-  <recipe name="armorPZAECWardenBootsT18" count="1" craft_area="workbench" craft_time="105" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="6" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="resourceElectricParts" count="40" />
-  </recipe>
   <recipe name="armorPZAECWardenBootsT18" count="1" craft_area="workbench" craft_time="75" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECWardenBootsT17" count="1" />
@@ -67295,31 +66747,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="10" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="itemPZAECWardenDeviceT18" count="1" craft_area="workbench" craft_time="150" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="7" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-  </recipe>
-  <recipe name="itemPZAECWardenDeviceT18" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="itemPZAECWardenDeviceT17" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="5" />
-    <ingredient name="resourceLegendaryParts" count="16" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="5" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-  </recipe>
-  <recipe name="armorPZAECWardenHelmetT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
   </recipe>
   <recipe name="armorPZAECWardenHelmetT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67329,15 +66756,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
-  <recipe name="armorPZAECWardenOutfitT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
-  </recipe>
   <recipe name="armorPZAECWardenOutfitT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECWardenOutfitT18" count="1" />
@@ -67345,15 +66763,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="16" />
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
-  </recipe>
-  <recipe name="armorPZAECWardenGlovesT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
   </recipe>
   <recipe name="armorPZAECWardenGlovesT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67363,37 +66772,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
-  <recipe name="armorPZAECWardenBootsT19" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECArmorChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="8" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="resourceElectricParts" count="50" />
-  </recipe>
   <recipe name="armorPZAECWardenBootsT19" count="1" craft_area="workbench" craft_time="90" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="armorPZAECWardenBootsT18" count="1" />
     <ingredient name="PZAECBuildPartsR5" count="4" />
     <ingredient name="resourceLegendaryParts" count="16" />
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="2" />
-  </recipe>
-  <recipe name="itemPZAECWardenDeviceT19" count="1" craft_area="workbench" craft_time="180" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourcePZAECDeviceChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="10" />
-    <ingredient name="resourceLegendaryParts" count="36" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="9" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-  </recipe>
-  <recipe name="itemPZAECWardenDeviceT19" count="1" craft_area="workbench" craft_time="150" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="itemPZAECWardenDeviceT18" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="6" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
   <recipe name="modPZAECPrecisionR3" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
@@ -67492,9 +66876,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
     <ingredient name="resourcePZAECMutantHeartT19" count="2" />
   </recipe>
-  <recipe name="gunPZAECHorizonNeedleT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+  <recipe name="gunPZAECEmberPistolT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunRifleT3SniperRifle" count="1" />
+    <ingredient name="gunHandgunT5Hellgun" count="1" />
     <ingredient name="resourcePZAECWeaponChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="8" />
     <ingredient name="resourceLegendaryParts" count="15" />
@@ -67502,15 +66886,79 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECMutantHeartT16" count="1" />
     <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
   </recipe>
-  <recipe name="gunPZAECHorizonNeedleT17" count="1" craft_area="workbench" craft_time="480" always_unlocked="true" use_ingredient_modifier="false">
+  <recipe name="gunPZAECEmberPistolT17" count="1" craft_area="workbench" craft_time="300" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunRifleT3SniperRifle" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="10" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
+    <ingredient name="gunPZAECEmberPistolT16" count="1" />
+    <ingredient name="PZAECBuildPartsR3" count="6" />
+    <ingredient name="resourceLegendaryParts" count="16" />
+    <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT17" count="1" />
+  </recipe>
+  <recipe name="gunPZAECEmberPistolT18" count="1" craft_area="workbench" craft_time="420" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="gunPZAECEmberPistolT17" count="1" />
+    <ingredient name="PZAECBuildPartsR4" count="8" />
+    <ingredient name="resourceLegendaryParts" count="24" />
+    <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
+    <ingredient name="resourcePZAECMutantHeartT18" count="1" />
+  </recipe>
+  <recipe name="gunPZAECEmberPistolT19" count="1" craft_area="workbench" craft_time="540" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="gunPZAECEmberPistolT18" count="1" />
+    <ingredient name="PZAECBuildPartsR5" count="10" />
+    <ingredient name="resourceLegendaryParts" count="36" />
+    <ingredient name="resourcePZAECSiegeCapacitorT19" count="4" />
+    <ingredient name="resourcePZAECMutantHeartT19" count="2" />
+  </recipe>
+  <recipe name="gunPZAECHorizonNeedleT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="gunRifleT5SniperRifleGaus" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECHorizonNeedleT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="GausLegArsonist" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECHorizonNeedleT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="GausLegTesla" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECHorizonNeedleT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="GausLegURANUS" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECHorizonNeedleT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="GausLegUnkillable" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
   </recipe>
   <recipe name="gunPZAECHorizonNeedleT17" count="1" craft_area="workbench" craft_time="300" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67520,16 +66968,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="gunPZAECHorizonNeedleT18" count="1" craft_area="workbench" craft_time="600" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunRifleT3SniperRifle" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="12" />
-    <ingredient name="resourceLegendaryParts" count="36" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT18" count="1" />
-  </recipe>
   <recipe name="gunPZAECHorizonNeedleT18" count="1" craft_area="workbench" craft_time="420" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="gunPZAECHorizonNeedleT17" count="1" />
@@ -67537,16 +66975,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="24" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="gunPZAECHorizonNeedleT19" count="1" craft_area="workbench" craft_time="720" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunRifleT3SniperRifle" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="16" />
-    <ingredient name="resourceLegendaryParts" count="52" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT19" count="1" />
   </recipe>
   <recipe name="gunPZAECHorizonNeedleT19" count="1" craft_area="workbench" craft_time="540" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67558,7 +66986,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="gunPZAECStormReservoirT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunMGT3M60" count="1" />
+    <ingredient name="gunMGT5M60Bulldog" count="1" />
     <ingredient name="resourcePZAECWeaponChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="8" />
     <ingredient name="resourceLegendaryParts" count="15" />
@@ -67566,15 +66994,65 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECMutantHeartT16" count="1" />
     <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
   </recipe>
-  <recipe name="gunPZAECStormReservoirT17" count="1" craft_area="workbench" craft_time="480" always_unlocked="true" use_ingredient_modifier="false">
+  <recipe name="gunPZAECStormReservoirT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunMGT3M60" count="1" />
+    <ingredient name="BulldogLegArsonist" count="1" />
     <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="10" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT17" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECStormReservoirT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="BulldogLegURANUS" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECStormReservoirT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="BulldogLegBreeze" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECStormReservoirT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="BulldogLegUnkillable" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECStormReservoirT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="BulldogLegAvenger" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECStormReservoirT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="BulldogLegBerserk" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
   </recipe>
   <recipe name="gunPZAECStormReservoirT17" count="1" craft_area="workbench" craft_time="300" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67584,16 +67062,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="gunPZAECStormReservoirT18" count="1" craft_area="workbench" craft_time="600" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunMGT3M60" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="12" />
-    <ingredient name="resourceLegendaryParts" count="36" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT18" count="1" />
-  </recipe>
   <recipe name="gunPZAECStormReservoirT18" count="1" craft_area="workbench" craft_time="420" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="gunPZAECStormReservoirT17" count="1" />
@@ -67601,16 +67069,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="24" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="gunPZAECStormReservoirT19" count="1" craft_area="workbench" craft_time="720" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunMGT3M60" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="16" />
-    <ingredient name="resourceLegendaryParts" count="52" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT19" count="1" />
   </recipe>
   <recipe name="gunPZAECStormReservoirT19" count="1" craft_area="workbench" craft_time="540" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67622,7 +67080,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="meleePZAECFaultlineHammerT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="meleeWpnSledgeT3SteelSledgehammer" count="1" />
+    <ingredient name="meleeWpnSledgeT5SteelSledgehammerDestructor" count="1" />
     <ingredient name="resourcePZAECWeaponChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="8" />
     <ingredient name="resourceLegendaryParts" count="15" />
@@ -67630,15 +67088,45 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECMutantHeartT16" count="1" />
     <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
   </recipe>
-  <recipe name="meleePZAECFaultlineHammerT17" count="1" craft_area="workbench" craft_time="480" always_unlocked="true" use_ingredient_modifier="false">
+  <recipe name="meleePZAECFaultlineHammerT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="meleeWpnSledgeT3SteelSledgehammer" count="1" />
+    <ingredient name="DestructorLegCrisis" count="1" />
     <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="10" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT17" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="meleePZAECFaultlineHammerT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="DestructorLegCrusher" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="meleePZAECFaultlineHammerT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="DestructorLegMasterpiece" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="meleePZAECFaultlineHammerT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="DestructorLegGuardian" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
   </recipe>
   <recipe name="meleePZAECFaultlineHammerT17" count="1" craft_area="workbench" craft_time="300" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67648,16 +67136,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="meleePZAECFaultlineHammerT18" count="1" craft_area="workbench" craft_time="600" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="meleeWpnSledgeT3SteelSledgehammer" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="12" />
-    <ingredient name="resourceLegendaryParts" count="36" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT18" count="1" />
-  </recipe>
   <recipe name="meleePZAECFaultlineHammerT18" count="1" craft_area="workbench" craft_time="420" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="meleePZAECFaultlineHammerT17" count="1" />
@@ -67665,16 +67143,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="24" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="meleePZAECFaultlineHammerT19" count="1" craft_area="workbench" craft_time="720" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="meleeWpnSledgeT3SteelSledgehammer" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="16" />
-    <ingredient name="resourceLegendaryParts" count="52" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT19" count="1" />
   </recipe>
   <recipe name="meleePZAECFaultlineHammerT19" count="1" craft_area="workbench" craft_time="540" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67686,7 +67154,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="gunPZAECBastionShotgunT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunShotgunT3AutoShotgun" count="1" />
+    <ingredient name="gunShotgunT5AutoShotgunEraser" count="1" />
     <ingredient name="resourcePZAECWeaponChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="8" />
     <ingredient name="resourceLegendaryParts" count="15" />
@@ -67694,15 +67162,55 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECMutantHeartT16" count="1" />
     <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
   </recipe>
-  <recipe name="gunPZAECBastionShotgunT17" count="1" craft_area="workbench" craft_time="480" always_unlocked="true" use_ingredient_modifier="false">
+  <recipe name="gunPZAECBastionShotgunT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunShotgunT3AutoShotgun" count="1" />
+    <ingredient name="EraserLegArsonist" count="1" />
     <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="10" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT17" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECBastionShotgunT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="EraserLegURANUS" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECBastionShotgunT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="EraserLegUnkillable" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECBastionShotgunT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="EraserLegAvenger" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECBastionShotgunT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="EraserLegBerserk" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
   </recipe>
   <recipe name="gunPZAECBastionShotgunT17" count="1" craft_area="workbench" craft_time="300" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67712,16 +67220,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="gunPZAECBastionShotgunT18" count="1" craft_area="workbench" craft_time="600" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunShotgunT3AutoShotgun" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="12" />
-    <ingredient name="resourceLegendaryParts" count="36" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT18" count="1" />
-  </recipe>
   <recipe name="gunPZAECBastionShotgunT18" count="1" craft_area="workbench" craft_time="420" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="gunPZAECBastionShotgunT17" count="1" />
@@ -67729,16 +67227,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="24" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="gunPZAECBastionShotgunT19" count="1" craft_area="workbench" craft_time="720" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunShotgunT3AutoShotgun" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="16" />
-    <ingredient name="resourceLegendaryParts" count="52" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT19" count="1" />
   </recipe>
   <recipe name="gunPZAECBastionShotgunT19" count="1" craft_area="workbench" craft_time="540" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67750,23 +67238,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="gunPZAECEchoRepeaterT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunBowT3CompoundCrossbow" count="1" />
+    <ingredient name="gunBowT5CompoundCrossbowMantis" count="1" />
     <ingredient name="resourcePZAECWeaponChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="8" />
     <ingredient name="resourceLegendaryParts" count="15" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
     <ingredient name="resourcePZAECMutantHeartT16" count="1" />
     <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
-  </recipe>
-  <recipe name="gunPZAECEchoRepeaterT17" count="1" craft_area="workbench" craft_time="480" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunBowT3CompoundCrossbow" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="10" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT17" count="1" />
   </recipe>
   <recipe name="gunPZAECEchoRepeaterT17" count="1" craft_area="workbench" craft_time="300" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67776,16 +67254,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="gunPZAECEchoRepeaterT18" count="1" craft_area="workbench" craft_time="600" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunBowT3CompoundCrossbow" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="12" />
-    <ingredient name="resourceLegendaryParts" count="36" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT18" count="1" />
-  </recipe>
   <recipe name="gunPZAECEchoRepeaterT18" count="1" craft_area="workbench" craft_time="420" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="gunPZAECEchoRepeaterT17" count="1" />
@@ -67793,16 +67261,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="24" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="gunPZAECEchoRepeaterT19" count="1" craft_area="workbench" craft_time="720" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunBowT3CompoundCrossbow" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="16" />
-    <ingredient name="resourceLegendaryParts" count="52" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT19" count="1" />
   </recipe>
   <recipe name="gunPZAECEchoRepeaterT19" count="1" craft_area="workbench" craft_time="540" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67814,7 +67272,8 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="gunPZAECCounterSiegeT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunExplosivesT3RocketLauncher" count="1" />
+    <ingredient name="gunRifleT5SniperRifleGaus" count="1" />
+    <ingredient name="gunExplosivesT4RocketLauncherImp" count="1" />
     <ingredient name="resourcePZAECWeaponChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="8" />
     <ingredient name="resourceLegendaryParts" count="15" />
@@ -67822,15 +67281,49 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECMutantHeartT16" count="1" />
     <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
   </recipe>
-  <recipe name="gunPZAECCounterSiegeT17" count="1" craft_area="workbench" craft_time="480" always_unlocked="true" use_ingredient_modifier="false">
+  <recipe name="gunPZAECCounterSiegeT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunExplosivesT3RocketLauncher" count="1" />
+    <ingredient name="GausLegArsonist" count="1" />
+    <ingredient name="gunExplosivesT4RocketLauncherImp" count="1" />
     <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="10" />
-    <ingredient name="resourceLegendaryParts" count="24" />
-    <ingredient name="resourcePZAECSiegeCapacitorT17" count="3" />
-    <ingredient name="resourcePZAECMutantHeartT17" count="1" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT17" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECCounterSiegeT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="GausLegTesla" count="1" />
+    <ingredient name="gunExplosivesT4RocketLauncherImp" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECCounterSiegeT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="GausLegURANUS" count="1" />
+    <ingredient name="gunExplosivesT4RocketLauncherImp" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
+  </recipe>
+  <recipe name="gunPZAECCounterSiegeT16" count="1" craft_area="workbench" craft_time="360" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="GausLegUnkillable" count="1" />
+    <ingredient name="gunExplosivesT4RocketLauncherImp" count="1" />
+    <ingredient name="resourcePZAECWeaponChassis" count="1" />
+    <ingredient name="PZAECBuildPartsR2" count="8" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
+    <ingredient name="resourcePZAECMutantHeartT16" count="1" />
+    <ingredient name="itemPZAECArmoryBlueprintCrateT16" count="1" />
   </recipe>
   <recipe name="gunPZAECCounterSiegeT17" count="1" craft_area="workbench" craft_time="300" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -67840,16 +67333,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="2" />
     <ingredient name="resourcePZAECMutantHeartT17" count="1" />
   </recipe>
-  <recipe name="gunPZAECCounterSiegeT18" count="1" craft_area="workbench" craft_time="600" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunExplosivesT3RocketLauncher" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="12" />
-    <ingredient name="resourceLegendaryParts" count="36" />
-    <ingredient name="resourcePZAECSiegeCapacitorT18" count="4" />
-    <ingredient name="resourcePZAECMutantHeartT18" count="2" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT18" count="1" />
-  </recipe>
   <recipe name="gunPZAECCounterSiegeT18" count="1" craft_area="workbench" craft_time="420" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="gunPZAECCounterSiegeT17" count="1" />
@@ -67857,16 +67340,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceLegendaryParts" count="24" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="3" />
     <ingredient name="resourcePZAECMutantHeartT18" count="1" />
-  </recipe>
-  <recipe name="gunPZAECCounterSiegeT19" count="1" craft_area="workbench" craft_time="720" always_unlocked="true" use_ingredient_modifier="false">
-    <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="gunExplosivesT3RocketLauncher" count="1" />
-    <ingredient name="resourcePZAECWeaponChassis" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="16" />
-    <ingredient name="resourceLegendaryParts" count="52" />
-    <ingredient name="resourcePZAECSiegeCapacitorT19" count="6" />
-    <ingredient name="resourcePZAECMutantHeartT19" count="3" />
-    <ingredient name="itemPZAECArmoryBlueprintCrateT19" count="1" />
   </recipe>
   <recipe name="gunPZAECCounterSiegeT19" count="1" craft_area="workbench" craft_time="540" always_unlocked="true" use_ingredient_modifier="false" tags="upgrade">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -68662,7 +68135,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="resourcePZAECDefenseChassis" count="1" craft_area="workbench" craft_time="180" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourceForgedSteel" count="100" />
+    <ingredient name="resourceDurablAlloys" count="100" />
     <ingredient name="resourceMechanicalParts" count="50" />
     <ingredient name="resourceElectricParts" count="75" />
     <ingredient name="resourceDuctTape" count="15" />
@@ -68670,7 +68143,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   </recipe>
   <recipe name="itemPZAECQuickArmorGel" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <ingredient name="resourceForgedSteel" count="8" />
+    <ingredient name="resourceDurablAlloys" count="8" />
     <ingredient name="resourceScrapPolymers" count="12" />
     <ingredient name="resourceDuctTape" count="4" />
     <ingredient name="resourceAcid" count="1" />
@@ -68707,7 +68180,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   <recipe name="itemPZAECFieldRepairKitT16" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourceRepairKit" count="3" />
-    <ingredient name="resourceForgedSteel" count="5" />
+    <ingredient name="resourceDurablAlloys" count="5" />
     <ingredient name="resourceOil" count="3" />
     <ingredient name="resourceLegendaryParts" count="1" />
   </recipe>
@@ -68723,7 +68196,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourceRepairKit" count="1" />
     <ingredient name="resourcePZAECCapacitorFragmentT16" count="1" />
-    <ingredient name="resourceForgedSteel" count="3" />
+    <ingredient name="resourceDurablAlloys" count="3" />
   </recipe>
   <recipe name="resourcePZAECDecoyChargeT16" count="5" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -68741,7 +68214,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   <recipe name="itemPZAECFieldRepairKitT17" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourceRepairKit" count="3" />
-    <ingredient name="resourceForgedSteel" count="5" />
+    <ingredient name="resourceDurablAlloys" count="5" />
     <ingredient name="resourceOil" count="3" />
     <ingredient name="resourceLegendaryParts" count="2" />
   </recipe>
@@ -68757,7 +68230,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourceRepairKit" count="1" />
     <ingredient name="resourcePZAECCapacitorFragmentT17" count="1" />
-    <ingredient name="resourceForgedSteel" count="4" />
+    <ingredient name="resourceDurablAlloys" count="4" />
   </recipe>
   <recipe name="resourcePZAECDecoyChargeT17" count="5" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -68775,7 +68248,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   <recipe name="itemPZAECFieldRepairKitT18" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourceRepairKit" count="3" />
-    <ingredient name="resourceForgedSteel" count="5" />
+    <ingredient name="resourceDurablAlloys" count="5" />
     <ingredient name="resourceOil" count="3" />
     <ingredient name="resourceLegendaryParts" count="3" />
   </recipe>
@@ -68791,7 +68264,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourceRepairKit" count="1" />
     <ingredient name="resourcePZAECCapacitorFragmentT18" count="1" />
-    <ingredient name="resourceForgedSteel" count="5" />
+    <ingredient name="resourceDurablAlloys" count="5" />
   </recipe>
   <recipe name="resourcePZAECDecoyChargeT18" count="5" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -68809,7 +68282,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   <recipe name="itemPZAECFieldRepairKitT19" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourceRepairKit" count="3" />
-    <ingredient name="resourceForgedSteel" count="5" />
+    <ingredient name="resourceDurablAlloys" count="5" />
     <ingredient name="resourceOil" count="3" />
     <ingredient name="resourceLegendaryParts" count="4" />
   </recipe>
@@ -68825,7 +68298,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourceRepairKit" count="1" />
     <ingredient name="resourcePZAECCapacitorFragmentT19" count="1" />
-    <ingredient name="resourceForgedSteel" count="6" />
+    <ingredient name="resourceDurablAlloys" count="6" />
   </recipe>
   <recipe name="resourcePZAECDecoyChargeT19" count="5" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -68837,7 +68310,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourcePZAECDefenseChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="8" />
-    <ingredient name="resourceForgedSteel" count="120" />
+    <ingredient name="resourceDurablAlloys" count="120" />
     <ingredient name="resourceMechanicalParts" count="60" />
     <ingredient name="resourceElectricParts" count="80" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="3" />
@@ -68872,7 +68345,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourcePZAECDefenseChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="8" />
-    <ingredient name="resourceForgedSteel" count="120" />
+    <ingredient name="resourceDurablAlloys" count="120" />
     <ingredient name="resourceMechanicalParts" count="60" />
     <ingredient name="resourceElectricParts" count="80" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="3" />
@@ -68907,7 +68380,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourcePZAECDefenseChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="8" />
-    <ingredient name="resourceForgedSteel" count="120" />
+    <ingredient name="resourceDurablAlloys" count="120" />
     <ingredient name="resourceMechanicalParts" count="60" />
     <ingredient name="resourceElectricParts" count="80" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="3" />
@@ -68942,7 +68415,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourcePZAECDefenseChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="8" />
-    <ingredient name="resourceForgedSteel" count="120" />
+    <ingredient name="resourceDurablAlloys" count="120" />
     <ingredient name="resourceMechanicalParts" count="60" />
     <ingredient name="resourceElectricParts" count="80" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="3" />
@@ -68977,7 +68450,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourcePZAECDefenseChassis" count="1" />
     <ingredient name="PZAECBuildPartsR2" count="8" />
-    <ingredient name="resourceForgedSteel" count="120" />
+    <ingredient name="resourceDurablAlloys" count="120" />
     <ingredient name="resourceMechanicalParts" count="60" />
     <ingredient name="resourceElectricParts" count="80" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="3" />
@@ -69012,7 +68485,7 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="workbench" count="1" />
     <ingredient name="forge" count="1" />
-    <ingredient name="resourceForgedSteel" count="200" />
+    <ingredient name="resourceDurablAlloys" count="200" />
     <ingredient name="resourceMechanicalParts" count="100" />
     <ingredient name="resourceElectricParts" count="100" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="4" />
@@ -69022,147 +68495,147 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   <recipe name="PZAECTacticalRelay" count="1" craft_area="workbench" craft_time="180" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="electricwirerelay" count="1" />
-    <ingredient name="resourceForgedSteel" count="80" />
+    <ingredient name="resourceDurablAlloys" count="80" />
     <ingredient name="resourceElectricParts" count="60" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="2" />
   </recipe>
   <recipe name="PZAECReactiveWallT16" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="steelShapes:VariantHelper" count="1" />
-    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceDurablAlloys" count="40" />
     <ingredient name="resourceScrapPolymers" count="20" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="1" />
   </recipe>
   <recipe name="PZAECReactiveWallT17" count="1" craft_area="workbench" craft_time="180" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="steelShapes:VariantHelper" count="1" />
-    <ingredient name="resourceForgedSteel" count="55" />
+    <ingredient name="resourceDurablAlloys" count="55" />
     <ingredient name="resourceScrapPolymers" count="25" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="1" />
   </recipe>
   <recipe name="PZAECReactiveWallT18" count="1" craft_area="workbench" craft_time="240" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="steelShapes:VariantHelper" count="1" />
-    <ingredient name="resourceForgedSteel" count="75" />
+    <ingredient name="resourceDurablAlloys" count="75" />
     <ingredient name="resourceScrapPolymers" count="30" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="1" />
   </recipe>
   <recipe name="PZAECReactiveWallT19" count="1" craft_area="workbench" craft_time="300" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="steelShapes:VariantHelper" count="1" />
-    <ingredient name="resourceForgedSteel" count="100" />
+    <ingredient name="resourceDurablAlloys" count="100" />
     <ingredient name="resourceScrapPolymers" count="40" />
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="2" />
   </recipe>
   <recipe name="PZAECAblativeWallT16" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="steelShapes:VariantHelper" count="1" />
-    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceDurablAlloys" count="40" />
     <ingredient name="resourceScrapPolymers" count="20" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="1" />
   </recipe>
   <recipe name="PZAECAblativeWallT17" count="1" craft_area="workbench" craft_time="180" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="steelShapes:VariantHelper" count="1" />
-    <ingredient name="resourceForgedSteel" count="55" />
+    <ingredient name="resourceDurablAlloys" count="55" />
     <ingredient name="resourceScrapPolymers" count="25" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="1" />
   </recipe>
   <recipe name="PZAECAblativeWallT18" count="1" craft_area="workbench" craft_time="240" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="steelShapes:VariantHelper" count="1" />
-    <ingredient name="resourceForgedSteel" count="75" />
+    <ingredient name="resourceDurablAlloys" count="75" />
     <ingredient name="resourceScrapPolymers" count="30" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="1" />
   </recipe>
   <recipe name="PZAECAblativeWallT19" count="1" craft_area="workbench" craft_time="300" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="steelShapes:VariantHelper" count="1" />
-    <ingredient name="resourceForgedSteel" count="100" />
+    <ingredient name="resourceDurablAlloys" count="100" />
     <ingredient name="resourceScrapPolymers" count="40" />
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="2" />
   </recipe>
   <recipe name="PZAECEmbrasureT16" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="steelShapes:VariantHelper" count="1" />
-    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceDurablAlloys" count="40" />
     <ingredient name="resourceScrapPolymers" count="20" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="1" />
   </recipe>
   <recipe name="PZAECEmbrasureT17" count="1" craft_area="workbench" craft_time="180" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="steelShapes:VariantHelper" count="1" />
-    <ingredient name="resourceForgedSteel" count="55" />
+    <ingredient name="resourceDurablAlloys" count="55" />
     <ingredient name="resourceScrapPolymers" count="25" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="1" />
   </recipe>
   <recipe name="PZAECEmbrasureT18" count="1" craft_area="workbench" craft_time="240" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="steelShapes:VariantHelper" count="1" />
-    <ingredient name="resourceForgedSteel" count="75" />
+    <ingredient name="resourceDurablAlloys" count="75" />
     <ingredient name="resourceScrapPolymers" count="30" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="1" />
   </recipe>
   <recipe name="PZAECEmbrasureT19" count="1" craft_area="workbench" craft_time="300" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="steelShapes:VariantHelper" count="1" />
-    <ingredient name="resourceForgedSteel" count="100" />
+    <ingredient name="resourceDurablAlloys" count="100" />
     <ingredient name="resourceScrapPolymers" count="40" />
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="2" />
   </recipe>
   <recipe name="PZAECBlastGateT16" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="vaultDoor01_Powered" count="1" />
-    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceDurablAlloys" count="40" />
     <ingredient name="resourceScrapPolymers" count="20" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="1" />
   </recipe>
   <recipe name="PZAECBlastGateT17" count="1" craft_area="workbench" craft_time="180" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="vaultDoor01_Powered" count="1" />
-    <ingredient name="resourceForgedSteel" count="55" />
+    <ingredient name="resourceDurablAlloys" count="55" />
     <ingredient name="resourceScrapPolymers" count="25" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="1" />
   </recipe>
   <recipe name="PZAECBlastGateT18" count="1" craft_area="workbench" craft_time="240" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="vaultDoor01_Powered" count="1" />
-    <ingredient name="resourceForgedSteel" count="75" />
+    <ingredient name="resourceDurablAlloys" count="75" />
     <ingredient name="resourceScrapPolymers" count="30" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="1" />
   </recipe>
   <recipe name="PZAECBlastGateT19" count="1" craft_area="workbench" craft_time="300" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="vaultDoor01_Powered" count="1" />
-    <ingredient name="resourceForgedSteel" count="100" />
+    <ingredient name="resourceDurablAlloys" count="100" />
     <ingredient name="resourceScrapPolymers" count="40" />
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="2" />
   </recipe>
   <recipe name="PZAECArmoredConduitT16" count="1" craft_area="workbench" craft_time="120" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="electricwirerelay" count="1" />
-    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceDurablAlloys" count="40" />
     <ingredient name="resourceScrapPolymers" count="20" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="1" />
   </recipe>
   <recipe name="PZAECArmoredConduitT17" count="1" craft_area="workbench" craft_time="180" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="electricwirerelay" count="1" />
-    <ingredient name="resourceForgedSteel" count="55" />
+    <ingredient name="resourceDurablAlloys" count="55" />
     <ingredient name="resourceScrapPolymers" count="25" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="1" />
   </recipe>
   <recipe name="PZAECArmoredConduitT18" count="1" craft_area="workbench" craft_time="240" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="electricwirerelay" count="1" />
-    <ingredient name="resourceForgedSteel" count="75" />
+    <ingredient name="resourceDurablAlloys" count="75" />
     <ingredient name="resourceScrapPolymers" count="30" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="1" />
   </recipe>
   <recipe name="PZAECArmoredConduitT19" count="1" craft_area="workbench" craft_time="300" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="electricwirerelay" count="1" />
-    <ingredient name="resourceForgedSteel" count="100" />
+    <ingredient name="resourceDurablAlloys" count="100" />
     <ingredient name="resourceScrapPolymers" count="40" />
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="2" />
   </recipe>

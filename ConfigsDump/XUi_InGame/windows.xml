@@ -184,7 +184,7 @@
       <sprite depth="3" name="windowIcon" style="icon32px" pivot="center" pos="21,-21" sprite="ui_game_symbol_loot_sack" />
       <label depth="2" name="lootName" pos="39,-6" width="172" height="32" text="{lootcontainer_name}" font_size="32" pivot="left" anchor_left="queue,0,39" anchor_right="queue,1,-170" anchor_bottom="header,0,2" anchor_top="header,1,-2" />
       <!--Element removed by: "ProjectZ" (XPath: "/windows/window[@name='windowLooting']/rect[@name='header']/rect[@controller='ContainerStandardControls']")-->
-      <!--Element removed by: "AECxProjectZ_Tweaks" (XPath: "/windows/window[@name='windowLooting']/rect[@name='header']/rect[@controller='ContainerStandardControls']")-->
+      <!--Element removed by: "AECxProjectZ_Tweaks" (XPath: "/windows/window[@name='windowLooting']/rect[@name='header']/rect[@controller='ContainerStandardControls' or @name='storageControls']")-->
       <rect name="storageControls" pos="430,0" width="168" controller="ContainerStandardControls" move_start_bottom_left="true">
         <!--Element appended by: "AECxProjectZ_Tweaks"-->
         <button depth="3" name="btnSort" sprite="ui_game_symbol_sort" tooltip_key="lblSortContainer" pos="0,-22" style="icon32px, press, hover" pivot="center" sound="[paging_click]" />
@@ -204,7 +204,7 @@
         <!--Attribute "cols" replaced by: "ProjectZ"-->
         <!--Attribute "rows" replaced by: "ProjectZ"-->
         <!--Element removed by: "ProjectZ" (XPath: "/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/item_stack")-->
-        <!--Element removed by: "AECxProjectZ_Tweaks" (XPath: "/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/backpack_item_stack")-->
+        <!--Element removed by: "AECxProjectZ_Tweaks" (XPath: "/windows/window[@name='windowLooting']/rect[@name='content']/grid[@name='queue']/*[self::item_stack or self::backpack_item_stack]")-->
         <backpack_item_stack name="0">
           <!--Element appended by: "AECxProjectZ_Tweaks"-->
         </backpack_item_stack>
@@ -981,6 +981,9 @@
         </rect>
       </rect>
       <simplebutton name="btnCombine" depth="3" pos="0,-450" width="610" height="36" font_size="24" caption_key="xuiCombineGridCombineButton" gamepad_selectable="true" parse_actions="true" sound_play_on_press="false" />
+      <label name="aecFusionHint" pos="4,-495" width="602" height="64" depth="4" font_size="21" color="255,220,130" justify="left" text="{aecfusionhint}">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </label>
     </rect>
   </window>
   <window name="dragAndDropItemStack" width="86" height="86" depth="300" controller="DragAndDropWindow" snap="false" gamepad_selectable="false">

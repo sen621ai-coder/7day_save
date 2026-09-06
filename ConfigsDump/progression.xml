@@ -5494,6 +5494,7 @@
         <requirement name="HoldingItemHasTags" tags="stunBaton" />
         <requirement name="IsAlive" target="other" />
         <requirement name="EntityTagCompare" target="other" tags="zombie,animal" />
+        <requirement name="!EntityTagCompare" target="other" tags="miniboss,boss" />
         <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="1">
           <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
         </requirement>

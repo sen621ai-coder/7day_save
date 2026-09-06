@@ -115551,6 +115551,58 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </block>
+  <block name="logicAlarmPerimeter">
+    <!--Element appended by: "LogicCircuitGates"-->
+    <property name="Extends" value="switch" />
+    <property name="Class" value="LogicAlarmSensor,LogicCircuitGates" />
+    <property name="CreativeMode" value="Player" />
+    <property name="RequiredPower" value="5" />
+    <property name="CustomIcon" value="motionsensor" />
+    <property name="CustomIconTint" value="255,200,70" />
+    <property name="DescriptionKey" value="logicAlarmPerimeterDesc" />
+    <property name="EconomicValue" value="300" />
+    <property name="MaxDamage" value="1000" />
+    <property name="SortOrder2" value="0022" />
+  </block>
+  <block name="logicAlarmBreach">
+    <!--Element appended by: "LogicCircuitGates"-->
+    <property name="Extends" value="switch" />
+    <property name="Class" value="LogicAlarmSensor,LogicCircuitGates" />
+    <property name="CreativeMode" value="Player" />
+    <property name="RequiredPower" value="5" />
+    <property name="CustomIcon" value="motionsensor" />
+    <property name="CustomIconTint" value="255,80,70" />
+    <property name="DescriptionKey" value="logicAlarmBreachDesc" />
+    <property name="EconomicValue" value="250" />
+    <property name="MaxDamage" value="1000" />
+    <property name="SortOrder2" value="0023" />
+  </block>
+  <block name="logicAlarmSiege">
+    <!--Element appended by: "LogicCircuitGates"-->
+    <property name="Extends" value="switch" />
+    <property name="Class" value="LogicAlarmSensor,LogicCircuitGates" />
+    <property name="CreativeMode" value="Player" />
+    <property name="RequiredPower" value="10" />
+    <property name="CustomIcon" value="motionsensor" />
+    <property name="CustomIconTint" value="190,100,255" />
+    <property name="DescriptionKey" value="logicAlarmSiegeDesc" />
+    <property name="EconomicValue" value="600" />
+    <property name="MaxDamage" value="1500" />
+    <property name="SortOrder2" value="0024" />
+  </block>
+  <block name="logicAlarmBloodMoon">
+    <!--Element appended by: "LogicCircuitGates"-->
+    <property name="Extends" value="switch" />
+    <property name="Class" value="LogicAlarmSensor,LogicCircuitGates" />
+    <property name="CreativeMode" value="Player" />
+    <property name="RequiredPower" value="1" />
+    <property name="CustomIcon" value="electricwirerelay" />
+    <property name="CustomIconTint" value="255,70,130" />
+    <property name="DescriptionKey" value="logicAlarmBloodMoonDesc" />
+    <property name="EconomicValue" value="200" />
+    <property name="MaxDamage" value="1000" />
+    <property name="SortOrder2" value="0025" />
+  </block>
   <block name="logicGateAND">
     <!--Element appended by: "LogicCircuitGates"-->
     <property name="Extends" value="electricwirerelay" />
@@ -115712,7 +115764,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECSkyguardArrayT16Desc" />
     <property name="CustomIcon" value="autoTurret" />
-    <property name="CustomIconTint" value="66BBFF" />
+    <property name="CustomIconTint" value="2D8CAC" />
     <property name="MaxDamage" value="13500" />
     <property name="RequiredPower" value="45" />
     <property name="TakeDelay" value="30" />
@@ -115720,15 +115772,16 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="SellableToTrader" value="false" />
     <property name="PZAECDefenseDevice" value="SkyguardArray" />
     <property name="PZAECTier" value="16" />
-    <property name="AmmoItem" value="ammoPZAECSkyguardInterceptorT16" />
+    <property name="AmmoItem" value="ammo762mmBulletBall+tags(ammo762mm)+ammoPZAECSkyguardInterceptorT16" />
     <property name="MaxDistance" value="28" />
-    <property name="EntityDamage" value="180" />
+    <property name="EntityDamage" value="450" />
     <property name="BurstRoundCount" value="30" />
     <property name="CooldownTime" value="2.5" />
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="30" />
       <property name="resourceElectricParts" value="10" />
     </property>
+    <property name="TintColor" value="2D8CAC" />
   </block>
   <block name="PZAECSkyguardArrayT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115736,7 +115789,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECSkyguardArrayT17Desc" />
     <property name="CustomIcon" value="autoTurret" />
-    <property name="CustomIconTint" value="AA88FF" />
+    <property name="CustomIconTint" value="33A0C4" />
     <property name="MaxDamage" value="19440" />
     <property name="RequiredPower" value="50" />
     <property name="TakeDelay" value="30" />
@@ -115744,15 +115797,16 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="SellableToTrader" value="false" />
     <property name="PZAECDefenseDevice" value="SkyguardArray" />
     <property name="PZAECTier" value="17" />
-    <property name="AmmoItem" value="ammoPZAECSkyguardInterceptorT17" />
+    <property name="AmmoItem" value="ammo762mmBulletBall+tags(ammo762mm)+ammoPZAECSkyguardInterceptorT17" />
     <property name="MaxDistance" value="32" />
-    <property name="EntityDamage" value="250" />
+    <property name="EntityDamage" value="650" />
     <property name="BurstRoundCount" value="40" />
     <property name="CooldownTime" value="2.5" />
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="40" />
       <property name="resourceElectricParts" value="15" />
     </property>
+    <property name="TintColor" value="33A0C4" />
   </block>
   <block name="PZAECSkyguardArrayT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115760,7 +115814,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECSkyguardArrayT18Desc" />
     <property name="CustomIcon" value="autoTurret" />
-    <property name="CustomIconTint" value="FFBB44" />
+    <property name="CustomIconTint" value="3AB4DC" />
     <property name="MaxDamage" value="28600" />
     <property name="RequiredPower" value="55" />
     <property name="TakeDelay" value="30" />
@@ -115768,15 +115822,16 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="SellableToTrader" value="false" />
     <property name="PZAECDefenseDevice" value="SkyguardArray" />
     <property name="PZAECTier" value="18" />
-    <property name="AmmoItem" value="ammoPZAECSkyguardInterceptorT18" />
+    <property name="AmmoItem" value="ammo762mmBulletBall+tags(ammo762mm)+ammoPZAECSkyguardInterceptorT18" />
     <property name="MaxDistance" value="36" />
-    <property name="EntityDamage" value="350" />
+    <property name="EntityDamage" value="900" />
     <property name="BurstRoundCount" value="50" />
     <property name="CooldownTime" value="2.5" />
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="50" />
       <property name="resourceElectricParts" value="20" />
     </property>
+    <property name="TintColor" value="3AB4DC" />
   </block>
   <block name="PZAECSkyguardArrayT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115784,7 +115839,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECSkyguardArrayT19Desc" />
     <property name="CustomIcon" value="autoTurret" />
-    <property name="CustomIconTint" value="FF6655" />
+    <property name="CustomIconTint" value="40C8F5" />
     <property name="MaxDamage" value="42660" />
     <property name="RequiredPower" value="60" />
     <property name="TakeDelay" value="30" />
@@ -115792,15 +115847,16 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="SellableToTrader" value="false" />
     <property name="PZAECDefenseDevice" value="SkyguardArray" />
     <property name="PZAECTier" value="19" />
-    <property name="AmmoItem" value="ammoPZAECSkyguardInterceptorT19" />
+    <property name="AmmoItem" value="ammo762mmBulletBall+tags(ammo762mm)+ammoPZAECSkyguardInterceptorT19" />
     <property name="MaxDistance" value="40" />
-    <property name="EntityDamage" value="490" />
+    <property name="EntityDamage" value="1250" />
     <property name="BurstRoundCount" value="60" />
     <property name="CooldownTime" value="2.5" />
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="60" />
       <property name="resourceElectricParts" value="25" />
     </property>
+    <property name="TintColor" value="40C8F5" />
   </block>
   <block name="PZAECHiveRepairStationT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115808,7 +115864,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECHiveRepairStationT16Desc" />
     <property name="CustomIcon" value="electricwirerelay" />
-    <property name="CustomIconTint" value="66BBFF" />
+    <property name="CustomIconTint" value="38995F" />
     <property name="MaxDamage" value="11250" />
     <property name="RequiredPower" value="35" />
     <property name="TakeDelay" value="30" />
@@ -115820,6 +115876,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="30" />
       <property name="resourceElectricParts" value="10" />
     </property>
+    <property name="TintColor" value="38995F" />
   </block>
   <block name="PZAECHiveRepairStationT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115827,7 +115884,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECHiveRepairStationT17Desc" />
     <property name="CustomIcon" value="electricwirerelay" />
-    <property name="CustomIconTint" value="AA88FF" />
+    <property name="CustomIconTint" value="40AE6D" />
     <property name="MaxDamage" value="16200" />
     <property name="RequiredPower" value="40" />
     <property name="TakeDelay" value="30" />
@@ -115839,6 +115896,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="40" />
       <property name="resourceElectricParts" value="15" />
     </property>
+    <property name="TintColor" value="40AE6D" />
   </block>
   <block name="PZAECHiveRepairStationT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115846,7 +115904,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECHiveRepairStationT18Desc" />
     <property name="CustomIcon" value="electricwirerelay" />
-    <property name="CustomIconTint" value="FFBB44" />
+    <property name="CustomIconTint" value="48C47A" />
     <property name="MaxDamage" value="24200" />
     <property name="RequiredPower" value="45" />
     <property name="TakeDelay" value="30" />
@@ -115858,6 +115916,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="50" />
       <property name="resourceElectricParts" value="20" />
     </property>
+    <property name="TintColor" value="48C47A" />
   </block>
   <block name="PZAECHiveRepairStationT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115865,7 +115924,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECHiveRepairStationT19Desc" />
     <property name="CustomIcon" value="electricwirerelay" />
-    <property name="CustomIconTint" value="FF6655" />
+    <property name="CustomIconTint" value="50DA88" />
     <property name="MaxDamage" value="36450" />
     <property name="RequiredPower" value="50" />
     <property name="TakeDelay" value="30" />
@@ -115877,6 +115936,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="60" />
       <property name="resourceElectricParts" value="25" />
     </property>
+    <property name="TintColor" value="50DA88" />
   </block>
   <block name="PZAECHoundDecoyTowerT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115884,7 +115944,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECHoundDecoyTowerT16Desc" />
     <property name="CustomIcon" value="speaker" />
-    <property name="CustomIconTint" value="66BBFF" />
+    <property name="CustomIconTint" value="AE7333" />
     <property name="MaxDamage" value="9000" />
     <property name="RequiredPower" value="20" />
     <property name="TakeDelay" value="30" />
@@ -115899,6 +115959,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="30" />
       <property name="resourceElectricParts" value="10" />
     </property>
+    <property name="TintColor" value="AE7333" />
   </block>
   <block name="PZAECHoundDecoyTowerT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115906,7 +115967,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECHoundDecoyTowerT17Desc" />
     <property name="CustomIcon" value="speaker" />
-    <property name="CustomIconTint" value="AA88FF" />
+    <property name="CustomIconTint" value="C6833A" />
     <property name="MaxDamage" value="13500" />
     <property name="RequiredPower" value="20" />
     <property name="TakeDelay" value="30" />
@@ -115921,6 +115982,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="40" />
       <property name="resourceElectricParts" value="15" />
     </property>
+    <property name="TintColor" value="C6833A" />
   </block>
   <block name="PZAECHoundDecoyTowerT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115928,7 +115990,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECHoundDecoyTowerT18Desc" />
     <property name="CustomIcon" value="speaker" />
-    <property name="CustomIconTint" value="FFBB44" />
+    <property name="CustomIconTint" value="DF9442" />
     <property name="MaxDamage" value="20240" />
     <property name="RequiredPower" value="20" />
     <property name="TakeDelay" value="30" />
@@ -115943,6 +116005,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="50" />
       <property name="resourceElectricParts" value="20" />
     </property>
+    <property name="TintColor" value="DF9442" />
   </block>
   <block name="PZAECHoundDecoyTowerT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115950,7 +116013,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECHoundDecoyTowerT19Desc" />
     <property name="CustomIcon" value="speaker" />
-    <property name="CustomIconTint" value="FF6655" />
+    <property name="CustomIconTint" value="F8A449" />
     <property name="MaxDamage" value="31050" />
     <property name="RequiredPower" value="20" />
     <property name="TakeDelay" value="30" />
@@ -115965,6 +116028,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="60" />
       <property name="resourceElectricParts" value="25" />
     </property>
+    <property name="TintColor" value="F8A449" />
   </block>
   <block name="PZAECShockNetNodeT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115972,7 +116036,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECShockNetNodeT16Desc" />
     <property name="CustomIcon" value="electricfencepost" />
-    <property name="CustomIconTint" value="66BBFF" />
+    <property name="CustomIconTint" value="A49930" />
     <property name="MaxDamage" value="9750" />
     <property name="RequiredPower" value="25" />
     <property name="TakeDelay" value="30" />
@@ -115986,6 +116050,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="30" />
       <property name="resourceElectricParts" value="10" />
     </property>
+    <property name="TintColor" value="A49930" />
   </block>
   <block name="PZAECShockNetNodeT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -115993,7 +116058,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECShockNetNodeT17Desc" />
     <property name="CustomIcon" value="electricfencepost" />
-    <property name="CustomIconTint" value="AA88FF" />
+    <property name="CustomIconTint" value="BBAF37" />
     <property name="MaxDamage" value="14400" />
     <property name="RequiredPower" value="28" />
     <property name="TakeDelay" value="30" />
@@ -116007,6 +116072,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="40" />
       <property name="resourceElectricParts" value="15" />
     </property>
+    <property name="TintColor" value="BBAF37" />
   </block>
   <block name="PZAECShockNetNodeT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116014,7 +116080,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECShockNetNodeT18Desc" />
     <property name="CustomIcon" value="electricfencepost" />
-    <property name="CustomIconTint" value="FFBB44" />
+    <property name="CustomIconTint" value="D3C53E" />
     <property name="MaxDamage" value="21560" />
     <property name="RequiredPower" value="31" />
     <property name="TakeDelay" value="30" />
@@ -116028,6 +116094,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="50" />
       <property name="resourceElectricParts" value="20" />
     </property>
+    <property name="TintColor" value="D3C53E" />
   </block>
   <block name="PZAECShockNetNodeT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116035,7 +116102,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECShockNetNodeT19Desc" />
     <property name="CustomIcon" value="electricfencepost" />
-    <property name="CustomIconTint" value="FF6655" />
+    <property name="CustomIconTint" value="EADB45" />
     <property name="MaxDamage" value="32400" />
     <property name="RequiredPower" value="35" />
     <property name="TakeDelay" value="30" />
@@ -116049,6 +116116,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="60" />
       <property name="resourceElectricParts" value="25" />
     </property>
+    <property name="TintColor" value="EADB45" />
   </block>
   <block name="PZAECArmorBreakTurretT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116056,7 +116124,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECArmorBreakTurretT16Desc" />
     <property name="CustomIcon" value="m60Turret" />
-    <property name="CustomIconTint" value="66BBFF" />
+    <property name="CustomIconTint" value="A74753" />
     <property name="MaxDamage" value="10500" />
     <property name="RequiredPower" value="40" />
     <property name="TakeDelay" value="30" />
@@ -116065,6 +116133,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="PZAECDefenseDevice" value="ArmorBreakTurret" />
     <property name="PZAECTier" value="16" />
     <property name="AmmoItem" value="ammo762mmBulletBall+tags(ammo762mm)" />
+    <property name="Buff" value="buffPZAECArmorBreakT16" />
+    <property name="BuffChance" value="1" />
     <property name="EntityDamage" value="180" />
     <property name="BurstRoundCount" value="60" />
     <property name="CooldownTime" value="2" />
@@ -116072,6 +116142,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="30" />
       <property name="resourceElectricParts" value="10" />
     </property>
+    <property name="TintColor" value="A74753" />
   </block>
   <block name="PZAECArmorBreakTurretT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116079,7 +116150,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECArmorBreakTurretT17Desc" />
     <property name="CustomIcon" value="m60Turret" />
-    <property name="CustomIconTint" value="AA88FF" />
+    <property name="CustomIconTint" value="BF515E" />
     <property name="MaxDamage" value="15300" />
     <property name="RequiredPower" value="45" />
     <property name="TakeDelay" value="30" />
@@ -116088,6 +116159,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="PZAECDefenseDevice" value="ArmorBreakTurret" />
     <property name="PZAECTier" value="17" />
     <property name="AmmoItem" value="ammo762mmBulletBall+tags(ammo762mm)" />
+    <property name="Buff" value="buffPZAECArmorBreakT17" />
+    <property name="BuffChance" value="1" />
     <property name="EntityDamage" value="250" />
     <property name="BurstRoundCount" value="75" />
     <property name="CooldownTime" value="1.8" />
@@ -116095,6 +116168,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="40" />
       <property name="resourceElectricParts" value="15" />
     </property>
+    <property name="TintColor" value="BF515E" />
   </block>
   <block name="PZAECArmorBreakTurretT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116102,7 +116176,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECArmorBreakTurretT18Desc" />
     <property name="CustomIcon" value="m60Turret" />
-    <property name="CustomIconTint" value="FFBB44" />
+    <property name="CustomIconTint" value="D75B6A" />
     <property name="MaxDamage" value="22880" />
     <property name="RequiredPower" value="50" />
     <property name="TakeDelay" value="30" />
@@ -116111,6 +116185,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="PZAECDefenseDevice" value="ArmorBreakTurret" />
     <property name="PZAECTier" value="18" />
     <property name="AmmoItem" value="ammo762mmBulletBall+tags(ammo762mm)" />
+    <property name="Buff" value="buffPZAECArmorBreakT18" />
+    <property name="BuffChance" value="1" />
     <property name="EntityDamage" value="350" />
     <property name="BurstRoundCount" value="90" />
     <property name="CooldownTime" value="1.6" />
@@ -116118,6 +116194,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="50" />
       <property name="resourceElectricParts" value="20" />
     </property>
+    <property name="TintColor" value="D75B6A" />
   </block>
   <block name="PZAECArmorBreakTurretT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116125,7 +116202,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECArmorBreakTurretT19Desc" />
     <property name="CustomIcon" value="m60Turret" />
-    <property name="CustomIconTint" value="FF6655" />
+    <property name="CustomIconTint" value="EF6576" />
     <property name="MaxDamage" value="34560" />
     <property name="RequiredPower" value="55" />
     <property name="TakeDelay" value="30" />
@@ -116134,6 +116211,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="PZAECDefenseDevice" value="ArmorBreakTurret" />
     <property name="PZAECTier" value="19" />
     <property name="AmmoItem" value="ammo762mmBulletBall+tags(ammo762mm)" />
+    <property name="Buff" value="buffPZAECArmorBreakT19" />
+    <property name="BuffChance" value="1" />
     <property name="EntityDamage" value="490" />
     <property name="BurstRoundCount" value="110" />
     <property name="CooldownTime" value="1.4" />
@@ -116141,20 +116220,23 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="60" />
       <property name="resourceElectricParts" value="25" />
     </property>
+    <property name="TintColor" value="EF6576" />
   </block>
   <block name="PZAECResonanceForge">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="workbench" />
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECResonanceForgeDesc" />
+    <property name="WorkstationWindow" value="workstation_workbench" />
     <property name="CustomIcon" value="workbench" />
-    <property name="CustomIconTint" value="AA88FF" />
+    <property name="CustomIconTint" value="9D78E7" />
     <property name="MaxDamage" value="12000" />
     <property name="TakeDelay" value="45" />
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="50" />
       <property name="resourceElectricParts" value="25" />
     </property>
+    <property name="TintColor" value="9D78E7" />
   </block>
   <block name="PZAECTacticalRelay">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116162,7 +116244,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECTacticalRelayDesc" />
     <property name="CustomIcon" value="electricwirerelay" />
-    <property name="CustomIconTint" value="55CCFF" />
+    <property name="CustomIconTint" value="4DE0C7" />
     <property name="MaxDamage" value="10000" />
     <property name="RequiredPower" value="15" />
     <property name="TakeDelay" value="30" />
@@ -116170,6 +116252,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="30" />
       <property name="resourceElectricParts" value="20" />
     </property>
+    <property name="TintColor" value="4DE0C7" />
   </block>
   <block name="PZAECReactiveWallT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116179,7 +116262,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECReactiveWallT16Desc" />
     <property name="CustomIcon" value="steelMaster" />
-    <property name="CustomIconTint" value="66BBFF" />
+    <property name="CustomIconTint" value="8D3632" />
     <property name="MaxDamage" value="27000" />
     <property name="LPHardnessScale" value="4" />
     <property name="TakeDelay" value="30" />
@@ -116190,6 +116273,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="20" />
     </property>
+    <property name="TintColor" value="8D3632" />
+    <property name="Texture" value="537,537,540,540,540,540" />
   </block>
   <block name="PZAECReactiveWallT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116199,7 +116284,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECReactiveWallT17Desc" />
     <property name="CustomIcon" value="steelMaster" />
-    <property name="CustomIconTint" value="AA88FF" />
+    <property name="CustomIconTint" value="A23E3A" />
     <property name="MaxDamage" value="39600" />
     <property name="LPHardnessScale" value="5" />
     <property name="TakeDelay" value="30" />
@@ -116210,6 +116295,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="30" />
     </property>
+    <property name="TintColor" value="A23E3A" />
+    <property name="Texture" value="543,543,540,540,540,540" />
   </block>
   <block name="PZAECReactiveWallT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116219,7 +116306,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECReactiveWallT18Desc" />
     <property name="CustomIcon" value="steelMaster" />
-    <property name="CustomIconTint" value="FFBB44" />
+    <property name="CustomIconTint" value="B64541" />
     <property name="MaxDamage" value="59400" />
     <property name="LPHardnessScale" value="6" />
     <property name="TakeDelay" value="30" />
@@ -116230,6 +116317,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="40" />
     </property>
+    <property name="TintColor" value="B64541" />
+    <property name="Texture" value="536,536,540,540,540,540" />
   </block>
   <block name="PZAECReactiveWallT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116239,7 +116328,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECReactiveWallT19Desc" />
     <property name="CustomIcon" value="steelMaster" />
-    <property name="CustomIconTint" value="FF6655" />
+    <property name="CustomIconTint" value="CA4D48" />
     <property name="MaxDamage" value="89100" />
     <property name="LPHardnessScale" value="7" />
     <property name="TakeDelay" value="30" />
@@ -116250,6 +116339,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="50" />
     </property>
+    <property name="TintColor" value="CA4D48" />
+    <property name="Texture" value="540,540,540,540,540,540" />
   </block>
   <block name="PZAECAblativeWallT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116259,7 +116350,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECAblativeWallT16Desc" />
     <property name="CustomIcon" value="steelMaster" />
-    <property name="CustomIconTint" value="66BBFF" />
+    <property name="CustomIconTint" value="9B7130" />
     <property name="MaxDamage" value="18000" />
     <property name="LPHardnessScale" value="4" />
     <property name="TakeDelay" value="30" />
@@ -116271,6 +116362,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="20" />
     </property>
+    <property name="TintColor" value="9B7130" />
+    <property name="Texture" value="537,537,539,539,539,539" />
   </block>
   <block name="PZAECAblativeWallRuinT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116287,6 +116380,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="ItemCount" value="20" />
       <property name="UpgradeHitCount" value="4" />
     </property>
+    <property name="Texture" value="355,355,356,356,356,356" />
   </block>
   <block name="PZAECAblativeWallT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116296,7 +116390,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECAblativeWallT17Desc" />
     <property name="CustomIcon" value="steelMaster" />
-    <property name="CustomIconTint" value="AA88FF" />
+    <property name="CustomIconTint" value="B28236" />
     <property name="MaxDamage" value="27000" />
     <property name="LPHardnessScale" value="5" />
     <property name="TakeDelay" value="30" />
@@ -116308,6 +116402,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="30" />
     </property>
+    <property name="TintColor" value="B28236" />
+    <property name="Texture" value="543,543,539,539,539,539" />
   </block>
   <block name="PZAECAblativeWallRuinT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116324,6 +116420,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="ItemCount" value="28" />
       <property name="UpgradeHitCount" value="4" />
     </property>
+    <property name="Texture" value="355,355,356,356,356,356" />
   </block>
   <block name="PZAECAblativeWallT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116333,7 +116430,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECAblativeWallT18Desc" />
     <property name="CustomIcon" value="steelMaster" />
-    <property name="CustomIconTint" value="FFBB44" />
+    <property name="CustomIconTint" value="C8923D" />
     <property name="MaxDamage" value="41800" />
     <property name="LPHardnessScale" value="6" />
     <property name="TakeDelay" value="30" />
@@ -116345,6 +116442,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="40" />
     </property>
+    <property name="TintColor" value="C8923D" />
+    <property name="Texture" value="536,536,539,539,539,539" />
   </block>
   <block name="PZAECAblativeWallRuinT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116361,6 +116460,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="ItemCount" value="38" />
       <property name="UpgradeHitCount" value="4" />
     </property>
+    <property name="Texture" value="355,355,356,356,356,356" />
   </block>
   <block name="PZAECAblativeWallT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116370,7 +116470,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECAblativeWallT19Desc" />
     <property name="CustomIcon" value="steelMaster" />
-    <property name="CustomIconTint" value="FF6655" />
+    <property name="CustomIconTint" value="DEA244" />
     <property name="MaxDamage" value="64800" />
     <property name="LPHardnessScale" value="7" />
     <property name="TakeDelay" value="30" />
@@ -116382,6 +116482,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="50" />
     </property>
+    <property name="TintColor" value="DEA244" />
+    <property name="Texture" value="540,540,539,539,539,539" />
   </block>
   <block name="PZAECAblativeWallRuinT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116398,16 +116500,18 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="ItemCount" value="50" />
       <property name="UpgradeHitCount" value="4" />
     </property>
+    <property name="Texture" value="355,355,356,356,356,356" />
   </block>
   <block name="PZAECEmbrasureT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="steelMaster" />
     <property name="Shape" value="New" />
     <property name="Model" value="@:Shapes/arrow_slit.fbx" />
+    <property name="Collide" value="sight,movement,melee,rocket" />
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECEmbrasureT16Desc" />
     <property name="CustomIcon" value="steelMaster" />
-    <property name="CustomIconTint" value="66BBFF" />
+    <property name="CustomIconTint" value="386A9C" />
     <property name="MaxDamage" value="21000" />
     <property name="LPHardnessScale" value="4" />
     <property name="TakeDelay" value="30" />
@@ -116418,16 +116522,19 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="20" />
     </property>
+    <property name="TintColor" value="386A9C" />
+    <property name="Texture" value="537,537,537,537,537,537" />
   </block>
   <block name="PZAECEmbrasureT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="steelMaster" />
     <property name="Shape" value="New" />
     <property name="Model" value="@:Shapes/arrow_slit.fbx" />
+    <property name="Collide" value="sight,movement,melee,rocket" />
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECEmbrasureT17Desc" />
     <property name="CustomIcon" value="steelMaster" />
-    <property name="CustomIconTint" value="AA88FF" />
+    <property name="CustomIconTint" value="4079B2" />
     <property name="MaxDamage" value="31500" />
     <property name="LPHardnessScale" value="5" />
     <property name="TakeDelay" value="30" />
@@ -116438,16 +116545,19 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="30" />
     </property>
+    <property name="TintColor" value="4079B2" />
+    <property name="Texture" value="543,543,537,537,537,537" />
   </block>
   <block name="PZAECEmbrasureT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="steelMaster" />
     <property name="Shape" value="New" />
     <property name="Model" value="@:Shapes/arrow_slit.fbx" />
+    <property name="Collide" value="sight,movement,melee,rocket" />
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECEmbrasureT18Desc" />
     <property name="CustomIcon" value="steelMaster" />
-    <property name="CustomIconTint" value="FFBB44" />
+    <property name="CustomIconTint" value="4888C9" />
     <property name="MaxDamage" value="47300" />
     <property name="LPHardnessScale" value="6" />
     <property name="TakeDelay" value="30" />
@@ -116458,16 +116568,19 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="40" />
     </property>
+    <property name="TintColor" value="4888C9" />
+    <property name="Texture" value="536,536,537,537,537,537" />
   </block>
   <block name="PZAECEmbrasureT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="steelMaster" />
     <property name="Shape" value="New" />
     <property name="Model" value="@:Shapes/arrow_slit.fbx" />
+    <property name="Collide" value="sight,movement,melee,rocket" />
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECEmbrasureT19Desc" />
     <property name="CustomIcon" value="steelMaster" />
-    <property name="CustomIconTint" value="FF6655" />
+    <property name="CustomIconTint" value="5097DF" />
     <property name="MaxDamage" value="71550" />
     <property name="LPHardnessScale" value="7" />
     <property name="TakeDelay" value="30" />
@@ -116478,6 +116591,8 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="50" />
     </property>
+    <property name="TintColor" value="5097DF" />
+    <property name="Texture" value="540,540,537,537,537,537" />
   </block>
   <block name="PZAECBlastGateT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116485,7 +116600,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECBlastGateT16Desc" />
     <property name="CustomIcon" value="vaultDoor01" />
-    <property name="CustomIconTint" value="66BBFF" />
+    <property name="CustomIconTint" value="78519F" />
     <property name="MaxDamage" value="30000" />
     <property name="LPHardnessScale" value="4" />
     <property name="TakeDelay" value="30" />
@@ -116497,6 +116612,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="20" />
     </property>
+    <property name="TintColor" value="78519F" />
   </block>
   <block name="PZAECBlastGateT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116504,7 +116620,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECBlastGateT17Desc" />
     <property name="CustomIcon" value="vaultDoor01" />
-    <property name="CustomIconTint" value="AA88FF" />
+    <property name="CustomIconTint" value="8A5DB6" />
     <property name="MaxDamage" value="45000" />
     <property name="LPHardnessScale" value="5" />
     <property name="TakeDelay" value="30" />
@@ -116516,6 +116632,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="30" />
     </property>
+    <property name="TintColor" value="8A5DB6" />
   </block>
   <block name="PZAECBlastGateT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116523,7 +116640,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECBlastGateT18Desc" />
     <property name="CustomIcon" value="vaultDoor01" />
-    <property name="CustomIconTint" value="FFBB44" />
+    <property name="CustomIconTint" value="9B68CC" />
     <property name="MaxDamage" value="68200" />
     <property name="LPHardnessScale" value="6" />
     <property name="TakeDelay" value="30" />
@@ -116535,6 +116652,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="40" />
     </property>
+    <property name="TintColor" value="9B68CC" />
   </block>
   <block name="PZAECBlastGateT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116542,7 +116660,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECBlastGateT19Desc" />
     <property name="CustomIcon" value="vaultDoor01" />
-    <property name="CustomIconTint" value="FF6655" />
+    <property name="CustomIconTint" value="AC74E3" />
     <property name="MaxDamage" value="102600" />
     <property name="LPHardnessScale" value="7" />
     <property name="TakeDelay" value="30" />
@@ -116554,6 +116672,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property class="RepairItems">
       <property name="resourceDurablAlloys" value="50" />
     </property>
+    <property name="TintColor" value="AC74E3" />
   </block>
   <block name="PZAECArmoredConduitT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116561,7 +116680,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECArmoredConduitT16Desc" />
     <property name="CustomIcon" value="electricwirerelay" />
-    <property name="CustomIconTint" value="66BBFF" />
+    <property name="CustomIconTint" value="5B6A7A" />
     <property name="MaxDamage" value="12000" />
     <property name="LPHardnessScale" value="4" />
     <property name="TakeDelay" value="30" />
@@ -116573,6 +116692,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="20" />
       <property name="resourceElectricParts" value="5" />
     </property>
+    <property name="TintColor" value="5B6A7A" />
   </block>
   <block name="PZAECArmoredConduitT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116580,7 +116700,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECArmoredConduitT17Desc" />
     <property name="CustomIcon" value="electricwirerelay" />
-    <property name="CustomIconTint" value="AA88FF" />
+    <property name="CustomIconTint" value="687A8C" />
     <property name="MaxDamage" value="18000" />
     <property name="LPHardnessScale" value="5" />
     <property name="TakeDelay" value="30" />
@@ -116592,6 +116712,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="30" />
       <property name="resourceElectricParts" value="5" />
     </property>
+    <property name="TintColor" value="687A8C" />
   </block>
   <block name="PZAECArmoredConduitT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116599,7 +116720,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECArmoredConduitT18Desc" />
     <property name="CustomIcon" value="electricwirerelay" />
-    <property name="CustomIconTint" value="FFBB44" />
+    <property name="CustomIconTint" value="75899E" />
     <property name="MaxDamage" value="27500" />
     <property name="LPHardnessScale" value="6" />
     <property name="TakeDelay" value="30" />
@@ -116611,6 +116732,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="40" />
       <property name="resourceElectricParts" value="5" />
     </property>
+    <property name="TintColor" value="75899E" />
   </block>
   <block name="PZAECArmoredConduitT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -116618,7 +116740,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="PZAECArmoredConduitT19Desc" />
     <property name="CustomIcon" value="electricwirerelay" />
-    <property name="CustomIconTint" value="FF6655" />
+    <property name="CustomIconTint" value="8298AF" />
     <property name="MaxDamage" value="41850" />
     <property name="LPHardnessScale" value="7" />
     <property name="TakeDelay" value="30" />
@@ -116630,6 +116752,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceDurablAlloys" value="50" />
       <property name="resourceElectricParts" value="5" />
     </property>
+    <property name="TintColor" value="8298AF" />
   </block>
 </blocks>
 <!-- Block limit: There can be 32k blocks in the game. -->

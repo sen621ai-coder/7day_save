@@ -43453,7 +43453,7 @@
       <passive_effect name="PhysicalDamageResist" operation="base_add" value="-2" />
     </effect_group>
   </item_modifier>
-  <item_modifier name="modPZAECHarrierStableT19" installable_tags="PZAECHarrierDevice" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
+  <item_modifier name="modPZAECHarrierStableT19" installable_tags="PZAECHarrierCalibrationT19" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="modGeneralMaster" />
     <property name="DescriptionKey" value="modPZAECHarrierStableT19Desc" />
@@ -43466,8 +43466,11 @@
     <effect_group tiered="false">
       <passive_effect name="HeadshotDamageModifier" operation="perc_add" value=".10" tags="head" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECHarrierStableT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
-  <item_modifier name="modPZAECHarrierOverloadT19" installable_tags="PZAECHarrierDevice" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
+  <item_modifier name="modPZAECHarrierOverloadT19" installable_tags="PZAECHarrierCalibrationT19" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="modGeneralMaster" />
     <property name="DescriptionKey" value="modPZAECHarrierOverloadT19Desc" />
@@ -43480,8 +43483,11 @@
     <effect_group tiered="false">
       <passive_effect name="HeadshotDamageModifier" operation="perc_add" value=".12" tags="head" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECHarrierOverloadT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
-  <item_modifier name="modPZAECStormStableT19" installable_tags="PZAECStormDevice" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
+  <item_modifier name="modPZAECStormStableT19" installable_tags="PZAECStormCalibrationT19" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="modGeneralMaster" />
     <property name="DescriptionKey" value="modPZAECStormStableT19Desc" />
@@ -43494,8 +43500,11 @@
     <effect_group tiered="false">
       <passive_effect name="RoundsPerMinute" operation="perc_add" value=".08" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECStormStableT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
-  <item_modifier name="modPZAECStormOverloadT19" installable_tags="PZAECStormDevice" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
+  <item_modifier name="modPZAECStormOverloadT19" installable_tags="PZAECStormCalibrationT19" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="modGeneralMaster" />
     <property name="DescriptionKey" value="modPZAECStormOverloadT19Desc" />
@@ -43508,8 +43517,11 @@
     <effect_group tiered="false">
       <passive_effect name="RoundsPerMinute" operation="perc_add" value=".15" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECStormOverloadT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
-  <item_modifier name="modPZAECTremorStableT19" installable_tags="PZAECTremorDevice" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
+  <item_modifier name="modPZAECTremorStableT19" installable_tags="PZAECTremorCalibrationT19" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="modGeneralMaster" />
     <property name="DescriptionKey" value="modPZAECTremorStableT19Desc" />
@@ -43522,8 +43534,11 @@
     <effect_group tiered="false">
       <passive_effect name="EntityDamage" operation="perc_add" value=".12" tags="secondary" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECTremorStableT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
-  <item_modifier name="modPZAECTremorOverloadT19" installable_tags="PZAECTremorDevice" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
+  <item_modifier name="modPZAECTremorOverloadT19" installable_tags="PZAECTremorCalibrationT19" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="modGeneralMaster" />
     <property name="DescriptionKey" value="modPZAECTremorOverloadT19Desc" />
@@ -43536,8 +43551,11 @@
     <effect_group tiered="false">
       <passive_effect name="EntityDamage" operation="perc_add" value=".20" tags="secondary" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECTremorOverloadT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
-  <item_modifier name="modPZAECWardenStableT19" installable_tags="PZAECWardenDevice" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
+  <item_modifier name="modPZAECWardenStableT19" installable_tags="PZAECWardenCalibrationT19" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="modGeneralMaster" />
     <property name="DescriptionKey" value="modPZAECWardenStableT19Desc" />
@@ -43550,8 +43568,11 @@
     <effect_group tiered="false">
       <passive_effect name="PhysicalDamageResist" operation="base_add" value="3" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECWardenStableT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
-  <item_modifier name="modPZAECWardenOverloadT19" installable_tags="PZAECWardenDevice" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
+  <item_modifier name="modPZAECWardenOverloadT19" installable_tags="PZAECWardenCalibrationT19" modifier_tags="PZAECCalibration" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="modGeneralMaster" />
     <property name="DescriptionKey" value="modPZAECWardenOverloadT19Desc" />
@@ -43564,6 +43585,9 @@
     <effect_group tiered="false">
       <passive_effect name="PhysicalDamageResist" operation="base_add" value="6" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECWardenOverloadT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECThreatLensT16" installable_tags="armorHead" modifier_tags="PZAECExpansionThreatLens" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43578,6 +43602,9 @@
     <effect_group tiered="false">
       <passive_effect name="EntityDamage" operation="perc_add" value="2.25" tags="ranged" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECThreatLensT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECThreatLensT17" installable_tags="armorHead" modifier_tags="PZAECExpansionThreatLens" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43592,6 +43619,9 @@
     <effect_group tiered="false">
       <passive_effect name="EntityDamage" operation="perc_add" value="3" tags="ranged" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECThreatLensT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECThreatLensT18" installable_tags="armorHead" modifier_tags="PZAECExpansionThreatLens" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43606,6 +43636,9 @@
     <effect_group tiered="false">
       <passive_effect name="EntityDamage" operation="perc_add" value="4" tags="ranged" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECThreatLensT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECThreatLensT19" installable_tags="armorHead" modifier_tags="PZAECExpansionThreatLens" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43620,6 +43653,9 @@
     <effect_group tiered="false">
       <passive_effect name="EntityDamage" operation="perc_add" value="5.5" tags="ranged" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECThreatLensT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECCoolingSinkT16" installable_tags="gun" modifier_tags="PZAECExpansionCoolingSink" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43639,6 +43675,9 @@
       <passive_effect name="WeaponHandling" operation="perc_add" value="1" />
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.1" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECCoolingSinkT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECCoolingSinkT17" installable_tags="gun" modifier_tags="PZAECExpansionCoolingSink" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43658,6 +43697,9 @@
       <passive_effect name="WeaponHandling" operation="perc_add" value="1.25" />
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.4" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECCoolingSinkT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECCoolingSinkT18" installable_tags="gun" modifier_tags="PZAECExpansionCoolingSink" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43677,6 +43719,9 @@
       <passive_effect name="WeaponHandling" operation="perc_add" value="1.6" />
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.8" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECCoolingSinkT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECCoolingSinkT19" installable_tags="gun" modifier_tags="PZAECExpansionCoolingSink" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43696,6 +43741,9 @@
       <passive_effect name="WeaponHandling" operation="perc_add" value="2" />
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="2.3" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECCoolingSinkT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECKineticRecyclerT16" installable_tags="melee" modifier_tags="PZAECExpansionKineticRecycler" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43713,6 +43761,9 @@
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="0.65" />
       <passive_effect name="WeaponHandling" operation="perc_add" value="0.35" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECKineticRecyclerT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECKineticRecyclerT17" installable_tags="melee" modifier_tags="PZAECExpansionKineticRecycler" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43730,6 +43781,9 @@
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="0.85" />
       <passive_effect name="WeaponHandling" operation="perc_add" value="0.5" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECKineticRecyclerT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECKineticRecyclerT18" installable_tags="melee" modifier_tags="PZAECExpansionKineticRecycler" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43747,6 +43801,9 @@
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.1" />
       <passive_effect name="WeaponHandling" operation="perc_add" value="0.7" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECKineticRecyclerT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECKineticRecyclerT19" installable_tags="melee" modifier_tags="PZAECExpansionKineticRecycler" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43764,6 +43821,9 @@
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.4" />
       <passive_effect name="WeaponHandling" operation="perc_add" value="0.9" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECKineticRecyclerT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECRepairServoT16" installable_tags="armorHands" modifier_tags="PZAECExpansionRepairServo" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43779,6 +43839,9 @@
       <passive_effect name="BlockRepairAmount" operation="perc_add" value="1" />
       <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="2.75" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECRepairServoT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECRepairServoT17" installable_tags="armorHands" modifier_tags="PZAECExpansionRepairServo" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43794,6 +43857,9 @@
       <passive_effect name="BlockRepairAmount" operation="perc_add" value="1.5" />
       <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="3.5" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECRepairServoT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECRepairServoT18" installable_tags="armorHands" modifier_tags="PZAECExpansionRepairServo" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43809,6 +43875,9 @@
       <passive_effect name="BlockRepairAmount" operation="perc_add" value="2.2" />
       <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="4.5" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECRepairServoT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECRepairServoT19" installable_tags="armorHands" modifier_tags="PZAECExpansionRepairServo" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43824,6 +43893,9 @@
       <passive_effect name="BlockRepairAmount" operation="perc_add" value="3" />
       <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="6" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECRepairServoT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECPhaseRangefinderT16" installable_tags="gun,perkArchery" modifier_tags="PZAECExpansionPhaseRangefinder" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43840,6 +43912,9 @@
       <passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-0.65" />
       <passive_effect name="WeaponHandling" operation="perc_add" value="1" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECPhaseRangefinderT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECPhaseRangefinderT17" installable_tags="gun,perkArchery" modifier_tags="PZAECExpansionPhaseRangefinder" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43856,6 +43931,9 @@
       <passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-0.72" />
       <passive_effect name="WeaponHandling" operation="perc_add" value="1.25" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECPhaseRangefinderT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECPhaseRangefinderT18" installable_tags="gun,perkArchery" modifier_tags="PZAECExpansionPhaseRangefinder" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43872,6 +43950,9 @@
       <passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-0.8" />
       <passive_effect name="WeaponHandling" operation="perc_add" value="1.6" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECPhaseRangefinderT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECPhaseRangefinderT19" installable_tags="gun,perkArchery" modifier_tags="PZAECExpansionPhaseRangefinder" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43888,6 +43969,9 @@
       <passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-0.88" />
       <passive_effect name="WeaponHandling" operation="perc_add" value="2" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECPhaseRangefinderT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECNearfieldReflexT16" installable_tags="gun" modifier_tags="PZAECExpansionNearfieldReflex" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43904,6 +43988,9 @@
       <passive_effect name="DamageFalloffRange" operation="perc_add" value="0.15" />
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="0.65" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECNearfieldReflexT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECNearfieldReflexT17" installable_tags="gun" modifier_tags="PZAECExpansionNearfieldReflex" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43920,6 +44007,9 @@
       <passive_effect name="DamageFalloffRange" operation="perc_add" value="0.25" />
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="0.85" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECNearfieldReflexT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECNearfieldReflexT18" installable_tags="gun" modifier_tags="PZAECExpansionNearfieldReflex" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43936,6 +44026,9 @@
       <passive_effect name="DamageFalloffRange" operation="perc_add" value="0.4" />
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.1" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECNearfieldReflexT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECNearfieldReflexT19" installable_tags="gun" modifier_tags="PZAECExpansionNearfieldReflex" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43952,6 +44045,9 @@
       <passive_effect name="DamageFalloffRange" operation="perc_add" value="0.6" />
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.4" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECNearfieldReflexT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECClosedLoopFeedT16" installable_tags="gun" modifier_tags="PZAECExpansionClosedLoopFeed" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43968,6 +44064,9 @@
       <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="2.75" />
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="0.2" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECClosedLoopFeedT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECClosedLoopFeedT17" installable_tags="gun" modifier_tags="PZAECExpansionClosedLoopFeed" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -43984,6 +44083,9 @@
       <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="3.5" />
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="0.3" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECClosedLoopFeedT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECClosedLoopFeedT18" installable_tags="gun" modifier_tags="PZAECExpansionClosedLoopFeed" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44000,6 +44102,9 @@
       <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="4.5" />
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="0.45" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECClosedLoopFeedT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECClosedLoopFeedT19" installable_tags="gun" modifier_tags="PZAECExpansionClosedLoopFeed" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44016,6 +44121,9 @@
       <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="6" />
       <passive_effect name="RoundsPerMinute" operation="perc_add" value="0.65" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECClosedLoopFeedT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECPulseCapacitorT16" installable_tags="gun,perkElectrocutioner" modifier_tags="PZAECExpansionPulseCapacitor" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44032,6 +44140,9 @@
       <passive_effect name="EntityDamage" operation="perc_add" value="2.25" />
       <passive_effect name="EntityPenetrationCount" operation="base_add" value="2" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECPulseCapacitorT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECPulseCapacitorT17" installable_tags="gun,perkElectrocutioner" modifier_tags="PZAECExpansionPulseCapacitor" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44048,6 +44159,9 @@
       <passive_effect name="EntityDamage" operation="perc_add" value="3" />
       <passive_effect name="EntityPenetrationCount" operation="base_add" value="3" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECPulseCapacitorT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECPulseCapacitorT18" installable_tags="gun,perkElectrocutioner" modifier_tags="PZAECExpansionPulseCapacitor" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44064,6 +44178,9 @@
       <passive_effect name="EntityDamage" operation="perc_add" value="4" />
       <passive_effect name="EntityPenetrationCount" operation="base_add" value="4" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECPulseCapacitorT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECPulseCapacitorT19" installable_tags="gun,perkElectrocutioner" modifier_tags="PZAECExpansionPulseCapacitor" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44080,6 +44197,9 @@
       <passive_effect name="EntityDamage" operation="perc_add" value="5.5" />
       <passive_effect name="EntityPenetrationCount" operation="base_add" value="5" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECPulseCapacitorT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECStanceBreakerT16" installable_tags="melee" modifier_tags="PZAECExpansionStanceBreaker" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44095,6 +44215,9 @@
       <passive_effect name="EntityDamage" operation="perc_add" value="2.25" tags="primary,secondary" />
       <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.65" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECStanceBreakerT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECStanceBreakerT17" installable_tags="melee" modifier_tags="PZAECExpansionStanceBreaker" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44110,6 +44233,9 @@
       <passive_effect name="EntityDamage" operation="perc_add" value="3" tags="primary,secondary" />
       <passive_effect name="AttacksPerMinute" operation="perc_add" value="0.85" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECStanceBreakerT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECStanceBreakerT18" installable_tags="melee" modifier_tags="PZAECExpansionStanceBreaker" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44125,6 +44251,9 @@
       <passive_effect name="EntityDamage" operation="perc_add" value="4" tags="primary,secondary" />
       <passive_effect name="AttacksPerMinute" operation="perc_add" value="1.1" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECStanceBreakerT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECStanceBreakerT19" installable_tags="melee" modifier_tags="PZAECExpansionStanceBreaker" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44140,6 +44269,9 @@
       <passive_effect name="EntityDamage" operation="perc_add" value="5.5" tags="primary,secondary" />
       <passive_effect name="AttacksPerMinute" operation="perc_add" value="1.4" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECStanceBreakerT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECGatekeeperHookT16" installable_tags="melee,shotgun" modifier_tags="PZAECExpansionGatekeeperHook" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44155,6 +44287,9 @@
       <passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned01CHTrigger" />
       <passive_effect name="EntityDamage" operation="perc_add" value="2.25" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECGatekeeperHookT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECGatekeeperHookT17" installable_tags="melee,shotgun" modifier_tags="PZAECExpansionGatekeeperHook" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44170,6 +44305,9 @@
       <passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned01CHTrigger" />
       <passive_effect name="EntityDamage" operation="perc_add" value="3" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECGatekeeperHookT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECGatekeeperHookT18" installable_tags="melee,shotgun" modifier_tags="PZAECExpansionGatekeeperHook" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44185,6 +44323,9 @@
       <passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned01CHTrigger" />
       <passive_effect name="EntityDamage" operation="perc_add" value="4" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECGatekeeperHookT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECGatekeeperHookT19" installable_tags="melee,shotgun" modifier_tags="PZAECExpansionGatekeeperHook" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44200,6 +44341,9 @@
       <passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryStunned01CHTrigger" />
       <passive_effect name="EntityDamage" operation="perc_add" value="5.5" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECGatekeeperHookT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECEmergencyLinerT16" installable_tags="armorChest" modifier_tags="PZAECExpansionEmergencyLiner" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44216,6 +44360,9 @@
       <passive_effect name="HealthMax" operation="base_add" value="80" />
       <passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECEmergencyLinerT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECEmergencyLinerT17" installable_tags="armorChest" modifier_tags="PZAECExpansionEmergencyLiner" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44232,6 +44379,9 @@
       <passive_effect name="HealthMax" operation="base_add" value="120" />
       <passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECEmergencyLinerT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECEmergencyLinerT18" installable_tags="armorChest" modifier_tags="PZAECExpansionEmergencyLiner" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44248,6 +44398,9 @@
       <passive_effect name="HealthMax" operation="base_add" value="180" />
       <passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECEmergencyLinerT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECEmergencyLinerT19" installable_tags="armorChest" modifier_tags="PZAECExpansionEmergencyLiner" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44264,6 +44417,9 @@
       <passive_effect name="HealthMax" operation="base_add" value="260" />
       <passive_effect name="BuffResistance" operation="base_add" value="1" tags="buffInjuryBleedingTwo,buffInjuryBleedingBarbedWire" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECEmergencyLinerT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECInsulatedTreadsT16" installable_tags="armorFeet" modifier_tags="PZAECExpansionInsulatedTreads" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44280,6 +44436,9 @@
       <passive_effect name="StaminaChangeOT" operation="perc_add" value="0.5" />
       <passive_effect name="BuffResistance" operation="base_set" value="1" tags="buffDeepSnowStatus,buffSandStatus,buffDesertGroundStatus,buffRoughGroundStatus,buffDestroyedStoneStatus" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECInsulatedTreadsT16">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECInsulatedTreadsT17" installable_tags="armorFeet" modifier_tags="PZAECExpansionInsulatedTreads" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44296,6 +44455,9 @@
       <passive_effect name="StaminaChangeOT" operation="perc_add" value="0.75" />
       <passive_effect name="BuffResistance" operation="base_set" value="1" tags="buffDeepSnowStatus,buffSandStatus,buffDesertGroundStatus,buffRoughGroundStatus,buffDestroyedStoneStatus" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECInsulatedTreadsT17">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECInsulatedTreadsT18" installable_tags="armorFeet" modifier_tags="PZAECExpansionInsulatedTreads" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44312,6 +44474,9 @@
       <passive_effect name="StaminaChangeOT" operation="perc_add" value="1.1" />
       <passive_effect name="BuffResistance" operation="base_set" value="1" tags="buffDeepSnowStatus,buffSandStatus,buffDesertGroundStatus,buffRoughGroundStatus,buffDestroyedStoneStatus" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECInsulatedTreadsT18">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
   <item_modifier name="modPZAECInsulatedTreadsT19" installable_tags="armorFeet" modifier_tags="PZAECExpansionInsulatedTreads" blocked_tags="noMods" type="attachment">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -44328,6 +44493,9 @@
       <passive_effect name="StaminaChangeOT" operation="perc_add" value="1.6" />
       <passive_effect name="BuffResistance" operation="base_set" value="1" tags="buffDeepSnowStatus,buffSandStatus,buffDesertGroundStatus,buffRoughGroundStatus,buffDestroyedStoneStatus" />
     </effect_group>
+    <property name="DisplayType" value="AECDisplay_modPZAECInsulatedTreadsT19">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </property>
   </item_modifier>
 </item_modifiers>
 <!-- *** Notes: -->

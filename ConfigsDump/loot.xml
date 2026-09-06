@@ -51156,6 +51156,7 @@
   </lootgroup>
   <lootgroup name="PZAECExpansionWeaponT16" count="1">
     <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="gunPZAECEmberPistolT16" count="1" />
     <item name="gunPZAECHorizonNeedleT16" count="1" />
     <item name="gunPZAECStormReservoirT16" count="1" />
     <item name="meleePZAECFaultlineHammerT16" count="1" />
@@ -51180,6 +51181,7 @@
   </lootgroup>
   <lootgroup name="PZAECExpansionWeaponT17" count="1">
     <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="gunPZAECEmberPistolT17" count="1" />
     <item name="gunPZAECHorizonNeedleT17" count="1" />
     <item name="gunPZAECStormReservoirT17" count="1" />
     <item name="meleePZAECFaultlineHammerT17" count="1" />
@@ -51204,6 +51206,7 @@
   </lootgroup>
   <lootgroup name="PZAECExpansionWeaponT18" count="1">
     <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="gunPZAECEmberPistolT18" count="1" />
     <item name="gunPZAECHorizonNeedleT18" count="1" />
     <item name="gunPZAECStormReservoirT18" count="1" />
     <item name="meleePZAECFaultlineHammerT18" count="1" />
@@ -51228,6 +51231,7 @@
   </lootgroup>
   <lootgroup name="PZAECExpansionWeaponT19" count="1">
     <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="gunPZAECEmberPistolT19" count="1" />
     <item name="gunPZAECHorizonNeedleT19" count="1" />
     <item name="gunPZAECStormReservoirT19" count="1" />
     <item name="meleePZAECFaultlineHammerT19" count="1" />
