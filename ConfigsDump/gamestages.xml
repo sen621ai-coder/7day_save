@@ -5298,15 +5298,15 @@ Console command: gamestage
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
       <spawn group="PZAECBloodMoonT16Fallback" num="999" maxAlive="256" />
     </gamestage>
-    <gamestage stage="240000">
+    <gamestage stage="280000">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
       <spawn group="PZAECBloodMoonT17Fallback" num="999" maxAlive="256" />
     </gamestage>
-    <gamestage stage="270000">
+    <gamestage stage="380000">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
       <spawn group="PZAECBloodMoonT18Fallback" num="999" maxAlive="256" />
     </gamestage>
-    <gamestage stage="300000">
+    <gamestage stage="480000">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
       <spawn group="PZAECBloodMoonT19Fallback" num="999" maxAlive="256" />
     </gamestage>
