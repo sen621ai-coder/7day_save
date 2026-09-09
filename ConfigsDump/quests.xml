@@ -339387,7 +339387,7 @@
     <property name="statement_key" value="PZAECChallengeDesc" />
     <property name="response_key" value="PZAECChallengeSubtitle" />
     <property name="repeatable" value="true" />
-    <property name="shareable" value="false" />
+    <property name="shareable" value="true" />
     <property name="add_to_tier_complete" value="false" />
     <property name="category_key" value="PZAECLegendaryTrialCategory" />
     <property name="icon" value="ui_game_symbol_quest" />
@@ -339418,7 +339418,7 @@
     <property name="statement_key" value="PZAECChallengeDesc" />
     <property name="response_key" value="PZAECChallengeSubtitle" />
     <property name="repeatable" value="true" />
-    <property name="shareable" value="false" />
+    <property name="shareable" value="true" />
     <property name="add_to_tier_complete" value="false" />
     <property name="category_key" value="PZAECLegendaryTrialCategory" />
     <property name="icon" value="ui_game_symbol_quest" />
@@ -339449,7 +339449,7 @@
     <property name="statement_key" value="PZAECChallengeDesc" />
     <property name="response_key" value="PZAECChallengeSubtitle" />
     <property name="repeatable" value="true" />
-    <property name="shareable" value="false" />
+    <property name="shareable" value="true" />
     <property name="add_to_tier_complete" value="false" />
     <property name="category_key" value="PZAECLegendaryTrialCategory" />
     <property name="icon" value="ui_game_symbol_quest" />
@@ -339480,7 +339480,7 @@
     <property name="statement_key" value="PZAECChallengeDesc" />
     <property name="response_key" value="PZAECChallengeSubtitle" />
     <property name="repeatable" value="true" />
-    <property name="shareable" value="false" />
+    <property name="shareable" value="true" />
     <property name="add_to_tier_complete" value="false" />
     <property name="category_key" value="PZAECLegendaryTrialCategory" />
     <property name="icon" value="ui_game_symbol_quest" />
