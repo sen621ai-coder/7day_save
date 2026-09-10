@@ -3894,9 +3894,13 @@
         <passive_effect name="EntityDamage" operation="perc_add" level="1,5" value=".1,.5" tags="perkMachineGunner" />
         <passive_effect name="RoundsPerMinute" operation="perc_add" level="1,5" value="0.05,0.25" tags="perkMachineGunner" />
         <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" level="1,5" value="0.1,0.3" tags="perkMachineGunner" />
-        <passive_effect name="KickDegreesVerticalMin" operation="perc_add" level="0,5" value="0,-.03" tags="perkMachineGunner" />
+        <passive_effect name="KickDegreesVerticalMin" operation="perc_add" level="0,5" value="0,-.15" tags="perkMachineGunner">
+          <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+        </passive_effect>
         <passive_effect name="KickDegreesVerticalMax" operation="perc_add" level="0,5" value="0,-.15" tags="perkMachineGunner" />
-        <passive_effect name="KickDegreesHorizontalMin" operation="perc_add" level="0,5" value="0,-.03" tags="perkMachineGunner" />
+        <passive_effect name="KickDegreesHorizontalMin" operation="perc_add" level="0,5" value="0,-.15" tags="perkMachineGunner">
+          <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+        </passive_effect>
         <passive_effect name="KickDegreesHorizontalMax" operation="perc_add" level="0,5" value="0,-.15" tags="perkMachineGunner" />
         <passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" level="1,5" value="-.03,-.15" tags="perkMachineGunner" />
         <!-- Increase the chance to find machine guns and ammo with each perk rank -->
@@ -54813,6 +54817,12 @@
       <effect_group>
         <passive_effect name="KickDegreesVerticalMax" operation="perc_add" level="1,100" value="-.03,-.6" tags="ranged" />
         <passive_effect name="KickDegreesHorizontalMax" operation="perc_add" level="1,100" value="-.03,-.6" tags="ranged" />
+        <passive_effect name="KickDegreesVerticalMin" operation="perc_add" level="1,100" value="-.03,-.6" tags="ranged">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </passive_effect>
+        <passive_effect name="KickDegreesHorizontalMin" operation="perc_add" level="1,100" value="-.03,-.6" tags="ranged">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </passive_effect>
       </effect_group>
     </perk>
     <perk name="perkAecHipFireControl" max_level="100" parent="skillAecMarksmanTraining" base_skill_point_cost="1" name_key="perkAecHipFireControlName" desc_key="perkAecHipFireControlDesc" long_desc_key="perkAecHipFireControlDesc" icon="ui_game_symbol_run_and_gun">

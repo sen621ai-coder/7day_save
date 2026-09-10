@@ -1,8 +1,12 @@
 ﻿<xui scale="1.255" stackpanel_scale="1.05">
   <window_group name="crafting" controller="XUiC_CraftingWindowGroup" open_backpack_on_open="true" defaultselected="bp.content" always_update="true">
-    <window name="windowCraftingList" />
+    <window name="windowCraftingListImp">
+      <!--Attribute "name" replaced by: "AECxProjectZ_Tweaks"-->
+    </window>
     <window name="craftingInfoPanel" />
-    <window name="windowCraftingQueue" />
+    <window name="windowCraftingQueue10">
+      <!--Attribute "name" replaced by: "AECxProjectZ_Tweaks"-->
+    </window>
   </window_group>
   <window_group name="character" controller="XUiC_CharacterSheetWindowGroup" open_backpack_on_open="true" defaultselected="bp.content">
     <window name="CharacterFrameWindow" />
