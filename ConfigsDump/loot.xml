@@ -51265,6 +51265,11 @@
     <item name="modPZAECWardenStableT19" count="1" />
     <item name="modPZAECWardenOverloadT19" count="1" />
   </lootgroup>
+  <lootgroup name="PZAECBossSkillMagazinesOnly" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item group="skillMagazines" loot_prob_template="medHigh" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+    <item group="groupChallengeRewardSkillMagazinesAll" loot_prob_template="high" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
+  </lootgroup>
   <lootgroup name="PZAECBossLootBundleT16_Content" count="all">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <item group="groupAmmoImpLarge" count="6" prob="1" force_prob="true">
@@ -51277,7 +51282,10 @@
     <item group="groupMiniBoss01" count="5">
       <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
     </item>
-    <item group="groupZpackBoss02" count="5">
+    <item group="PZAECBossSkillMagazinesOnly" count="5" prob="1" force_prob="true">
+      <!--Attribute "force_prob" added/overwritten by: "AEC_T16_RuntimeFix"-->
+      <!--Attribute "prob" added/overwritten by: "AEC_T16_RuntimeFix"-->
+      <!--Attribute "group" replaced by: "AEC_T16_RuntimeFix"-->
       <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
     </item>
     <item group="groupZpackBoss03" count="3">
@@ -52312,7 +52320,11 @@
     <item group="groupAmmoImpLarge" count="8" prob="1" force_prob="true" />
     <item group="groupAmmoDU" count="4" prob=".80" force_prob="true" />
     <item group="groupMiniBoss01" count="6" prob="1" force_prob="true" />
-    <item group="groupZpackBoss02" count="6" prob="1" force_prob="true" />
+    <item group="PZAECBossSkillMagazinesOnly" count="6" prob="1" force_prob="true">
+      <!--Attribute "force_prob" added/overwritten by: "AEC_T16_RuntimeFix"-->
+      <!--Attribute "prob" added/overwritten by: "AEC_T16_RuntimeFix"-->
+      <!--Attribute "group" replaced by: "AEC_T16_RuntimeFix"-->
+    </item>
     <item group="groupZpackBoss03" count="4" prob="1" force_prob="true" />
     <item group="groupBossAlloys" count="3" prob=".90" force_prob="true" />
     <item group="groupZpackBoss04" count="1" prob=".80" force_prob="true" />
@@ -52339,7 +52351,7 @@
     <item name="itemPZAECComponentChoiceCrateT17" count="1" prob="0.25" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
-    <item group="PZAECExpansionWeaponT17" count="1" prob="0.03" force_prob="true">
+    <item group="PZAECExpansionWeaponT17" count="1" prob="0.04" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
   </lootgroup>
@@ -52352,7 +52364,11 @@
     <item group="groupAmmoImpLarge" count="10" prob="1" force_prob="true" />
     <item group="groupAmmoDU" count="5" prob=".90" force_prob="true" />
     <item group="groupMiniBoss01" count="8" prob="1" force_prob="true" />
-    <item group="groupZpackBoss02" count="8" prob="1" force_prob="true" />
+    <item group="PZAECBossSkillMagazinesOnly" count="8" prob="1" force_prob="true">
+      <!--Attribute "force_prob" added/overwritten by: "AEC_T16_RuntimeFix"-->
+      <!--Attribute "prob" added/overwritten by: "AEC_T16_RuntimeFix"-->
+      <!--Attribute "group" replaced by: "AEC_T16_RuntimeFix"-->
+    </item>
     <item group="groupZpackBoss03" count="5" prob="1" force_prob="true" />
     <item group="groupBossAlloys" count="4" prob="1" force_prob="true" />
     <item group="groupZpackBoss04" count="2" prob=".90" force_prob="true" />
@@ -52379,7 +52395,7 @@
     <item name="itemPZAECComponentChoiceCrateT18" count="1" prob="0.35" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
-    <item group="PZAECExpansionWeaponT18" count="1" prob="0.04" force_prob="true">
+    <item group="PZAECExpansionWeaponT18" count="1" prob="0.06" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
   </lootgroup>
@@ -52392,7 +52408,11 @@
     <item group="groupAmmoImpLarge" count="12" prob="1" force_prob="true" />
     <item group="groupAmmoDU" count="6" prob="1" force_prob="true" />
     <item group="groupMiniBoss01" count="10" prob="1" force_prob="true" />
-    <item group="groupZpackBoss02" count="10" prob="1" force_prob="true" />
+    <item group="PZAECBossSkillMagazinesOnly" count="10" prob="1" force_prob="true">
+      <!--Attribute "force_prob" added/overwritten by: "AEC_T16_RuntimeFix"-->
+      <!--Attribute "prob" added/overwritten by: "AEC_T16_RuntimeFix"-->
+      <!--Attribute "group" replaced by: "AEC_T16_RuntimeFix"-->
+    </item>
     <item group="groupZpackBoss03" count="6" prob="1" force_prob="true" />
     <item group="groupBossAlloys" count="5" prob="1" force_prob="true" />
     <item group="groupZpackBoss04" count="2" prob="1" force_prob="true" />
@@ -52419,7 +52439,7 @@
     <item name="itemPZAECComponentChoiceCrateT19" count="1" prob="0.5" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
-    <item group="PZAECExpansionWeaponT19" count="1" prob="0.06" force_prob="true">
+    <item group="PZAECExpansionWeaponT19" count="1" prob="0.08" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
     <item group="PZAECCalibrationT19" count="1" prob=".15" force_prob="true">

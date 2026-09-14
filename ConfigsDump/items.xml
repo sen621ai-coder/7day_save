@@ -215179,7 +215179,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Extends" value="questMaster" />
     <property name="DescriptionKey" value="PZAECChallengeVoucherDesc" />
     <property name="CustomIconTint" value="FFAA33" />
-    <property name="Stacknumber" value="10" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <property class="Action0">
       <property name="Class" value="Quest" />
@@ -215193,7 +215193,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Extends" value="questMaster" />
     <property name="DescriptionKey" value="PZAECChallengeVoucherDesc" />
     <property name="CustomIconTint" value="FFAA33" />
-    <property name="Stacknumber" value="10" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <property class="Action0">
       <property name="Class" value="Quest" />
@@ -215207,7 +215207,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Extends" value="questMaster" />
     <property name="DescriptionKey" value="PZAECChallengeVoucherDesc" />
     <property name="CustomIconTint" value="FFAA33" />
-    <property name="Stacknumber" value="10" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <property class="Action0">
       <property name="Class" value="Quest" />
@@ -215221,7 +215221,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Extends" value="questMaster" />
     <property name="DescriptionKey" value="PZAECChallengeVoucherDesc" />
     <property name="CustomIconTint" value="FFAA33" />
-    <property name="Stacknumber" value="10" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <property class="Action0">
       <property name="Class" value="Quest" />
@@ -215235,7 +215235,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Extends" value="questMaster" />
     <property name="DescriptionKey" value="PZAECDefenseBeaconDesc" />
     <property name="CustomIconTint" value="FF6633" />
-    <property name="Stacknumber" value="5" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <property class="Action0">
       <property name="Class" value="Quest" />
@@ -215249,7 +215249,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Extends" value="questMaster" />
     <property name="DescriptionKey" value="PZAECDefenseBeaconDesc" />
     <property name="CustomIconTint" value="FF6633" />
-    <property name="Stacknumber" value="5" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <property class="Action0">
       <property name="Class" value="Quest" />
@@ -215263,7 +215263,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Extends" value="questMaster" />
     <property name="DescriptionKey" value="PZAECDefenseBeaconDesc" />
     <property name="CustomIconTint" value="FF6633" />
-    <property name="Stacknumber" value="5" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <property class="Action0">
       <property name="Class" value="Quest" />
@@ -215277,7 +215277,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Extends" value="questMaster" />
     <property name="DescriptionKey" value="PZAECDefenseBeaconDesc" />
     <property name="CustomIconTint" value="FF6633" />
-    <property name="Stacknumber" value="5" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <property class="Action0">
       <property name="Class" value="Quest" />
@@ -215293,7 +215293,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Tags" value="PZAECBuildMaterial" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="EconomicValue" value="0" />
     <property name="SellableToTrader" value="false" />
     <property name="Weight" value="0" />
@@ -215306,7 +215306,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Tags" value="PZAECBuildMaterial" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="EconomicValue" value="0" />
     <property name="SellableToTrader" value="false" />
     <property name="Weight" value="0" />
@@ -215319,7 +215319,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Tags" value="PZAECBuildMaterial" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="EconomicValue" value="0" />
     <property name="SellableToTrader" value="false" />
     <property name="Weight" value="0" />
@@ -215332,7 +215332,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Tags" value="PZAECBuildMaterial" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="EconomicValue" value="0" />
     <property name="SellableToTrader" value="false" />
     <property name="Weight" value="0" />
@@ -215792,7 +215792,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECWeaponChassisDesc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="FF8844" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECArmorChassis">
@@ -215802,7 +215802,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECArmorChassisDesc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECDeviceChassis">
@@ -215812,7 +215812,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECDeviceChassisDesc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECSiegeCapacitorT16">
@@ -215822,7 +215822,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECSiegeCapacitorT16Desc" />
     <property name="CustomIcon" value="resourceElectricParts" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECMutantHeartT16">
@@ -215832,7 +215832,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECMutantHeartT16Desc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECSiegeCapacitorT17">
@@ -215842,7 +215842,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECSiegeCapacitorT17Desc" />
     <property name="CustomIcon" value="resourceElectricParts" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECMutantHeartT17">
@@ -215852,7 +215852,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECMutantHeartT17Desc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECSiegeCapacitorT18">
@@ -215862,7 +215862,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECSiegeCapacitorT18Desc" />
     <property name="CustomIcon" value="resourceElectricParts" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECMutantHeartT18">
@@ -215872,7 +215872,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECMutantHeartT18Desc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECSiegeCapacitorT19">
@@ -215882,7 +215882,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECSiegeCapacitorT19Desc" />
     <property name="CustomIcon" value="resourceElectricParts" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECMutantHeartT19">
@@ -215892,7 +215892,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECMutantHeartT19Desc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="armorPZAECHarrierHelmetT16">
@@ -220006,7 +220006,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="ammoPZAECSkyguardInterceptorT16Desc" />
     <property name="CustomIcon" value="ammo762mmBulletAP" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
@@ -220024,7 +220024,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="ammoPZAECSkyguardInterceptorT17Desc" />
     <property name="CustomIcon" value="ammo762mmBulletAP" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
@@ -220042,7 +220042,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="ammoPZAECSkyguardInterceptorT18Desc" />
     <property name="CustomIcon" value="ammo762mmBulletAP" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
@@ -220060,7 +220060,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="ammoPZAECSkyguardInterceptorT19Desc" />
     <property name="CustomIcon" value="ammo762mmBulletAP" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <passive_effect name="EntityDamage" operation="perc_add" value="1" />
@@ -220078,7 +220078,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="ammoPZAECCounterPulseT16Desc" />
     <property name="CustomIcon" value="ammoRocketHE" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <passive_effect name="ExplosionBlockDamage" operation="base_set" value="0" />
@@ -220099,7 +220099,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="ammoPZAECCounterPulseT17Desc" />
     <property name="CustomIcon" value="ammoRocketHE" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <passive_effect name="ExplosionBlockDamage" operation="base_set" value="0" />
@@ -220120,7 +220120,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="ammoPZAECCounterPulseT18Desc" />
     <property name="CustomIcon" value="ammoRocketHE" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <passive_effect name="ExplosionBlockDamage" operation="base_set" value="0" />
@@ -220141,7 +220141,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="ammoPZAECCounterPulseT19Desc" />
     <property name="CustomIcon" value="ammoRocketHE" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <passive_effect name="ExplosionBlockDamage" operation="base_set" value="0" />
@@ -220162,7 +220162,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECQuickArmorGelDesc" />
     <property name="CustomIcon" value="resourceRepairKit" />
     <property name="CustomIconTint" value="55CCFF" />
-    <property name="Stacknumber" value="10" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <property class="Action0">
       <property name="Class" value="PZAECUse,AEC.T16.RuntimeFix" />
@@ -220182,7 +220182,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECResonanceInjectorDesc" />
     <property name="CustomIcon" value="medicalFirstAidKit" />
     <property name="CustomIconTint" value="55CCFF" />
-    <property name="Stacknumber" value="5" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <property class="Action0">
       <property name="Class" value="PZAECUse,AEC.T16.RuntimeFix" />
@@ -220202,7 +220202,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECDecoyBeaconDesc" />
     <property name="CustomIcon" value="thrownGrenade" />
     <property name="CustomIconTint" value="55CCFF" />
-    <property name="Stacknumber" value="5" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <property class="Action0">
       <property name="Class" value="PZAECUse,AEC.T16.RuntimeFix" />
@@ -220242,7 +220242,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="thrownPZAECCounterJammerT16Desc" />
     <property name="CustomIcon" value="thrownGrenade" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="10" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <passive_effect name="ExplosionBlockDamage" operation="base_set" value="0" />
@@ -220266,7 +220266,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="thrownPZAECCounterJammerT17Desc" />
     <property name="CustomIcon" value="thrownGrenade" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="10" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <passive_effect name="ExplosionBlockDamage" operation="base_set" value="0" />
@@ -220290,7 +220290,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="thrownPZAECCounterJammerT18Desc" />
     <property name="CustomIcon" value="thrownGrenade" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="10" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <passive_effect name="ExplosionBlockDamage" operation="base_set" value="0" />
@@ -220314,7 +220314,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="thrownPZAECCounterJammerT19Desc" />
     <property name="CustomIcon" value="thrownGrenade" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="10" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <passive_effect name="ExplosionBlockDamage" operation="base_set" value="0" />
@@ -220338,7 +220338,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECFieldRepairKitT16Desc" />
     <property name="CustomIcon" value="resourceRepairKit" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="5" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffPZAECFieldRepairT16" />
@@ -220358,7 +220358,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECFieldRepairKitT17Desc" />
     <property name="CustomIcon" value="resourceRepairKit" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="5" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffPZAECFieldRepairT17" />
@@ -220378,7 +220378,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECFieldRepairKitT18Desc" />
     <property name="CustomIcon" value="resourceRepairKit" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="5" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffPZAECFieldRepairT18" />
@@ -220398,7 +220398,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECFieldRepairKitT19Desc" />
     <property name="CustomIcon" value="resourceRepairKit" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="5" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
     <effect_group tiered="false">
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffPZAECFieldRepairT19" />
@@ -220418,7 +220418,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECDefenseChassisDesc" />
     <property name="CustomIcon" value="resourceMechanicalParts" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECCoreFragmentT16">
@@ -220428,7 +220428,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECCoreFragmentT16Desc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECCapacitorFragmentT16">
@@ -220438,7 +220438,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECCapacitorFragmentT16Desc" />
     <property name="CustomIcon" value="resourceElectricParts" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECArmoryBlueprintCrateT16">
@@ -220448,7 +220448,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECArmoryBlueprintCrateT16Desc" />
     <property name="CustomIcon" value="bundleRifle" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECComponentChoiceCrateT16">
@@ -220458,7 +220458,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECComponentChoiceCrateT16Desc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECRepairChargeT16">
@@ -220468,7 +220468,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECRepairChargeT16Desc" />
     <property name="CustomIcon" value="resourceRepairKit" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECDecoyChargeT16">
@@ -220478,7 +220478,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECDecoyChargeT16Desc" />
     <property name="CustomIcon" value="resourceElectricParts" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECDefenseBlueprintCrateT16">
@@ -220488,7 +220488,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECDefenseBlueprintCrateT16Desc" />
     <property name="CustomIcon" value="bundleBatteryBank" />
     <property name="CustomIconTint" value="66BBFF" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECCoreFragmentT17">
@@ -220498,7 +220498,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECCoreFragmentT17Desc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECCapacitorFragmentT17">
@@ -220508,7 +220508,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECCapacitorFragmentT17Desc" />
     <property name="CustomIcon" value="resourceElectricParts" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECArmoryBlueprintCrateT17">
@@ -220518,7 +220518,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECArmoryBlueprintCrateT17Desc" />
     <property name="CustomIcon" value="bundleRifle" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECComponentChoiceCrateT17">
@@ -220528,7 +220528,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECComponentChoiceCrateT17Desc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECRepairChargeT17">
@@ -220538,7 +220538,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECRepairChargeT17Desc" />
     <property name="CustomIcon" value="resourceRepairKit" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECDecoyChargeT17">
@@ -220548,7 +220548,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECDecoyChargeT17Desc" />
     <property name="CustomIcon" value="resourceElectricParts" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECDefenseBlueprintCrateT17">
@@ -220558,7 +220558,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECDefenseBlueprintCrateT17Desc" />
     <property name="CustomIcon" value="bundleBatteryBank" />
     <property name="CustomIconTint" value="AA88FF" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECCoreFragmentT18">
@@ -220568,7 +220568,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECCoreFragmentT18Desc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECCapacitorFragmentT18">
@@ -220578,7 +220578,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECCapacitorFragmentT18Desc" />
     <property name="CustomIcon" value="resourceElectricParts" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECArmoryBlueprintCrateT18">
@@ -220588,7 +220588,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECArmoryBlueprintCrateT18Desc" />
     <property name="CustomIcon" value="bundleRifle" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECComponentChoiceCrateT18">
@@ -220598,7 +220598,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECComponentChoiceCrateT18Desc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECRepairChargeT18">
@@ -220608,7 +220608,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECRepairChargeT18Desc" />
     <property name="CustomIcon" value="resourceRepairKit" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECDecoyChargeT18">
@@ -220618,7 +220618,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECDecoyChargeT18Desc" />
     <property name="CustomIcon" value="resourceElectricParts" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECDefenseBlueprintCrateT18">
@@ -220628,7 +220628,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECDefenseBlueprintCrateT18Desc" />
     <property name="CustomIcon" value="bundleBatteryBank" />
     <property name="CustomIconTint" value="FFBB44" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECCoreFragmentT19">
@@ -220638,7 +220638,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECCoreFragmentT19Desc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECCapacitorFragmentT19">
@@ -220648,7 +220648,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECCapacitorFragmentT19Desc" />
     <property name="CustomIcon" value="resourceElectricParts" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECArmoryBlueprintCrateT19">
@@ -220658,7 +220658,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECArmoryBlueprintCrateT19Desc" />
     <property name="CustomIcon" value="bundleRifle" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECComponentChoiceCrateT19">
@@ -220668,7 +220668,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECComponentChoiceCrateT19Desc" />
     <property name="CustomIcon" value="resourceLegendaryParts" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECRepairChargeT19">
@@ -220678,7 +220678,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECRepairChargeT19Desc" />
     <property name="CustomIcon" value="resourceRepairKit" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="resourcePZAECDecoyChargeT19">
@@ -220688,7 +220688,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="resourcePZAECDecoyChargeT19Desc" />
     <property name="CustomIcon" value="resourceElectricParts" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="100" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECDefenseBlueprintCrateT19">
@@ -220698,7 +220698,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="DescriptionKey" value="itemPZAECDefenseBlueprintCrateT19Desc" />
     <property name="CustomIcon" value="bundleBatteryBank" />
     <property name="CustomIconTint" value="FF6655" />
-    <property name="Stacknumber" value="20" />
+    <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
   </item>
   <item name="itemPZAECTestBundle16Ammo1">
