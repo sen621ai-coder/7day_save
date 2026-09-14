@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <persistentplayerdata version="1">
-  <player platform="EOS" userid="00025fe27d8444baa871ac91c524ca08" nativeplatform="Steam" nativeuserid="76561198189632499" playername="森" playgroup="Standalone" lastlogin="2026-09-14 18:54:51" position="-1620,62,-1142">
+  <player platform="EOS" userid="00025fe27d8444baa871ac91c524ca08" nativeplatform="Steam" nativeuserid="76561198189632499" playername="森" playgroup="Standalone" lastlogin="2026-09-15 00:03:36" position="-1616,62,-1138">
     <bedroll pos="-1619,67,-1141" />
     <questpositions>
       <position id="1919388085" positiondatatype="4" pos="1743,71,1033" />
@@ -13,11 +13,15 @@
       <position id="-1185796756" positiondatatype="4" pos="-1786,57,-1930" />
       <position id="2039309878" positiondatatype="4" pos="-791,71,-1038" />
       <position id="-373554576" positiondatatype="4" pos="-517,67,-1023" />
-      <position id="-494193141" positiondatatype="0" pos="-1568,71,-1184" />
-      <position id="-494193141" positiondatatype="2" pos="-1668,60,-1660" />
+      <position id="-498087298" positiondatatype="0" pos="-1568,71,-1184" />
+      <position id="-498087298" positiondatatype="2" pos="-1885,58,-1793" />
+      <position id="1894120275" positiondatatype="0" pos="-1568,71,-1184" />
+      <position id="1894120275" positiondatatype="2" pos="-438,54,-527" />
+      <position id="-796647846" positiondatatype="0" pos="-1568,71,-1184" />
+      <position id="-796647846" positiondatatype="2" pos="-385,59,-527" />
     </questpositions>
   </player>
-  <player platform="EOS" userid="0002908e50a64ea0b14ac31f97e68d34" nativeplatform="Steam" nativeuserid="76561198040307689" playername="ITGOU" playgroup="Standalone" lastlogin="2026-09-14 18:54:38" position="-1608,61,-1129">
+  <player platform="EOS" userid="0002908e50a64ea0b14ac31f97e68d34" nativeplatform="Steam" nativeuserid="76561198040307689" playername="ITGOU" playgroup="Standalone" lastlogin="2026-09-15 00:03:33" position="-1613,62,-1139">
     <lpblock pos="730,60,643" />
     <lpblock pos="-1626,61,-1130" />
     <bedroll pos="-1621,67,-1138" />
@@ -28,12 +32,14 @@
       <position id="-1450674719" positiondatatype="2" pos="-1812,64,-1373" />
       <position id="-1450674719" positiondatatype="0" pos="-1568,71,-1184" />
       <position id="-1450674719" positiondatatype="7" pos="-1753,66,-1336" />
-      <position id="1116681352" positiondatatype="2" pos="-1759,52,-848" />
-      <position id="1116681352" positiondatatype="0" pos="-1568,71,-1184" />
-      <position id="332327873" positiondatatype="2" pos="-1409,50,-1480" />
-      <position id="332327873" positiondatatype="0" pos="-1568,71,-1184" />
-      <position id="-494193141" positiondatatype="2" pos="-1668,60,-1660" />
-      <position id="-494193141" positiondatatype="0" pos="-1568,71,-1184" />
+      <position id="-1713503474" positiondatatype="2" pos="-1869,41,-826" />
+      <position id="-1713503474" positiondatatype="0" pos="-1568,71,-1184" />
+      <position id="-498087298" positiondatatype="2" pos="-1885,58,-1793" />
+      <position id="-498087298" positiondatatype="0" pos="-1568,71,-1184" />
+      <position id="1894120275" positiondatatype="2" pos="-438,54,-527" />
+      <position id="1894120275" positiondatatype="0" pos="-1568,71,-1184" />
+      <position id="-796647846" positiondatatype="2" pos="-385,59,-527" />
+      <position id="-796647846" positiondatatype="0" pos="-1568,71,-1184" />
     </questpositions>
   </player>
   <allies>
