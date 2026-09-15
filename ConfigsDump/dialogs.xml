@@ -5378,6 +5378,7 @@
       <response_entry id="t17" />
       <response_entry id="t18" />
       <response_entry id="t19" />
+      <response_entry id="locked" />
       <response_entry id="progress" />
       <response_entry id="claim" />
       <response_entry id="takeover" />
@@ -5491,6 +5492,16 @@
       <response_entry id="back" />
       <response_entry id="done" />
     </statement>
+    <statement id="reply38" text="sakuraNative_reply38">
+      <response_entry id="missions" />
+      <response_entry id="back" />
+      <response_entry id="done" />
+    </statement>
+    <statement id="reply39" text="sakuraNative_reply39">
+      <response_entry id="missions" />
+      <response_entry id="back" />
+      <response_entry id="done" />
+    </statement>
     <response id="abandon" text="sakuraNative_response_abandon" nextstatementid="confirm"></response>
     <response id="abandonYes" text="sakuraNative_response_abandonYes" nextstatementid="waiting">
       <action type="Sakura, Sakura.Preview" id="21" />
@@ -5509,20 +5520,27 @@
     <response id="follow" text="sakuraNative_response_follow" nextstatementid="waiting">
       <action type="Sakura, Sakura.Preview" id="2" />
     </response>
+    <response id="locked" text="sakuraNative_response_locked" nextstatementid="missions">
+      <requirement type="SakuraTier, Sakura.Preview" id="0" />
+    </response>
     <response id="missions" text="sakuraNative_response_missions" nextstatementid="missions"></response>
     <response id="progress" text="sakuraNative_response_progress" nextstatementid="waiting">
       <action type="Sakura, Sakura.Preview" id="20" />
     </response>
     <response id="t16" text="sakuraNative_response_t16" nextstatementid="waiting">
+      <requirement type="SakuraTier, Sakura.Preview" id="16" />
       <action type="Sakura, Sakura.Preview" id="16" />
     </response>
     <response id="t17" text="sakuraNative_response_t17" nextstatementid="waiting">
+      <requirement type="SakuraTier, Sakura.Preview" id="17" />
       <action type="Sakura, Sakura.Preview" id="17" />
     </response>
     <response id="t18" text="sakuraNative_response_t18" nextstatementid="waiting">
+      <requirement type="SakuraTier, Sakura.Preview" id="18" />
       <action type="Sakura, Sakura.Preview" id="18" />
     </response>
     <response id="t19" text="sakuraNative_response_t19" nextstatementid="waiting">
+      <requirement type="SakuraTier, Sakura.Preview" id="19" />
       <action type="Sakura, Sakura.Preview" id="19" />
     </response>
     <response id="takeover" text="sakuraNative_response_takeover" nextstatementid="waiting">
@@ -5545,6 +5563,7 @@
       <response_entry id="t17" />
       <response_entry id="t18" />
       <response_entry id="t19" />
+      <response_entry id="locked" />
       <response_entry id="progress" />
       <response_entry id="claim" />
       <response_entry id="takeover" />
@@ -5658,6 +5677,16 @@
       <response_entry id="back" />
       <response_entry id="done" />
     </statement>
+    <statement id="reply38" text="mintNative_reply38">
+      <response_entry id="missions" />
+      <response_entry id="back" />
+      <response_entry id="done" />
+    </statement>
+    <statement id="reply39" text="mintNative_reply39">
+      <response_entry id="missions" />
+      <response_entry id="back" />
+      <response_entry id="done" />
+    </statement>
     <response id="abandon" text="mintNative_response_abandon" nextstatementid="confirm"></response>
     <response id="abandonYes" text="mintNative_response_abandonYes" nextstatementid="waiting">
       <action type="Sakura, Sakura.Preview" id="21" />
@@ -5676,20 +5705,27 @@
     <response id="follow" text="mintNative_response_follow" nextstatementid="waiting">
       <action type="Sakura, Sakura.Preview" id="2" />
     </response>
+    <response id="locked" text="mintNative_response_locked" nextstatementid="missions">
+      <requirement type="SakuraTier, Sakura.Preview" id="0" />
+    </response>
     <response id="missions" text="mintNative_response_missions" nextstatementid="missions"></response>
     <response id="progress" text="mintNative_response_progress" nextstatementid="waiting">
       <action type="Sakura, Sakura.Preview" id="20" />
     </response>
     <response id="t16" text="mintNative_response_t16" nextstatementid="waiting">
+      <requirement type="SakuraTier, Sakura.Preview" id="16" />
       <action type="Sakura, Sakura.Preview" id="16" />
     </response>
     <response id="t17" text="mintNative_response_t17" nextstatementid="waiting">
+      <requirement type="SakuraTier, Sakura.Preview" id="17" />
       <action type="Sakura, Sakura.Preview" id="17" />
     </response>
     <response id="t18" text="mintNative_response_t18" nextstatementid="waiting">
+      <requirement type="SakuraTier, Sakura.Preview" id="18" />
       <action type="Sakura, Sakura.Preview" id="18" />
     </response>
     <response id="t19" text="mintNative_response_t19" nextstatementid="waiting">
+      <requirement type="SakuraTier, Sakura.Preview" id="19" />
       <action type="Sakura, Sakura.Preview" id="19" />
     </response>
     <response id="takeover" text="mintNative_response_takeover" nextstatementid="waiting">
