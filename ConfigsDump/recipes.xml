@@ -68639,6 +68639,22 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceScrapPolymers" count="40" />
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="2" />
   </recipe>
+  <recipe name="resourcePZAECSiegeCapacitorT16" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="resourcePZAECCapacitorFragmentT16" count="10" />
+  </recipe>
+  <recipe name="resourcePZAECSiegeCapacitorT17" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="resourcePZAECCapacitorFragmentT17" count="10" />
+  </recipe>
+  <recipe name="resourcePZAECSiegeCapacitorT18" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="resourcePZAECCapacitorFragmentT18" count="10" />
+  </recipe>
+  <recipe name="resourcePZAECSiegeCapacitorT19" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="resourcePZAECCapacitorFragmentT19" count="10" />
+  </recipe>
 </recipes>
 <!-- Standardized order for mod ingredients -->
 <!-- resourceCloth -->

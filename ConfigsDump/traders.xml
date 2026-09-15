@@ -2172,6 +2172,9 @@
     <trader_items count="all">
       <item group="aecContractsPool2star" count="100,100" />
       <!--Element removed by: "AECxProjectZ_Tweaks" (XPath: "/traders//item[@name='aecAIOBossDiscordNote' or @name='aecEndgameDiscordNote' or @name='aecProjectDiscordNote']")-->
+      <item group="aecContractsPool1star" count="100,100">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
     </trader_items>
   </trader_info>
   <trader_info id="94" reset_interval="1" override_buy_markup="3">
@@ -2179,6 +2182,12 @@
     <trader_items count="all">
       <item group="aecContractsPool3star" count="100,100" />
       <!--Element removed by: "AECxProjectZ_Tweaks" (XPath: "/traders//item[@name='aecAIOBossDiscordNote' or @name='aecEndgameDiscordNote' or @name='aecProjectDiscordNote']")-->
+      <item group="aecContractsPool1star" count="100,100">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item group="aecContractsPool2star" count="100,100">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
     </trader_items>
   </trader_info>
   <trader_info id="95" reset_interval="1" override_buy_markup="5">
@@ -2186,6 +2195,15 @@
     <trader_items count="all">
       <item group="aecContractsPool4star" count="100,100" />
       <!--Element removed by: "AECxProjectZ_Tweaks" (XPath: "/traders//item[@name='aecAIOBossDiscordNote' or @name='aecEndgameDiscordNote' or @name='aecProjectDiscordNote']")-->
+      <item group="aecContractsPool1star" count="100,100">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item group="aecContractsPool2star" count="100,100">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item group="aecContractsPool3star" count="100,100">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
     </trader_items>
   </trader_info>
   <trader_info id="96" reset_interval="1" override_buy_markup="10">
@@ -2193,6 +2211,54 @@
     <trader_items count="all">
       <item group="aecContractsPool5star" count="100,100" />
       <!--Element removed by: "AECxProjectZ_Tweaks" (XPath: "/traders//item[@name='aecAIOBossDiscordNote' or @name='aecEndgameDiscordNote' or @name='aecProjectDiscordNote']")-->
+      <item group="aecContractsPool1star" count="100,100">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item group="aecContractsPool2star" count="100,100">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item group="aecContractsPool3star" count="100,100">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item group="aecContractsPool4star" count="100,100">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item name="itemPZAECRelayHuntDumdumT16" count="1" prob="1">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item name="itemPZAECRelayHuntExecutionerT16" count="1" prob="1">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item name="itemPZAECRelayHuntMechanicianT16" count="1" prob="1">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item name="itemPZAECRelayHuntDumdumT17" count="1" prob="1">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item name="itemPZAECRelayHuntExecutionerT17" count="1" prob="1">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item name="itemPZAECRelayHuntMechanicianT17" count="1" prob="1">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item name="itemPZAECRelayHuntDumdumT18" count="1" prob="1">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item name="itemPZAECRelayHuntExecutionerT18" count="1" prob="1">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item name="itemPZAECRelayHuntMechanicianT18" count="1" prob="1">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item name="itemPZAECRelayHuntDumdumT19" count="1" prob="1">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item name="itemPZAECRelayHuntExecutionerT19" count="1" prob="1">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
+      <item name="itemPZAECRelayHuntMechanicianT19" count="1" prob="1">
+        <!--Element appended by: "AEC_T16_RuntimeFix"-->
+      </item>
     </trader_items>
   </trader_info>
 </traders>

@@ -51349,6 +51349,9 @@
     <item group="PZAECExpansionWeaponT16" count="1" prob="0.02" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
+    <item name="resourcePZAECSiegeCapacitorT16" count="1" prob="1" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
   </lootgroup>
   <lootcontainer name="PZAECBossLootBundleT16" count="1" size="7,8" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="empty" unique_item="true" ignore_loot_abundance="true" unmodified_lootstage="true">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
@@ -52354,6 +52357,9 @@
     <item group="PZAECExpansionWeaponT17" count="1" prob="0.04" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
+    <item name="resourcePZAECSiegeCapacitorT17" count="1" prob="1" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
   </lootgroup>
   <lootcontainer name="PZAECBossLootBundleT17" count="1" size="7,8" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="empty" unique_item="true" ignore_loot_abundance="true" unmodified_lootstage="true">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -52396,6 +52402,9 @@
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
     <item group="PZAECExpansionWeaponT18" count="1" prob="0.06" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="resourcePZAECSiegeCapacitorT18" count="1,2" prob="1" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
   </lootgroup>
@@ -52443,6 +52452,9 @@
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
     <item group="PZAECCalibrationT19" count="1" prob=".15" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="resourcePZAECSiegeCapacitorT19" count="1,2" prob="1" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
   </lootgroup>

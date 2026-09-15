@@ -5749,6 +5749,11 @@
       </grid>
     </rect>
   </window>
+  <window name="windowSakuraStatement" pos="-825,180" width="775" height="155" anchor="Right" controller="SakuraStatement, Sakura.Preview">
+    <!--Element appended by: "SakuraPreview"-->
+    <sprite depth="1" name="background" sprite="ui_game_text_body_back" />
+    <label name="sakuraStatement" pos="16,-14" width="743" height="127" depth="2" font_size="26" color="255,255,255" text="{statement}" justify="left" parse_actions="true" />
+  </window>
   <window name="windowCraftingListAECMutationIncubator" width="397" height="688" controller="CraftingListInfo" panel="Left" pos="413,304" cursor_area="true">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <rect name="header" height="43" depth="1">

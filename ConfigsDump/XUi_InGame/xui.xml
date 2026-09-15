@@ -222,6 +222,9 @@
   </window_group>
   <window_group name="dialog" controller="XUiC_DialogWindowGroup" close_compass_on_open="true">
     <window name="windowResponses" />
+    <window name="windowSakuraStatement">
+      <!--Element appended by: "SakuraPreview"-->
+    </window>
   </window_group>
   <window_group name="signSeparateLines" defaultselected="input1">
     <window name="windowSignEditSeparateLines" />

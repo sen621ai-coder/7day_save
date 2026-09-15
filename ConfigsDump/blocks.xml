@@ -115551,6 +115551,15 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <!--Element appended by: "AECxProjectZ_Tweaks"-->
     </property>
   </block>
+  <block name="sakuraNpcPreview">
+    <!--Element appended by: "SakuraPreview"-->
+    <property name="Extends" value="decoMannequinFemale" />
+    <property name="Model" value="#@modfolder(SakuraPreview):Resources/sakura-preview.unity3d?Assets/Character/SakuraPreview.prefab" />
+    <property name="ModelOffset" value="0,0,0" />
+    <property name="CustomIcon" value="decoMannequinFemale" />
+    <property name="CreativeMode" value="Player" />
+    <property name="DescriptionKey" value="sakuraNpcPreviewDesc" />
+  </block>
   <block name="logicAlarmPerimeter">
     <!--Element appended by: "LogicCircuitGates"-->
     <property name="Extends" value="switch" />

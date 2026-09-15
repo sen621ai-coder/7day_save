@@ -153279,6 +153279,258 @@
       <property name="added_item_counts" value="540,36,450,3,1" />
     </action>
   </action_sequence>
+  <action_sequence name="eventPZAECRelayHuntDumdumT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="action_type" value="Game" />
+    <property name="target_type" value="Entity" />
+    <property name="refund_inactivity" value="false" />
+    <property name="single_instance" value="false" />
+    <action class="SpawnEntity">
+      <property name="entity_names" value="bossAECDumdumT16" />
+      <property name="spawn_count" value="1" />
+      <property name="single_choice" value="true" />
+      <property name="party_addition" value="0" />
+      <property name="ignore_multiplier" value="true" />
+      <property name="safe_spawn" value="true" />
+      <property name="air_spawn" value="false" />
+      <property name="min_distance" value="15" />
+      <property name="max_distance" value="25" />
+      <property name="spawn_type" value="WanderingHorde" />
+      <property name="is_aggressive" value="true" />
+      <property name="attack_target" value="true" />
+    </action>
+  </action_sequence>
+  <action_sequence name="eventPZAECRelayHuntExecutionerT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="action_type" value="Game" />
+    <property name="target_type" value="Entity" />
+    <property name="refund_inactivity" value="false" />
+    <property name="single_instance" value="false" />
+    <action class="SpawnEntity">
+      <property name="entity_names" value="AECTheExecutionerBossT16" />
+      <property name="spawn_count" value="1" />
+      <property name="single_choice" value="true" />
+      <property name="party_addition" value="0" />
+      <property name="ignore_multiplier" value="true" />
+      <property name="safe_spawn" value="true" />
+      <property name="air_spawn" value="false" />
+      <property name="min_distance" value="15" />
+      <property name="max_distance" value="25" />
+      <property name="spawn_type" value="WanderingHorde" />
+      <property name="is_aggressive" value="true" />
+      <property name="attack_target" value="true" />
+    </action>
+  </action_sequence>
+  <action_sequence name="eventPZAECRelayHuntMechanicianT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="action_type" value="Game" />
+    <property name="target_type" value="Entity" />
+    <property name="refund_inactivity" value="false" />
+    <property name="single_instance" value="false" />
+    <action class="SpawnEntity">
+      <property name="entity_names" value="AECTheMechanicianBossT16" />
+      <property name="spawn_count" value="1" />
+      <property name="single_choice" value="true" />
+      <property name="party_addition" value="0" />
+      <property name="ignore_multiplier" value="true" />
+      <property name="safe_spawn" value="true" />
+      <property name="air_spawn" value="false" />
+      <property name="min_distance" value="15" />
+      <property name="max_distance" value="25" />
+      <property name="spawn_type" value="WanderingHorde" />
+      <property name="is_aggressive" value="true" />
+      <property name="attack_target" value="true" />
+    </action>
+  </action_sequence>
+  <action_sequence name="eventPZAECRelayHuntDumdumT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="action_type" value="Game" />
+    <property name="target_type" value="Entity" />
+    <property name="refund_inactivity" value="false" />
+    <property name="single_instance" value="false" />
+    <action class="SpawnEntity">
+      <property name="entity_names" value="bossAECDumdumT17" />
+      <property name="spawn_count" value="1" />
+      <property name="single_choice" value="true" />
+      <property name="party_addition" value="0" />
+      <property name="ignore_multiplier" value="true" />
+      <property name="safe_spawn" value="true" />
+      <property name="air_spawn" value="false" />
+      <property name="min_distance" value="15" />
+      <property name="max_distance" value="25" />
+      <property name="spawn_type" value="WanderingHorde" />
+      <property name="is_aggressive" value="true" />
+      <property name="attack_target" value="true" />
+    </action>
+  </action_sequence>
+  <action_sequence name="eventPZAECRelayHuntExecutionerT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="action_type" value="Game" />
+    <property name="target_type" value="Entity" />
+    <property name="refund_inactivity" value="false" />
+    <property name="single_instance" value="false" />
+    <action class="SpawnEntity">
+      <property name="entity_names" value="AECTheExecutionerBossT17" />
+      <property name="spawn_count" value="1" />
+      <property name="single_choice" value="true" />
+      <property name="party_addition" value="0" />
+      <property name="ignore_multiplier" value="true" />
+      <property name="safe_spawn" value="true" />
+      <property name="air_spawn" value="false" />
+      <property name="min_distance" value="15" />
+      <property name="max_distance" value="25" />
+      <property name="spawn_type" value="WanderingHorde" />
+      <property name="is_aggressive" value="true" />
+      <property name="attack_target" value="true" />
+    </action>
+  </action_sequence>
+  <action_sequence name="eventPZAECRelayHuntMechanicianT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="action_type" value="Game" />
+    <property name="target_type" value="Entity" />
+    <property name="refund_inactivity" value="false" />
+    <property name="single_instance" value="false" />
+    <action class="SpawnEntity">
+      <property name="entity_names" value="AECTheMechanicianBossT17" />
+      <property name="spawn_count" value="1" />
+      <property name="single_choice" value="true" />
+      <property name="party_addition" value="0" />
+      <property name="ignore_multiplier" value="true" />
+      <property name="safe_spawn" value="true" />
+      <property name="air_spawn" value="false" />
+      <property name="min_distance" value="15" />
+      <property name="max_distance" value="25" />
+      <property name="spawn_type" value="WanderingHorde" />
+      <property name="is_aggressive" value="true" />
+      <property name="attack_target" value="true" />
+    </action>
+  </action_sequence>
+  <action_sequence name="eventPZAECRelayHuntDumdumT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="action_type" value="Game" />
+    <property name="target_type" value="Entity" />
+    <property name="refund_inactivity" value="false" />
+    <property name="single_instance" value="false" />
+    <action class="SpawnEntity">
+      <property name="entity_names" value="bossAECDumdumT18" />
+      <property name="spawn_count" value="1" />
+      <property name="single_choice" value="true" />
+      <property name="party_addition" value="0" />
+      <property name="ignore_multiplier" value="true" />
+      <property name="safe_spawn" value="true" />
+      <property name="air_spawn" value="false" />
+      <property name="min_distance" value="15" />
+      <property name="max_distance" value="25" />
+      <property name="spawn_type" value="WanderingHorde" />
+      <property name="is_aggressive" value="true" />
+      <property name="attack_target" value="true" />
+    </action>
+  </action_sequence>
+  <action_sequence name="eventPZAECRelayHuntExecutionerT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="action_type" value="Game" />
+    <property name="target_type" value="Entity" />
+    <property name="refund_inactivity" value="false" />
+    <property name="single_instance" value="false" />
+    <action class="SpawnEntity">
+      <property name="entity_names" value="AECTheExecutionerBossT18" />
+      <property name="spawn_count" value="1" />
+      <property name="single_choice" value="true" />
+      <property name="party_addition" value="0" />
+      <property name="ignore_multiplier" value="true" />
+      <property name="safe_spawn" value="true" />
+      <property name="air_spawn" value="false" />
+      <property name="min_distance" value="15" />
+      <property name="max_distance" value="25" />
+      <property name="spawn_type" value="WanderingHorde" />
+      <property name="is_aggressive" value="true" />
+      <property name="attack_target" value="true" />
+    </action>
+  </action_sequence>
+  <action_sequence name="eventPZAECRelayHuntMechanicianT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="action_type" value="Game" />
+    <property name="target_type" value="Entity" />
+    <property name="refund_inactivity" value="false" />
+    <property name="single_instance" value="false" />
+    <action class="SpawnEntity">
+      <property name="entity_names" value="AECTheMechanicianBossT18" />
+      <property name="spawn_count" value="1" />
+      <property name="single_choice" value="true" />
+      <property name="party_addition" value="0" />
+      <property name="ignore_multiplier" value="true" />
+      <property name="safe_spawn" value="true" />
+      <property name="air_spawn" value="false" />
+      <property name="min_distance" value="15" />
+      <property name="max_distance" value="25" />
+      <property name="spawn_type" value="WanderingHorde" />
+      <property name="is_aggressive" value="true" />
+      <property name="attack_target" value="true" />
+    </action>
+  </action_sequence>
+  <action_sequence name="eventPZAECRelayHuntDumdumT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="action_type" value="Game" />
+    <property name="target_type" value="Entity" />
+    <property name="refund_inactivity" value="false" />
+    <property name="single_instance" value="false" />
+    <action class="SpawnEntity">
+      <property name="entity_names" value="bossAECDumdumT19" />
+      <property name="spawn_count" value="1" />
+      <property name="single_choice" value="true" />
+      <property name="party_addition" value="0" />
+      <property name="ignore_multiplier" value="true" />
+      <property name="safe_spawn" value="true" />
+      <property name="air_spawn" value="false" />
+      <property name="min_distance" value="15" />
+      <property name="max_distance" value="25" />
+      <property name="spawn_type" value="WanderingHorde" />
+      <property name="is_aggressive" value="true" />
+      <property name="attack_target" value="true" />
+    </action>
+  </action_sequence>
+  <action_sequence name="eventPZAECRelayHuntExecutionerT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="action_type" value="Game" />
+    <property name="target_type" value="Entity" />
+    <property name="refund_inactivity" value="false" />
+    <property name="single_instance" value="false" />
+    <action class="SpawnEntity">
+      <property name="entity_names" value="AECTheExecutionerBossT19" />
+      <property name="spawn_count" value="1" />
+      <property name="single_choice" value="true" />
+      <property name="party_addition" value="0" />
+      <property name="ignore_multiplier" value="true" />
+      <property name="safe_spawn" value="true" />
+      <property name="air_spawn" value="false" />
+      <property name="min_distance" value="15" />
+      <property name="max_distance" value="25" />
+      <property name="spawn_type" value="WanderingHorde" />
+      <property name="is_aggressive" value="true" />
+      <property name="attack_target" value="true" />
+    </action>
+  </action_sequence>
+  <action_sequence name="eventPZAECRelayHuntMechanicianT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="action_type" value="Game" />
+    <property name="target_type" value="Entity" />
+    <property name="refund_inactivity" value="false" />
+    <property name="single_instance" value="false" />
+    <action class="SpawnEntity">
+      <property name="entity_names" value="AECTheMechanicianBossT19" />
+      <property name="spawn_count" value="1" />
+      <property name="single_choice" value="true" />
+      <property name="party_addition" value="0" />
+      <property name="ignore_multiplier" value="true" />
+      <property name="safe_spawn" value="true" />
+      <property name="air_spawn" value="false" />
+      <property name="min_distance" value="15" />
+      <property name="max_distance" value="25" />
+      <property name="spawn_type" value="WanderingHorde" />
+      <property name="is_aggressive" value="true" />
+      <property name="attack_target" value="true" />
+    </action>
+  </action_sequence>
 </gameevents>
 <!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
 <!-- **** NOTES: -->
