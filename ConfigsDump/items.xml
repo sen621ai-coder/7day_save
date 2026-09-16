@@ -213187,6 +213187,265 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffRsoRecipeSearchGuideReminder" />
     </effect_group>
   </item>
+  <item name="sakuraMissionBlueprintT16">
+    <!--Element appended by: "SakuraPreview"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="sakuraMissionBlueprintT16Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="Stacknumber" value="10" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="sakuraDispatchT16" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="mintMissionBlueprintT16">
+    <!--Element appended by: "SakuraPreview"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="mintMissionBlueprintT16Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="Stacknumber" value="10" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="mintDispatchT16" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="sakuraMissionBlueprintT17">
+    <!--Element appended by: "SakuraPreview"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="sakuraMissionBlueprintT17Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="Stacknumber" value="10" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="sakuraDispatchT17" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="mintMissionBlueprintT17">
+    <!--Element appended by: "SakuraPreview"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="mintMissionBlueprintT17Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="Stacknumber" value="10" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="mintDispatchT17" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="sakuraMissionBlueprintT18">
+    <!--Element appended by: "SakuraPreview"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="sakuraMissionBlueprintT18Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="Stacknumber" value="10" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="sakuraDispatchT18" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="mintMissionBlueprintT18">
+    <!--Element appended by: "SakuraPreview"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="mintMissionBlueprintT18Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="Stacknumber" value="10" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="mintDispatchT18" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="sakuraMissionBlueprintT19">
+    <!--Element appended by: "SakuraPreview"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="sakuraMissionBlueprintT19Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="Stacknumber" value="10" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="sakuraDispatchT19" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="mintMissionBlueprintT19">
+    <!--Element appended by: "SakuraPreview"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="mintMissionBlueprintT19Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="Stacknumber" value="10" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="mintDispatchT19" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="yfAutoFrame">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="DescriptionKey" value="yfAutoFrameDesc" />
+    <property name="CustomIcon" value="resourceForgedSteel" />
+    <property name="CustomIconTint" value="47C5D8" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoMotor">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="DescriptionKey" value="yfAutoMotorDesc" />
+    <property name="CustomIcon" value="resourceMechanicalParts" />
+    <property name="CustomIconTint" value="47C5D8" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoController">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="DescriptionKey" value="yfAutoControllerDesc" />
+    <property name="CustomIcon" value="resourceElectricParts" />
+    <property name="CustomIconTint" value="47C5D8" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoPump">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="DescriptionKey" value="yfAutoPumpDesc" />
+    <property name="CustomIcon" value="resourceMechanicalParts" />
+    <property name="CustomIconTint" value="47C5D8" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoCutter">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="DescriptionKey" value="yfAutoCutterDesc" />
+    <property name="CustomIcon" value="resourceForgedSteel" />
+    <property name="CustomIconTint" value="47C5D8" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoTransport">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="DescriptionKey" value="yfAutoTransportDesc" />
+    <property name="CustomIcon" value="resourceSpring" />
+    <property name="CustomIconTint" value="47C5D8" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoIngot_iron">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="CustomIcon" value="resourceScrapIron" />
+    <property name="CustomIconTint" value="E8BF6C" />
+    <property name="DescriptionKey" value="yfAutoIngot_ironDesc" />
+    <property name="Weight" value="0" />
+    <property name="Stacknumber" value="30000" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoIngot_brass">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="CustomIcon" value="resourceScrapBrass" />
+    <property name="CustomIconTint" value="E8BF6C" />
+    <property name="DescriptionKey" value="yfAutoIngot_brassDesc" />
+    <property name="Weight" value="0" />
+    <property name="Stacknumber" value="30000" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoIngot_lead">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="CustomIcon" value="resourceScrapLead" />
+    <property name="CustomIconTint" value="E8BF6C" />
+    <property name="DescriptionKey" value="yfAutoIngot_leadDesc" />
+    <property name="Weight" value="0" />
+    <property name="Stacknumber" value="30000" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoIngot_glass">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="CustomIcon" value="resourceCrushedSand" />
+    <property name="CustomIconTint" value="E8BF6C" />
+    <property name="DescriptionKey" value="yfAutoIngot_glassDesc" />
+    <property name="Weight" value="0" />
+    <property name="Stacknumber" value="30000" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoIngot_stone">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="CustomIcon" value="resourceRockSmall" />
+    <property name="CustomIconTint" value="E8BF6C" />
+    <property name="DescriptionKey" value="yfAutoIngot_stoneDesc" />
+    <property name="Weight" value="0" />
+    <property name="Stacknumber" value="30000" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoIngot_clay">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="CustomIcon" value="resourceClayLump" />
+    <property name="CustomIconTint" value="E8BF6C" />
+    <property name="DescriptionKey" value="yfAutoIngot_clayDesc" />
+    <property name="Weight" value="0" />
+    <property name="Stacknumber" value="30000" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoDrillCharge">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="DescriptionKey" value="yfAutoDrillChargeDesc" />
+    <property name="CustomIcon" value="resourceMechanicalParts" />
+    <property name="CustomIconTint" value="83B9DF" />
+    <property name="Stacknumber" value="100" />
+    <property name="Weight" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="yfAutoIrrigationWater">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <property name="Extends" value="resourceMechanicalParts" />
+    <property name="DescriptionKey" value="yfAutoIrrigationWaterDesc" />
+    <property name="CustomIcon" value="drinkJarRiverWater" />
+    <property name="CustomIconTint" value="69BCE6" />
+    <property name="Stacknumber" value="200" />
+    <property name="Weight" value="0" />
+    <property name="EconomicValue" value="0" />
+    <property name="SellableToTrader" value="false" />
+  </item>
   <item name="itemPZAECBossLootBundleT03">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Extends" value="questRewardBundleMaster" />
@@ -218704,7 +218963,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="66BBFF" />
     <property name="EconomicValue" value="12000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,revolver,44enforcer,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic,handgunSkill,enforcerReload,PZAECAdvancedWeapon,PZAECEmberPistol,PZAECTier16" />
     <property class="Action0">
       <property name="Magazine_items" value="ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammo44MagnumBulletAP,ammo44MagnumBulletDU" />
@@ -218753,7 +219014,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="AA88FF" />
     <property name="EconomicValue" value="17000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,revolver,44enforcer,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic,handgunSkill,enforcerReload,PZAECAdvancedWeapon,PZAECEmberPistol,PZAECTier17" />
     <property class="Action0">
       <property name="Magazine_items" value="ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammo44MagnumBulletAP,ammo44MagnumBulletDU" />
@@ -218802,7 +219065,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FFBB44" />
     <property name="EconomicValue" value="22000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,revolver,44enforcer,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic,handgunSkill,enforcerReload,PZAECAdvancedWeapon,PZAECEmberPistol,PZAECTier18" />
     <property class="Action0">
       <property name="Magazine_items" value="ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammo44MagnumBulletAP,ammo44MagnumBulletDU" />
@@ -218851,7 +219116,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FF6655" />
     <property name="EconomicValue" value="27000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,revolver,44enforcer,holdBreathAiming,reloadPenalty,gun,shortRange,pistol,barrelAttachments,sideAttachments,smallTopAttachments,magazine,firingMode,attAgility,perkGunslinger,attachmentsIncluded,canHaveCosmetic,handgunSkill,enforcerReload,PZAECAdvancedWeapon,PZAECEmberPistol,PZAECTier19" />
     <property class="Action0">
       <property name="Magazine_items" value="ammo44MagnumBulletBall,ammo44MagnumBulletHP,ammo44MagnumBulletAP,ammo44MagnumBulletDU" />
@@ -218902,7 +219169,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="66BBFF" />
     <property name="EconomicValue" value="12000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill,PZAECAdvancedWeapon,PZAECHorizonNeedle,PZAECTier16" />
     <effect_group name="gunPZAECHorizonNeedleT16" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -218953,7 +219222,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="AA88FF" />
     <property name="EconomicValue" value="17000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill,PZAECAdvancedWeapon,PZAECHorizonNeedle,PZAECTier17" />
     <effect_group name="gunPZAECHorizonNeedleT17" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219004,7 +219275,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FFBB44" />
     <property name="EconomicValue" value="22000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill,PZAECAdvancedWeapon,PZAECHorizonNeedle,PZAECTier18" />
     <effect_group name="gunPZAECHorizonNeedleT18" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219055,7 +219328,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FF6655" />
     <property name="EconomicValue" value="27000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,mediumTopAttachments,largeTopAttachments,stock,magazine,firingMode,bottomAttachments,attPerception,perkDeadEye,attachmentsIncluded,canHaveCosmetic,rifleSkill,PZAECAdvancedWeapon,PZAECHorizonNeedle,PZAECTier19" />
     <effect_group name="gunPZAECHorizonNeedleT19" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219107,7 +219382,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="66BBFF" />
     <property name="EconomicValue" value="12000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill,PZAECAdvancedWeapon,PZAECStormReservoir,PZAECTier16" />
     <effect_group name="gunPZAECStormReservoirT16" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219156,7 +219433,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="AA88FF" />
     <property name="EconomicValue" value="17000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill,PZAECAdvancedWeapon,PZAECStormReservoir,PZAECTier17" />
     <effect_group name="gunPZAECStormReservoirT17" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219205,7 +219484,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FFBB44" />
     <property name="EconomicValue" value="22000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill,PZAECAdvancedWeapon,PZAECStormReservoir,PZAECTier18" />
     <effect_group name="gunPZAECStormReservoirT18" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219254,7 +219535,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FF6655" />
     <property name="EconomicValue" value="27000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,smallTopAttachments,magazine,drumMagazine,bottomAttachments,mediumTopAttachments,attFortitude,perkMachineGunner,perkBookAutoWeapons,attachmentsIncluded,canHaveCosmetic,machinegunSkill,PZAECAdvancedWeapon,PZAECStormReservoir,PZAECTier19" />
     <effect_group name="gunPZAECStormReservoirT19" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219289,7 +219572,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="66BBFF" />
     <property name="EconomicValue" value="12000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,longShaft,attStrength,perkSkullCrusher,perkFlurryOfStrength,canHaveCosmetic,sledgeSkill,PZAECAdvancedWeapon,PZAECFaultlineHammer,PZAECTier16" />
     <effect_group name="meleePZAECFaultlineHammerT16" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219329,7 +219614,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="AA88FF" />
     <property name="EconomicValue" value="17000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,longShaft,attStrength,perkSkullCrusher,perkFlurryOfStrength,canHaveCosmetic,sledgeSkill,PZAECAdvancedWeapon,PZAECFaultlineHammer,PZAECTier17" />
     <effect_group name="meleePZAECFaultlineHammerT17" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219369,7 +219656,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FFBB44" />
     <property name="EconomicValue" value="22000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,longShaft,attStrength,perkSkullCrusher,perkFlurryOfStrength,canHaveCosmetic,sledgeSkill,PZAECAdvancedWeapon,PZAECFaultlineHammer,PZAECTier18" />
     <effect_group name="meleePZAECFaultlineHammerT18" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219409,7 +219698,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FF6655" />
     <property name="EconomicValue" value="27000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,blunt,melee,grunting,heavy,sledge,weapon,meleeWeapon,longShaft,attStrength,perkSkullCrusher,perkFlurryOfStrength,canHaveCosmetic,sledgeSkill,PZAECAdvancedWeapon,PZAECFaultlineHammer,PZAECTier19" />
     <effect_group name="meleePZAECFaultlineHammerT19" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219455,7 +219746,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="66BBFF" />
     <property name="EconomicValue" value="12000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,shotgunSkill,PZAECAdvancedWeapon,PZAECBastionShotgun,PZAECTier16" />
     <effect_group name="gunPZAECBastionShotgunT16" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219494,7 +219787,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="AA88FF" />
     <property name="EconomicValue" value="17000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,shotgunSkill,PZAECAdvancedWeapon,PZAECBastionShotgun,PZAECTier17" />
     <effect_group name="gunPZAECBastionShotgunT17" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219533,7 +219828,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FFBB44" />
     <property name="EconomicValue" value="22000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,shotgunSkill,PZAECAdvancedWeapon,PZAECBastionShotgun,PZAECTier18" />
     <effect_group name="gunPZAECBastionShotgunT18" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219572,7 +219869,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FF6655" />
     <property name="EconomicValue" value="27000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,gun,shotgun,shortRange,barrelAttachments,sideAttachments,smallTopAttachments,noScopes,stock,magazine,drumMagazine,firingMode,bottomAttachments,attStrength,perkBoomstick,attachmentsIncluded,canHaveCosmetic,shotgunSkill,PZAECAdvancedWeapon,PZAECBastionShotgun,PZAECTier19" />
     <effect_group name="gunPZAECBastionShotgunT19" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219619,7 +219918,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="66BBFF" />
     <property name="EconomicValue" value="12000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic,bowSkill,PZAECAdvancedWeapon,PZAECEchoRepeater,PZAECTier16" />
     <effect_group name="gunPZAECEchoRepeaterT16" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219670,7 +219971,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="AA88FF" />
     <property name="EconomicValue" value="17000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic,bowSkill,PZAECAdvancedWeapon,PZAECEchoRepeater,PZAECTier17" />
     <effect_group name="gunPZAECEchoRepeaterT17" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219721,7 +220024,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FFBB44" />
     <property name="EconomicValue" value="22000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic,bowSkill,PZAECAdvancedWeapon,PZAECEchoRepeater,PZAECTier18" />
     <effect_group name="gunPZAECEchoRepeaterT18" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219772,7 +220077,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FF6655" />
     <property name="EconomicValue" value="27000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,sideAttachments,smallTopAttachments,mediumTopAttachments,bottomAttachments,attAgility,perkArchery,crossbow,attachmentsIncluded,canHaveCosmetic,bowSkill,PZAECAdvancedWeapon,PZAECEchoRepeater,PZAECTier19" />
     <effect_group name="gunPZAECEchoRepeaterT19" tiered="false">
       <passive_effect name="ModSlots" operation="base_set" value="6" />
@@ -219823,7 +220130,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="66BBFF" />
     <property name="EconomicValue" value="12000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,explosivesSkill,PZAECAdvancedWeapon,PZAECCounterSiege,PZAECTier16" />
     <property class="Action0">
       <property name="Magazine_items" value="ammoPZAECCounterPulseT16" />
@@ -219874,7 +220183,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="AA88FF" />
     <property name="EconomicValue" value="17000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,explosivesSkill,PZAECAdvancedWeapon,PZAECCounterSiege,PZAECTier17" />
     <property class="Action0">
       <property name="Magazine_items" value="ammoPZAECCounterPulseT17" />
@@ -219925,7 +220236,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FFBB44" />
     <property name="EconomicValue" value="22000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,explosivesSkill,PZAECAdvancedWeapon,PZAECCounterSiege,PZAECTier18" />
     <property class="Action0">
       <property name="Magazine_items" value="ammoPZAECCounterPulseT18" />
@@ -219976,7 +220289,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIconTint" value="FF6655" />
     <property name="EconomicValue" value="27000" />
     <property name="SellableToTrader" value="false" />
-    <property name="ShowQuality" value="false" />
+    <property name="ShowQuality" value="true">
+      <!--Attribute "value" replaced by: "AEC_T16_RuntimeFix"-->
+    </property>
     <property name="Tags" value="T3,weapon,ranged,holdBreathAiming,reloadPenalty,launcher,attPerception,perkDemolitionsExpert,canHaveCosmetic,barrelAttachments,noSilencer,sideAttachments,explosivesSkill,PZAECAdvancedWeapon,PZAECCounterSiege,PZAECTier19" />
     <property class="Action0">
       <property name="Magazine_items" value="ammoPZAECCounterPulseT19" />
@@ -221719,6 +222034,198 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <property name="Consume" value="true" />
       <property name="Create_item" value="resourcePZAECDeviceChassis" />
       <property name="Create_item_count" value="4" />
+    </property>
+  </item>
+  <item name="itemPZAECRelayHuntDumdumT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="PZAECRelayHuntDumdumT16Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="CustomIconTint" value="FFAA33" />
+    <property name="Stacknumber" value="50000" />
+    <property name="EconomicValue" value="1000" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="PZAECRelayHuntDumdumT16" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="itemPZAECRelayHuntExecutionerT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="PZAECRelayHuntExecutionerT16Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="CustomIconTint" value="FFAA33" />
+    <property name="Stacknumber" value="50000" />
+    <property name="EconomicValue" value="1000" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="PZAECRelayHuntExecutionerT16" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="itemPZAECRelayHuntMechanicianT16">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="PZAECRelayHuntMechanicianT16Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="CustomIconTint" value="FFAA33" />
+    <property name="Stacknumber" value="50000" />
+    <property name="EconomicValue" value="1000" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="PZAECRelayHuntMechanicianT16" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="itemPZAECRelayHuntDumdumT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="PZAECRelayHuntDumdumT17Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="CustomIconTint" value="FFAA33" />
+    <property name="Stacknumber" value="50000" />
+    <property name="EconomicValue" value="1500" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="PZAECRelayHuntDumdumT17" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="itemPZAECRelayHuntExecutionerT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="PZAECRelayHuntExecutionerT17Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="CustomIconTint" value="FFAA33" />
+    <property name="Stacknumber" value="50000" />
+    <property name="EconomicValue" value="1500" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="PZAECRelayHuntExecutionerT17" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="itemPZAECRelayHuntMechanicianT17">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="PZAECRelayHuntMechanicianT17Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="CustomIconTint" value="FFAA33" />
+    <property name="Stacknumber" value="50000" />
+    <property name="EconomicValue" value="1500" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="PZAECRelayHuntMechanicianT17" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="itemPZAECRelayHuntDumdumT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="PZAECRelayHuntDumdumT18Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="CustomIconTint" value="FFAA33" />
+    <property name="Stacknumber" value="50000" />
+    <property name="EconomicValue" value="2000" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="PZAECRelayHuntDumdumT18" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="itemPZAECRelayHuntExecutionerT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="PZAECRelayHuntExecutionerT18Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="CustomIconTint" value="FFAA33" />
+    <property name="Stacknumber" value="50000" />
+    <property name="EconomicValue" value="2000" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="PZAECRelayHuntExecutionerT18" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="itemPZAECRelayHuntMechanicianT18">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="PZAECRelayHuntMechanicianT18Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="CustomIconTint" value="FFAA33" />
+    <property name="Stacknumber" value="50000" />
+    <property name="EconomicValue" value="2000" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="PZAECRelayHuntMechanicianT18" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="itemPZAECRelayHuntDumdumT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="PZAECRelayHuntDumdumT19Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="CustomIconTint" value="FFAA33" />
+    <property name="Stacknumber" value="50000" />
+    <property name="EconomicValue" value="2500" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="PZAECRelayHuntDumdumT19" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="itemPZAECRelayHuntExecutionerT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="PZAECRelayHuntExecutionerT19Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="CustomIconTint" value="FFAA33" />
+    <property name="Stacknumber" value="50000" />
+    <property name="EconomicValue" value="2500" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="PZAECRelayHuntExecutionerT19" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
+    </property>
+  </item>
+  <item name="itemPZAECRelayHuntMechanicianT19">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="questMaster" />
+    <property name="DescriptionKey" value="PZAECRelayHuntMechanicianT19Desc" />
+    <property name="CustomIcon" value="cntBookPile08" />
+    <property name="CustomIconTint" value="FFAA33" />
+    <property name="Stacknumber" value="50000" />
+    <property name="EconomicValue" value="2500" />
+    <property name="SellableToTrader" value="false" />
+    <property class="Action0">
+      <property name="Class" value="Quest" />
+      <property name="QuestGiven" value="PZAECRelayHuntMechanicianT19" />
+      <property name="Delay" value="0.5" />
+      <property name="UseAnimation" value="false" />
     </property>
   </item>
 </items>

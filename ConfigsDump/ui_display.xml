@@ -2260,7 +2260,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkGunslinger" display_type="Decimal1" display_leading_plus="true" tags="perkGunslinger" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkGunslinger" display_type="Decimal1" display_leading_plus="true" tags="perkGunslinger" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkGunslinger" display_type="Decimal1" display_leading_plus="true" tags="perkGunslinger" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECEmberPistolT17" display_group="groupRanged">
@@ -2269,7 +2271,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkGunslinger" display_type="Decimal1" display_leading_plus="true" tags="perkGunslinger" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkGunslinger" display_type="Decimal1" display_leading_plus="true" tags="perkGunslinger" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkGunslinger" display_type="Decimal1" display_leading_plus="true" tags="perkGunslinger" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECEmberPistolT18" display_group="groupRanged">
@@ -2278,7 +2282,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkGunslinger" display_type="Decimal1" display_leading_plus="true" tags="perkGunslinger" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkGunslinger" display_type="Decimal1" display_leading_plus="true" tags="perkGunslinger" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkGunslinger" display_type="Decimal1" display_leading_plus="true" tags="perkGunslinger" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECEmberPistolT19" display_group="groupRanged">
@@ -2287,7 +2293,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkGunslinger" display_type="Decimal1" display_leading_plus="true" tags="perkGunslinger" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkGunslinger" display_type="Decimal1" display_leading_plus="true" tags="perkGunslinger" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkGunslinger" display_type="Decimal1" display_leading_plus="true" tags="perkGunslinger" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECHorizonNeedleT16" display_group="groupRanged">
@@ -2296,7 +2304,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkDeadEye" display_type="Decimal1" display_leading_plus="true" tags="perkDeadEye" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkDeadEye" display_type="Decimal1" display_leading_plus="true" tags="perkDeadEye" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkDeadEye" display_type="Decimal1" display_leading_plus="true" tags="perkDeadEye" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECHorizonNeedleT17" display_group="groupRanged">
@@ -2305,7 +2315,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkDeadEye" display_type="Decimal1" display_leading_plus="true" tags="perkDeadEye" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkDeadEye" display_type="Decimal1" display_leading_plus="true" tags="perkDeadEye" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkDeadEye" display_type="Decimal1" display_leading_plus="true" tags="perkDeadEye" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECHorizonNeedleT18" display_group="groupRanged">
@@ -2314,7 +2326,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkDeadEye" display_type="Decimal1" display_leading_plus="true" tags="perkDeadEye" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkDeadEye" display_type="Decimal1" display_leading_plus="true" tags="perkDeadEye" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkDeadEye" display_type="Decimal1" display_leading_plus="true" tags="perkDeadEye" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECHorizonNeedleT19" display_group="groupRanged">
@@ -2323,7 +2337,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkDeadEye" display_type="Decimal1" display_leading_plus="true" tags="perkDeadEye" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkDeadEye" display_type="Decimal1" display_leading_plus="true" tags="perkDeadEye" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkDeadEye" display_type="Decimal1" display_leading_plus="true" tags="perkDeadEye" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECStormReservoirT16" display_group="groupRanged">
@@ -2332,7 +2348,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkMachineGunner" display_type="Decimal1" display_leading_plus="true" tags="perkMachineGunner" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkMachineGunner" display_type="Decimal1" display_leading_plus="true" tags="perkMachineGunner" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkMachineGunner" display_type="Decimal1" display_leading_plus="true" tags="perkMachineGunner" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECStormReservoirT17" display_group="groupRanged">
@@ -2341,7 +2359,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkMachineGunner" display_type="Decimal1" display_leading_plus="true" tags="perkMachineGunner" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkMachineGunner" display_type="Decimal1" display_leading_plus="true" tags="perkMachineGunner" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkMachineGunner" display_type="Decimal1" display_leading_plus="true" tags="perkMachineGunner" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECStormReservoirT18" display_group="groupRanged">
@@ -2350,7 +2370,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkMachineGunner" display_type="Decimal1" display_leading_plus="true" tags="perkMachineGunner" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkMachineGunner" display_type="Decimal1" display_leading_plus="true" tags="perkMachineGunner" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkMachineGunner" display_type="Decimal1" display_leading_plus="true" tags="perkMachineGunner" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECStormReservoirT19" display_group="groupRanged">
@@ -2359,7 +2381,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkMachineGunner" display_type="Decimal1" display_leading_plus="true" tags="perkMachineGunner" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkMachineGunner" display_type="Decimal1" display_leading_plus="true" tags="perkMachineGunner" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkMachineGunner" display_type="Decimal1" display_leading_plus="true" tags="perkMachineGunner" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_meleePZAECFaultlineHammerT16" display_group="groupRanged">
@@ -2369,7 +2393,9 @@
       <display_entry name="aecBase_EntityDamage" title_key="aecDisplay_EntityDamage_Base_secondary" display_type="Decimal1" display_leading_plus="true" tags="secondary" />
       <display_entry name="aecBase_AttacksPerMinute" title_key="aecDisplay_AttacksPerMinute_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkSkullCrusher" display_type="Decimal1" display_leading_plus="true" tags="perkSkullCrusher" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
       <display_entry name="aecBase_StaminaLoss" title_key="aecDisplay_StaminaLoss_Base_secondary" display_type="Decimal1" display_leading_plus="true" tags="secondary" />
     </item_display_info>
@@ -2380,7 +2406,9 @@
       <display_entry name="aecBase_EntityDamage" title_key="aecDisplay_EntityDamage_Base_secondary" display_type="Decimal1" display_leading_plus="true" tags="secondary" />
       <display_entry name="aecBase_AttacksPerMinute" title_key="aecDisplay_AttacksPerMinute_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkSkullCrusher" display_type="Decimal1" display_leading_plus="true" tags="perkSkullCrusher" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
       <display_entry name="aecBase_StaminaLoss" title_key="aecDisplay_StaminaLoss_Base_secondary" display_type="Decimal1" display_leading_plus="true" tags="secondary" />
     </item_display_info>
@@ -2391,7 +2419,9 @@
       <display_entry name="aecBase_EntityDamage" title_key="aecDisplay_EntityDamage_Base_secondary" display_type="Decimal1" display_leading_plus="true" tags="secondary" />
       <display_entry name="aecBase_AttacksPerMinute" title_key="aecDisplay_AttacksPerMinute_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkSkullCrusher" display_type="Decimal1" display_leading_plus="true" tags="perkSkullCrusher" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
       <display_entry name="aecBase_StaminaLoss" title_key="aecDisplay_StaminaLoss_Base_secondary" display_type="Decimal1" display_leading_plus="true" tags="secondary" />
     </item_display_info>
@@ -2402,7 +2432,9 @@
       <display_entry name="aecBase_EntityDamage" title_key="aecDisplay_EntityDamage_Base_secondary" display_type="Decimal1" display_leading_plus="true" tags="secondary" />
       <display_entry name="aecBase_AttacksPerMinute" title_key="aecDisplay_AttacksPerMinute_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkSkullCrusher" display_type="Decimal1" display_leading_plus="true" tags="perkSkullCrusher" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
       <display_entry name="aecBase_StaminaLoss" title_key="aecDisplay_StaminaLoss_Base_secondary" display_type="Decimal1" display_leading_plus="true" tags="secondary" />
     </item_display_info>
@@ -2411,7 +2443,9 @@
       <display_entry name="aecBase_EntityDamage" title_key="aecDisplay_EntityDamage_Base_perkBoomstick" display_type="Decimal1" display_leading_plus="true" tags="perkBoomstick" />
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkBoomstick" display_type="Decimal1" display_leading_plus="true" tags="perkBoomstick" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkBoomstick" display_type="Decimal1" display_leading_plus="true" tags="perkBoomstick" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECBastionShotgunT17" display_group="groupRanged">
@@ -2419,7 +2453,9 @@
       <display_entry name="aecBase_EntityDamage" title_key="aecDisplay_EntityDamage_Base_perkBoomstick" display_type="Decimal1" display_leading_plus="true" tags="perkBoomstick" />
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkBoomstick" display_type="Decimal1" display_leading_plus="true" tags="perkBoomstick" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkBoomstick" display_type="Decimal1" display_leading_plus="true" tags="perkBoomstick" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECBastionShotgunT18" display_group="groupRanged">
@@ -2427,7 +2463,9 @@
       <display_entry name="aecBase_EntityDamage" title_key="aecDisplay_EntityDamage_Base_perkBoomstick" display_type="Decimal1" display_leading_plus="true" tags="perkBoomstick" />
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkBoomstick" display_type="Decimal1" display_leading_plus="true" tags="perkBoomstick" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkBoomstick" display_type="Decimal1" display_leading_plus="true" tags="perkBoomstick" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECBastionShotgunT19" display_group="groupRanged">
@@ -2435,7 +2473,9 @@
       <display_entry name="aecBase_EntityDamage" title_key="aecDisplay_EntityDamage_Base_perkBoomstick" display_type="Decimal1" display_leading_plus="true" tags="perkBoomstick" />
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkBoomstick" display_type="Decimal1" display_leading_plus="true" tags="perkBoomstick" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkBoomstick" display_type="Decimal1" display_leading_plus="true" tags="perkBoomstick" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECEchoRepeaterT16" display_group="groupRanged">
@@ -2444,7 +2484,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkArchery" display_type="Decimal1" display_leading_plus="true" tags="perkArchery" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkArchery" display_type="Decimal1" display_leading_plus="true" tags="perkArchery" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkArchery" display_type="Decimal1" display_leading_plus="true" tags="perkArchery" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECEchoRepeaterT17" display_group="groupRanged">
@@ -2453,7 +2495,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkArchery" display_type="Decimal1" display_leading_plus="true" tags="perkArchery" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkArchery" display_type="Decimal1" display_leading_plus="true" tags="perkArchery" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkArchery" display_type="Decimal1" display_leading_plus="true" tags="perkArchery" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECEchoRepeaterT18" display_group="groupRanged">
@@ -2462,7 +2506,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkArchery" display_type="Decimal1" display_leading_plus="true" tags="perkArchery" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkArchery" display_type="Decimal1" display_leading_plus="true" tags="perkArchery" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkArchery" display_type="Decimal1" display_leading_plus="true" tags="perkArchery" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECEchoRepeaterT19" display_group="groupRanged">
@@ -2471,7 +2517,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkArchery" display_type="Decimal1" display_leading_plus="true" tags="perkArchery" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkArchery" display_type="Decimal1" display_leading_plus="true" tags="perkArchery" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkArchery" display_type="Decimal1" display_leading_plus="true" tags="perkArchery" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECCounterSiegeT16" display_group="groupRanged">
@@ -2480,7 +2528,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkDemolitionsExpert" display_type="Decimal1" display_leading_plus="true" tags="perkDemolitionsExpert" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkDemolitionsExpert" display_type="Decimal1" display_leading_plus="true" tags="perkDemolitionsExpert" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkDemolitionsExpert" display_type="Decimal1" display_leading_plus="true" tags="perkDemolitionsExpert" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECCounterSiegeT17" display_group="groupRanged">
@@ -2489,7 +2539,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkDemolitionsExpert" display_type="Decimal1" display_leading_plus="true" tags="perkDemolitionsExpert" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkDemolitionsExpert" display_type="Decimal1" display_leading_plus="true" tags="perkDemolitionsExpert" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkDemolitionsExpert" display_type="Decimal1" display_leading_plus="true" tags="perkDemolitionsExpert" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECCounterSiegeT18" display_group="groupRanged">
@@ -2498,7 +2550,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkDemolitionsExpert" display_type="Decimal1" display_leading_plus="true" tags="perkDemolitionsExpert" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkDemolitionsExpert" display_type="Decimal1" display_leading_plus="true" tags="perkDemolitionsExpert" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkDemolitionsExpert" display_type="Decimal1" display_leading_plus="true" tags="perkDemolitionsExpert" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_gunPZAECCounterSiegeT19" display_group="groupRanged">
@@ -2507,7 +2561,9 @@
       <display_entry name="aecBase_MagazineSize" title_key="aecDisplay_MagazineSize_Base_perkDemolitionsExpert" display_type="Decimal1" display_leading_plus="true" tags="perkDemolitionsExpert" />
       <display_entry name="aecBase_RoundsPerMinute" title_key="aecDisplay_RoundsPerMinute_Base_perkDemolitionsExpert" display_type="Decimal1" display_leading_plus="true" tags="perkDemolitionsExpert" />
       <display_entry name="aecBase_MaxRange" title_key="aecDisplay_MaxRange_Base_perkDemolitionsExpert" display_type="Decimal1" display_leading_plus="true" tags="perkDemolitionsExpert" />
-      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_DegradationMax_Base_" display_type="Decimal1" display_leading_plus="true" tags="" />
+      <display_entry name="aecBase_DegradationMax" title_key="aecDisplay_WeaponDurabilityRemaining" display_type="Decimal1" display_leading_plus="true" tags="">
+        <!--Attribute "title_key" replaced by: "AEC_T16_RuntimeFix"-->
+      </display_entry>
       <display_entry name="aecPercent_ReloadSpeedMultiplier" title_key="aecDisplay_ReloadSpeedMultiplier_Percent_" display_type="Percent" display_leading_plus="true" tags="" />
     </item_display_info>
     <item_display_info display_type="AECDisplay_modPZAECHarrierStableT19" display_group="groupRanged">
