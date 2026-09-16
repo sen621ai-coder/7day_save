@@ -53510,4 +53510,12 @@
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <item group="PZAECSiegeMaterialsT19" />
   </lootcontainer>
+  <lootcontainer name="PZAECSteelCrateStorage150" count="0" size="15,10" sound_open="UseActions/crate_steel_open" sound_close="UseActions/crate_steel_close" loot_quality_template="qualBaseTemplate">
+    <!--Element appended by: "PZAEC_StorageExpansion"-->
+    <item name="cobweb" count="0" />
+  </lootcontainer>
+  <lootcontainer name="PZAECSteelWallCabinetStorage150" count="0" size="15,10" sound_open="UseActions/open_dumpster" sound_close="UseActions/close_dumpster" loot_quality_template="qualBaseTemplate">
+    <!--Element appended by: "PZAEC_StorageExpansion"-->
+    <item name="cobweb" count="0" />
+  </lootcontainer>
 </lootcontainers>

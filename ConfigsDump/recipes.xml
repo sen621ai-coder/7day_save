@@ -68808,6 +68808,16 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourcePZAECCapacitorFragmentT19" count="10" />
   </recipe>
+  <recipe name="PZAECSteelCrateExpanded" count="1" always_unlocked="true" tags="packMuleCrafting">
+    <!--Element appended by: "PZAEC_StorageExpansion"-->
+    <ingredient name="cntSteelWritableCrate" count="1" />
+    <ingredient name="resourceForgedSteel" count="20" />
+  </recipe>
+  <recipe name="PZAECSteelWallCabinetExpanded" count="1" craft_area="workbench" always_unlocked="true" tags="workbenchCrafting">
+    <!--Element appended by: "PZAEC_StorageExpansion"-->
+    <ingredient name="cntSteelWallCabinetSecure" count="1" />
+    <ingredient name="resourceForgedSteel" count="20" />
+  </recipe>
 </recipes>
 <!-- Standardized order for mod ingredients -->
 <!-- resourceCloth -->

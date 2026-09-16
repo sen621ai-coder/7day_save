@@ -5913,6 +5913,16 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
       <!--Element appended by: "AEC_ENDGAME_OVERHAUL"-->
     </property>
+    <property class="UpgradeBlock">
+      <!--Element appended by: "PZAEC_StorageExpansion"-->
+      <property name="ToBlock" value="PZAECSteelCrateExpanded" />
+      <property name="Item" value="resourceForgedSteel" />
+      <property name="ItemCount" value="20" />
+      <property name="UpgradeHitCount" value="4" />
+    </property>
+    <property name="UpgradeSound" value="place_block_metal">
+      <!--Element appended by: "PZAEC_StorageExpansion"-->
+    </property>
   </block>
   <!-- *** PLAYER_UNLOCKED_WRITABLE_STEEL_LOOT_CRATE -->
   <block name="cntSteelWritableCrateInsecure">
@@ -59139,6 +59149,16 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="Stacknumber" value="50000">
       <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
       <!--Element appended by: "AEC_ENDGAME_OVERHAUL"-->
+    </property>
+    <property class="UpgradeBlock">
+      <!--Element appended by: "PZAEC_StorageExpansion"-->
+      <property name="ToBlock" value="PZAECSteelWallCabinetExpanded" />
+      <property name="Item" value="resourceForgedSteel" />
+      <property name="ItemCount" value="20" />
+      <property name="UpgradeHitCount" value="4" />
+    </property>
+    <property name="UpgradeSound" value="place_block_metal">
+      <!--Element appended by: "PZAEC_StorageExpansion"-->
     </property>
   </block>
   <!-- *** COMMERCIAL_COOLER -->
@@ -115562,7 +115582,6 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
   </block>
   <block name="yfAutomationWorkbench">
     <!--Element appended by: "YFAutomationWorkshop"-->
-    <property name="Extends" value="workbench" />
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="yfAutomationWorkbenchDesc" />
     <property name="WorkstationWindow" value="workstation_yfAutomationWorkbench" />
@@ -115571,12 +115590,53 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="TintColor" value="47C5D8" />
     <property name="MaxDamage" value="2500" />
     <property name="EconomicValue" value="2000" />
-    <property name="UnlockedBy" value="" />
     <property name="TakeDelay" value="15" />
     <property class="Workstation">
       <property name="Modules" value="output" />
       <property name="CraftingAreaRecipes" value="yfAutomationWorkbench" />
     </property>
+    <property name="Class" value="Workstation" />
+    <property name="DisplayType" value="blockMulti" />
+    <property name="WorkstationIcon" value="ui_game_symbol_workbench" />
+    <property name="Stacknumber" value="1" />
+    <property name="Material" value="Mmetal" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Model" value="@:Entities/Crafting/woodWorkBenchPrefab.prefab" />
+    <property name="ModelOffset" value="0,.5,0" />
+    <property name="MultiBlockDim" value="2,2,1" />
+    <property name="ImposterDontBlock" value="true" />
+    <property name="WaterFlow" value="permitted" />
+    <property name="Place" value="TowardsPlacerInverted" />
+    <property name="OnlySimpleRotations" value="true" />
+    <property name="IsTerrainDecoration" value="true" />
+    <property name="StabilitySupport" value="false" />
+    <property name="Weight" value="0" />
+    <property name="TraderStageTemplate" value="midTier1" />
+    <property name="HeatMapStrength" value="5" />
+    <property name="HeatMapTime" value="5000" />
+    <property name="HeatMapFrequency" value="1000" />
+    <property name="OpenSound" value="open_workbench" />
+    <property name="CloseSound" value="close_workbench" />
+    <property class="RepairItems">
+      <property name="resourceForgedIron" value="25" />
+      <property name="resourceMechanicalParts" value="20" />
+      <property name="resourceWood" value="50" />
+    </property>
+    <property name="SortOrder1" value="B281" />
+    <property name="SortOrder2" value="0300" />
+    <property name="Group" value="Limited,Building,TCScience,advBuilding" />
+    <property name="Tags" value="workstationSkill,twitch_workstation" />
+    <property name="FilterTags" value="MC_playerBlocks,SC_decor" />
+    <property name="SoundPickup" value="workbench_grab" />
+    <property name="SoundPlace" value="workbench_place" />
+    <drop event="Harvest" name="resourceScrapIron" count="200" tag="allHarvest,perkJunkMiner" />
+    <drop event="Harvest" name="resourceWood" count="20" tag="allHarvest,lumberjackHarvest,perkJunkMiner" />
+    <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
+    <drop event="Harvest" name="resourceForgedIron" count="10" tag="salvageHarvest" />
+    <drop event="Harvest" name="resourceMechanicalParts" count="8" tag="salvageHarvest" />
+    <drop event="Harvest" name="resourceWood" count="20" tag="salvageHarvest" />
+    <drop event="Destroy" count="0" />
+    <drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1" />
   </block>
   <block name="yfAutoInput">
     <!--Element appended by: "YFAutomationWorkshop"-->
@@ -115694,9 +115754,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
   </block>
   <block name="yfAutoPowerPort">
     <!--Element appended by: "YFAutomationWorkshop"-->
-    <property name="Extends" value="electricwirerelay" />
     <property name="RequiredPower" value="10" />
-    <property name="UnlockedBy" value="" />
     <property name="CustomIcon" value="electricwirerelay" />
     <property name="CreativeMode" value="Player" />
     <property name="DescriptionKey" value="yfAutoPowerPortDesc" />
@@ -115705,6 +115763,29 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="MaxDamage" value="2500" />
     <property name="EconomicValue" value="200" />
     <property name="Stacknumber" value="10" />
+    <property name="Class" value="Powered" />
+    <property name="DisplayType" value="blockElectrical" />
+    <property name="Material" value="Mmetal_weak" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Model" value="@:Entities/Electrical/relayPrefab.prefab" />
+    <property name="ImposterDontBlock" value="true" />
+    <property name="WaterFlow" value="permitted" />
+    <property name="HandleFace" value="Bottom" />
+    <property name="Collide" value="movement,melee,bullet,arrow,rocket" />
+    <property name="StabilitySupport" value="false" />
+    <property name="SoundPickup" value="relay_grab" />
+    <property name="SoundPlace" value="relay_place" />
+    <property name="TraderStageTemplate" value="electricTier1" />
+    <property name="TakeDelay" value="5" />
+    <property class="RepairItems">
+      <property name="resourceForgedIron" value="1" />
+    </property>
+    <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
+    <property name="SortOrder1" value="B155" />
+    <property name="SortOrder2" value="0006" />
+    <property name="Group" value="Science,TCScience" />
+    <property name="Tags" value="electricianSkill,scrap100" />
+    <property name="FilterTags" value="MC_playerBlocks,SC_electrical" />
   </block>
   <block name="yfAutoKitchen">
     <!--Element appended by: "YFAutomationWorkshop"-->
@@ -116225,9 +116306,26 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceMechanicalParts" value="5" />
     </property>
   </block>
+  <block name="PZAECWallCabinetBaseNoUpgrade">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="cntSteelWallCabinetInsecure" />
+    <property name="CreativeMode" value="None" />
+    <property name="Class" value="CompositeTileEntity" />
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="playerDrawer" />
+      </property>
+    </property>
+    <property name="DowngradeBlock" value="cntSteelWallCabinetInsecure" />
+    <property name="SortOrder1" value="B438" />
+    <property name="SortOrder2" value="0004" />
+    <property name="Tags" value="timecharge,scrap100" />
+    <property name="SoundPickup" value="steel_misc_hvy_grab" />
+    <property name="SoundPlace" value="steel_misc_hvy_place" />
+  </block>
   <block name="PZAECStrongholdCore">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <property name="Extends" value="cntSteelWallCabinetSecure" />
+    <property name="Extends" value="PZAECWallCabinetBaseNoUpgrade" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="keystoneBlock" />
     <property name="CustomIconTint" value="FF6633" />
@@ -116266,7 +116364,7 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
   </block>
   <block name="PZAECStrongholdSupply">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
-    <property name="Extends" value="cntSteelWallCabinetSecure" />
+    <property name="Extends" value="PZAECWallCabinetBaseNoUpgrade" />
     <property name="CreativeMode" value="Player" />
     <property name="CustomIcon" value="cntSteelWallCabinetSecure" />
     <property name="CustomIconTint" value="FFD34D" />
@@ -117307,6 +117405,80 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <property name="resourceElectricParts" value="5" />
     </property>
     <property name="TintColor" value="8298AF" />
+  </block>
+  <block name="PZAECSteelCrateExpanded">
+    <!--Element appended by: "PZAEC_StorageExpansion"-->
+    <property name="Extends" value="cntSteelWritableCrateInsecure" />
+    <property name="CreativeMode" value="Player" />
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="PZAECSteelCrateStorage150" />
+      </property>
+      <property class="TEFeatureLockable" />
+      <property class="TEFeatureSignable">
+        <property name="FontSize" value="90" />
+        <property name="LineCount" value="3" />
+        <property name="LineWidth" value="0.55" />
+        <property name="LineSpacing" value="1" />
+      </property>
+    </property>
+    <property name="CustomIcon" value="cntSteelWritableCrate" />
+    <property name="CustomIconTint" value="66CCFF" />
+    <property name="DescriptionKey" value="PZAECSteelCrateExpandedDesc" />
+    <property name="Place" value="TowardsPlacerInverted" />
+    <property name="SoundPickup" value="cratesteel_grab" />
+    <property name="SoundPlace" value="cratesteel_place" />
+    <property name="DowngradeBlock" value="PZAECSteelCrateExpandedInsecure" />
+    <property name="Group" value="Building,advBuilding" />
+    <property name="Tags" value="timecharge,scrap100" />
+    <property name="FilterTags" value="MC_playerBlocks,SC_decor" />
+    <property name="SortOrder2" value="0006" />
+  </block>
+  <block name="PZAECSteelCrateExpandedInsecure">
+    <!--Element appended by: "PZAEC_StorageExpansion"-->
+    <property name="Extends" value="cntSteelWritableCrateInsecure" />
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="PZAECSteelCrateStorage150" />
+      </property>
+      <property class="TEFeatureSignable">
+        <property name="FontSize" value="90" />
+        <property name="LineCount" value="3" />
+        <property name="LineWidth" value="0.55" />
+        <property name="LineSpacing" value="1" />
+      </property>
+    </property>
+    <property name="CustomIconTint" value="66CCFF" />
+  </block>
+  <block name="PZAECSteelWallCabinetExpanded">
+    <!--Element appended by: "PZAEC_StorageExpansion"-->
+    <property name="Extends" value="cntSteelWallCabinetInsecure" />
+    <property name="CreativeMode" value="Player" />
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="PZAECSteelWallCabinetStorage150" />
+      </property>
+    </property>
+    <property name="CustomIcon" value="cntSteelWallCabinetSecure" />
+    <property name="CustomIconTint" value="66CCFF" />
+    <property name="DescriptionKey" value="PZAECSteelWallCabinetExpandedDesc" />
+    <property name="DowngradeBlock" value="PZAECSteelWallCabinetExpandedInsecure" />
+    <property name="SortOrder1" value="B438" />
+    <property name="SortOrder2" value="0005" />
+    <property name="Tags" value="timecharge,scrap100" />
+    <property name="SoundPickup" value="steel_misc_hvy_grab" />
+    <property name="SoundPlace" value="steel_misc_hvy_place" />
+  </block>
+  <block name="PZAECSteelWallCabinetExpandedInsecure">
+    <!--Element appended by: "PZAEC_StorageExpansion"-->
+    <property name="Extends" value="cntSteelWallCabinetInsecure" />
+    <property class="CompositeFeatures">
+      <property class="TEFeatureStorage">
+        <property name="LootList" value="PZAECSteelWallCabinetStorage150" />
+      </property>
+    </property>
+    <property name="CustomIcon" value="cntSteelWallCabinetSecure" />
+    <property name="CustomIconTint" value="66CCFF" />
   </block>
 </blocks>
 <!-- Block limit: There can be 32k blocks in the game. -->
