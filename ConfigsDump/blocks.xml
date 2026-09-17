@@ -33897,7 +33897,9 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
       <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
     </property>
     <!-- define output slots (currently up to 9). Output slots will wrap these values if they exceed the count-->
-    <property name="Outputs" value="honey,honey,honey,honey,honey,honey" />
+    <property name="Outputs" value="honey,honey,honey,honey,honey,honey,honey,honey,honey">
+      <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
+    </property>
     <property name="ModTransformEnableNames" value="2,3,1" />
     <property name="ModTransformDisableNames" value=",0," />
     <property name="ModTypes" value="Speed,Count,Modify" />
@@ -33933,6 +33935,9 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="FuelTitleSprite" value="ui_game_symbol_flower" />
     <property name="FuelTitleSpriteAtlas" value="UIAtlas" />
     <property name="FuelTypesSprites" value="plantedGoldenrod3HarvestPlayer,ItemIconAtlasGreyscale,plantedChrysanthemum3Harvest,ItemIconAtlasGreyscale,plantedCotton3Harvest,ItemIconAtlasGreyscale" />
+    <property name="OutputGridHeight" value="3">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </property>
   </block>
   <!-- *** CAMPFIRE -->
   <block name="campfire">
@@ -116543,8 +116548,9 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="LootLabelKey" value="xuiAutoForestry" />
     <property name="ItemIconBackdrop" value="ui_game_symbol_farming" />
     <property name="ItemBackgroundColor" value="107,145,75,255" />
-    <property name="CustomIcon" value="backhoeGreen" />
+    <property name="CustomIcon" value="workbench" />
     <property name="CustomIconTint" value="6B914B" />
+    <!-- Keep the inherited backhoe model and transforms: its 4x3x3 geometry matches the collector interaction bounds. -->
     <property name="TintColor" value="4E7139" />
     <property name="OutputTypes" value="{IronBundle,GasCan,1000,0,1000,yfForestryWoodBundle,yfForestryWoodBundle,2,2,48000,48000,collector_complete_item}" />
     <property name="HasItem1Text" value="yfAutoForestryHasItemText" />

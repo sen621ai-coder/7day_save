@@ -2,7 +2,9 @@
 <SakuraMissionJournal xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Schema>1</Schema>
   <NextEncounterUtc>1789467942</NextEncounterUtc>
-  <EncounterIds />
+  <EncounterIds>
+    <int>105235</int>
+  </EncounterIds>
   <Missions>
     <SakuraMissionState>
       <Id>c6d80c23e6424fd496229f56a21a8c7f</Id>
@@ -88,6 +90,54 @@
         </EscortMember>
       </Members>
     </SakuraMissionState>
+    <SakuraMissionState>
+      <Id>4a7a2b1db6f3414c9683a9559a8760a1</Id>
+      <NpcId>105235</NpcId>
+      <Tier>16</Tier>
+      <Leader>EOS_0002908e50a64ea0b14ac31f97e68d34</Leader>
+      <Failure />
+      <TargetX>-1586.5</TargetX>
+      <TargetZ>-1226.5</TargetZ>
+      <StartDistance>0</StartDistance>
+      <Phase>Searching</Phase>
+      <Paused>false</Paused>
+      <Guard>true</Guard>
+      <Waves>0</Waves>
+      <Elapsed>0</Elapsed>
+      <MissingSeconds>0</MissingSeconds>
+      <WaveDelay>0</WaveDelay>
+      <TerminalUtc>0</TerminalUtc>
+      <Enemies />
+      <Members>
+        <EscortMember>
+          <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+          <NearSeconds>0</NearSeconds>
+          <Receipt>0</Receipt>
+        </EscortMember>
+        <EscortMember>
+          <Key>EOS_00025fe27d8444baa871ac91c524ca08</Key>
+          <NearSeconds>0</NearSeconds>
+          <Receipt>0</Receipt>
+        </EscortMember>
+      </Members>
+    </SakuraMissionState>
   </Missions>
-  <RescueGrants />
+  <RescueGrants>
+    <SakuraRescueGrant>
+      <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+      <QuestId>mintdispatcht16</QuestId>
+      <Code>-1094808704</Code>
+      <TraderId>-1</TraderId>
+      <Tier>16</Tier>
+      <Spawned>true</Spawned>
+    </SakuraRescueGrant>
+    <SakuraRescueGrant>
+      <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+      <QuestId>mintdispatcht16</QuestId>
+      <Code>1630027814</Code>
+      <TraderId>-1</TraderId>
+      <Tier>16</Tier>
+      <Spawned>false</Spawned>
+    </SakuraRescueGrant>
+  </RescueGrants>
 </SakuraMissionJournal>
