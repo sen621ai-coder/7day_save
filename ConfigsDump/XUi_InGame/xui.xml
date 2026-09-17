@@ -570,6 +570,17 @@
     <window name="windowOutput" />
     <window name="windowNonPagingHeader" />
   </window_group>
+  <window_group name="yfMachineConfiguration" close_compass_on_open="true">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <window name="windowYFAutomationConfiguration" />
+  </window_group>
+  <window_group name="yfMachineInventory" controller="XUiC_LootWindowGroup" close_compass_on_open="true">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <window name="windowYFAutomationStorage" />
+    <window name="windowYFAutomationInventoryControls" />
+    <window name="windowYFAutomationRecipe" />
+    <window name="windowNonPagingHeader" />
+  </window_group>
   <window_group name="workstation_aecMutationIncubator" controller="XUiC_WorkstationWindowGroup" open_backpack_on_open="true" close_compass_on_open="true" defaultselected="bp.content">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <window name="windowCraftingListAECMutationIncubator" />

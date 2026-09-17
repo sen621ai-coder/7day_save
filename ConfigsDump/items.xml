@@ -27995,7 +27995,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Material" value="MresourceScrapBrassSmall" />
     <property name="MeltTimePerUnit" value=".4" />
     <property name="Weight" value="1" />
-    <property name="Stacknumber" value="50000">
+    <property name="Stacknumber" value="500000">
       <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
       <!--Attribute "value" replaced by: "AEC_ENDGAME_OVERHAUL"-->
       <!--Attribute "value" replaced by: "AEC_ENDGAME_OVERHAUL"-->
@@ -215433,6 +215433,19 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="Extends" value="ammoProjectileAECSingerie" />
   </item>
+  <item name="yfForestryWoodBundle">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="Extends" value="resourceRockSmallBundle" />
+    <property name="CustomIcon" value="resourceWood" />
+    <property name="DescriptionKey" value="yfForestryWoodBundleDesc" />
+    <property name="EconomicValue" value="6000" />
+    <property name="SoundPickup" value="wood_grab" />
+    <property name="SoundPlace" value="wood_place" />
+    <property class="Action0">
+      <property name="Create_item" value="resourceWood" />
+      <property name="Create_item_count" value="12000" />
+    </property>
+  </item>
   <item name="PZAECChallengeVoucherT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <property name="Extends" value="questMaster" />
@@ -222227,6 +222240,14 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
       <property name="Delay" value="0.5" />
       <property name="UseAnimation" value="false" />
     </property>
+  </item>
+  <item name="resourcePZAECArmoryVoucher">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <property name="Extends" value="resourceLegendaryParts" />
+    <property name="DescriptionKey" value="resourcePZAECArmoryVoucherDesc" />
+    <property name="CustomIcon" value="bundleRifle" />
+    <property name="Stacknumber" value="50000" />
+    <property name="SellableToTrader" value="false" />
   </item>
 </items>
 <!-- Item limit: There can be 32k items in the game. IDs are generated internally on loading the game/items. -->

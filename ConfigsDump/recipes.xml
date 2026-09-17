@@ -5952,7 +5952,9 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   <recipe name="resourceDurablAlloys" count="1" craft_time="15" craft_area="workbenchImp" tags="learnable,workbenchCrafting">
     <!--Element appended by: "ProjectZ"-->
     <ingredient name="resourceForgedSteel" count="20" />
-    <ingredient name="resourceUltraStrengthAlloys" count="6" />
+    <ingredient name="resourceUltraStrengthAlloys" count="3">
+      <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
+    </ingredient>
     <ingredient name="resourceUltraLightAlloys" count="3" />
   </recipe>
   <recipe name="meleeWpnGardenKnife" count="1" craft_time="180" craft_area="workbench" tags="learnable,workbenchCrafting">
@@ -65407,6 +65409,36 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="yfAutoController" count="2" />
     <ingredient name="yfAutoTransport" count="2" />
   </recipe>
+  <recipe name="yfAutoBeltStraight" count="1" craft_area="yfAutomationWorkbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="yfAutoTransport" count="1" />
+    <ingredient name="resourceForgedIron" count="2" />
+    <ingredient name="resourceMechanicalParts" count="1" />
+  </recipe>
+  <recipe name="yfAutoBeltLeft" count="1" craft_area="yfAutomationWorkbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="yfAutoTransport" count="1" />
+    <ingredient name="resourceForgedIron" count="2" />
+    <ingredient name="resourceMechanicalParts" count="1" />
+  </recipe>
+  <recipe name="yfAutoBeltRight" count="1" craft_area="yfAutomationWorkbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="yfAutoTransport" count="1" />
+    <ingredient name="resourceForgedIron" count="2" />
+    <ingredient name="resourceMechanicalParts" count="1" />
+  </recipe>
+  <recipe name="yfAutoBeltUp" count="1" craft_area="yfAutomationWorkbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="yfAutoTransport" count="1" />
+    <ingredient name="resourceForgedIron" count="2" />
+    <ingredient name="resourceMechanicalParts" count="1" />
+  </recipe>
+  <recipe name="yfAutoBeltDown" count="1" craft_area="yfAutomationWorkbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="yfAutoTransport" count="1" />
+    <ingredient name="resourceForgedIron" count="2" />
+    <ingredient name="resourceMechanicalParts" count="1" />
+  </recipe>
   <recipe name="logicAlarmPerimeter" count="1" craft_area="workbench" craft_time="30" always_unlocked="true">
     <!--Element appended by: "LogicCircuitGates"-->
     <ingredient name="resourceForgedIron" count="10" />
@@ -66062,6 +66094,22 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   <recipe name="pzaecFG_AECEO07" count="1" craft_time="1" craft_area="aecQuestArchiveRadio" crafting_category="aecQuestArchiveGuide" always_unlocked="true" is_trackable="false" tags="ca_aecQuestArchiveRadio,cc_aecQuestArchiveGuide,pzaecFG_AECEO07">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <ingredient name="resourcePaper" count="1" />
+  </recipe>
+  <recipe name="yfAutoForestry" count="1" craft_time="900" craft_area="workbenchImp" always_unlocked="true">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <ingredient name="smallEngine" count="3" />
+    <ingredient name="resourceForgedSteel" count="60" />
+    <ingredient name="resourceForgedIron" count="180" />
+    <ingredient name="vehicleTruck4x4Chassis" count="1" />
+    <ingredient name="meleeToolAxeT3Chainsaw" count="2" />
+  </recipe>
+  <recipe name="AutoMinerBrass" count="1" craft_time="1200" craft_area="workbenchImp" always_unlocked="true">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <ingredient name="smallEngine" count="4" />
+    <ingredient name="resourceForgedSteel" count="100" />
+    <ingredient name="resourceForgedIron" count="250" />
+    <ingredient name="vehicleTruck4x4Chassis" count="1" />
+    <ingredient name="meleeToolPickT3Auger" count="3" />
   </recipe>
   <recipe name="PZAECStrongholdCore" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -68807,6 +68855,22 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   <recipe name="resourcePZAECSiegeCapacitorT19" count="1" craft_area="workbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <ingredient name="resourcePZAECCapacitorFragmentT19" count="10" />
+  </recipe>
+  <recipe name="itemPZAECArmoryBlueprintCrateT18" count="1" craft_area="workbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="itemPZAECArmoryBlueprintCrateT19" count="1" />
+  </recipe>
+  <recipe name="itemPZAECArmoryBlueprintCrateT17" count="1" craft_area="workbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="itemPZAECArmoryBlueprintCrateT18" count="1" />
+  </recipe>
+  <recipe name="itemPZAECArmoryBlueprintCrateT16" count="1" craft_area="workbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="itemPZAECArmoryBlueprintCrateT17" count="1" />
+  </recipe>
+  <recipe name="itemPZAECArmoryBlueprintCrateT16" count="1" craft_area="workbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    <ingredient name="resourcePZAECArmoryVoucher" count="4" />
   </recipe>
   <recipe name="PZAECSteelCrateExpanded" count="1" always_unlocked="true" tags="packMuleCrafting">
     <!--Element appended by: "PZAEC_StorageExpansion"-->

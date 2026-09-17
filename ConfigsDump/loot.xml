@@ -50942,6 +50942,13 @@
     <item name="sakuraMissionBlueprintT19" count="1" prob="1" />
     <item name="mintMissionBlueprintT19" count="1" prob="1" />
   </lootgroup>
+  <lootcontainer name="yfAutoBeltBuffer" count="0" size="1,1" sound_open="UseActions/crate_steel_open" sound_close="UseActions/crate_steel_close" loot_quality_template="qualBaseTemplate">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <item name="cobweb" count="0" />
+  </lootcontainer>
+  <lootcontainer name="yfAutoMachineInventory" count="0" size="6,6" open_time="0" sound_open="UseActions/crate_steel_open" sound_close="UseActions/crate_steel_close" loot_quality_template="qualBaseTemplate">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+  </lootcontainer>
   <lootgroup name="PZAECBossLoot_UniqueMods_ByFamily">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <item group="groupUniqModsBull" />

@@ -336859,6 +336859,7 @@
     <property name="name_key" value="sakuraMissionBlueprintT16" />
     <property name="subtitle_key" value="sakuraMissionBlueprintT16" />
     <property name="description_key" value="sakuraMissionBlueprintT16Desc" />
+    <property name="offer_key" value="sakuraMissionBlueprintT16Desc" />
     <property name="category" value="同伴任务" />
     <property name="icon" value="ui_game_symbol_quest" />
     <property name="repeatable" value="true" />
@@ -336879,6 +336880,7 @@
     <property name="name_key" value="mintMissionBlueprintT16" />
     <property name="subtitle_key" value="mintMissionBlueprintT16" />
     <property name="description_key" value="mintMissionBlueprintT16Desc" />
+    <property name="offer_key" value="mintMissionBlueprintT16Desc" />
     <property name="category" value="同伴任务" />
     <property name="icon" value="ui_game_symbol_quest" />
     <property name="repeatable" value="true" />
@@ -336899,6 +336901,7 @@
     <property name="name_key" value="sakuraMissionBlueprintT17" />
     <property name="subtitle_key" value="sakuraMissionBlueprintT17" />
     <property name="description_key" value="sakuraMissionBlueprintT17Desc" />
+    <property name="offer_key" value="sakuraMissionBlueprintT17Desc" />
     <property name="category" value="同伴任务" />
     <property name="icon" value="ui_game_symbol_quest" />
     <property name="repeatable" value="true" />
@@ -336919,6 +336922,7 @@
     <property name="name_key" value="mintMissionBlueprintT17" />
     <property name="subtitle_key" value="mintMissionBlueprintT17" />
     <property name="description_key" value="mintMissionBlueprintT17Desc" />
+    <property name="offer_key" value="mintMissionBlueprintT17Desc" />
     <property name="category" value="同伴任务" />
     <property name="icon" value="ui_game_symbol_quest" />
     <property name="repeatable" value="true" />
@@ -336939,6 +336943,7 @@
     <property name="name_key" value="sakuraMissionBlueprintT18" />
     <property name="subtitle_key" value="sakuraMissionBlueprintT18" />
     <property name="description_key" value="sakuraMissionBlueprintT18Desc" />
+    <property name="offer_key" value="sakuraMissionBlueprintT18Desc" />
     <property name="category" value="同伴任务" />
     <property name="icon" value="ui_game_symbol_quest" />
     <property name="repeatable" value="true" />
@@ -336959,6 +336964,7 @@
     <property name="name_key" value="mintMissionBlueprintT18" />
     <property name="subtitle_key" value="mintMissionBlueprintT18" />
     <property name="description_key" value="mintMissionBlueprintT18Desc" />
+    <property name="offer_key" value="mintMissionBlueprintT18Desc" />
     <property name="category" value="同伴任务" />
     <property name="icon" value="ui_game_symbol_quest" />
     <property name="repeatable" value="true" />
@@ -336979,6 +336985,7 @@
     <property name="name_key" value="sakuraMissionBlueprintT19" />
     <property name="subtitle_key" value="sakuraMissionBlueprintT19" />
     <property name="description_key" value="sakuraMissionBlueprintT19Desc" />
+    <property name="offer_key" value="sakuraMissionBlueprintT19Desc" />
     <property name="category" value="同伴任务" />
     <property name="icon" value="ui_game_symbol_quest" />
     <property name="repeatable" value="true" />
@@ -336999,6 +337006,7 @@
     <property name="name_key" value="mintMissionBlueprintT19" />
     <property name="subtitle_key" value="mintMissionBlueprintT19" />
     <property name="description_key" value="mintMissionBlueprintT19Desc" />
+    <property name="offer_key" value="mintMissionBlueprintT19Desc" />
     <property name="category" value="同伴任务" />
     <property name="icon" value="ui_game_symbol_quest" />
     <property name="repeatable" value="true" />
@@ -339728,6 +339736,9 @@
     <reward type="LootItem" id="PZAECQuestWeaponsT16" value="16" />
     <reward type="LootItem" id="PZAECQuestModsT16" value="16" />
     <reward type="Item" id="PZAECBuildPartsR2" value="3" />
+    <reward type="Item" id="resourcePZAECArmoryVoucher" value="1">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </reward>
   </quest>
   <quest id="PZAECChallengeT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -339759,6 +339770,9 @@
     <reward type="LootItem" id="PZAECQuestLegendWeapons" value="17" />
     <reward type="LootItem" id="PZAECQuestModsT17" value="17" />
     <reward type="Item" id="PZAECBuildPartsR3" value="3" />
+    <reward type="Item" id="resourcePZAECArmoryVoucher" value="1">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </reward>
   </quest>
   <quest id="PZAECChallengeT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -339790,6 +339804,9 @@
     <reward type="LootItem" id="PZAECQuestLegendWeapons" value="18" />
     <reward type="LootItem" id="PZAECQuestModsT18" value="18" />
     <reward type="Item" id="PZAECBuildPartsR4" value="3" />
+    <reward type="Item" id="resourcePZAECArmoryVoucher" value="1">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </reward>
   </quest>
   <quest id="PZAECChallengeT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -339821,6 +339838,9 @@
     <reward type="LootItem" id="PZAECQuestLegendWeapons" value="19" />
     <reward type="LootItem" id="PZAECQuestModsT19" value="19" />
     <reward type="Item" id="PZAECBuildPartsR5" value="3" />
+    <reward type="Item" id="resourcePZAECArmoryVoucher" value="1">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </reward>
   </quest>
   <quest id="PZAECDefenseT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -339856,6 +339876,9 @@
     <reward type="LootItem" id="PZAECQuestModsT16" value="16" />
     <reward type="LootItem" id="PZAECQuestMaterialsT16" value="16" />
     <reward type="Item" id="PZAECBuildPartsR2" value="5" />
+    <reward type="Item" id="resourcePZAECArmoryVoucher" value="2">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </reward>
   </quest>
   <quest id="PZAECDefenseT17">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -339891,6 +339914,9 @@
     <reward type="LootItem" id="PZAECQuestModsT17" value="17" />
     <reward type="LootItem" id="PZAECQuestMaterialsT17" value="17" />
     <reward type="Item" id="PZAECBuildPartsR3" value="5" />
+    <reward type="Item" id="resourcePZAECArmoryVoucher" value="2">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </reward>
   </quest>
   <quest id="PZAECDefenseT18">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -339926,6 +339952,9 @@
     <reward type="LootItem" id="PZAECQuestModsT18" value="18" />
     <reward type="LootItem" id="PZAECQuestMaterialsT18" value="18" />
     <reward type="Item" id="PZAECBuildPartsR4" value="5" />
+    <reward type="Item" id="resourcePZAECArmoryVoucher" value="2">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </reward>
   </quest>
   <quest id="PZAECDefenseT19">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -339961,6 +339990,9 @@
     <reward type="LootItem" id="PZAECQuestModsT19" value="19" />
     <reward type="LootItem" id="PZAECQuestMaterialsT19" value="19" />
     <reward type="Item" id="PZAECBuildPartsR5" value="5" />
+    <reward type="Item" id="resourcePZAECArmoryVoucher" value="2">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </reward>
   </quest>
   <quest id="PZAECRelayHuntDumdumT16">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
