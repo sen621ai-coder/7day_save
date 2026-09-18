@@ -2816,6 +2816,9 @@
     <reward type="LootItem" id="groupQuestT3MeleeMods" ischosen="true" value="7" />
     <reward type="LootItem" id="groupQuestT3RangedMods" ischosen="true" value="7" />
     <reward type="LootItem" id="groupQuestAmmoCraftingBundle" ischosen="true" value="7" />
+    <reward type="LootItem" id="groupQuestMD500Parts" ischosen="true" value="7">
+      <!--Element appended by: "MD-500"-->
+    </reward>
   </quest>
   <!-- *** ADMIN_TEST_QUESTS -->
   <quest id="tier1_test_turnin">

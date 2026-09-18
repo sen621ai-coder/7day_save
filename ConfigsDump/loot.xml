@@ -1608,6 +1608,18 @@
   <!-- *** Loot_Groups -->
   <lootgroup name="empty" />
   <!-- *** Resources_Scrap -->
+  <lootgroup name="MD500group">
+    <!--Element inserted by: "MD-500"-->
+    <item name="vehicleMD500chassis" />
+    <item name="vehicleMD500accessories" />
+    <item name="vehicleWheels" />
+    <item name="smallEngine" />
+    <item name="carBattery" />
+  </lootgroup>
+  <lootgroup name="groupQuestMD500Parts" count="all">
+    <!--Element inserted by: "MD-500"-->
+    <item name="questRewardMD500PartsBundle" />
+  </lootgroup>
   <lootgroup name="groupScrapCommon" count="1">
     <item name="resourceScrapLead" count="8,20" />
     <item name="resourceScrapIron" count="8,20" />
@@ -3829,6 +3841,9 @@
     <item group="vehicleMods" loot_prob_template="ProbT1Cap" />
     <item group="4x4Parts" loot_prob_template="ProbT3" />
     <item group="gyroCopterParts" loot_prob_template="ProbT3" />
+    <item group="MD500group" loot_prob_template="ProbT3">
+      <!--Element appended by: "MD-500"-->
+    </item>
   </lootgroup>
   <!-- *** Shamway_Loot -->
   <lootgroup name="shamwaySafeFiller">

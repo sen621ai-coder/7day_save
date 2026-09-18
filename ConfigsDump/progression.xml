@@ -1641,7 +1641,10 @@
         <unlock_entry item="vehicleTruck4x4Chassis,vehicleTruck4x4Accessories" unlock_tier="1" />
       </display_entry>
       <display_entry icon="vehicleGyrocopterPlaceable" name_key="vehiclesT5" has_quality="false" unlock_level="100">
-        <unlock_entry item="vehicleGyroCopterChassis,vehicleGyroCopterAccessories" unlock_tier="1" />
+        <unlock_entry item="vehicleGyroCopterChassis,vehicleGyroCopterAccessories,vehicleMD500chassis,vehicleMD500accessories,vehicleApacheHelicopterChassis,vehicleApacheHelicopterAccessories,vehicleApacheHelicopterPlaceable,pzApacheRocket,pzApache30mm,pzApacheGuidedMissile" unlock_tier="1">
+          <!--Attribute "item" appended by: "ZZPZAECApacheFlight"-->
+          <!--Attribute "item" appended by: "MD-500"-->
+        </unlock_entry>
       </display_entry>
       <effect_group>
         <passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="vehicleBicycleChassis,vehicleBicycleHandlebars,vehicleWheels" />
@@ -1717,6 +1720,15 @@
         </passive_effect>
         <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="modAECBlockDamageApocalypsePulverizer,modAECEntityDamageApocalypsePiledriver,modAECFuelMaxApocalypseFuelArk,modAECFuelSaverWastelandMiserPrime,modAECLightIntensityApocalypseFloodlight,modAECSelfDamageApocalypseSafeguard,modAECTorqueLeviathanTorque,modAECVelocityApocalypseOverdrive">
           <!--Element appended by: "Vehicles_Progression"-->
+        </passive_effect>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="vehicleMD500chassis,vehicleMD500accessories">
+          <!--Element appended by: "MD-500"-->
+        </passive_effect>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="vehicleApacheHelicopterChassis,vehicleApacheHelicopterAccessories,vehicleApacheHelicopterPlaceable,pzApacheRocket,pzApache30mm,pzApacheGuidedMissile">
+          <!--Element appended by: "ZZPZAECApacheFlight"-->
+        </passive_effect>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="vehicleM1AbramsPlaceable,pzM1Shell">
+          <!--Element appended by: "ZZPZAECM1Abrams"-->
         </passive_effect>
       </effect_group>
     </crafting_skill>

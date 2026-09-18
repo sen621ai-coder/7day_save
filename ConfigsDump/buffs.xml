@@ -284,6 +284,14 @@
   <buff name="buffStatusCheck01" hidden="true" remove_on_death="false">
     <stack_type value="ignore" />
     <update_rate value="2" />
+    <effect_group name="PZAEC occupied cabin exposure reset">
+      <!--Element inserted by: "ZZZPZAECSealedCabins"-->
+      <requirement name="PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$HotStatus" operation="set" value="0" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$ColdStatus" operation="set" value="0" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$ActiveRadiationStatus" operation="set" value="0" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffElementHot,buffElementSweltering,buffElementCold,buffElementFreezing,buffRadiation01,buffRadiation03,buffRadiationPool,buffActiveRadiationImpact1,buffActiveRadiationImpact2,buffActiveRadiationImpact3" />
+    </effect_group>
     <effect_group>
       <!-- *** TRIGGER_TEST_MESSAGES -->
       <!-- <triggered_effect trigger="onSelfFirstSpawn" action="LogMessage" message="== Player respawn trigger"/> -->
@@ -447,6 +455,9 @@
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffRadiation03">
         <requirement name="!HasBuff" buff="god" />
         <requirement name="CVarCompare" cvar="_biomeradiation" operation="GT" value="2.5" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <!--
 			<triggered_effect trigger="onSelfBuffUpdate" action="CVarLogValue" cvar="_biomeradiation"/>
@@ -1118,9 +1129,15 @@
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$HotStatus" operation="set" value="0" />
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$HotStatus" operation="set" value="1">
         <requirement name="HasBuff" buff="buffElementHot" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$HotStatus" operation="set" value="1">
         <requirement name="HasBuff" buff="buffElementSweltering" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$HotStatus" operation="set" value="0">
         <requirement name="HasBuff" buff="buffDesert_Hazard_Over" />
@@ -1278,12 +1295,21 @@
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$ColdStatus" operation="set" value="0" />
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$ColdStatus" operation="set" value="1">
         <requirement name="HasBuff" buff="buffElementCold" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$ColdStatus" operation="set" value="1">
         <requirement name="HasBuff" buff="buffElementFreezing" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$ColdStatus" operation="set" value="1">
         <requirement name="HasBuff" buff="BuffAncientYetiAOE" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$ColdStatus" operation="set" value="0">
         <requirement name="HasBuff" buff="buffSnow_Hazard_Over" />
@@ -1568,6 +1594,9 @@
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$IRradiationStatus" operation="add" value="@$AcRadImpactBase">
         <requirement name="CVarCompare" cvar="$ActiveRadiationStatus" operation="GT" value="5" />
         <requirement name="CVarCompare" cvar="$buffstimIrradiatedShellStatus" operation="LT" value="1" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffAECVehiclesControler">
         <!--Element appended by: "AEC_Vehicles_NoMicrocraft"-->
@@ -1644,7 +1673,11 @@
         <requirement name="HasBuff" buff="buffARPillsResist" />
       </triggered_effect>
       <!-- Assigning the current status -->
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$ActiveRadiationStatus" operation="set" value="@$ActiveRadiationCurrent" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$ActiveRadiationStatus" operation="set" value="@$ActiveRadiationCurrent">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffAECVehiclesControler">
         <!--Element appended by: "AEC_Vehicles_NoMicrocraft"-->
         <requirement name="NotHasBuff" buff="buffAECVehiclesControler" />
@@ -2166,14 +2199,23 @@
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffActiveRadiationImpact1">
         <requirement name="CVarCompare" cvar="$ActiveRadiationStatus" operation="Equals" value="6" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffActiveRadiationImpact2">
         <requirement name="CVarCompare" cvar="$ActiveRadiationStatus" operation="Equals" value="7" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffActiveRadiationImpact3">
         <requirement name="CVarCompare" cvar="$ActiveRadiationStatus" operation="GTE" value="8" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <!-- ADD IRRADIATION BUFF -->
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffIrradiationIncreasing1">
@@ -13162,15 +13204,27 @@
     <display_value value="_coretemp" />
     <effect_group>
       <!-- Blinks the display -->
-      <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffElementHot" />
+      <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffElementHot">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <!-- Increase water loss when regenerating stamina -->
-      <passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="3" />
+      <passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="3">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <!-- <passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="-.45"> -->
       <!-- <requirement name="ProgressionLevel" progression_name="perkWellInsulated" operation="Equals" value="1"/></passive_effect> -->
       <!-- <passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="-.9"> -->
       <!-- <requirement name="ProgressionLevel" progression_name="perkWellInsulated" operation="GTE" value="2"/></passive_effect> -->
       <!-- Handler for screen effects -->
-      <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="3" effect_name="Hot" />
+      <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="3" effect_name="Hot">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="3" effect_name="Hot" />
       <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#hot">
         <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="5" />
@@ -13180,11 +13234,30 @@
         <requirement name="!HasBuff" buff="buffBurnt_Hazard01,buffBurnt_Hazard02,buffDesert_Hazard01,buffDesert_Hazard02,buffSnow_Hazard01,buffSnow_Hazard02,buffWasteland_Hazard01,buffWasteland_Hazard02" />
         <requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_subtract" value=".1" />
-      <passive_effect name="WalkSpeed" operation="perc_subtract" value=".1" />
-      <passive_effect name="RunSpeed" operation="perc_subtract" value=".1" />
-      <passive_effect name="JumpStrength" operation="perc_subtract" value=".1" />
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_subtract" value=".1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="WalkSpeed" operation="perc_subtract" value=".1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="RunSpeed" operation="perc_subtract" value=".1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="JumpStrength" operation="perc_subtract" value=".1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="HUD_Hot" operation="set" value="1">
         <!--Element appended by: "ProjectZ"-->
       </triggered_effect>
@@ -13210,17 +13283,29 @@
     <display_value value="_coretemp" />
     <effect_group>
       <!-- Blinks the display -->
-      <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffElementSweltering" />
+      <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffElementSweltering">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <!-- Remove hot buff -->
       <triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffElementHot" />
       <!-- Increase water loss when regenerating stamina more than buffElementHot -->
-      <passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="6" />
+      <passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="6">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <!-- <passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="-.9"> -->
       <!-- <requirement name="ProgressionLevel" progression_name="perkWellInsulated" operation="Equals" value="1"/></passive_effect> -->
       <!-- <passive_effect name="WaterLossPerStaminaPointGained" operation="perc_add" value="-1.8"> -->
       <!-- <requirement name="ProgressionLevel" progression_name="perkWellInsulated" operation="GTE" value="2"/></passive_effect> -->
       <!-- Handler for screen effects -->
-      <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="3" effect_name="Hot2" />
+      <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="3" effect_name="Hot2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="3" effect_name="Hot2" />
       <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#hot">
         <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="8" />
@@ -13230,11 +13315,30 @@
         <requirement name="!HasBuff" buff="buffBurnt_Hazard01,buffBurnt_Hazard02,buffDesert_Hazard01,buffDesert_Hazard02,buffSnow_Hazard01,buffSnow_Hazard02,buffWasteland_Hazard01,buffWasteland_Hazard02" />
         <requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_subtract" value=".2" />
-      <passive_effect name="WalkSpeed" operation="perc_subtract" value=".2" />
-      <passive_effect name="RunSpeed" operation="perc_subtract" value=".2" />
-      <passive_effect name="JumpStrength" operation="perc_subtract" value=".2" />
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_subtract" value=".2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="WalkSpeed" operation="perc_subtract" value=".2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="RunSpeed" operation="perc_subtract" value=".2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="JumpStrength" operation="perc_subtract" value=".2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="HUD_Hot" operation="set" value="1">
         <!--Element appended by: "ProjectZ"-->
       </triggered_effect>
@@ -13260,21 +13364,37 @@
     <display_value value="_coretemp" />
     <effect_group>
       <!-- Blinks the display -->
-      <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffElementCold" />
+      <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffElementCold">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <!-- Decrease food over time -->
-      <passive_effect name="FoodChangeOT" operation="perc_add" value=".3" />
+      <passive_effect name="FoodChangeOT" operation="perc_add" value=".3">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <!-- <passive_effect name="FoodChangeOT" operation="perc_add" value="-.045"> -->
       <!-- <requirement name="ProgressionLevel" progression_name="perkWellInsulated" operation="Equals" value="1"/></passive_effect> -->
       <!-- <passive_effect name="FoodChangeOT" operation="perc_add" value="-.09"> -->
       <!-- <requirement name="ProgressionLevel" progression_name="perkWellInsulated" operation="GTE" value="2"/></passive_effect> -->
       <!-- Consume food faster when regenerating stamina -->
-      <passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="1" />
+      <passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <!-- <passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="-.15"> -->
       <!-- <requirement name="ProgressionLevel" progression_name="perkWellInsulated" operation="Equals" value="1"/></passive_effect> -->
       <!-- <passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="-.3"> -->
       <!-- <requirement name="ProgressionLevel" progression_name="perkWellInsulated" operation="GTE" value="2"/></passive_effect> -->
       <!-- Handler for screen effects -->
-      <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".25" fade="3" effect_name="Cold2" />
+      <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".25" fade="3" effect_name="Cold2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="3" effect_name="Cold2" />
       <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_weatherEffects_freezingBreath" local_rotation="90,0,0" sound="player#cold" oneshot="" parent_transform="Camera">
         <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="5" />
@@ -13285,10 +13405,26 @@
         <requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" />
         <requirement name="!HasBuff" buff="god" />
       </triggered_effect>
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_subtract" value=".1" />
-      <passive_effect name="WalkSpeed" operation="perc_subtract" value=".1" />
-      <passive_effect name="RunSpeed" operation="perc_subtract" value=".1" />
-      <passive_effect name="JumpStrength" operation="perc_subtract" value=".1" />
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_subtract" value=".1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="WalkSpeed" operation="perc_subtract" value=".1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="RunSpeed" operation="perc_subtract" value=".1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="JumpStrength" operation="perc_subtract" value=".1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="HUD_Cold" operation="set" value="1">
         <!--Element appended by: "ProjectZ"-->
       </triggered_effect>
@@ -13314,23 +13450,39 @@
     <display_value value="_coretemp" />
     <effect_group>
       <!-- Blinks the display -->
-      <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffElementFreezing" />
+      <passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffElementFreezing">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <!-- Remove cold buff -->
       <triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffElementCold" />
       <!-- Decrease food faster over time compared to buffElementCold -->
-      <passive_effect name="FoodChangeOT" operation="perc_add" value=".6" />
+      <passive_effect name="FoodChangeOT" operation="perc_add" value=".6">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <!-- <passive_effect name="FoodChangeOT" operation="perc_add" value="-.09"> -->
       <!-- <requirement name="ProgressionLevel" progression_name="perkWellInsulated" operation="Equals" value="1"/></passive_effect> -->
       <!-- <passive_effect name="FoodChangeOT" operation="perc_add" value="-.18"> -->
       <!-- <requirement name="ProgressionLevel" progression_name="perkWellInsulated" operation="GTE" value="2"/></passive_effect> -->
       <!-- Consume food faster when regenerating stamina compared to buffElementCold -->
-      <passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="2" />
+      <passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <!-- <passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="-.3"> -->
       <!-- <requirement name="ProgressionLevel" progression_name="perkWellInsulated" operation="Equals" value="1"/></passive_effect> -->
       <!-- <passive_effect name="FoodLossPerStaminaPointGained" operation="perc_add" value="-.6"> -->
       <!-- <requirement name="ProgressionLevel" progression_name="perkWellInsulated" operation="GTE" value="2"/></passive_effect> -->
       <!-- Handler for screen effects -->
-      <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="3" effect_name="Cold2" />
+      <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity="1" fade="3" effect_name="Cold2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="3" effect_name="Cold2" />
       <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_weatherEffects_freezingBreath" local_rotation="90,0,0" sound="player#cold" oneshot="" parent_transform="Camera">
         <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="8" />
@@ -13341,10 +13493,26 @@
         <requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" />
         <requirement name="!HasBuff" buff="god" />
       </triggered_effect>
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_subtract" value=".2" />
-      <passive_effect name="WalkSpeed" operation="perc_subtract" value=".2" />
-      <passive_effect name="RunSpeed" operation="perc_subtract" value=".2" />
-      <passive_effect name="JumpStrength" operation="perc_subtract" value=".2" />
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_subtract" value=".2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="WalkSpeed" operation="perc_subtract" value=".2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="RunSpeed" operation="perc_subtract" value=".2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="JumpStrength" operation="perc_subtract" value=".2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="HUD_Cold" operation="set" value="1">
         <!--Element appended by: "ProjectZ"-->
       </triggered_effect>
@@ -13897,15 +14065,26 @@
     <duration value="1000" />
     <update_rate value="1" />
     <effect_group>
-      <passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,10" value="1,1" />
+      <passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,10" value="1,1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="add" value="1" />
       <triggered_effect trigger="onSelfBuffUpdate" action="RemoveCVar" cvar="RadiationSignal">
         <requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="1" />
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="RemoveCVar" cvar="RadiationSignal" />
-      <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="a_radiated_weak_lp" />
+      <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="a_radiated_weak_lp">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="1" fade=".4" effect_name="Hot">
         <requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="1" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="0" fade=".4" effect_name="Hot">
         <requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="0" />
@@ -13932,17 +14111,36 @@
     <duration value="5000" />
     <update_rate value="1" />
     <effect_group>
-      <passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,10" value="1,1" />
-      <passive_effect name="HealthChangeOT" operation="base_subtract" duration="10,50" value="1,30" />
-      <passive_effect name="HealthChangeOT" operation="base_subtract" duration="50,1000" value="40,1000" />
+      <passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,10" value="1,1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="HealthChangeOT" operation="base_subtract" duration="10,50" value="1,30">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="HealthChangeOT" operation="base_subtract" duration="50,1000" value="40,1000">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="RadiationSignal" operation="add" value="1" />
       <triggered_effect trigger="onSelfBuffUpdate" action="RemoveCVar" cvar="RadiationSignal">
         <requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="2" />
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="RemoveCVar" cvar="RadiationSignal" />
-      <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="a_radiated_strong_lp" />
+      <triggered_effect trigger="onSelfBuffStart" action="PlaySound" sound="a_radiated_strong_lp">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="1" fade=".7" effect_name="Hot">
         <requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="1" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="0" fade=".7" effect_name="Hot">
         <requirement name="CVarCompare" cvar="RadiationSignal" operation="Equals" value="0" />
@@ -13964,9 +14162,15 @@
     <effect_group>
       <passive_effect name="HealthChangeOT" operation="base_subtract" value="4">
         <requirement name="EntityTagCompare" tags="player" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </passive_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyStats" stat="Stamina" operation="subtract" value="20">
         <requirement name="EntityTagCompare" tags="player" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyScreenEffect" intensity="0" fade=".7" effect_name="Hot" />
       <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="1" effect_name="Hot" />
@@ -17433,7 +17637,11 @@
     </effect_group>
     <effect_group name="Recover Desert Over">
       <requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="GT" value="@$DesertHazardTimerMax" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="subtract" value="1" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="subtract" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".DesertHazardTimerDisplay" operation="set" value="@$DesertHazardTimer" />
       <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDesert_Hazard_Over">
         <requirement name="CVarCompare" cvar="$DesertHazardTimerMax" operation="GT" value="0" />
@@ -17458,7 +17666,11 @@
       <requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="GT" value="0" />
       <requirement name="CVarCompare" cvar="$DesertHazardTimerMax" operation="GT" value="0" />
       <requirement name="WornItems" tags="biomeBadge2" operation="LT" value="1" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="subtract" value="1" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="subtract" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
     </effect_group>
     <effect_group name="Recover Burnt Start">
       <requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="LT" value="@$BurntHazardTimerMax" />
@@ -17493,7 +17705,11 @@
     </effect_group>
     <effect_group name="Recover Snow Over">
       <requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="GT" value="@$SnowHazardTimerMax" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="subtract" value="1" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="subtract" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".SnowHazardTimerDisplay" operation="set" value="@$SnowHazardTimer" />
       <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffSnow_Hazard_Over">
         <requirement name="CVarCompare" cvar="$SnowHazardTimerMax" operation="GT" value="0" />
@@ -17518,7 +17734,11 @@
     </effect_group>
     <effect_group name="Recover Wasteland Over">
       <requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="GT" value="@$WastelandHazardTimerMax" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$WastelandHazardTimer" operation="subtract" value="1" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$WastelandHazardTimer" operation="subtract" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".WastelandHazardTimerDisplay" operation="set" value="@$WastelandHazardTimer" />
       <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffWasteland_Hazard_Over">
         <requirement name="CVarCompare" cvar="$WastelandHazardTimerMax" operation="GT" value="0" />
@@ -17585,6 +17805,9 @@
         <requirement name="!EntityHasMovementTag" tags="running" />
         <requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <!-- Running increases coughing frequency -->
       <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_weatherEffects_DesertsmokeCough" local_rotation="90,0,0" sound="player#smoke" oneshot="" parent_transform="Camera">
@@ -17592,6 +17815,9 @@
         <requirement name="EntityHasMovementTag" tags="running" />
         <requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <!-- Slower pace doesn't sweat as much -->
       <!-- <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#hot"> -->
@@ -17627,6 +17853,9 @@
         <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25" />
         <requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <!-- Player is dying and sweats even more -->
       <!-- <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#hot"> -->
@@ -17634,8 +17863,16 @@
       <!-- <requirement name="!HasBuff" buff="god"/> -->
       <!-- </triggered_effect> -->
       <!-- Reduce health and play pain sounds -->
-      <triggered_effect trigger="onSelfBuffUpdate" action="AddHealth" health="-1" show_splatter="false" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddHealth" health="-1" show_splatter="false">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
+      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <!-- Remove screen effect and particles -->
       <!-- <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="3" effect_name="Hot3"/> -->
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_weatherEffects_DesertsmokeCough" />
@@ -17692,7 +17929,11 @@
     </effect_group>
     <effect_group name="Recover Snow Over">
       <requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="GT" value="@$SnowHazardTimerMax" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="subtract" value="1" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="subtract" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".SnowHazardTimerDisplay" operation="set" value="@$SnowHazardTimer" />
       <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffSnow_Hazard_Over">
         <requirement name="CVarCompare" cvar="$SnowHazardTimerMax" operation="GT" value="0" />
@@ -17717,7 +17958,11 @@
       <requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="GT" value="0" />
       <requirement name="CVarCompare" cvar="$SnowHazardTimerMax" operation="GT" value="0" />
       <requirement name="WornItems" tags="biomeBadge3" operation="LT" value="1" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="subtract" value="1" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="subtract" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
     </effect_group>
     <effect_group name="Recover Burnt Start">
       <requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="LT" value="@$BurntHazardTimerMax" />
@@ -17752,7 +17997,11 @@
     </effect_group>
     <effect_group name="Recover Desert Over">
       <requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="GT" value="@$DesertHazardTimerMax" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="subtract" value="1" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="subtract" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".DesertHazardTimerDisplay" operation="set" value="@$DesertHazardTimer" />
       <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDesert_Hazard_Over">
         <requirement name="CVarCompare" cvar="$DesertHazardTimerMax" operation="GT" value="0" />
@@ -17777,7 +18026,11 @@
     </effect_group>
     <effect_group name="Recover Wasteland Over">
       <requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="GT" value="@$WastelandHazardTimerMax" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$WastelandHazardTimer" operation="subtract" value="1" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$WastelandHazardTimer" operation="subtract" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".WastelandHazardTimerDisplay" operation="set" value="@$WastelandHazardTimer" />
       <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffWasteland_Hazard_Over">
         <requirement name="CVarCompare" cvar="$WastelandHazardTimerMax" operation="GT" value="0" />
@@ -17844,6 +18097,9 @@
         <requirement name="!EntityHasMovementTag" tags="running" />
         <requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <!-- Running increases frosty breath frequency -->
       <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_weatherEffects_freezingBreath" local_rotation="90,0,0" sound="player#smoke" parent_transform="Camera">
@@ -17851,6 +18107,9 @@
         <requirement name="EntityHasMovementTag" tags="running" />
         <requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <!-- Remove screen effect and particles -->
       <!-- <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="3" effect_name="Cold2"/> -->
@@ -17874,10 +18133,21 @@
         <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25" />
         <requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <!-- Reduce health and play pain sounds -->
-      <triggered_effect trigger="onSelfBuffUpdate" action="AddHealth" health="-1" show_splatter="false" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddHealth" health="-1" show_splatter="false">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
+      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <!-- Remove screen effect and particles -->
       <!-- <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="3" effect_name="Cold3"/> -->
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_weatherEffects_freezingBreath" />
@@ -17934,7 +18204,11 @@
     </effect_group>
     <effect_group name="Recover Wasteland Over">
       <requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="GT" value="@$WastelandHazardTimerMax" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$WastelandHazardTimer" operation="subtract" value="1" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$WastelandHazardTimer" operation="subtract" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".WastelandHazardTimerDisplay" operation="set" value="@$WastelandHazardTimer" />
       <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffWasteland_Hazard_Over">
         <requirement name="CVarCompare" cvar="$WastelandHazardTimerMax" operation="GT" value="0" />
@@ -17959,7 +18233,11 @@
       <requirement name="CVarCompare" cvar="$WastelandHazardTimer" operation="GT" value="0" />
       <requirement name="CVarCompare" cvar="$WastelandHazardTimerMax" operation="GT" value="0" />
       <requirement name="WornItems" tags="biomeBadge4" operation="LT" value="1" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$WastelandHazardTimer" operation="subtract" value="1" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$WastelandHazardTimer" operation="subtract" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
     </effect_group>
     <effect_group name="Recover Burnt Start">
       <requirement name="CVarCompare" cvar="$BurntHazardTimer" operation="LT" value="@$BurntHazardTimerMax" />
@@ -17994,7 +18272,11 @@
     </effect_group>
     <effect_group name="Recover Desert Over">
       <requirement name="CVarCompare" cvar="$DesertHazardTimer" operation="GT" value="@$DesertHazardTimerMax" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="subtract" value="1" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$DesertHazardTimer" operation="subtract" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".DesertHazardTimerDisplay" operation="set" value="@$DesertHazardTimer" />
       <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffDesert_Hazard_Over">
         <requirement name="CVarCompare" cvar="$DesertHazardTimerMax" operation="GT" value="0" />
@@ -18013,7 +18295,11 @@
     </effect_group>
     <effect_group name="Recover Snow Over">
       <requirement name="CVarCompare" cvar="$SnowHazardTimer" operation="GT" value="@$SnowHazardTimerMax" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="subtract" value="1" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$SnowHazardTimer" operation="subtract" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".SnowHazardTimerDisplay" operation="set" value="@$SnowHazardTimer" />
       <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffSnow_Hazard_Over">
         <requirement name="CVarCompare" cvar="$SnowHazardTimerMax" operation="GT" value="0" />
@@ -18082,24 +18368,33 @@
       <!-- <triggered_effect trigger="onSelfBuffStart" action="ModifyScreenEffect" intensity=".05" fade="3" effect_name="RadiationTemp"/> -->
       <!-- Slower pace doesn't vomit as much -->
       <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_weatherEffects_WastelandsmokeCough" local_rotation="90,0,0" sound="player#smoke" oneshot="" parent_transform="Camera">&gt;
-				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="5" /><requirement name="!EntityHasMovementTag" tags="running" /><requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" /><requirement name="!HasBuff" buff="god" /></triggered_effect>
+				<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="5" /><requirement name="!EntityHasMovementTag" tags="running" /><requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" /><requirement name="!HasBuff" buff="god" /><requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins"><!--Element appended by: "ZZZPZAECSealedCabins"--></requirement></triggered_effect>
       <!-- Running increases vomit frequency -->
       <triggered_effect trigger="onSelfBuffUpdate" action="AttachParticleEffectToEntity" particle="p_weatherEffects_WastelandsmokeCough" local_rotation="90,0,0" sound="player#smoke" oneshot="" parent_transform="Camera">
         <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15" />
         <requirement name="EntityHasMovementTag" tags="running" />
         <requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <!-- Play random Geiger counter sounds -->
       <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="buff_geiger_counter">
         <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="5" />
         <requirement name="!EntityHasMovementTag" tags="running" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="buff_geiger_counter">
         <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="15" />
         <requirement name="EntityHasMovementTag" tags="running" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <!-- Remove screen effect and particles -->
       <!-- <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="2" effect_name="RadiationTemp"/> -->
@@ -18123,15 +18418,29 @@
         <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="25" />
         <requirement name="CVarCompare" cvar="_underwater" operation="NotEquals" value="1" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <!-- Play random Geiger counter sounds -->
       <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="buff_geiger_counter">
         <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="75" />
         <requirement name="!HasBuff" buff="god" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </triggered_effect>
       <!-- Reduce health and play pain sounds -->
-      <triggered_effect trigger="onSelfBuffUpdate" action="AddHealth" health="-1" show_splatter="false" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddHealth" health="-1" show_splatter="false">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
+      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
       <!-- Remove screen effect and particles -->
       <!-- <triggered_effect trigger="onSelfBuffRemove" action="ModifyScreenEffect" intensity="0" fade="3" effect_name="RadiationTemp2"/> -->
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_weatherEffects_WastelandsmokeCough" />
@@ -39158,14 +39467,46 @@
     <display_value_key value="{0:0.0}%" />
     <!-- NEGATIVE EFFECTS -->
     <effect_group name="debaff">
-      <passive_effect name="StaminaMaxBlockage" operation="base_add" value="10" />
-      <passive_effect name="StaminaLoss" operation="perc_add" value="-.1" />
-      <passive_effect name="SpreadDegreesVertical" operation="base_add" value="1" />
-      <passive_effect name="SpreadDegreesHorizontal" operation="base_add" value="1" />
-      <passive_effect name="KickDegreesVerticalMin" operation="base_add" value="-1" />
-      <passive_effect name="KickDegreesVerticalMax" operation="base_add" value="1" />
-      <passive_effect name="KickDegreesHorizontalMin" operation="base_add" value="-1" />
-      <passive_effect name="KickDegreesHorizontalMax" operation="base_add" value="1" />
+      <passive_effect name="StaminaMaxBlockage" operation="base_add" value="10">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="StaminaLoss" operation="perc_add" value="-.1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="SpreadDegreesVertical" operation="base_add" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="SpreadDegreesHorizontal" operation="base_add" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="KickDegreesVerticalMin" operation="base_add" value="-1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="KickDegreesVerticalMax" operation="base_add" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="KickDegreesHorizontalMin" operation="base_add" value="-1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="KickDegreesHorizontalMax" operation="base_add" value="1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
     <!-- Buff Self Remove -->
     <effect_group>
@@ -39185,20 +39526,68 @@
     <!-- NEGATIVE EFFECTS -->
     <effect_group name="Knockdown">
       <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="3" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffInjuryKnockdown01" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm" play_in_head="true" />
-      <passive_effect name="HealthChangeOT" operation="base_subtract" value="2" />
-      <passive_effect name="WaterChangeOT" operation="base_subtract" value=".03" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffInjuryKnockdown01">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
+      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm" play_in_head="true">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
+      <passive_effect name="HealthChangeOT" operation="base_subtract" value="2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="WaterChangeOT" operation="base_subtract" value=".03">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
     <effect_group name="debaff">
-      <passive_effect name="StaminaMaxBlockage" operation="base_add" value="30" />
-      <passive_effect name="StaminaLoss" operation="perc_add" value="-.2" />
-      <passive_effect name="SpreadDegreesVertical" operation="base_add" value="2" />
-      <passive_effect name="SpreadDegreesHorizontal" operation="base_add" value="2" />
-      <passive_effect name="KickDegreesVerticalMin" operation="base_add" value="-2" />
-      <passive_effect name="KickDegreesVerticalMax" operation="base_add" value="2" />
-      <passive_effect name="KickDegreesHorizontalMin" operation="base_add" value="-2" />
-      <passive_effect name="KickDegreesHorizontalMax" operation="base_add" value="2" />
+      <passive_effect name="StaminaMaxBlockage" operation="base_add" value="30">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="StaminaLoss" operation="perc_add" value="-.2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="SpreadDegreesVertical" operation="base_add" value="2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="SpreadDegreesHorizontal" operation="base_add" value="2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="KickDegreesVerticalMin" operation="base_add" value="-2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="KickDegreesVerticalMax" operation="base_add" value="2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="KickDegreesHorizontalMin" operation="base_add" value="-2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="KickDegreesHorizontalMax" operation="base_add" value="2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
     <!-- Buff Self Remove -->
     <effect_group>
@@ -39221,20 +39610,68 @@
     <!-- NEGATIVE EFFECTS -->
     <effect_group name="Knockdown">
       <requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="6" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffInjuryKnockdown01" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm" play_in_head="true" />
-      <passive_effect name="HealthChangeOT" operation="base_subtract" value="4" />
-      <passive_effect name="WaterChangeOT" operation="base_subtract" value=".03" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffInjuryKnockdown01">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
+      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm" play_in_head="true">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
+      <passive_effect name="HealthChangeOT" operation="base_subtract" value="4">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="WaterChangeOT" operation="base_subtract" value=".03">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
     <effect_group name="debaff">
-      <passive_effect name="StaminaMaxBlockage" operation="base_add" value="60" />
-      <passive_effect name="StaminaLoss" operation="perc_add" value="-.4" />
-      <passive_effect name="SpreadDegreesVertical" operation="base_add" value="3" />
-      <passive_effect name="SpreadDegreesHorizontal" operation="base_add" value="3" />
-      <passive_effect name="KickDegreesVerticalMin" operation="base_add" value="-3" />
-      <passive_effect name="KickDegreesVerticalMax" operation="base_add" value="3" />
-      <passive_effect name="KickDegreesHorizontalMin" operation="base_add" value="-3" />
-      <passive_effect name="KickDegreesHorizontalMax" operation="base_add" value="3" />
+      <passive_effect name="StaminaMaxBlockage" operation="base_add" value="60">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="StaminaLoss" operation="perc_add" value="-.4">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="SpreadDegreesVertical" operation="base_add" value="3">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="SpreadDegreesHorizontal" operation="base_add" value="3">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="KickDegreesVerticalMin" operation="base_add" value="-3">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="KickDegreesVerticalMax" operation="base_add" value="3">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="KickDegreesHorizontalMin" operation="base_add" value="-3">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="KickDegreesHorizontalMax" operation="base_add" value="3">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
     <!-- Buff Self Remove -->
     <effect_group>
@@ -39337,9 +39774,21 @@
     <display_value_key value="{0:0.0}%" />
     <!-- NEGATIVE EFFECTS -->
     <effect_group>
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="-.1" />
-      <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.1" tags="melee" />
-      <passive_effect name="Mobility" operation="perc_add" value="-.1" />
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="-.1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.1" tags="melee">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="Mobility" operation="perc_add" value="-.1">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
     <!-- Buff Self Remove -->
     <effect_group>
@@ -39363,15 +39812,43 @@
         <requirement name="!HasBuff" buff="buffCampfireAOEEffect" />
       </requirement_group>
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffInjuryStunned01" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm" play_in_head="true" />
-      <passive_effect name="HealthChangeOT" operation="base_subtract" value="6" />
-      <passive_effect name="FoodChangeOT" operation="base_subtract" value=".015" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm" play_in_head="true">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
+      <passive_effect name="HealthChangeOT" operation="base_subtract" value="6">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="FoodChangeOT" operation="base_subtract" value=".015">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
     <effect_group>
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="-.3" />
-      <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="melee" />
-      <passive_effect name="Mobility" operation="perc_add" value="-.2" />
-      <passive_effect name="HealthMaxBlockage" operation="base_add" value="30" />
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="-.3">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.3" tags="melee">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="Mobility" operation="perc_add" value="-.2">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="HealthMaxBlockage" operation="base_add" value="30">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
     <!-- Buff Self Remove -->
     <effect_group>
@@ -39398,15 +39875,43 @@
         <requirement name="!HasBuff" buff="buffCampfireAOEEffect" />
       </requirement_group>
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffInjuryStunned01" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm" play_in_head="true" />
-      <passive_effect name="HealthChangeOT" operation="base_subtract" value="9" />
-      <passive_effect name="FoodChangeOT" operation="base_subtract" value=".03" />
+      <triggered_effect trigger="onSelfBuffUpdate" action="PlaySound" sound="player#painsm" play_in_head="true">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </triggered_effect>
+      <passive_effect name="HealthChangeOT" operation="base_subtract" value="9">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="FoodChangeOT" operation="base_subtract" value=".03">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
     <effect_group>
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="-.6" />
-      <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.6" tags="melee" />
-      <passive_effect name="Mobility" operation="perc_add" value="-.4" />
-      <passive_effect name="HealthMaxBlockage" operation="base_add" value="60" />
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="-.6">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="AttacksPerMinute" operation="perc_add" value="-.6" tags="melee">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="Mobility" operation="perc_add" value="-.4">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="HealthMaxBlockage" operation="base_add" value="60">
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
     <!-- Buff Self Remove -->
     <effect_group>
@@ -39589,6 +40094,9 @@
     <effect_group>
       <passive_effect name="HealthChangeOT" operation="base_subtract" value="@$RadDamageValue">
         <requirement name="CVarCompare" cvar="$RadDamageCoun" operation="Equals" value="@$RadDamagePeriod" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </passive_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$RadDamageCoun" operation="set" value="0">
         <requirement name="CVarCompare" cvar="$RadDamageCoun" operation="GT" value="@$RadDamagePeriod" />
@@ -39669,6 +40177,9 @@
     <effect_group>
       <passive_effect name="HealthChangeOT" operation="base_subtract" value="@$RadDamageValue">
         <requirement name="CVarCompare" cvar="$RadDamageCoun" operation="Equals" value="@$RadDamagePeriod" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </passive_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$RadDamageCoun" operation="set" value="0">
         <requirement name="CVarCompare" cvar="$RadDamageCoun" operation="GT" value="@$RadDamagePeriod" />
@@ -39749,6 +40260,9 @@
     <effect_group>
       <passive_effect name="HealthChangeOT" operation="base_subtract" value="@$RadDamageValue">
         <requirement name="CVarCompare" cvar="$RadDamageCoun" operation="Equals" value="@$RadDamagePeriod" />
+        <requirement name="!PZAEC.SealedCabins.CabinProtected, PZAEC.SealedCabins">
+          <!--Element appended by: "ZZZPZAECSealedCabins"-->
+        </requirement>
       </passive_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$RadDamageCoun" operation="set" value="0">
         <requirement name="CVarCompare" cvar="$RadDamageCoun" operation="GT" value="@$RadDamagePeriod" />
@@ -70677,6 +71191,75 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="15" />
     <effect_group>
       <passive_effect name="PhysicalDamageResist" operation="base_add" value="6" />
+    </effect_group>
+  </buff>
+  <buff name="buffVehicleArmorLow" hidden="true">
+    <!--Element appended by: "MD-500"-->
+    <duration value="0" />
+    <damage_type value="heat" />
+    <effect_group tiered="false">
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" target_tags="player" range=".75" buff="buffVehicleArmorLowEffect" />
+    </effect_group>
+  </buff>
+  <buff name="buffVehicleArmorLowEffect" hidden="true">
+    <!--Element appended by: "MD-500"-->
+    <duration value="3" />
+    <stack_type value="replace" />
+    <effect_group tiered="false">
+      <requirement name="IsAttachedToEntity" />
+      <passive_effect name="VehicleSelfDamage" operation="perc_add" value="-.2" tags="vehicle" />
+    </effect_group>
+  </buff>
+  <buff name="buffVehicleArmorMedium" hidden="true">
+    <!--Element appended by: "MD-500"-->
+    <duration value="0" />
+    <damage_type value="heat" />
+    <effect_group tiered="false">
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" target_tags="player" range=".75" buff="buffVehicleArmorMediumEffect" />
+    </effect_group>
+  </buff>
+  <buff name="buffVehicleArmorMediumEffect" hidden="true">
+    <!--Element appended by: "MD-500"-->
+    <duration value="3" />
+    <stack_type value="replace" />
+    <effect_group tiered="false">
+      <requirement name="IsAttachedToEntity" />
+      <passive_effect name="VehicleSelfDamage" operation="perc_add" value="-.5" tags="vehicle" />
+    </effect_group>
+  </buff>
+  <buff name="buffVehicleArmorHigh" hidden="true">
+    <!--Element appended by: "MD-500"-->
+    <duration value="0" />
+    <damage_type value="heat" />
+    <effect_group tiered="false">
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" target_tags="player" range=".75" buff="buffVehicleArmorHighEffect" />
+    </effect_group>
+  </buff>
+  <buff name="buffVehicleArmorHighEffect" hidden="true">
+    <!--Element appended by: "MD-500"-->
+    <duration value="3" />
+    <stack_type value="replace" />
+    <effect_group tiered="false">
+      <requirement name="IsAttachedToEntity" />
+      <passive_effect name="VehicleSelfDamage" operation="perc_add" value="-.75" tags="vehicle" />
+    </effect_group>
+  </buff>
+  <buff name="buffVehicleArmorHighBlockDamage" hidden="true">
+    <!--Element appended by: "MD-500"-->
+    <duration value="0" />
+    <damage_type value="heat" />
+    <effect_group tiered="false">
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" target_tags="player" range=".75" buff="buffVehicleArmorHighBlockDamageEffect" />
+    </effect_group>
+  </buff>
+  <buff name="buffVehicleArmorHighBlockDamageEffect" hidden="true">
+    <!--Element appended by: "MD-500"-->
+    <duration value="3" />
+    <stack_type value="replace" />
+    <effect_group tiered="false">
+      <requirement name="IsAttachedToEntity" />
+      <passive_effect name="VehicleSelfDamage" operation="perc_add" value="-.75" tags="vehicle" />
+      <passive_effect name="VehicleBlockDamage" operation="perc_add" value="1" />
     </effect_group>
   </buff>
 </buffs>

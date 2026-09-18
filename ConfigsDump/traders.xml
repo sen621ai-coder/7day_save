@@ -1193,6 +1193,15 @@
       <item name="vehicleGyroCopterChassis" />
       <item name="vehicleGyroCopterAccessories" />
       <item name="vehicleGyrocopterPlaceable" />
+      <item name="vehicleMD500chassis">
+        <!--Element appended by: "MD-500"-->
+      </item>
+      <item name="vehicleMD500accessories">
+        <!--Element appended by: "MD-500"-->
+      </item>
+      <item name="vehicleMD500placeable">
+        <!--Element appended by: "MD-500"-->
+      </item>
     </trader_item_group>
     <!-- *** BLOCKS -->
     <!-- *** WORK_SATIONS -->

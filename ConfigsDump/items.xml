@@ -28528,7 +28528,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Meshfile" value="@:Entities/Animals/Bird/animalBirdChickenHeldPrefab.prefab" />
     <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
     <property name="Material" value="MfoodRawMeat" />
-    <property name="Stacknumber" value="1" />
+    <property name="Stacknumber" value="1000">
+      <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
+    </property>
     <property name="Weight" value="14" />
     <property name="EconomicValue" value="200" />
     <!-- <property name="SellableToTrader" value="false"/> -->
@@ -211981,6 +211983,9 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIcon" value="vehicleGyroCopterAccessories" />
     <property name="EconomicValue" value="900" />
     <property name="Group" value="AECvehicleFinalAssembly" />
+    <property name="DescriptionKey" value="aecGyroPiecesDesc">
+      <!--Element appended by: "ZZPZAECApacheFlight"-->
+    </property>
   </item>
   <item name="aecBusCityChassis">
     <!--Element appended by: "AEC_Vehicles_NoMicrocraft"-->
@@ -213185,6 +213190,266 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <effect_group tiered="false">
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="rsoRecipeSearchGuideRead" operation="set" value="1" />
       <triggered_effect trigger="onSelfPrimaryActionEnd" action="RemoveBuff" buff="buffRsoRecipeSearchGuideReminder" />
+    </effect_group>
+  </item>
+  <item name="yfPhoenixHandT16">
+    <!--Element appended by: "YFPhoenixBoss"-->
+    <property name="Extends" value="meleeHandAnimalZombieVulture" />
+    <property name="CreativeMode" value="None" />
+    <property class="Action0">
+      <property name="Delay" value=".7" />
+      <property name="DamageEntity" value="0" />
+      <property name="DamageBlock" value="0" />
+    </property>
+    <property class="Action1">
+      <property name="Class" value="Vomit" />
+      <property name="Hitmask_override" value="Arrow" />
+      <property name="Delay" value="1.2" />
+      <property name="Infinite_ammo" value="true" />
+      <property name="Magazine_items" value="yfPhoenixFireballT16" />
+      <property name="Particles_muzzle_fire" value="" />
+      <property name="Sound_warning" value="vulturevomitwarning" />
+      <property name="Sound_start" value="vulturevomitattack" />
+      <property name="Sound_repeat" value="" />
+      <property name="Sound_end" value="" />
+      <property name="Sound_empty" value="" />
+      <property name="Sound_reload" value="" />
+      <property name="WarningMax" value="0" />
+      <property name="WarningDelay" value="0" />
+    </property>
+    <effect_group name="yfPhoenixHandT16" tiered="false">
+      <passive_effect name="ModSlots" operation="base_set" value="0" />
+      <passive_effect name="MagazineSize" operation="base_set" value="1" />
+      <passive_effect name="BurstRoundCount" operation="base_set" value="2" />
+      <passive_effect name="SpreadDegreesVertical" operation="base_set" value="2" />
+      <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2" />
+      <passive_effect name="MaxRange" operation="base_set" value="60" />
+      <passive_effect name="DamageFalloffRange" operation="base_set" value="60" />
+    </effect_group>
+  </item>
+  <item name="yfPhoenixFireballT16">
+    <!--Element appended by: "YFPhoenixBoss"-->
+    <property name="Meshfile" value="#@modfolder(YFPhoenixBoss):Resources/phoenix-fire.unity3d?Assets/Phoenix/PhoenixFireball.prefab" />
+    <property name="Material" value="Morganic" />
+    <property name="CreativeMode" value="None" />
+    <property name="CustomIcon" value="ammoRocketHE" />
+    <property class="Action1">
+      <property name="Class" value="Projectile" />
+      <property name="DamageEntity" value="600" />
+      <property name="DamageBlock" value="3000" />
+      <property name="Velocity" value="24" />
+      <property name="FlyTime" value="5" />
+      <property name="LifeTime" value="6" />
+      <property name="Gravity" value="0" />
+      <property name="CollisionRadius" value="0.28" />
+      <property name="Buff" value="buffBurningFlamingArrow" />
+      <property class="Explosion">
+        <property name="BlockDamage" value="6000" />
+        <property name="EntityDamage" value="1200" />
+        <property name="ParticleIndex" value="10" />
+        <property name="Duration" value="30" />
+        <property name="Buff" value="buffBurningMolotov" />
+        <property name="RadiusBlocks" value="4" />
+        <property name="RadiusEntities" value="5" />
+      </property>
+    </property>
+    <effect_group name="yfPhoenixFireballT16" tiered="false">
+      <passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffBurningFlamingArrow" />
+    </effect_group>
+  </item>
+  <item name="yfPhoenixHandT17">
+    <!--Element appended by: "YFPhoenixBoss"-->
+    <property name="Extends" value="meleeHandAnimalZombieVulture" />
+    <property name="CreativeMode" value="None" />
+    <property class="Action0">
+      <property name="Delay" value=".7" />
+      <property name="DamageEntity" value="0" />
+      <property name="DamageBlock" value="0" />
+    </property>
+    <property class="Action1">
+      <property name="Class" value="Vomit" />
+      <property name="Hitmask_override" value="Arrow" />
+      <property name="Delay" value="1.2" />
+      <property name="Infinite_ammo" value="true" />
+      <property name="Magazine_items" value="yfPhoenixFireballT17" />
+      <property name="Particles_muzzle_fire" value="" />
+      <property name="Sound_warning" value="vulturevomitwarning" />
+      <property name="Sound_start" value="vulturevomitattack" />
+      <property name="Sound_repeat" value="" />
+      <property name="Sound_end" value="" />
+      <property name="Sound_empty" value="" />
+      <property name="Sound_reload" value="" />
+      <property name="WarningMax" value="0" />
+      <property name="WarningDelay" value="0" />
+    </property>
+    <effect_group name="yfPhoenixHandT17" tiered="false">
+      <passive_effect name="ModSlots" operation="base_set" value="0" />
+      <passive_effect name="MagazineSize" operation="base_set" value="1" />
+      <passive_effect name="BurstRoundCount" operation="base_set" value="2" />
+      <passive_effect name="SpreadDegreesVertical" operation="base_set" value="2" />
+      <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2" />
+      <passive_effect name="MaxRange" operation="base_set" value="60" />
+      <passive_effect name="DamageFalloffRange" operation="base_set" value="60" />
+    </effect_group>
+  </item>
+  <item name="yfPhoenixFireballT17">
+    <!--Element appended by: "YFPhoenixBoss"-->
+    <property name="Meshfile" value="#@modfolder(YFPhoenixBoss):Resources/phoenix-fire.unity3d?Assets/Phoenix/PhoenixFireball.prefab" />
+    <property name="Material" value="Morganic" />
+    <property name="CreativeMode" value="None" />
+    <property name="CustomIcon" value="ammoRocketHE" />
+    <property class="Action1">
+      <property name="Class" value="Projectile" />
+      <property name="DamageEntity" value="800" />
+      <property name="DamageBlock" value="4000" />
+      <property name="Velocity" value="24" />
+      <property name="FlyTime" value="5" />
+      <property name="LifeTime" value="6" />
+      <property name="Gravity" value="0" />
+      <property name="CollisionRadius" value="0.28" />
+      <property name="Buff" value="buffBurningFlamingArrow" />
+      <property class="Explosion">
+        <property name="BlockDamage" value="8000" />
+        <property name="EntityDamage" value="1600" />
+        <property name="ParticleIndex" value="10" />
+        <property name="Duration" value="30" />
+        <property name="Buff" value="buffBurningMolotov" />
+        <property name="RadiusBlocks" value="4" />
+        <property name="RadiusEntities" value="5" />
+      </property>
+    </property>
+    <effect_group name="yfPhoenixFireballT17" tiered="false">
+      <passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffBurningFlamingArrow" />
+    </effect_group>
+  </item>
+  <item name="yfPhoenixHandT18">
+    <!--Element appended by: "YFPhoenixBoss"-->
+    <property name="Extends" value="meleeHandAnimalZombieVulture" />
+    <property name="CreativeMode" value="None" />
+    <property class="Action0">
+      <property name="Delay" value=".7" />
+      <property name="DamageEntity" value="0" />
+      <property name="DamageBlock" value="0" />
+    </property>
+    <property class="Action1">
+      <property name="Class" value="Vomit" />
+      <property name="Hitmask_override" value="Arrow" />
+      <property name="Delay" value="1.2" />
+      <property name="Infinite_ammo" value="true" />
+      <property name="Magazine_items" value="yfPhoenixFireballT18" />
+      <property name="Particles_muzzle_fire" value="" />
+      <property name="Sound_warning" value="vulturevomitwarning" />
+      <property name="Sound_start" value="vulturevomitattack" />
+      <property name="Sound_repeat" value="" />
+      <property name="Sound_end" value="" />
+      <property name="Sound_empty" value="" />
+      <property name="Sound_reload" value="" />
+      <property name="WarningMax" value="0" />
+      <property name="WarningDelay" value="0" />
+    </property>
+    <effect_group name="yfPhoenixHandT18" tiered="false">
+      <passive_effect name="ModSlots" operation="base_set" value="0" />
+      <passive_effect name="MagazineSize" operation="base_set" value="1" />
+      <passive_effect name="BurstRoundCount" operation="base_set" value="2" />
+      <passive_effect name="SpreadDegreesVertical" operation="base_set" value="2" />
+      <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2" />
+      <passive_effect name="MaxRange" operation="base_set" value="60" />
+      <passive_effect name="DamageFalloffRange" operation="base_set" value="60" />
+    </effect_group>
+  </item>
+  <item name="yfPhoenixFireballT18">
+    <!--Element appended by: "YFPhoenixBoss"-->
+    <property name="Meshfile" value="#@modfolder(YFPhoenixBoss):Resources/phoenix-fire.unity3d?Assets/Phoenix/PhoenixFireball.prefab" />
+    <property name="Material" value="Morganic" />
+    <property name="CreativeMode" value="None" />
+    <property name="CustomIcon" value="ammoRocketHE" />
+    <property class="Action1">
+      <property name="Class" value="Projectile" />
+      <property name="DamageEntity" value="1000" />
+      <property name="DamageBlock" value="5000" />
+      <property name="Velocity" value="24" />
+      <property name="FlyTime" value="5" />
+      <property name="LifeTime" value="6" />
+      <property name="Gravity" value="0" />
+      <property name="CollisionRadius" value="0.28" />
+      <property name="Buff" value="buffBurningFlamingArrow" />
+      <property class="Explosion">
+        <property name="BlockDamage" value="10000" />
+        <property name="EntityDamage" value="2000" />
+        <property name="ParticleIndex" value="10" />
+        <property name="Duration" value="30" />
+        <property name="Buff" value="buffBurningMolotov" />
+        <property name="RadiusBlocks" value="4" />
+        <property name="RadiusEntities" value="5" />
+      </property>
+    </property>
+    <effect_group name="yfPhoenixFireballT18" tiered="false">
+      <passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffBurningFlamingArrow" />
+    </effect_group>
+  </item>
+  <item name="yfPhoenixHandT19">
+    <!--Element appended by: "YFPhoenixBoss"-->
+    <property name="Extends" value="meleeHandAnimalZombieVulture" />
+    <property name="CreativeMode" value="None" />
+    <property class="Action0">
+      <property name="Delay" value=".7" />
+      <property name="DamageEntity" value="0" />
+      <property name="DamageBlock" value="0" />
+    </property>
+    <property class="Action1">
+      <property name="Class" value="Vomit" />
+      <property name="Hitmask_override" value="Arrow" />
+      <property name="Delay" value="1.2" />
+      <property name="Infinite_ammo" value="true" />
+      <property name="Magazine_items" value="yfPhoenixFireballT19" />
+      <property name="Particles_muzzle_fire" value="" />
+      <property name="Sound_warning" value="vulturevomitwarning" />
+      <property name="Sound_start" value="vulturevomitattack" />
+      <property name="Sound_repeat" value="" />
+      <property name="Sound_end" value="" />
+      <property name="Sound_empty" value="" />
+      <property name="Sound_reload" value="" />
+      <property name="WarningMax" value="0" />
+      <property name="WarningDelay" value="0" />
+    </property>
+    <effect_group name="yfPhoenixHandT19" tiered="false">
+      <passive_effect name="ModSlots" operation="base_set" value="0" />
+      <passive_effect name="MagazineSize" operation="base_set" value="1" />
+      <passive_effect name="BurstRoundCount" operation="base_set" value="2" />
+      <passive_effect name="SpreadDegreesVertical" operation="base_set" value="2" />
+      <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2" />
+      <passive_effect name="MaxRange" operation="base_set" value="60" />
+      <passive_effect name="DamageFalloffRange" operation="base_set" value="60" />
+    </effect_group>
+  </item>
+  <item name="yfPhoenixFireballT19">
+    <!--Element appended by: "YFPhoenixBoss"-->
+    <property name="Meshfile" value="#@modfolder(YFPhoenixBoss):Resources/phoenix-fire.unity3d?Assets/Phoenix/PhoenixFireball.prefab" />
+    <property name="Material" value="Morganic" />
+    <property name="CreativeMode" value="None" />
+    <property name="CustomIcon" value="ammoRocketHE" />
+    <property class="Action1">
+      <property name="Class" value="Projectile" />
+      <property name="DamageEntity" value="1200" />
+      <property name="DamageBlock" value="6000" />
+      <property name="Velocity" value="24" />
+      <property name="FlyTime" value="5" />
+      <property name="LifeTime" value="6" />
+      <property name="Gravity" value="0" />
+      <property name="CollisionRadius" value="0.28" />
+      <property name="Buff" value="buffBurningFlamingArrow" />
+      <property class="Explosion">
+        <property name="BlockDamage" value="12000" />
+        <property name="EntityDamage" value="2400" />
+        <property name="ParticleIndex" value="10" />
+        <property name="Duration" value="30" />
+        <property name="Buff" value="buffBurningMolotov" />
+        <property name="RadiusBlocks" value="4" />
+        <property name="RadiusEntities" value="5" />
+      </property>
+    </property>
+    <effect_group name="yfPhoenixFireballT19" tiered="false">
+      <passive_effect name="BuffProcChance" operation="base_set" value="1" tags="buffBurningFlamingArrow" />
     </effect_group>
   </item>
   <item name="sakuraMissionBlueprintT16">
@@ -222248,6 +222513,269 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="CustomIcon" value="bundleRifle" />
     <property name="Stacknumber" value="50000" />
     <property name="SellableToTrader" value="false" />
+  </item>
+  <item name="vehicleMD500chassis">
+    <!--Element appended by: "MD-500"-->
+    <property name="Extends" value="vehicleWheels" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property name="CustomIcon" value="MD500chassis" />
+    <property name="DescriptionKey" value="vehicleMD500chassisDesc" />
+    <property name="EconomicValue" value="20000" />
+    <property name="TraderStageTemplate" value="vehicleTier4" />
+  </item>
+  <item name="vehicleMD500accessories">
+    <!--Element appended by: "MD-500"-->
+    <property name="Extends" value="vehicleWheels" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property name="CustomIcon" value="MD500accessories" />
+    <property name="DescriptionKey" value="vehicleMD500accessoriesDesc" />
+    <property name="EconomicValue" value="20000" />
+    <property name="TraderStageTemplate" value="vehicleTier4" />
+  </item>
+  <item name="vehicleMD500placeable">
+    <!--Element appended by: "MD-500"-->
+    <property name="Extends" value="vehicleGyrocopterPlaceable" />
+    <property name="Tags" value="vehicle,vstorage,vengine,vfuel,vseat,vlight,canHaveCosmetic" />
+    <property name="CustomIcon" value="MD500" />
+    <property name="DescriptionKey" value="vehicleMD500placeableDesc" />
+    <property name="Meshfile" value="#@modfolder(MD-500):Resources/MD500.unity3d?MD500heli.prefab" />
+    <property name="EconomicValue" value="60000" />
+    <property name="TraderStageTemplate" value="vehicleTier5" />
+    <property class="Action1">
+      <property name="Vehicle" value="vehicleMD500" />
+      <property name="VehicleSize" value="4.7, 4.8, 5" />
+    </property>
+    <effect_group name="Base Effects" tiered="false">
+      <passive_effect name="ModSlots" operation="base_set" value="5" />
+      <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue" />
+      <passive_effect name="DegradationMax" operation="base_set" value="1000000">
+        <!--Attribute "value" replaced by: "ZZPZAECMD500Compatibility"-->
+      </passive_effect>
+    </effect_group>
+  </item>
+  <item name="questRewardMD500PartsBundle">
+    <!--Element appended by: "MD-500"-->
+    <property name="Extends" value="questRewardBundleMaster" />
+    <property name="CreativeMode" value="Player" />
+    <property name="CustomIcon" value="bundleVehicleGyro" />
+    <property name="CustomIconTint" value="FFFFFF" />
+    <property name="ItemTypeIcon" value="bundle" />
+    <property name="DescriptionKey" value="questRewardMD500PartsBundleDesc">
+      <!--Attribute "value" replaced by: "ZZPZAECMD500Compatibility"-->
+    </property>
+    <property class="Action0">
+      <property name="Create_item" value="vehiclesSkillMagazine,vehicleWheels,questRewardVehiclePartsBundle" />
+      <property name="Create_item_count" value="3,4,1" />
+      <property name="Random_item" value="vehicleMD500chassis,vehicleMD500accessories" />
+      <property name="Random_item_count" value="1,1" />
+      <property name="Random_count" value="1" />
+      <property name="Unique_random_only" value="true" />
+    </property>
+  </item>
+  <item name="pzApacheGuidedMissile">
+    <!--Element appended by: "ZZPZAECApacheFlight"-->
+    <property name="Extends" value="ammoRocketHE" />
+    <property name="CustomIcon" value="ammoRocketHE" />
+    <property name="CustomIconTint" value="77CCFF" />
+    <property name="DescriptionKey" value="pzApacheGuidedMissileDesc" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property name="Stacknumber" value="25" />
+    <property name="EconomicValue" value="1250" />
+    <property class="Action1">
+      <property class="Explosion">
+        <property name="EntityDamage" value="150000" />
+        <property name="BlockDamage" value="50" />
+        <property name="RadiusEntities" value="5" />
+        <property name="RadiusBlocks" value="3" />
+      </property>
+    </property>
+    <effect_group name="ammoRocketHE" tiered="false">
+      <display_value name="dExRadius" value="5" />
+      <display_value name="dExBlockDamage" value="50" />
+      <display_value name="dExEntityDamage" value="150000" />
+    </effect_group>
+  </item>
+  <item name="pzApacheRocket">
+    <!--Element appended by: "ZZPZAECApacheFlight"-->
+    <property name="Extends" value="ammoRocketHE" />
+    <property name="CustomIcon" value="ammoRocketHE" />
+    <property name="DescriptionKey" value="pzApacheRocketDesc" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="250" />
+    <property class="Action1">
+      <property class="Explosion">
+        <property name="BlockDamage" value="50" />
+        <property name="EntityDamage" value="100000" />
+        <property name="RadiusBlocks" value="5" />
+        <property name="RadiusEntities" value="10" />
+        <property name="ParticleIndex" value="5" />
+      </property>
+    </property>
+    <effect_group name="ammoRocketHE" tiered="false">
+      <display_value name="dExRadius" value="10" />
+      <display_value name="dExBlockDamage" value="50" />
+      <display_value name="dExEntityDamage" value="100000" />
+    </effect_group>
+  </item>
+  <item name="pzApache30mm">
+    <!--Element appended by: "ZZPZAECApacheFlight"-->
+    <property name="Extends" value="ammo762mmBulletBall" />
+    <property name="CustomIcon" value="ammo762mmBulletAP" />
+    <property name="DescriptionKey" value="pzApache30mmDesc" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property name="Stacknumber" value="500" />
+    <property name="EconomicValue" value="45" />
+    <effect_group name="ammo762mmBulletBall" tiered="false">
+      <passive_effect name="EntityDamage" operation="base_set" value="20000" />
+      <passive_effect name="BlockDamage" operation="base_set" value="8" />
+    </effect_group>
+  </item>
+  <item name="vehicleApacheHelicopterPlaceable">
+    <!--Element appended by: "ZZPZAECApacheFlight"-->
+    <property name="Extends" value="vehicleGyrocopterPlaceable" />
+    <property name="Tags" value="vehicle,vengine,vfuel,canHaveCosmetic" />
+    <property name="CustomIcon" value="vehicleApacheHelicopterPlaceable" />
+    <property name="DescriptionKey" value="vehicleApacheHelicopterPlaceableDesc" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property name="Group" value="AECvehicleFinalAirplane" />
+    <property name="Meshfile" value="#@modfolder(ZZPZAECApacheFlight):Resources/ApacheHelicopterPrefab.unity3d?AH64ApacheHelicopter.prefab" />
+    <property name="EconomicValue" value="70000" />
+    <property name="TraderStageTemplate" value="vehicleTier5" />
+    <property class="Action1">
+      <property name="Vehicle" value="vehicleApacheHelicopter" />
+      <property name="VehicleSize" value="2.5, 2.5, 5.5" />
+    </property>
+    <effect_group name="Apache Base Effects" tiered="false">
+      <passive_effect name="ModSlots" operation="base_set" value="4" />
+      <passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue" />
+      <passive_effect name="DegradationMax" operation="base_set" value="1000000" />
+    </effect_group>
+  </item>
+  <item name="vehicleApacheHelicopterChassis">
+    <!--Element appended by: "ZZPZAECApacheFlight"-->
+    <property name="Extends" value="vehicleWheels" />
+    <property name="CustomIcon" value="vehicleApacheHelicopterChassis" />
+    <property name="DescriptionKey" value="vehicleApacheHelicopterChassisDesc" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property name="Group" value="AECvehicleFinalAssembly" />
+    <property name="EconomicValue" value="20000" />
+  </item>
+  <item name="vehicleApacheHelicopterAccessories">
+    <!--Element appended by: "ZZPZAECApacheFlight"-->
+    <property name="Extends" value="vehicleWheels" />
+    <property name="CustomIcon" value="vehicleApacheHelicopterAccessories" />
+    <property name="DescriptionKey" value="vehicleApacheHelicopterAccessoriesDesc" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property name="Group" value="AECvehicleFinalAssembly" />
+    <property name="EconomicValue" value="20000" />
+  </item>
+  <item name="vehicleM1AbramsPlaceable">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <property name="Extends" value="vehicleTruck4x4Placeable" />
+    <property name="Tags" value="vehicle,vengine,vfuel,PZAECM1" />
+    <property name="CustomIcon" value="vehicleM1AbramsPlaceable" />
+    <property name="DescriptionKey" value="vehicleM1AbramsPlaceableDesc" />
+    <property name="Meshfile" value="@:Entities/Vehicles/VTruck4x4/VTruck4x4P.prefab" />
+    <property name="EconomicValue" value="100000" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property class="Action1">
+      <property name="Vehicle" value="vehicleM1Abrams" />
+      <property name="VehicleSize" value="3.5, 2.5, 7.6" />
+    </property>
+    <effect_group name="M1 Base" tiered="false">
+      <passive_effect name="DegradationMax" operation="base_set" value="1000000" />
+      <passive_effect name="ModSlots" operation="base_set" value="0" />
+    </effect_group>
+    <property name="Stacknumber" value="1" />
+    <property name="RepairTools" value="pzM1RepairKit" />
+  </item>
+  <item name="vehicleM1AbramsT17Placeable">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <property name="Extends" value="vehicleTruck4x4Placeable" />
+    <property name="Tags" value="vehicle,vengine,vfuel,PZAECM1" />
+    <property name="CustomIcon" value="vehicleM1AbramsPlaceable" />
+    <property name="DescriptionKey" value="vehicleM1AbramsT17PlaceableDesc" />
+    <property name="Meshfile" value="@:Entities/Vehicles/VTruck4x4/VTruck4x4P.prefab" />
+    <property name="EconomicValue" value="200000" />
+    <property name="UnlockedBy" value="" />
+    <property class="Action1">
+      <property name="Vehicle" value="vehicleM1AbramsT17" />
+      <property name="VehicleSize" value="3.5, 2.5, 7.6" />
+    </property>
+    <effect_group name="M1 Base" tiered="false">
+      <passive_effect name="DegradationMax" operation="base_set" value="1500000" />
+      <passive_effect name="ModSlots" operation="base_set" value="0" />
+    </effect_group>
+    <property name="Stacknumber" value="1" />
+    <property name="RepairTools" value="pzM1RepairKit" />
+  </item>
+  <item name="vehicleM1AbramsT18Placeable">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <property name="Extends" value="vehicleTruck4x4Placeable" />
+    <property name="Tags" value="vehicle,vengine,vfuel,PZAECM1" />
+    <property name="CustomIcon" value="vehicleM1AbramsPlaceable" />
+    <property name="DescriptionKey" value="vehicleM1AbramsT18PlaceableDesc" />
+    <property name="Meshfile" value="@:Entities/Vehicles/VTruck4x4/VTruck4x4P.prefab" />
+    <property name="EconomicValue" value="300000" />
+    <property name="UnlockedBy" value="" />
+    <property class="Action1">
+      <property name="Vehicle" value="vehicleM1AbramsT18" />
+      <property name="VehicleSize" value="3.5, 2.5, 7.6" />
+    </property>
+    <effect_group name="M1 Base" tiered="false">
+      <passive_effect name="DegradationMax" operation="base_set" value="2200000" />
+      <passive_effect name="ModSlots" operation="base_set" value="0" />
+    </effect_group>
+    <property name="Stacknumber" value="1" />
+    <property name="RepairTools" value="pzM1RepairKit" />
+  </item>
+  <item name="vehicleM1AbramsT19Placeable">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <property name="Extends" value="vehicleTruck4x4Placeable" />
+    <property name="Tags" value="vehicle,vengine,vfuel,PZAECM1" />
+    <property name="CustomIcon" value="vehicleM1AbramsPlaceable" />
+    <property name="DescriptionKey" value="vehicleM1AbramsT19PlaceableDesc" />
+    <property name="Meshfile" value="@:Entities/Vehicles/VTruck4x4/VTruck4x4P.prefab" />
+    <property name="EconomicValue" value="400000" />
+    <property name="UnlockedBy" value="" />
+    <property class="Action1">
+      <property name="Vehicle" value="vehicleM1AbramsT19" />
+      <property name="VehicleSize" value="3.5, 2.5, 7.6" />
+    </property>
+    <effect_group name="M1 Base" tiered="false">
+      <passive_effect name="DegradationMax" operation="base_set" value="3200000" />
+      <passive_effect name="ModSlots" operation="base_set" value="0" />
+    </effect_group>
+    <property name="Stacknumber" value="1" />
+    <property name="RepairTools" value="pzM1RepairKit" />
+  </item>
+  <item name="pzM1Shell">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <property name="Extends" value="resourceForgedSteel" />
+    <property name="CustomIcon" value="ammoRocketHE" />
+    <property name="DescriptionKey" value="pzM1ShellDesc" />
+    <property name="Stacknumber" value="20" />
+    <property name="EconomicValue" value="500" />
+    <property name="Group" value="Ammo/Weapons" />
+  </item>
+  <item name="pzM1ShellAP">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <property name="Extends" value="resourceForgedSteel" />
+    <property name="CustomIcon" value="ammoRocketFrag" />
+    <property name="DescriptionKey" value="pzM1ShellAPDesc" />
+    <property name="Stacknumber" value="20" />
+    <property name="EconomicValue" value="500" />
+    <property name="Group" value="Ammo/Weapons" />
+  </item>
+  <item name="pzM1RepairKit">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <property name="Extends" value="resourceForgedSteel" />
+    <property name="CustomIcon" value="resourceRepairKit" />
+    <property name="DescriptionKey" value="pzM1RepairKitDesc" />
+    <property name="Stacknumber" value="20" />
+    <property name="EconomicValue" value="500" />
+    <property name="Group" value="Ammo/Weapons" />
   </item>
 </items>
 <!-- Item limit: There can be 32k items in the game. IDs are generated internally on loading the game/items. -->

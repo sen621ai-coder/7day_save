@@ -4,6 +4,8 @@
   <NextEncounterUtc>1789467942</NextEncounterUtc>
   <EncounterIds>
     <int>105235</int>
+    <int>105278</int>
+    <int>105339</int>
   </EncounterIds>
   <Missions>
     <SakuraMissionState>
@@ -95,18 +97,80 @@
       <NpcId>105235</NpcId>
       <Tier>16</Tier>
       <Leader>EOS_0002908e50a64ea0b14ac31f97e68d34</Leader>
-      <Failure />
+      <Failure>服务器重新加载，未完成任务已取消</Failure>
       <TargetX>-1586.5</TargetX>
       <TargetZ>-1226.5</TargetZ>
       <StartDistance>0</StartDistance>
-      <Phase>Searching</Phase>
+      <Phase>Failed</Phase>
       <Paused>false</Paused>
       <Guard>true</Guard>
       <Waves>0</Waves>
       <Elapsed>0</Elapsed>
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
-      <TerminalUtc>0</TerminalUtc>
+      <TerminalUtc>1789704930</TerminalUtc>
+      <Enemies />
+      <Members>
+        <EscortMember>
+          <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+          <NearSeconds>0</NearSeconds>
+          <Receipt>0</Receipt>
+        </EscortMember>
+        <EscortMember>
+          <Key>EOS_00025fe27d8444baa871ac91c524ca08</Key>
+          <NearSeconds>0</NearSeconds>
+          <Receipt>0</Receipt>
+        </EscortMember>
+      </Members>
+    </SakuraMissionState>
+    <SakuraMissionState>
+      <Id>fca2d22ed0b246ce8245fcba8fcecd34</Id>
+      <NpcId>105278</NpcId>
+      <Tier>16</Tier>
+      <Leader>EOS_0002908e50a64ea0b14ac31f97e68d34</Leader>
+      <Failure>服务器重新加载，未完成任务已取消</Failure>
+      <TargetX>-1624.5</TargetX>
+      <TargetZ>-1241.5</TargetZ>
+      <StartDistance>0</StartDistance>
+      <Phase>Failed</Phase>
+      <Paused>false</Paused>
+      <Guard>true</Guard>
+      <Waves>0</Waves>
+      <Elapsed>0</Elapsed>
+      <MissingSeconds>0</MissingSeconds>
+      <WaveDelay>0</WaveDelay>
+      <TerminalUtc>1789707792</TerminalUtc>
+      <Enemies />
+      <Members>
+        <EscortMember>
+          <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+          <NearSeconds>0</NearSeconds>
+          <Receipt>0</Receipt>
+        </EscortMember>
+        <EscortMember>
+          <Key>EOS_00025fe27d8444baa871ac91c524ca08</Key>
+          <NearSeconds>0</NearSeconds>
+          <Receipt>0</Receipt>
+        </EscortMember>
+      </Members>
+    </SakuraMissionState>
+    <SakuraMissionState>
+      <Id>d3c0940d301f4b7798e011642ec03818</Id>
+      <NpcId>105339</NpcId>
+      <Tier>16</Tier>
+      <Leader>EOS_0002908e50a64ea0b14ac31f97e68d34</Leader>
+      <Failure>服务器重新加载，未完成任务已取消</Failure>
+      <TargetX>-1560.5</TargetX>
+      <TargetZ>-1148.5</TargetZ>
+      <StartDistance>0</StartDistance>
+      <Phase>Failed</Phase>
+      <Paused>false</Paused>
+      <Guard>true</Guard>
+      <Waves>0</Waves>
+      <Elapsed>0</Elapsed>
+      <MissingSeconds>0</MissingSeconds>
+      <WaveDelay>0</WaveDelay>
+      <TerminalUtc>1789725242</TerminalUtc>
       <Enemies />
       <Members>
         <EscortMember>
@@ -135,6 +199,30 @@
       <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
       <QuestId>mintdispatcht16</QuestId>
       <Code>1630027814</Code>
+      <TraderId>-1</TraderId>
+      <Tier>16</Tier>
+      <Spawned>true</Spawned>
+    </SakuraRescueGrant>
+    <SakuraRescueGrant>
+      <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+      <QuestId>mintdispatcht16</QuestId>
+      <Code>0</Code>
+      <TraderId>-1</TraderId>
+      <Tier>16</Tier>
+      <Spawned>true</Spawned>
+    </SakuraRescueGrant>
+    <SakuraRescueGrant>
+      <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+      <QuestId>mintdispatcht16</QuestId>
+      <Code>1025804710</Code>
+      <TraderId>-1</TraderId>
+      <Tier>16</Tier>
+      <Spawned>false</Spawned>
+    </SakuraRescueGrant>
+    <SakuraRescueGrant>
+      <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+      <QuestId>mintdispatcht16</QuestId>
+      <Code>-365319854</Code>
       <TraderId>-1</TraderId>
       <Tier>16</Tier>
       <Spawned>false</Spawned>

@@ -1510,4 +1510,24 @@
       <property name="icon_clamped" value="true" />
     </compass_settings>
   </nav_object_class>
+  <nav_object_class name="MD500" extends="bicycle">
+    <!--Element appended by: "MD-500"-->
+    <property name="requirement_type" value="IsVehicleOwner" />
+    <compass_settings>
+      <property name="sprite_name" value="MD500UIicon" />
+    </compass_settings>
+    <onscreen_settings>
+      <property name="sprite_name" value="MD500UIicon" />
+    </onscreen_settings>
+  </nav_object_class>
+  <nav_object_class name="pzApacheHelicopter" extends="bicycle">
+    <!--Element appended by: "ZZPZAECApacheFlight"-->
+    <property name="requirement_type" value="IsVehicleOwner" />
+    <compass_settings>
+      <property name="sprite_name" value="pzApacheUIicon" />
+    </compass_settings>
+    <onscreen_settings>
+      <property name="sprite_name" value="pzApacheUIicon" />
+    </onscreen_settings>
+  </nav_object_class>
 </nav_object_classes>
