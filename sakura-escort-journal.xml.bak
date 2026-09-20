@@ -6,6 +6,7 @@
     <int>105235</int>
     <int>105278</int>
     <int>105339</int>
+    <int>105609</int>
   </EncounterIds>
   <Missions>
     <SakuraMissionState>
@@ -185,6 +186,37 @@
         </EscortMember>
       </Members>
     </SakuraMissionState>
+    <SakuraMissionState>
+      <Id>d564771559fa4296bfbefbafbd181479</Id>
+      <NpcId>105609</NpcId>
+      <Tier>16</Tier>
+      <Leader>EOS_0002908e50a64ea0b14ac31f97e68d34</Leader>
+      <Failure />
+      <TargetX>-1623.5</TargetX>
+      <TargetZ>-1296.5</TargetZ>
+      <StartDistance>0</StartDistance>
+      <Phase>Searching</Phase>
+      <Paused>false</Paused>
+      <Guard>true</Guard>
+      <Waves>0</Waves>
+      <Elapsed>0</Elapsed>
+      <MissingSeconds>0</MissingSeconds>
+      <WaveDelay>0</WaveDelay>
+      <TerminalUtc>0</TerminalUtc>
+      <Enemies />
+      <Members>
+        <EscortMember>
+          <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+          <NearSeconds>0</NearSeconds>
+          <Receipt>0</Receipt>
+        </EscortMember>
+        <EscortMember>
+          <Key>EOS_00025fe27d8444baa871ac91c524ca08</Key>
+          <NearSeconds>0</NearSeconds>
+          <Receipt>0</Receipt>
+        </EscortMember>
+      </Members>
+    </SakuraMissionState>
   </Missions>
   <RescueGrants>
     <SakuraRescueGrant>
@@ -217,12 +249,20 @@
       <Code>1025804710</Code>
       <TraderId>-1</TraderId>
       <Tier>16</Tier>
-      <Spawned>false</Spawned>
+      <Spawned>true</Spawned>
     </SakuraRescueGrant>
     <SakuraRescueGrant>
       <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
       <QuestId>mintdispatcht16</QuestId>
       <Code>-365319854</Code>
+      <TraderId>-1</TraderId>
+      <Tier>16</Tier>
+      <Spawned>false</Spawned>
+    </SakuraRescueGrant>
+    <SakuraRescueGrant>
+      <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+      <QuestId>mintdispatcht16</QuestId>
+      <Code>-176829275</Code>
       <TraderId>-1</TraderId>
       <Tier>16</Tier>
       <Spawned>false</Spawned>

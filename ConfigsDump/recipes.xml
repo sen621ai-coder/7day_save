@@ -69038,6 +69038,15 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="cntSteelWallCabinetSecure" count="1" />
     <ingredient name="resourceForgedSteel" count="20" />
   </recipe>
+  <recipe name="modPZAECWristShower" count="1" craft_area="workbench" craft_time="120" tags="learnable,workbenchCrafting" use_ingredient_modifier="false">
+    <!--Element appended by: "PZAECPortableShower"-->
+    <ingredient name="resourceForgedSteel" count="10" />
+    <ingredient name="resourceMechanicalParts" count="8" />
+    <ingredient name="resourceElectricParts" count="8" />
+    <ingredient name="resourceScrapPolymers" count="20" />
+    <ingredient name="resourceMetalPipe" count="4" />
+    <ingredient name="resourceDuctTape" count="5" />
+  </recipe>
 </recipes>
 <!-- Standardized order for mod ingredients -->
 <!-- resourceCloth -->

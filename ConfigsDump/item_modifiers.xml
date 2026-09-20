@@ -44907,6 +44907,18 @@
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </property>
   </item_modifier>
+  <item_modifier name="modPZAECWristShower" installable_tags="armorHands" modifier_tags="PZAECWristShower" blocked_tags="noMods" type="attachment">
+    <!--Element appended by: "PZAECPortableShower"-->
+    <property name="Extends" value="modGeneralMaster" />
+    <property name="CreativeMode" value="Player" />
+    <property name="CustomIcon" value="modArmorWaterPurifier" />
+    <property name="CustomIconTint" value="85,210,240" />
+    <property name="DescriptionKey" value="modPZAECWristShowerDesc" />
+    <property name="UnlockedBy" value="craftingArmor" />
+    <property name="EconomicValue" value="1500" />
+    <property name="Material" value="Mmetal" />
+    <property name="Group" value="Mods,Armor" />
+  </item_modifier>
 </item_modifiers>
 <!-- *** Notes: -->
 <!-- Item/Installable Tags: -->

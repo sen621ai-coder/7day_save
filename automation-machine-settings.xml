@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<MachineSettingsFile xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Schema>1</Schema>
+  <Machines>
+    <MachineSettings>
+      <Position>-1608,56,-1147</Position>
+      <Owner>EOS_00025fe27d8444baa871ac91c524ca08</Owner>
+      <Kind>yfAutoForge</Kind>
+      <Source />
+      <Target />
+      <Product>resourceBulletBundle</Product>
+      <StorageMode />
+      <Paused>false</Paused>
+      <Revision>1</Revision>
+    </MachineSettings>
+  </Machines>
+</MachineSettingsFile>

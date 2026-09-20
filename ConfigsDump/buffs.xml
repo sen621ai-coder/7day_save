@@ -2296,6 +2296,29 @@
         <requirement name="NotHasBuff" buff="buffAECVehiclesControler" />
       </triggered_effect>
     </effect_group>
+    <effect_group>
+      <!--Element appended by: "PZAECPortableShower"-->
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPZAECShowerController" />
+      <triggered_effect trigger="onSelfEnteredGame" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfRespawn" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onCombatEntered" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onOtherAttackedSelf" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onOtherDamagedSelf" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfDamagedSelf" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfPrimaryActionStart" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfSecondaryActionStart" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfPrimaryActionRayHit" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfPrimaryActionRayMiss" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfSecondaryActionRayHit" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfSecondaryActionRayMiss" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfRangedBurstShotStart" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfRangedBurstShotEnd" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfAttackedOther" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfDamagedOther" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfExplosionAttackedOther" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfExplosionDamagedOther" action="PZAECShowerCombat,PZAEC.PortableShower" />
+      <triggered_effect trigger="onSelfVehicleAttackedOther" action="PZAECShowerCombat,PZAEC.PortableShower" />
+    </effect_group>
   </buff>
   <!-- *** buffStatusCheck02 -->
   <!-- TRIGGERED_BY: Entity Class = playerMale -->
@@ -69792,31 +69815,52 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <stack_type value="ignore" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="ranged" />
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".05" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="0.8" />
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".05">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT16" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="0.8">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT16" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECHarrierT16Set3" name_key="buffPZAECHarrierResonanceName" description_key="buffPZAECHarrierResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECHarrierT16Resonance" />
+    <display_value value="$PZAECHarrierResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierT16Resonance" operation="add" value="16">
-        <requirement name="CVarCompare" cvar="$PZAECHarrierT16Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierResonance" operation="add" value="16">
+        <requirement name="CVarCompare" cvar="$PZAECHarrierResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECHarrierT16Ready" />
         <requirement name="!HasBuff" buff="buffPZAECHarrierT16Active" />
         <requirement name="HoldingItemHasTags" tags="ranged" />
         <requirement name="HitLocation" body_parts="Head" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT16" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierT16Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECHarrierT16Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECHarrierResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT16" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffPZAECHarrierT16Ready">
-        <requirement name="CVarCompare" cvar="$PZAECHarrierT16Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECHarrierResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECHarrierT16Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT16" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECHarrierT16Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECHarrierResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrier" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECHarrierT16Ready" />
     </effect_group>
   </buff>
@@ -69837,8 +69881,16 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="12" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="ranged" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1" />
-      <passive_effect name="HeadshotDamageModifier" operation="perc_add" value="1" tags="head" />
+      <passive_effect name="EntityDamage" operation="perc_add" value="1">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT16" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="HeadshotDamageModifier" operation="perc_add" value="1" tags="head">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT16" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECHarrierT16Cooldown" name_key="buffPZAECResonanceCooldownName" description_key="buffPZAECResonanceCooldownDesc" icon="ui_game_symbol_armor_iron" icon_color="180,180,180">
@@ -69851,31 +69903,52 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <stack_type value="ignore" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="ranged" />
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".06" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1.1" />
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".06">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT17" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="1.1">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT17" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECHarrierT17Set3" name_key="buffPZAECHarrierResonanceName" description_key="buffPZAECHarrierResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECHarrierT17Resonance" />
+    <display_value value="$PZAECHarrierResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierT17Resonance" operation="add" value="20">
-        <requirement name="CVarCompare" cvar="$PZAECHarrierT17Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierResonance" operation="add" value="20">
+        <requirement name="CVarCompare" cvar="$PZAECHarrierResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECHarrierT17Ready" />
         <requirement name="!HasBuff" buff="buffPZAECHarrierT17Active" />
         <requirement name="HoldingItemHasTags" tags="ranged" />
         <requirement name="HitLocation" body_parts="Head" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT17" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierT17Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECHarrierT17Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECHarrierResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT17" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffPZAECHarrierT17Ready">
-        <requirement name="CVarCompare" cvar="$PZAECHarrierT17Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECHarrierResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECHarrierT17Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT17" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECHarrierT17Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECHarrierResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrier" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECHarrierT17Ready" />
     </effect_group>
   </buff>
@@ -69896,8 +69969,16 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="16" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="ranged" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1.4" />
-      <passive_effect name="HeadshotDamageModifier" operation="perc_add" value="1.4" tags="head" />
+      <passive_effect name="EntityDamage" operation="perc_add" value="1.4">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT17" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="HeadshotDamageModifier" operation="perc_add" value="1.4" tags="head">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT17" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECHarrierT17Cooldown" name_key="buffPZAECResonanceCooldownName" description_key="buffPZAECResonanceCooldownDesc" icon="ui_game_symbol_armor_iron" icon_color="180,180,180">
@@ -69910,31 +69991,52 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <stack_type value="ignore" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="ranged" />
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".07" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".07">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT18" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="1.5">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT18" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECHarrierT18Set3" name_key="buffPZAECHarrierResonanceName" description_key="buffPZAECHarrierResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECHarrierT18Resonance" />
+    <display_value value="$PZAECHarrierResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierT18Resonance" operation="add" value="25">
-        <requirement name="CVarCompare" cvar="$PZAECHarrierT18Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierResonance" operation="add" value="25">
+        <requirement name="CVarCompare" cvar="$PZAECHarrierResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECHarrierT18Ready" />
         <requirement name="!HasBuff" buff="buffPZAECHarrierT18Active" />
         <requirement name="HoldingItemHasTags" tags="ranged" />
         <requirement name="HitLocation" body_parts="Head" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT18" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierT18Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECHarrierT18Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECHarrierResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT18" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffPZAECHarrierT18Ready">
-        <requirement name="CVarCompare" cvar="$PZAECHarrierT18Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECHarrierResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECHarrierT18Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT18" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECHarrierT18Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECHarrierResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrier" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECHarrierT18Ready" />
     </effect_group>
   </buff>
@@ -69955,8 +70057,16 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="20" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="ranged" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1.9" />
-      <passive_effect name="HeadshotDamageModifier" operation="perc_add" value="1.9" tags="head" />
+      <passive_effect name="EntityDamage" operation="perc_add" value="1.9">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT18" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="HeadshotDamageModifier" operation="perc_add" value="1.9" tags="head">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT18" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECHarrierT18Cooldown" name_key="buffPZAECResonanceCooldownName" description_key="buffPZAECResonanceCooldownDesc" icon="ui_game_symbol_armor_iron" icon_color="180,180,180">
@@ -69969,31 +70079,52 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <stack_type value="ignore" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="ranged" />
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".08" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="2" />
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value=".08">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT19" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="2">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT19" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECHarrierT19Set3" name_key="buffPZAECHarrierResonanceName" description_key="buffPZAECHarrierResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECHarrierT19Resonance" />
+    <display_value value="$PZAECHarrierResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierT19Resonance" operation="add" value="34">
-        <requirement name="CVarCompare" cvar="$PZAECHarrierT19Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierResonance" operation="add" value="34">
+        <requirement name="CVarCompare" cvar="$PZAECHarrierResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECHarrierT19Ready" />
         <requirement name="!HasBuff" buff="buffPZAECHarrierT19Active" />
         <requirement name="HoldingItemHasTags" tags="ranged" />
         <requirement name="HitLocation" body_parts="Head" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT19" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierT19Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECHarrierT19Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECHarrierResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECHarrierResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT19" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffPZAECHarrierT19Ready">
-        <requirement name="CVarCompare" cvar="$PZAECHarrierT19Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECHarrierResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECHarrierT19Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT19" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECHarrierT19Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECHarrierResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrier" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECHarrierT19Ready" />
     </effect_group>
   </buff>
@@ -70014,8 +70145,16 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="24" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="ranged" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="2.6" />
-      <passive_effect name="HeadshotDamageModifier" operation="perc_add" value="2.6" tags="head" />
+      <passive_effect name="EntityDamage" operation="perc_add" value="2.6">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT19" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="HeadshotDamageModifier" operation="perc_add" value="2.6" tags="head">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECHarrierT19" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECHarrierT19Cooldown" name_key="buffPZAECResonanceCooldownName" description_key="buffPZAECResonanceCooldownDesc" icon="ui_game_symbol_armor_iron" icon_color="180,180,180">
@@ -70027,30 +70166,51 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
-      <passive_effect name="StaminaMax" operation="base_add" value="20" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="0.8" />
+      <passive_effect name="StaminaMax" operation="base_add" value="20">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT16" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="0.8">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT16" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECStormT16Set3" name_key="buffPZAECStormResonanceName" description_key="buffPZAECStormResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECStormT16Resonance" />
+    <display_value value="$PZAECStormResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormT16Resonance" operation="add" value="8">
-        <requirement name="CVarCompare" cvar="$PZAECStormT16Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormResonance" operation="add" value="8">
+        <requirement name="CVarCompare" cvar="$PZAECStormResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECStormT16Ready" />
         <requirement name="!HasBuff" buff="buffPZAECStormT16Active" />
         <requirement name="HoldingItemHasTags" tags="ranged" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT16" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormT16Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECStormT16Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECStormResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT16" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffPZAECStormT16Ready">
-        <requirement name="CVarCompare" cvar="$PZAECStormT16Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECStormResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECStormT16Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT16" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECStormT16Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECStormResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStorm" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECStormT16Ready" />
     </effect_group>
   </buff>
@@ -70071,10 +70231,26 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="12" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="ranged" />
-      <passive_effect name="RoundsPerMinute" operation="perc_add" value="0.65" />
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.65" />
-      <passive_effect name="EntityPenetrationCount" operation="base_add" value="1" />
-      <passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.10" />
+      <passive_effect name="RoundsPerMinute" operation="perc_add" value="0.65">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT16" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.65">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT16" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityPenetrationCount" operation="base_add" value="1">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT16" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.10">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT16" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECStormT16Cooldown" name_key="buffPZAECResonanceCooldownName" description_key="buffPZAECResonanceCooldownDesc" icon="ui_game_symbol_armor_iron" icon_color="180,180,180">
@@ -70086,30 +70262,51 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
-      <passive_effect name="StaminaMax" operation="base_add" value="25" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1.1" />
+      <passive_effect name="StaminaMax" operation="base_add" value="25">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT17" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="1.1">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT17" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECStormT17Set3" name_key="buffPZAECStormResonanceName" description_key="buffPZAECStormResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECStormT17Resonance" />
+    <display_value value="$PZAECStormResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormT17Resonance" operation="add" value="10">
-        <requirement name="CVarCompare" cvar="$PZAECStormT17Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormResonance" operation="add" value="10">
+        <requirement name="CVarCompare" cvar="$PZAECStormResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECStormT17Ready" />
         <requirement name="!HasBuff" buff="buffPZAECStormT17Active" />
         <requirement name="HoldingItemHasTags" tags="ranged" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT17" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormT17Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECStormT17Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECStormResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT17" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffPZAECStormT17Ready">
-        <requirement name="CVarCompare" cvar="$PZAECStormT17Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECStormResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECStormT17Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT17" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECStormT17Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECStormResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStorm" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECStormT17Ready" />
     </effect_group>
   </buff>
@@ -70130,10 +70327,26 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="16" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="ranged" />
-      <passive_effect name="RoundsPerMinute" operation="perc_add" value="0.9" />
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.9" />
-      <passive_effect name="EntityPenetrationCount" operation="base_add" value="1" />
-      <passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.10" />
+      <passive_effect name="RoundsPerMinute" operation="perc_add" value="0.9">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT17" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="0.9">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT17" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityPenetrationCount" operation="base_add" value="1">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT17" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.10">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT17" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECStormT17Cooldown" name_key="buffPZAECResonanceCooldownName" description_key="buffPZAECResonanceCooldownDesc" icon="ui_game_symbol_armor_iron" icon_color="180,180,180">
@@ -70145,30 +70358,51 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
-      <passive_effect name="StaminaMax" operation="base_add" value="30" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+      <passive_effect name="StaminaMax" operation="base_add" value="30">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT18" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="1.5">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT18" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECStormT18Set3" name_key="buffPZAECStormResonanceName" description_key="buffPZAECStormResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECStormT18Resonance" />
+    <display_value value="$PZAECStormResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormT18Resonance" operation="add" value="13">
-        <requirement name="CVarCompare" cvar="$PZAECStormT18Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormResonance" operation="add" value="13">
+        <requirement name="CVarCompare" cvar="$PZAECStormResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECStormT18Ready" />
         <requirement name="!HasBuff" buff="buffPZAECStormT18Active" />
         <requirement name="HoldingItemHasTags" tags="ranged" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT18" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormT18Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECStormT18Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECStormResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT18" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffPZAECStormT18Ready">
-        <requirement name="CVarCompare" cvar="$PZAECStormT18Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECStormResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECStormT18Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT18" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECStormT18Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECStormResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStorm" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECStormT18Ready" />
     </effect_group>
   </buff>
@@ -70189,10 +70423,26 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="20" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="ranged" />
-      <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.2" />
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="1.2" />
-      <passive_effect name="EntityPenetrationCount" operation="base_add" value="1" />
-      <passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.10" />
+      <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.2">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT18" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="1.2">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT18" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityPenetrationCount" operation="base_add" value="1">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT18" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.10">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT18" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECStormT18Cooldown" name_key="buffPZAECResonanceCooldownName" description_key="buffPZAECResonanceCooldownDesc" icon="ui_game_symbol_armor_iron" icon_color="180,180,180">
@@ -70204,30 +70454,51 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
-      <passive_effect name="StaminaMax" operation="base_add" value="35" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="2" />
+      <passive_effect name="StaminaMax" operation="base_add" value="35">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT19" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="2">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT19" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECStormT19Set3" name_key="buffPZAECStormResonanceName" description_key="buffPZAECStormResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECStormT19Resonance" />
+    <display_value value="$PZAECStormResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormT19Resonance" operation="add" value="17">
-        <requirement name="CVarCompare" cvar="$PZAECStormT19Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormResonance" operation="add" value="17">
+        <requirement name="CVarCompare" cvar="$PZAECStormResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECStormT19Ready" />
         <requirement name="!HasBuff" buff="buffPZAECStormT19Active" />
         <requirement name="HoldingItemHasTags" tags="ranged" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT19" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormT19Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECStormT19Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECStormResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECStormResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT19" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffPZAECStormT19Ready">
-        <requirement name="CVarCompare" cvar="$PZAECStormT19Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECStormResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECStormT19Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT19" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECStormT19Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECStormResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStorm" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECStormT19Ready" />
     </effect_group>
   </buff>
@@ -70248,10 +70519,26 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="24" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="ranged" />
-      <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.6" />
-      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="1.6" />
-      <passive_effect name="EntityPenetrationCount" operation="base_add" value="1" />
-      <passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.10" />
+      <passive_effect name="RoundsPerMinute" operation="perc_add" value="1.6">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT19" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="ReloadSpeedMultiplier" operation="perc_add" value="1.6">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT19" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityPenetrationCount" operation="base_add" value="1">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT19" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.10">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECStormT19" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECStormT19Cooldown" name_key="buffPZAECResonanceCooldownName" description_key="buffPZAECResonanceCooldownDesc" icon="ui_game_symbol_armor_iron" icon_color="180,180,180">
@@ -70264,31 +70551,52 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <stack_type value="ignore" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="melee" />
-      <passive_effect name="StaminaLoss" operation="perc_add" value="-.08" tags="secondary" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="0.8" />
+      <passive_effect name="StaminaLoss" operation="perc_add" value="-.08" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT16" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="0.8">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT16" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECTremorT16Set3" name_key="buffPZAECTremorResonanceName" description_key="buffPZAECTremorResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECTremorT16Resonance" />
+    <display_value value="$PZAECTremorResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorT16Resonance" operation="add" value="25">
-        <requirement name="CVarCompare" cvar="$PZAECTremorT16Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorResonance" operation="add" value="25">
+        <requirement name="CVarCompare" cvar="$PZAECTremorResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECTremorT16Ready" />
         <requirement name="!HasBuff" buff="buffPZAECTremorT16Active" />
         <requirement name="HoldingItemHasTags" tags="melee" />
         <requirement name="IsSecondaryAttack" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT16" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorT16Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECTremorT16Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECTremorResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT16" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffPZAECTremorT16Ready">
-        <requirement name="CVarCompare" cvar="$PZAECTremorT16Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECTremorResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECTremorT16Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT16" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECTremorT16Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECTremorResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremor" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECTremorT16Ready" />
     </effect_group>
   </buff>
@@ -70309,9 +70617,21 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="12" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="melee" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary" />
-      <passive_effect name="StaminaLoss" operation="perc_add" value="-.15" tags="secondary" />
-      <passive_effect name="BlockDamage" operation="perc_set" value="0" tags="secondary" />
+      <passive_effect name="EntityDamage" operation="perc_add" value="1" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT16" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="StaminaLoss" operation="perc_add" value="-.15" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT16" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="BlockDamage" operation="perc_set" value="0" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT16" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECTremorT16Cooldown" name_key="buffPZAECResonanceCooldownName" description_key="buffPZAECResonanceCooldownDesc" icon="ui_game_symbol_armor_iron" icon_color="180,180,180">
@@ -70324,31 +70644,52 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <stack_type value="ignore" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="melee" />
-      <passive_effect name="StaminaLoss" operation="perc_add" value="-.10" tags="secondary" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1.1" />
+      <passive_effect name="StaminaLoss" operation="perc_add" value="-.10" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT17" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="1.1">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT17" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECTremorT17Set3" name_key="buffPZAECTremorResonanceName" description_key="buffPZAECTremorResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECTremorT17Resonance" />
+    <display_value value="$PZAECTremorResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorT17Resonance" operation="add" value="34">
-        <requirement name="CVarCompare" cvar="$PZAECTremorT17Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorResonance" operation="add" value="34">
+        <requirement name="CVarCompare" cvar="$PZAECTremorResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECTremorT17Ready" />
         <requirement name="!HasBuff" buff="buffPZAECTremorT17Active" />
         <requirement name="HoldingItemHasTags" tags="melee" />
         <requirement name="IsSecondaryAttack" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT17" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorT17Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECTremorT17Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECTremorResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT17" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffPZAECTremorT17Ready">
-        <requirement name="CVarCompare" cvar="$PZAECTremorT17Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECTremorResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECTremorT17Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT17" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECTremorT17Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECTremorResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremor" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECTremorT17Ready" />
     </effect_group>
   </buff>
@@ -70369,9 +70710,21 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="16" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="melee" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1.4" tags="secondary" />
-      <passive_effect name="StaminaLoss" operation="perc_add" value="-.20" tags="secondary" />
-      <passive_effect name="BlockDamage" operation="perc_set" value="0" tags="secondary" />
+      <passive_effect name="EntityDamage" operation="perc_add" value="1.4" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT17" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="StaminaLoss" operation="perc_add" value="-.20" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT17" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="BlockDamage" operation="perc_set" value="0" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT17" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECTremorT17Cooldown" name_key="buffPZAECResonanceCooldownName" description_key="buffPZAECResonanceCooldownDesc" icon="ui_game_symbol_armor_iron" icon_color="180,180,180">
@@ -70384,31 +70737,52 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <stack_type value="ignore" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="melee" />
-      <passive_effect name="StaminaLoss" operation="perc_add" value="-.12" tags="secondary" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+      <passive_effect name="StaminaLoss" operation="perc_add" value="-.12" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT18" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="1.5">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT18" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECTremorT18Set3" name_key="buffPZAECTremorResonanceName" description_key="buffPZAECTremorResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECTremorT18Resonance" />
+    <display_value value="$PZAECTremorResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorT18Resonance" operation="add" value="50">
-        <requirement name="CVarCompare" cvar="$PZAECTremorT18Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorResonance" operation="add" value="50">
+        <requirement name="CVarCompare" cvar="$PZAECTremorResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECTremorT18Ready" />
         <requirement name="!HasBuff" buff="buffPZAECTremorT18Active" />
         <requirement name="HoldingItemHasTags" tags="melee" />
         <requirement name="IsSecondaryAttack" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT18" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorT18Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECTremorT18Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECTremorResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT18" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffPZAECTremorT18Ready">
-        <requirement name="CVarCompare" cvar="$PZAECTremorT18Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECTremorResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECTremorT18Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT18" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECTremorT18Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECTremorResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremor" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECTremorT18Ready" />
     </effect_group>
   </buff>
@@ -70429,9 +70803,21 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="20" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="melee" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1.9" tags="secondary" />
-      <passive_effect name="StaminaLoss" operation="perc_add" value="-.25" tags="secondary" />
-      <passive_effect name="BlockDamage" operation="perc_set" value="0" tags="secondary" />
+      <passive_effect name="EntityDamage" operation="perc_add" value="1.9" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT18" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="StaminaLoss" operation="perc_add" value="-.25" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT18" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="BlockDamage" operation="perc_set" value="0" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT18" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECTremorT18Cooldown" name_key="buffPZAECResonanceCooldownName" description_key="buffPZAECResonanceCooldownDesc" icon="ui_game_symbol_armor_iron" icon_color="180,180,180">
@@ -70444,31 +70830,52 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <stack_type value="ignore" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="melee" />
-      <passive_effect name="StaminaLoss" operation="perc_add" value="-.14" tags="secondary" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="2" />
+      <passive_effect name="StaminaLoss" operation="perc_add" value="-.14" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT19" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="2">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT19" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECTremorT19Set3" name_key="buffPZAECTremorResonanceName" description_key="buffPZAECTremorResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECTremorT19Resonance" />
+    <display_value value="$PZAECTremorResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorT19Resonance" operation="add" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECTremorT19Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorResonance" operation="add" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECTremorResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECTremorT19Ready" />
         <requirement name="!HasBuff" buff="buffPZAECTremorT19Active" />
         <requirement name="HoldingItemHasTags" tags="melee" />
         <requirement name="IsSecondaryAttack" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT19" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorT19Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECTremorT19Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onSelfAttackedOther" action="ModifyCVar" cvar="$PZAECTremorResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECTremorResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT19" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onSelfAttackedOther" action="AddBuff" buff="buffPZAECTremorT19Ready">
-        <requirement name="CVarCompare" cvar="$PZAECTremorT19Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECTremorResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECTremorT19Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT19" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECTremorT19Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECTremorResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremor" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECTremorT19Ready" />
     </effect_group>
   </buff>
@@ -70489,9 +70896,21 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <duration value="24" />
     <effect_group>
       <requirement name="HoldingItemHasTags" tags="melee" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="2.6" tags="secondary" />
-      <passive_effect name="StaminaLoss" operation="perc_add" value="-.30" tags="secondary" />
-      <passive_effect name="BlockDamage" operation="perc_set" value="0" tags="secondary" />
+      <passive_effect name="EntityDamage" operation="perc_add" value="2.6" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT19" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="StaminaLoss" operation="perc_add" value="-.30" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT19" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="BlockDamage" operation="perc_set" value="0" tags="secondary">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECTremorT19" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECTremorT19Cooldown" name_key="buffPZAECResonanceCooldownName" description_key="buffPZAECResonanceCooldownDesc" icon="ui_game_symbol_armor_iron" icon_color="180,180,180">
@@ -70503,29 +70922,50 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
-      <passive_effect name="PhysicalDamageResist" operation="base_add" value="3" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="0.8" />
+      <passive_effect name="PhysicalDamageResist" operation="base_add" value="3">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT16" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="0.8">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT16" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECWardenT16Set3" name_key="buffPZAECWardenResonanceName" description_key="buffPZAECWardenResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECWardenT16Resonance" />
+    <display_value value="$PZAECWardenResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenT16Resonance" operation="add" value="25">
-        <requirement name="CVarCompare" cvar="$PZAECWardenT16Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenResonance" operation="add" value="25">
+        <requirement name="CVarCompare" cvar="$PZAECWardenResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECWardenT16Ready" />
         <requirement name="!HasBuff" buff="buffPZAECWardenT16Active" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT16" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenT16Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECWardenT16Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECWardenResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT16" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPZAECWardenT16Ready">
-        <requirement name="CVarCompare" cvar="$PZAECWardenT16Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECWardenResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECWardenT16Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT16" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECWardenT16Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECWardenResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWarden" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECWardenT16Ready" />
     </effect_group>
   </buff>
@@ -70545,10 +70985,21 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <stack_type value="replace" />
     <duration value="12" />
     <effect_group>
-      <passive_effect name="RunSpeed" operation="perc_add" value="0.05" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPZAECWardenT16Aura" />
+      <passive_effect name="RunSpeed" operation="perc_add" value="0.05">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT16" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPZAECWardenT16Aura">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT16" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="8" target_tags="ally,party" buff="buffPZAECWardenT16Aura">
         <requirement name="EntityTagCompare" target="other" tags="player" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT16" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
     </effect_group>
   </buff>
@@ -70571,29 +71022,50 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
-      <passive_effect name="PhysicalDamageResist" operation="base_add" value="4" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1.1" />
+      <passive_effect name="PhysicalDamageResist" operation="base_add" value="4">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT17" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="1.1">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT17" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECWardenT17Set3" name_key="buffPZAECWardenResonanceName" description_key="buffPZAECWardenResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECWardenT17Resonance" />
+    <display_value value="$PZAECWardenResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenT17Resonance" operation="add" value="34">
-        <requirement name="CVarCompare" cvar="$PZAECWardenT17Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenResonance" operation="add" value="34">
+        <requirement name="CVarCompare" cvar="$PZAECWardenResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECWardenT17Ready" />
         <requirement name="!HasBuff" buff="buffPZAECWardenT17Active" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT17" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenT17Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECWardenT17Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECWardenResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT17" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPZAECWardenT17Ready">
-        <requirement name="CVarCompare" cvar="$PZAECWardenT17Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECWardenResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECWardenT17Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT17" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECWardenT17Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECWardenResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWarden" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECWardenT17Ready" />
     </effect_group>
   </buff>
@@ -70613,10 +71085,21 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <stack_type value="replace" />
     <duration value="16" />
     <effect_group>
-      <passive_effect name="RunSpeed" operation="perc_add" value="0.08" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPZAECWardenT17Aura" />
+      <passive_effect name="RunSpeed" operation="perc_add" value="0.08">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT17" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPZAECWardenT17Aura">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT17" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="9" target_tags="ally,party" buff="buffPZAECWardenT17Aura">
         <requirement name="EntityTagCompare" target="other" tags="player" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT17" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
     </effect_group>
   </buff>
@@ -70639,29 +71122,50 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
-      <passive_effect name="PhysicalDamageResist" operation="base_add" value="5" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="1.5" />
+      <passive_effect name="PhysicalDamageResist" operation="base_add" value="5">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT18" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="1.5">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT18" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECWardenT18Set3" name_key="buffPZAECWardenResonanceName" description_key="buffPZAECWardenResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECWardenT18Resonance" />
+    <display_value value="$PZAECWardenResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenT18Resonance" operation="add" value="50">
-        <requirement name="CVarCompare" cvar="$PZAECWardenT18Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenResonance" operation="add" value="50">
+        <requirement name="CVarCompare" cvar="$PZAECWardenResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECWardenT18Ready" />
         <requirement name="!HasBuff" buff="buffPZAECWardenT18Active" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT18" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenT18Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECWardenT18Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECWardenResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT18" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPZAECWardenT18Ready">
-        <requirement name="CVarCompare" cvar="$PZAECWardenT18Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECWardenResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECWardenT18Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT18" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECWardenT18Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECWardenResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWarden" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECWardenT18Ready" />
     </effect_group>
   </buff>
@@ -70681,10 +71185,21 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <stack_type value="replace" />
     <duration value="20" />
     <effect_group>
-      <passive_effect name="RunSpeed" operation="perc_add" value="0.12" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPZAECWardenT18Aura" />
+      <passive_effect name="RunSpeed" operation="perc_add" value="0.12">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT18" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPZAECWardenT18Aura">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT18" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="10" target_tags="ally,party" buff="buffPZAECWardenT18Aura">
         <requirement name="EntityTagCompare" target="other" tags="player" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT18" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
     </effect_group>
   </buff>
@@ -70707,29 +71222,50 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
-      <passive_effect name="PhysicalDamageResist" operation="base_add" value="6" />
-      <passive_effect name="EntityDamage" operation="perc_add" value="2" />
+      <passive_effect name="PhysicalDamageResist" operation="base_add" value="6">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT19" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <passive_effect name="EntityDamage" operation="perc_add" value="2">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT19" operation="GTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
     </effect_group>
   </buff>
   <buff name="buffPZAECWardenT19Set3" name_key="buffPZAECWardenResonanceName" description_key="buffPZAECWardenResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
-    <display_value value="$PZAECWardenT19Resonance" />
+    <display_value value="$PZAECWardenResonance" />
     <display_value_key value="{0:0}/100" />
     <effect_group>
-      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenT19Resonance" operation="add" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECWardenT19Resonance" operation="LT" value="100" />
+      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenResonance" operation="add" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECWardenResonance" operation="LT" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECWardenT19Ready" />
         <requirement name="!HasBuff" buff="buffPZAECWardenT19Active" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT19" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenT19Resonance" operation="set" value="100">
-        <requirement name="CVarCompare" cvar="$PZAECWardenT19Resonance" operation="GTE" value="100" />
+      <triggered_effect trigger="onOtherAttackedSelf" action="ModifyCVar" cvar="$PZAECWardenResonance" operation="set" value="100">
+        <requirement name="CVarCompare" cvar="$PZAECWardenResonance" operation="GTE" value="100" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT19" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
       <triggered_effect trigger="onOtherAttackedSelf" action="AddBuff" buff="buffPZAECWardenT19Ready">
-        <requirement name="CVarCompare" cvar="$PZAECWardenT19Resonance" operation="GTE" value="100" />
+        <requirement name="CVarCompare" cvar="$PZAECWardenResonance" operation="GTE" value="100" />
         <requirement name="!HasBuff" buff="buffPZAECWardenT19Ready" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT19" operation="GTE" value="3">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
-      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECWardenT19Resonance" />
+      <triggered_effect trigger="onSelfBuffRemove" action="RemoveCVar" cvar="$PZAECWardenResonance">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWarden" operation="LTE" value="2">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveBuff" buff="buffPZAECWardenT19Ready" />
     </effect_group>
   </buff>
@@ -70749,10 +71285,21 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <stack_type value="replace" />
     <duration value="24" />
     <effect_group>
-      <passive_effect name="RunSpeed" operation="perc_add" value="0.16" />
-      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPZAECWardenT19Aura" />
+      <passive_effect name="RunSpeed" operation="perc_add" value="0.16">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT19" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </passive_effect>
+      <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="buffPZAECWardenT19Aura">
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT19" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
+      </triggered_effect>
       <triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" target="selfAOE" range="12" target_tags="ally,party" buff="buffPZAECWardenT19Aura">
         <requirement name="EntityTagCompare" target="other" tags="player" />
+        <requirement name="ArmorGroupCount" group_name="groupPZAECWardenT19" operation="GTE" value="4">
+          <!--Element appended by: "AEC_T16_RuntimeFix"-->
+        </requirement>
       </triggered_effect>
     </effect_group>
   </buff>
@@ -71261,6 +71808,25 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       <passive_effect name="VehicleSelfDamage" operation="perc_add" value="-.75" tags="vehicle" />
       <passive_effect name="VehicleBlockDamage" operation="perc_add" value="1" />
     </effect_group>
+  </buff>
+  <buff name="buffPZAECShowerController" hidden="true" remove_on_death="false">
+    <!--Element appended by: "PZAECPortableShower"-->
+    <stack_type value="ignore" />
+    <duration value="0" />
+    <update_rate value="1" />
+    <effect_group>
+      <triggered_effect trigger="onSelfBuffUpdate" action="PZAECShowerTick,PZAEC.PortableShower" />
+    </effect_group>
+  </buff>
+  <buff name="buffPZAECShowerActive" name_key="buffPZAECShowerActive" description_key="buffPZAECShowerActiveDesc" tooltip_key="buffPZAECShowerActiveDesc" icon="ui_game_symbol_swim" icon_color="85,210,240">
+    <!--Element appended by: "PZAECPortableShower"-->
+    <stack_type value="replace" />
+    <duration value="2" />
+  </buff>
+  <buff name="buffPZAECShowerEmpty" name_key="buffPZAECShowerEmpty" description_key="buffPZAECShowerEmptyDesc" tooltip_key="buffPZAECShowerEmptyDesc" icon="ui_game_symbol_swim" icon_color="240,180,80">
+    <!--Element appended by: "PZAECPortableShower"-->
+    <stack_type value="replace" />
+    <duration value="2" />
   </buff>
 </buffs>
 <!-- *** xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->

@@ -1129,6 +1129,9 @@
         <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="modArmorARBoots">
           <!--Element appended by: "ProjectZ"-->
         </passive_effect>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="50,100" value="1" tags="modPZAECWristShower">
+          <!--Element appended by: "PZAECPortableShower"-->
+        </passive_effect>
       </effect_group>
       <effect_group>
         <!--Element appended by: "ProjectZ"-->
@@ -1185,6 +1188,10 @@
       <display_entry item="armorParts" unlock_level="11">
         <!--Attribute "unlock_level" replaced by: "AECxProjectZ_Tweaks"-->
         <!--Element appended by: "ProjectZ"-->
+      </display_entry>
+      <display_entry icon="modArmorWaterPurifier" name_key="modPZAECWristShower" has_quality="false" unlock_level="50">
+        <!--Element appended by: "PZAECPortableShower"-->
+        <unlock_entry item="modPZAECWristShower" unlock_tier="1" />
       </display_entry>
     </crafting_skill>
     <!-- *** MEDICAL_SKILLS -->
