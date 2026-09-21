@@ -222634,7 +222634,7 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
   <item name="vehicleApacheHelicopterPlaceable">
     <!--Element appended by: "ZZPZAECApacheFlight"-->
     <property name="Extends" value="vehicleGyrocopterPlaceable" />
-    <property name="Tags" value="vehicle,vengine,vfuel,canHaveCosmetic" />
+    <property name="Tags" value="vehicle,varmor,vengine,vfuel,vlight,vstorage,canHaveCosmetic" />
     <property name="CustomIcon" value="vehicleApacheHelicopterPlaceable" />
     <property name="DescriptionKey" value="vehicleApacheHelicopterPlaceableDesc" />
     <property name="UnlockedBy" value="craftingVehicles" />
