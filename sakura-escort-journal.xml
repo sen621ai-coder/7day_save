@@ -287,18 +287,18 @@
       <NpcId>107273</NpcId>
       <Tier>16</Tier>
       <Leader>EOS_0002908e50a64ea0b14ac31f97e68d34</Leader>
-      <Failure />
+      <Failure>服务器重新加载，未完成任务已取消</Failure>
       <TargetX>-1561.5</TargetX>
       <TargetZ>-1147.5</TargetZ>
       <StartDistance>0</StartDistance>
-      <Phase>Searching</Phase>
+      <Phase>Failed</Phase>
       <Paused>false</Paused>
       <Guard>true</Guard>
       <Waves>0</Waves>
       <Elapsed>0</Elapsed>
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
-      <TerminalUtc>0</TerminalUtc>
+      <TerminalUtc>1790002218</TerminalUtc>
       <Enemies />
       <Members>
         <EscortMember>

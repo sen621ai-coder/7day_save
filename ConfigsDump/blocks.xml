@@ -13329,8 +13329,12 @@ MC_playerBlocks   SC_electrical,SC_traps,SC_decor,SC_playerHelpers
     <property name="CreativeMode" value="Player" />
     <property name="Class" value="SolarPanel" />
     <property name="SlotItem" value="solarCell" />
-    <property name="MaxPower" value="180" />
-    <property name="OutputPerStack" value="30" />
+    <property name="MaxPower" value="1800">
+      <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
+    </property>
+    <property name="OutputPerStack" value="300">
+      <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
+    </property>
     <property name="DescriptionKey" value="powerSourceDesc" />
     <property name="DisplayType" value="blockElectricalMulti" />
     <property name="Stacknumber" value="1" />
