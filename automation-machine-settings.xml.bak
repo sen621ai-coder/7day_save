@@ -8,10 +8,21 @@
       <Kind>yfAutoForge</Kind>
       <Source />
       <Target />
-      <Product>resourceBulletBundle</Product>
+      <Product>resourceBulletTip</Product>
       <StorageMode />
       <Paused>false</Paused>
-      <Revision>1</Revision>
+      <Revision>3</Revision>
+    </MachineSettings>
+    <MachineSettings>
+      <Position>-1611,56,-1147</Position>
+      <Owner>EOS_00025fe27d8444baa871ac91c524ca08</Owner>
+      <Kind>yfAutoWorkbench</Kind>
+      <Source />
+      <Target />
+      <Product>ammo762mmBulletAP</Product>
+      <StorageMode />
+      <Paused>false</Paused>
+      <Revision>2</Revision>
     </MachineSettings>
   </Machines>
 </MachineSettingsFile>
