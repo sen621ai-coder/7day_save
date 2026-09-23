@@ -24,5 +24,16 @@
       <Paused>false</Paused>
       <Revision>2</Revision>
     </MachineSettings>
+    <MachineSettings>
+      <Position>-1610,56,-1142</Position>
+      <Owner>EOS_00025fe27d8444baa871ac91c524ca08</Owner>
+      <Kind>yfAutoForge</Kind>
+      <Source />
+      <Target />
+      <Product>resourceBulletCasing</Product>
+      <StorageMode />
+      <Paused>false</Paused>
+      <Revision>1</Revision>
+    </MachineSettings>
   </Machines>
 </MachineSettingsFile>

@@ -13281,7 +13281,13 @@
     <!--Element appended by: "ProjectZ"-->
     <item group="groupPreciousMetalsBoss" loot_prob_template="veryLow" />
     <item group="groupExperimentalAlloysBoss" loot_prob_template="low" />
-    <item group="groupUniqueParts" prob=".02" />
+    <!--Element removed by: "AECxProjectZ_Tweaks" (XPath: "/lootcontainers/lootgroup[@name='groupBossAlloys']/item[@group='groupUniqueParts']")-->
+    <item group="groupUltraLightAlloysBoss" loot_prob_template="high">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </item>
+    <item group="groupStrengthAlloysBoss" loot_prob_template="high">
+      <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    </item>
   </lootgroup>
   <lootgroup name="groupSkillBook">
     <!--Element appended by: "ProjectZ"-->

@@ -69827,7 +69827,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECHarrierT16Set3" name_key="buffPZAECHarrierResonanceName" description_key="buffPZAECHarrierResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECHarrierT16Set3" name_key="buffPZAECHarrierT16Set3Name" description_key="buffPZAECHarrierResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECHarrierResonance" />
@@ -69868,7 +69868,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECHarrierT16Set4" hidden="true">
+  <buff name="buffPZAECHarrierT16Set4" name_key="buffPZAECHarrierT16Set4Name" description_key="buffPZAECHarrierSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -69915,7 +69915,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECHarrierT17Set3" name_key="buffPZAECHarrierResonanceName" description_key="buffPZAECHarrierResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECHarrierT17Set3" name_key="buffPZAECHarrierT17Set3Name" description_key="buffPZAECHarrierResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECHarrierResonance" />
@@ -69956,7 +69956,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECHarrierT17Set4" hidden="true">
+  <buff name="buffPZAECHarrierT17Set4" name_key="buffPZAECHarrierT17Set4Name" description_key="buffPZAECHarrierSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -70003,7 +70003,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECHarrierT18Set3" name_key="buffPZAECHarrierResonanceName" description_key="buffPZAECHarrierResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECHarrierT18Set3" name_key="buffPZAECHarrierT18Set3Name" description_key="buffPZAECHarrierResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECHarrierResonance" />
@@ -70044,7 +70044,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECHarrierT18Set4" hidden="true">
+  <buff name="buffPZAECHarrierT18Set4" name_key="buffPZAECHarrierT18Set4Name" description_key="buffPZAECHarrierSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -70091,7 +70091,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECHarrierT19Set3" name_key="buffPZAECHarrierResonanceName" description_key="buffPZAECHarrierResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECHarrierT19Set3" name_key="buffPZAECHarrierT19Set3Name" description_key="buffPZAECHarrierResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECHarrierResonance" />
@@ -70132,7 +70132,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECHarrierT19Set4" hidden="true">
+  <buff name="buffPZAECHarrierT19Set4" name_key="buffPZAECHarrierT19Set4Name" description_key="buffPZAECHarrierSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -70178,7 +70178,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECStormT16Set3" name_key="buffPZAECStormResonanceName" description_key="buffPZAECStormResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECStormT16Set3" name_key="buffPZAECStormT16Set3Name" description_key="buffPZAECStormResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECStormResonance" />
@@ -70218,7 +70218,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECStormT16Set4" hidden="true">
+  <buff name="buffPZAECStormT16Set4" name_key="buffPZAECStormT16Set4Name" description_key="buffPZAECStormSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -70274,7 +70274,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECStormT17Set3" name_key="buffPZAECStormResonanceName" description_key="buffPZAECStormResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECStormT17Set3" name_key="buffPZAECStormT17Set3Name" description_key="buffPZAECStormResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECStormResonance" />
@@ -70314,7 +70314,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECStormT17Set4" hidden="true">
+  <buff name="buffPZAECStormT17Set4" name_key="buffPZAECStormT17Set4Name" description_key="buffPZAECStormSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -70370,7 +70370,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECStormT18Set3" name_key="buffPZAECStormResonanceName" description_key="buffPZAECStormResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECStormT18Set3" name_key="buffPZAECStormT18Set3Name" description_key="buffPZAECStormResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECStormResonance" />
@@ -70410,7 +70410,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECStormT18Set4" hidden="true">
+  <buff name="buffPZAECStormT18Set4" name_key="buffPZAECStormT18Set4Name" description_key="buffPZAECStormSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -70466,7 +70466,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECStormT19Set3" name_key="buffPZAECStormResonanceName" description_key="buffPZAECStormResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECStormT19Set3" name_key="buffPZAECStormT19Set3Name" description_key="buffPZAECStormResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECStormResonance" />
@@ -70506,7 +70506,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECStormT19Set4" hidden="true">
+  <buff name="buffPZAECStormT19Set4" name_key="buffPZAECStormT19Set4Name" description_key="buffPZAECStormSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -70563,7 +70563,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECTremorT16Set3" name_key="buffPZAECTremorResonanceName" description_key="buffPZAECTremorResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECTremorT16Set3" name_key="buffPZAECTremorT16Set3Name" description_key="buffPZAECTremorResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECTremorResonance" />
@@ -70604,7 +70604,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECTremorT16Set4" hidden="true">
+  <buff name="buffPZAECTremorT16Set4" name_key="buffPZAECTremorT16Set4Name" description_key="buffPZAECTremorSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -70656,7 +70656,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECTremorT17Set3" name_key="buffPZAECTremorResonanceName" description_key="buffPZAECTremorResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECTremorT17Set3" name_key="buffPZAECTremorT17Set3Name" description_key="buffPZAECTremorResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECTremorResonance" />
@@ -70697,7 +70697,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECTremorT17Set4" hidden="true">
+  <buff name="buffPZAECTremorT17Set4" name_key="buffPZAECTremorT17Set4Name" description_key="buffPZAECTremorSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -70749,7 +70749,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECTremorT18Set3" name_key="buffPZAECTremorResonanceName" description_key="buffPZAECTremorResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECTremorT18Set3" name_key="buffPZAECTremorT18Set3Name" description_key="buffPZAECTremorResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECTremorResonance" />
@@ -70790,7 +70790,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECTremorT18Set4" hidden="true">
+  <buff name="buffPZAECTremorT18Set4" name_key="buffPZAECTremorT18Set4Name" description_key="buffPZAECTremorSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -70842,7 +70842,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECTremorT19Set3" name_key="buffPZAECTremorResonanceName" description_key="buffPZAECTremorResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECTremorT19Set3" name_key="buffPZAECTremorT19Set3Name" description_key="buffPZAECTremorResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECTremorResonance" />
@@ -70883,7 +70883,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECTremorT19Set4" hidden="true">
+  <buff name="buffPZAECTremorT19Set4" name_key="buffPZAECTremorT19Set4Name" description_key="buffPZAECTremorSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -70934,7 +70934,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECWardenT16Set3" name_key="buffPZAECWardenResonanceName" description_key="buffPZAECWardenResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECWardenT16Set3" name_key="buffPZAECWardenT16Set3Name" description_key="buffPZAECWardenResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECWardenResonance" />
@@ -70973,7 +70973,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECWardenT16Set4" hidden="true">
+  <buff name="buffPZAECWardenT16Set4" name_key="buffPZAECWardenT16Set4Name" description_key="buffPZAECWardenSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -71034,7 +71034,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECWardenT17Set3" name_key="buffPZAECWardenResonanceName" description_key="buffPZAECWardenResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECWardenT17Set3" name_key="buffPZAECWardenT17Set3Name" description_key="buffPZAECWardenResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECWardenResonance" />
@@ -71073,7 +71073,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECWardenT17Set4" hidden="true">
+  <buff name="buffPZAECWardenT17Set4" name_key="buffPZAECWardenT17Set4Name" description_key="buffPZAECWardenSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -71134,7 +71134,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECWardenT18Set3" name_key="buffPZAECWardenResonanceName" description_key="buffPZAECWardenResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECWardenT18Set3" name_key="buffPZAECWardenT18Set3Name" description_key="buffPZAECWardenResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECWardenResonance" />
@@ -71173,7 +71173,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECWardenT18Set4" hidden="true">
+  <buff name="buffPZAECWardenT18Set4" name_key="buffPZAECWardenT18Set4Name" description_key="buffPZAECWardenSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
@@ -71234,7 +71234,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       </passive_effect>
     </effect_group>
   </buff>
-  <buff name="buffPZAECWardenT19Set3" name_key="buffPZAECWardenResonanceName" description_key="buffPZAECWardenResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
+  <buff name="buffPZAECWardenT19Set3" name_key="buffPZAECWardenT19Set3Name" description_key="buffPZAECWardenResonanceDesc" icon="ui_game_symbol_armor_iron" icon_color="255,200,64">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <display_value value="$PZAECWardenResonance" />
@@ -71273,7 +71273,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
   </buff>
-  <buff name="buffPZAECWardenT19Set4" hidden="true">
+  <buff name="buffPZAECWardenT19Set4" name_key="buffPZAECWardenT19Set4Name" description_key="buffPZAECWardenSet4Desc" icon="ui_game_symbol_armor_iron" icon_color="100,160,255">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
     <stack_type value="ignore" />
     <effect_group>
