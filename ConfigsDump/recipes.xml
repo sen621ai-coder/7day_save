@@ -65256,6 +65256,19 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <!--Element appended by: "ProjectZ_AEC_Endgame_Overhaul_Integration"-->
     <ingredient name="resourceCloth" count="44" />
   </recipe>
+  <recipe name="yfCargoHub" count="1" craft_area="yfAutomationWorkbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="resourceForgedSteel" count="30" />
+    <ingredient name="resourceMechanicalParts" count="20" />
+    <ingredient name="resourceElectricParts" count="20" />
+    <ingredient name="resourceScrapPolymers" count="20" />
+  </recipe>
+  <recipe name="yfCargoEntranceBeacon" count="1" craft_area="yfAutomationWorkbench" craft_time="20" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="resourceForgedIron" count="2" />
+    <ingredient name="resourceElectricParts" count="4" />
+    <ingredient name="resourceScrapPolymers" count="2" />
+  </recipe>
   <recipe name="yfAutomationWorkbench" count="1" craft_area="workbench" craft_time="60" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "YFAutomationWorkshop"-->
     <ingredient name="resourceForgedIron" count="40" />
@@ -65344,6 +65357,13 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="yfAutoController" count="2" />
     <ingredient name="yfAutoMotor" count="2" />
   </recipe>
+  <recipe name="yfAutoChemistry" count="1" craft_area="yfAutomationWorkbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="yfAutoFrame" count="3" />
+    <ingredient name="yfAutoController" count="2" />
+    <ingredient name="yfAutoPump" count="2" />
+    <ingredient name="toolBeaker" count="1" />
+  </recipe>
   <recipe name="yfAutoRecycler" count="1" craft_area="yfAutomationWorkbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "YFAutomationWorkshop"-->
     <ingredient name="yfAutoFrame" count="2" />
@@ -65416,6 +65436,12 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="yfAutoTransport" count="2" />
   </recipe>
   <recipe name="yfAutoBeltStraight" count="1" craft_area="yfAutomationWorkbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="yfAutoTransport" count="1" />
+    <ingredient name="resourceForgedIron" count="2" />
+    <ingredient name="resourceMechanicalParts" count="1" />
+  </recipe>
+  <recipe name="yfAutoBeltMerge" count="1" craft_area="yfAutomationWorkbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "YFAutomationWorkshop"-->
     <ingredient name="yfAutoTransport" count="1" />
     <ingredient name="resourceForgedIron" count="2" />

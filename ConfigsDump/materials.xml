@@ -1857,6 +1857,19 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
     <property name="MaxDamage" value="100" />
     <property name="Experience" value="2" />
   </material>
+  <material id="MyfArmoredAutoMiner">
+    <!--Element appended by: "AECxProjectZ_Tweaks"-->
+    <property name="damage_category" value="metal" />
+    <property name="surface_category" value="metal" />
+    <property name="forge_category" value="iron" />
+    <property name="Hardness" type="float" value="4" />
+    <property name="explosionresistance" value="2" />
+    <property name="stepsound" value="metal" />
+    <property name="stability_glue" value="300" />
+    <property name="Mass" type="int" value="20" />
+    <property name="MaxDamage" value="500000" />
+    <property name="Experience" value="2" />
+  </material>
   <material id="MresourceResearchMaterial">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <property name="damage_category" value="organic" />

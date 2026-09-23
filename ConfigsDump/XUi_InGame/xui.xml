@@ -570,6 +570,10 @@
     <window name="windowOutput" />
     <window name="windowNonPagingHeader" />
   </window_group>
+  <window_group name="yfCargoHub" close_compass_on_open="true">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <window name="windowYFCargoHub" />
+  </window_group>
   <window_group name="yfMachineConfiguration" close_compass_on_open="true">
     <!--Element appended by: "YFAutomationWorkshop"-->
     <window name="windowYFAutomationConfiguration" />
