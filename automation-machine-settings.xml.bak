@@ -9,6 +9,7 @@
       <Source />
       <Target />
       <Product>resourceBulletTip</Product>
+      <Product2 />
       <StorageMode />
       <Paused>false</Paused>
       <Revision>3</Revision>
@@ -20,6 +21,7 @@
       <Source />
       <Target />
       <Product>ammo762mmBulletAP</Product>
+      <Product2 />
       <StorageMode />
       <Paused>false</Paused>
       <Revision>2</Revision>
@@ -31,6 +33,31 @@
       <Source />
       <Target />
       <Product>resourceBulletCasing</Product>
+      <Product2 />
+      <StorageMode />
+      <Paused>false</Paused>
+      <Revision>1</Revision>
+    </MachineSettings>
+    <MachineSettings>
+      <Position>-1616,56,-1145</Position>
+      <Owner>EOS_00025fe27d8444baa871ac91c524ca08</Owner>
+      <Kind>yfAutoChemistry</Kind>
+      <Source />
+      <Target />
+      <Product>resourceGunPowder</Product>
+      <Product2 />
+      <StorageMode />
+      <Paused>false</Paused>
+      <Revision>1</Revision>
+    </MachineSettings>
+    <MachineSettings>
+      <Position>-1615,56,-1139</Position>
+      <Owner>EOS_00025fe27d8444baa871ac91c524ca08</Owner>
+      <Kind>yfAutoRouter</Kind>
+      <Source />
+      <Target />
+      <Product>resourceForgedSteel</Product>
+      <Product2>resourceWood</Product2>
       <StorageMode />
       <Paused>false</Paused>
       <Revision>1</Revision>

@@ -65327,6 +65327,20 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="yfAutoController" count="1" />
     <ingredient name="yfAutoTransport" count="1" />
   </recipe>
+  <recipe name="yfAutoUnpacker" count="1" craft_area="yfAutomationWorkbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="yfAutoFrame" count="2" />
+    <ingredient name="yfAutoMotor" count="1" />
+    <ingredient name="yfAutoController" count="1" />
+    <ingredient name="yfAutoTransport" count="1" />
+  </recipe>
+  <recipe name="yfAutoRouter" count="1" craft_area="yfAutomationWorkbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="yfAutoFrame" count="2" />
+    <ingredient name="yfAutoMotor" count="1" />
+    <ingredient name="yfAutoController" count="1" />
+    <ingredient name="yfAutoTransport" count="1" />
+  </recipe>
   <recipe name="yfAutoPowerPort" count="1" craft_area="yfAutomationWorkbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "YFAutomationWorkshop"-->
     <ingredient name="resourceForgedIron" count="5" />
