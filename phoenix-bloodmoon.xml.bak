@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <EncounterState xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Night>166</Night>
-  <LastConsumedNight>161</LastConsumedNight>
+  <Night>171</Night>
+  <LastConsumedNight>166</LastConsumedNight>
   <Armed>true</Armed>
-  <Deadline>3991004</Deadline>
+  <Deadline>4111008</Deadline>
   <Participants>
     <string>EOS_00025fe27d8444baa871ac91c524ca08</string>
     <string>EOS_0002908e50a64ea0b14ac31f97e68d34</string>

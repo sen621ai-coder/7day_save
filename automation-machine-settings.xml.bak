@@ -60,6 +60,18 @@
       <Product2>resourceWood</Product2>
       <StorageMode />
       <Paused>false</Paused>
+      <Revision>2</Revision>
+    </MachineSettings>
+    <MachineSettings>
+      <Position>-1614,56,-1137</Position>
+      <Owner>EOS_00025fe27d8444baa871ac91c524ca08</Owner>
+      <Kind>yfAutoUnpacker</Kind>
+      <Source />
+      <Target />
+      <Product />
+      <Product2 />
+      <StorageMode />
+      <Paused>false</Paused>
       <Revision>1</Revision>
     </MachineSettings>
   </Machines>

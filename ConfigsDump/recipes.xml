@@ -7385,6 +7385,14 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
       <passive_effect name="CraftingIngredientCount" level="5,6" operation="base_add" value="1,2" tags="resourceLegendaryParts" />
     </effect_group>
   </recipe>
+  <recipe name="meleeToolRepairT5NailgunLegend" craft_time="1500" count="1" craft_area="workbenchImp" craft_tool="toolImprovedTools" tags="learnable">
+    <!--Element appended by: "ProjectZ"-->
+    <ingredient name="meleeToolRepairT4NailgunImp" count="1" />
+    <ingredient name="resourceExperimentalAlloys" count="20" />
+    <ingredient name="resourceUltraStrengthAlloys" count="12" />
+    <ingredient name="resourceDurablAlloys" count="12" />
+    <ingredient name="resourceLegendaryParts" count="5" />
+  </recipe>
   <recipe name="meleeToolPickT5AugerReact" craft_time="1500" count="1" craft_area="workbenchImp" tags="learnable">
     <!--Element appended by: "ProjectZ"-->
     <ingredient name="PortableReactor" count="1" />
@@ -65310,6 +65318,24 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceMechanicalParts" count="3" />
     <ingredient name="resourceScrapPolymers" count="8" />
   </recipe>
+  <recipe name="yfAutoArm1" count="1" craft_area="yfAutomationWorkbench" craft_time="15" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="resourceForgedIron" count="8" />
+    <ingredient name="resourceMechanicalParts" count="4" />
+    <ingredient name="resourceElectricParts" count="2" />
+  </recipe>
+  <recipe name="yfAutoArm2" count="1" craft_area="yfAutomationWorkbench" craft_time="15" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="resourceForgedIron" count="16" />
+    <ingredient name="resourceMechanicalParts" count="8" />
+    <ingredient name="resourceElectricParts" count="4" />
+  </recipe>
+  <recipe name="yfAutoArm3" count="1" craft_area="yfAutomationWorkbench" craft_time="15" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="resourceForgedIron" count="24" />
+    <ingredient name="resourceMechanicalParts" count="12" />
+    <ingredient name="resourceElectricParts" count="6" />
+  </recipe>
   <recipe name="yfAutoInput" count="1" craft_area="yfAutomationWorkbench" craft_time="30" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "YFAutomationWorkshop"-->
     <ingredient name="yfAutoFrame" count="1" />
@@ -65456,6 +65482,18 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceMechanicalParts" count="1" />
   </recipe>
   <recipe name="yfAutoBeltMerge" count="1" craft_area="yfAutomationWorkbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="yfAutoTransport" count="1" />
+    <ingredient name="resourceForgedIron" count="2" />
+    <ingredient name="resourceMechanicalParts" count="1" />
+  </recipe>
+  <recipe name="yfAutoBeltMergeLeft" count="1" craft_area="yfAutomationWorkbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
+    <!--Element appended by: "YFAutomationWorkshop"-->
+    <ingredient name="yfAutoTransport" count="1" />
+    <ingredient name="resourceForgedIron" count="2" />
+    <ingredient name="resourceMechanicalParts" count="1" />
+  </recipe>
+  <recipe name="yfAutoBeltMergeRight" count="1" craft_area="yfAutomationWorkbench" craft_time="5" always_unlocked="true" use_ingredient_modifier="false">
     <!--Element appended by: "YFAutomationWorkshop"-->
     <ingredient name="yfAutoTransport" count="1" />
     <ingredient name="resourceForgedIron" count="2" />
@@ -69001,55 +69039,55 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   <recipe name="vehicleM1AbramsPlaceable" count="1" craft_area="workbench" craft_time="1200" use_ingredient_modifier="false" tags="learnable,workbenchCrafting">
     <!--Element appended by: "ZZPZAECM1Abrams"-->
     <ingredient name="vehicleTruck4x4Placeable" count="1" />
-    <ingredient name="PZAECBuildPartsR2" count="12" />
+    <ingredient name="PZAECBuildPartsR2" count="3" />
     <ingredient name="resourcePZAECMutantHeartT16" count="3" />
     <ingredient name="resourcePZAECSiegeCapacitorT16" count="6" />
-    <ingredient name="resourceLegendaryParts" count="30" />
-    <ingredient name="resourceForgedSteel" count="1200" />
-    <ingredient name="resourceDurablAlloys" count="50" />
-    <ingredient name="resourceMechanicalParts" count="300" />
-    <ingredient name="resourceElectricParts" count="200" />
-    <ingredient name="resourceSpring" count="120" />
-    <ingredient name="smallEngine" count="2" />
+    <ingredient name="resourceLegendaryParts" count="15" />
+    <ingredient name="resourceForgedSteel" count="300" />
+    <ingredient name="resourceDurablAlloys" count="13" />
+    <ingredient name="resourceMechanicalParts" count="150" />
+    <ingredient name="resourceElectricParts" count="100" />
+    <ingredient name="resourceSpring" count="60" />
+    <ingredient name="smallEngine" count="1" />
   </recipe>
   <recipe name="vehicleM1AbramsT17Placeable" count="1" craft_area="workbench" craft_time="720" use_ingredient_modifier="false" tags="workbenchCrafting" always_unlocked="true">
     <!--Element appended by: "ZZPZAECM1Abrams"-->
     <ingredient name="vehicleM1AbramsPlaceable" count="1" />
-    <ingredient name="PZAECBuildPartsR3" count="12" />
+    <ingredient name="PZAECBuildPartsR3" count="3" />
     <ingredient name="resourcePZAECMutantHeartT17" count="3" />
     <ingredient name="resourcePZAECSiegeCapacitorT17" count="6" />
-    <ingredient name="resourceLegendaryParts" count="40" />
-    <ingredient name="resourceForgedSteel" count="600" />
-    <ingredient name="resourceDurablAlloys" count="100" />
-    <ingredient name="resourceMechanicalParts" count="150" />
-    <ingredient name="resourceElectricParts" count="100" />
-    <ingredient name="resourceSpring" count="60" />
+    <ingredient name="resourceLegendaryParts" count="20" />
+    <ingredient name="resourceForgedSteel" count="150" />
+    <ingredient name="resourceDurablAlloys" count="25" />
+    <ingredient name="resourceMechanicalParts" count="75" />
+    <ingredient name="resourceElectricParts" count="50" />
+    <ingredient name="resourceSpring" count="30" />
   </recipe>
   <recipe name="vehicleM1AbramsT18Placeable" count="1" craft_area="workbench" craft_time="900" use_ingredient_modifier="false" tags="workbenchCrafting" always_unlocked="true">
     <!--Element appended by: "ZZPZAECM1Abrams"-->
     <ingredient name="vehicleM1AbramsT17Placeable" count="1" />
-    <ingredient name="PZAECBuildPartsR4" count="15" />
+    <ingredient name="PZAECBuildPartsR4" count="4" />
     <ingredient name="resourcePZAECMutantHeartT18" count="4" />
     <ingredient name="resourcePZAECSiegeCapacitorT18" count="8" />
-    <ingredient name="resourceLegendaryParts" count="60" />
-    <ingredient name="resourceForgedSteel" count="800" />
-    <ingredient name="resourceDurablAlloys" count="150" />
-    <ingredient name="resourceMechanicalParts" count="200" />
-    <ingredient name="resourceElectricParts" count="150" />
-    <ingredient name="resourceSpring" count="80" />
+    <ingredient name="resourceLegendaryParts" count="30" />
+    <ingredient name="resourceForgedSteel" count="200" />
+    <ingredient name="resourceDurablAlloys" count="38" />
+    <ingredient name="resourceMechanicalParts" count="100" />
+    <ingredient name="resourceElectricParts" count="75" />
+    <ingredient name="resourceSpring" count="40" />
   </recipe>
   <recipe name="vehicleM1AbramsT19Placeable" count="1" craft_area="workbench" craft_time="1080" use_ingredient_modifier="false" tags="workbenchCrafting" always_unlocked="true">
     <!--Element appended by: "ZZPZAECM1Abrams"-->
     <ingredient name="vehicleM1AbramsT18Placeable" count="1" />
-    <ingredient name="PZAECBuildPartsR5" count="18" />
+    <ingredient name="PZAECBuildPartsR5" count="5" />
     <ingredient name="resourcePZAECMutantHeartT19" count="5" />
     <ingredient name="resourcePZAECSiegeCapacitorT19" count="10" />
-    <ingredient name="resourceLegendaryParts" count="90" />
-    <ingredient name="resourceForgedSteel" count="1000" />
-    <ingredient name="resourceDurablAlloys" count="200" />
-    <ingredient name="resourceMechanicalParts" count="250" />
-    <ingredient name="resourceElectricParts" count="200" />
-    <ingredient name="resourceSpring" count="100" />
+    <ingredient name="resourceLegendaryParts" count="45" />
+    <ingredient name="resourceForgedSteel" count="250" />
+    <ingredient name="resourceDurablAlloys" count="50" />
+    <ingredient name="resourceMechanicalParts" count="125" />
+    <ingredient name="resourceElectricParts" count="100" />
+    <ingredient name="resourceSpring" count="50" />
   </recipe>
   <recipe name="pzM1Shell" count="10" craft_area="workbench" craft_time="90" use_ingredient_modifier="false" tags="workbenchCrafting" always_unlocked="true">
     <!--Element appended by: "ZZPZAECM1Abrams"-->
@@ -69073,6 +69111,66 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceDurablAlloys" count="2" />
     <ingredient name="resourceMechanicalParts" count="5" />
     <ingredient name="resourceDuctTape" count="2" />
+  </recipe>
+  <recipe name="modPZAECM1Powertrain" count="1" craft_area="workbench" craft_time="120" use_ingredient_modifier="false" tags="learnable,workbenchCrafting">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <ingredient name="resourceForgedSteel" count="25" />
+    <ingredient name="resourceDurablAlloys" count="2" />
+    <ingredient name="resourceMechanicalParts" count="15" />
+    <ingredient name="resourceElectricParts" count="5" />
+    <ingredient name="resourceSpring" count="5" />
+  </recipe>
+  <recipe name="modPZAECM1Economy" count="1" craft_area="workbench" craft_time="120" use_ingredient_modifier="false" tags="learnable,workbenchCrafting">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <ingredient name="resourceForgedSteel" count="15" />
+    <ingredient name="resourceDurablAlloys" count="1" />
+    <ingredient name="resourceMechanicalParts" count="10" />
+    <ingredient name="resourceElectricParts" count="10" />
+  </recipe>
+  <recipe name="modPZAECM1Armor" count="1" craft_area="workbench" craft_time="120" use_ingredient_modifier="false" tags="learnable,workbenchCrafting">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <ingredient name="resourceForgedSteel" count="40" />
+    <ingredient name="resourceDurablAlloys" count="3" />
+    <ingredient name="resourceMechanicalParts" count="10" />
+  </recipe>
+  <recipe name="modPZAECM1Corrosion" count="1" craft_area="workbench" craft_time="120" use_ingredient_modifier="false" tags="learnable,workbenchCrafting">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <ingredient name="resourceForgedSteel" count="15" />
+    <ingredient name="resourceDurablAlloys" count="3" />
+    <ingredient name="resourceMechanicalParts" count="5" />
+    <ingredient name="resourceElectricParts" count="5" />
+    <ingredient name="resourceDuctTape" count="5" />
+  </recipe>
+  <recipe name="modPZAECM1Stabilizer" count="1" craft_area="workbench" craft_time="120" use_ingredient_modifier="false" tags="learnable,workbenchCrafting">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <ingredient name="resourceForgedSteel" count="15" />
+    <ingredient name="resourceDurablAlloys" count="2" />
+    <ingredient name="resourceMechanicalParts" count="10" />
+    <ingredient name="resourceElectricParts" count="20" />
+    <ingredient name="resourceSpring" count="5" />
+  </recipe>
+  <recipe name="modPZAECM1Autoloader" count="1" craft_area="workbench" craft_time="120" use_ingredient_modifier="false" tags="learnable,workbenchCrafting">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <ingredient name="resourceForgedSteel" count="25" />
+    <ingredient name="resourceDurablAlloys" count="2" />
+    <ingredient name="resourceMechanicalParts" count="20" />
+    <ingredient name="resourceElectricParts" count="10" />
+    <ingredient name="resourceSpring" count="10" />
+  </recipe>
+  <recipe name="pzM1MGBelt" count="1" craft_area="workbench" craft_time="30" use_ingredient_modifier="false" tags="learnable,workbenchCrafting">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <ingredient name="resourceBulletTip" count="100" />
+    <ingredient name="resourceBulletCasing" count="100" />
+    <ingredient name="resourceGunPowder" count="200" />
+    <ingredient name="resourceMechanicalParts" count="2" />
+  </recipe>
+  <recipe name="pzM1AAMissile" count="2" craft_area="workbench" craft_time="30" use_ingredient_modifier="false" tags="learnable,workbenchCrafting">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <ingredient name="resourceRocketCasing" count="2" />
+    <ingredient name="resourceRocketTip" count="2" />
+    <ingredient name="resourceForgedSteel" count="10" />
+    <ingredient name="resourceElectricParts" count="4" />
+    <ingredient name="resourceGunPowder" count="100" />
   </recipe>
   <recipe name="PZAECSteelCrateExpanded" count="1" always_unlocked="true" tags="packMuleCrafting">
     <!--Element appended by: "PZAEC_StorageExpansion"-->
@@ -69099,6 +69197,20 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceScrapPolymers" count="20" />
     <ingredient name="resourceMetalPipe" count="4" />
     <ingredient name="resourceDuctTape" count="5" />
+  </recipe>
+  <recipe name="PZAEC_SurveillanceCamera" count="1" craft_area="workbench" craft_time="30">
+    <!--Element appended by: "PZAEC_Surveillance"-->
+    <ingredient name="resourceForgedIron" count="8" />
+    <ingredient name="resourceElectricParts" count="10" />
+    <ingredient name="resourceMechanicalParts" count="4" />
+    <ingredient name="resourceBrokenGlass" count="4" />
+  </recipe>
+  <recipe name="PZAEC_SurveillanceScreen4x3" count="1" craft_area="workbench" craft_time="90">
+    <!--Element appended by: "PZAEC_Surveillance"-->
+    <ingredient name="resourceForgedIron" count="30" />
+    <ingredient name="resourceElectricParts" count="30" />
+    <ingredient name="resourceScrapPolymers" count="40" />
+    <ingredient name="resourceBrokenGlass" count="30" />
   </recipe>
 </recipes>
 <!-- Standardized order for mod ingredients -->

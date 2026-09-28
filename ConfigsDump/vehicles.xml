@@ -15027,7 +15027,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <property name="cameraTurnRate" value=".2, .35" />
     <property name="upAngleMax" value="45" />
     <property name="upForce" value="1" />
-    <property name="steerAngleMax" value="25" />
+    <property name="steerAngleMax" value="32" />
     <property name="steerRate" value="130" />
     <property name="steerCenteringRate" value="90" />
     <property name="tiltAngleMax" value="35" />
@@ -15044,6 +15044,9 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <property name="hornSound" value="suv_horn" />
     <property name="recipeName" value="vehicleM1AbramsPlaceable" />
     <property name="honkEvent" value="honk_trader_doors" />
+    <property class="storage">
+      <property name="class" value="Storage" />
+    </property>
     <property class="chassis">
       <property name="class" value="Chassis" />
       <property name="paint" value="M" />
@@ -15130,7 +15133,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <property name="cameraTurnRate" value=".2, .35" />
     <property name="upAngleMax" value="45" />
     <property name="upForce" value="1" />
-    <property name="steerAngleMax" value="25" />
+    <property name="steerAngleMax" value="32" />
     <property name="steerRate" value="130" />
     <property name="steerCenteringRate" value="90" />
     <property name="tiltAngleMax" value="35" />
@@ -15147,6 +15150,9 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <property name="hornSound" value="suv_horn" />
     <property name="recipeName" value="vehicleM1AbramsT17Placeable" />
     <property name="honkEvent" value="honk_trader_doors" />
+    <property class="storage">
+      <property name="class" value="Storage" />
+    </property>
     <property class="chassis">
       <property name="class" value="Chassis" />
       <property name="paint" value="M" />
@@ -15233,7 +15239,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <property name="cameraTurnRate" value=".2, .35" />
     <property name="upAngleMax" value="45" />
     <property name="upForce" value="1" />
-    <property name="steerAngleMax" value="25" />
+    <property name="steerAngleMax" value="32" />
     <property name="steerRate" value="130" />
     <property name="steerCenteringRate" value="90" />
     <property name="tiltAngleMax" value="35" />
@@ -15250,6 +15256,9 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <property name="hornSound" value="suv_horn" />
     <property name="recipeName" value="vehicleM1AbramsT18Placeable" />
     <property name="honkEvent" value="honk_trader_doors" />
+    <property class="storage">
+      <property name="class" value="Storage" />
+    </property>
     <property class="chassis">
       <property name="class" value="Chassis" />
       <property name="paint" value="M" />
@@ -15336,7 +15345,7 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <property name="cameraTurnRate" value=".2, .35" />
     <property name="upAngleMax" value="45" />
     <property name="upForce" value="1" />
-    <property name="steerAngleMax" value="25" />
+    <property name="steerAngleMax" value="32" />
     <property name="steerRate" value="130" />
     <property name="steerCenteringRate" value="90" />
     <property name="tiltAngleMax" value="35" />
@@ -15353,6 +15362,9 @@ RU: Оригинальные транспортные ресурсы AEC и вр
     <property name="hornSound" value="suv_horn" />
     <property name="recipeName" value="vehicleM1AbramsT19Placeable" />
     <property name="honkEvent" value="honk_trader_doors" />
+    <property class="storage">
+      <property name="class" value="Storage" />
+    </property>
     <property class="chassis">
       <property name="class" value="Chassis" />
       <property name="paint" value="M" />
