@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <surveillance version="1">
   <device id="b49d2d28-0534-4179-a8b0-b1730fdf9b4d" kind="1" x="-1619" y="65" z="-1147" owner="EOS_0002908e50a64ea0b14ac31f97e68d34" label="摄像头 -1619,65,-1147" selected="0" cycle="false" targetMarkers="false" revision="0" c0="00000000-0000-0000-0000-000000000000" c1="00000000-0000-0000-0000-000000000000" c2="00000000-0000-0000-0000-000000000000" c3="00000000-0000-0000-0000-000000000000" />
+  <device id="5c3f07ab-4f3a-4f0b-8702-8fb6736279f2" kind="2" x="-1615" y="57" z="-1149" owner="EOS_00025fe27d8444baa871ac91c524ca08" label="监控屏 -1615,57,-1149" selected="0" cycle="false" targetMarkers="false" revision="1" c0="b49d2d28-0534-4179-a8b0-b1730fdf9b4d" c1="00000000-0000-0000-0000-000000000000" c2="00000000-0000-0000-0000-000000000000" c3="00000000-0000-0000-0000-000000000000" />
 </surveillance>

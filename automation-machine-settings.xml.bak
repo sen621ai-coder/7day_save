@@ -48,7 +48,7 @@
       <Product2 />
       <StorageMode />
       <Paused>false</Paused>
-      <Revision>1</Revision>
+      <Revision>2</Revision>
     </MachineSettings>
     <MachineSettings>
       <Position>-1615,56,-1139</Position>
@@ -73,6 +73,30 @@
       <StorageMode />
       <Paused>false</Paused>
       <Revision>1</Revision>
+    </MachineSettings>
+    <MachineSettings>
+      <Position>-1627,56,-1146</Position>
+      <Owner>EOS_00025fe27d8444baa871ac91c524ca08</Owner>
+      <Kind>yfAutoRouter</Kind>
+      <Source />
+      <Target />
+      <Product>resourceWoodBundle</Product>
+      <Product2>resourceScrapBrassBundle</Product2>
+      <StorageMode />
+      <Paused>false</Paused>
+      <Revision>1</Revision>
+    </MachineSettings>
+    <MachineSettings>
+      <Position>-1625,56,-1144</Position>
+      <Owner>EOS_00025fe27d8444baa871ac91c524ca08</Owner>
+      <Kind>yfAutoRouter</Kind>
+      <Source />
+      <Target />
+      <Product>resourcePotassiumNitratePowderBundle</Product>
+      <Product2>resourceCoalBundle</Product2>
+      <StorageMode />
+      <Paused>false</Paused>
+      <Revision>2</Revision>
     </MachineSettings>
   </Machines>
 </MachineSettingsFile>

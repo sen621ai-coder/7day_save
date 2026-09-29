@@ -222932,5 +222932,41 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="EconomicValue" value="300" />
     <property name="Group" value="Ammo/Weapons" />
   </item>
+  <item name="PZAECM1AssemblyKitT16">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <property name="Extends" value="resourceForgedSteel" />
+    <property name="CustomIcon" value="resourceRepairKit" />
+    <property name="DescriptionKey" value="PZAECM1AssemblyKitT16Desc" />
+    <property name="Stacknumber" value="10" />
+    <property name="EconomicValue" value="0" />
+    <property name="Group" value="Resources" />
+  </item>
+  <item name="PZAECM1AssemblyKitT17">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <property name="Extends" value="resourceForgedSteel" />
+    <property name="CustomIcon" value="resourceRepairKit" />
+    <property name="DescriptionKey" value="PZAECM1AssemblyKitT17Desc" />
+    <property name="Stacknumber" value="10" />
+    <property name="EconomicValue" value="0" />
+    <property name="Group" value="Resources" />
+  </item>
+  <item name="PZAECM1AssemblyKitT18">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <property name="Extends" value="resourceForgedSteel" />
+    <property name="CustomIcon" value="resourceRepairKit" />
+    <property name="DescriptionKey" value="PZAECM1AssemblyKitT18Desc" />
+    <property name="Stacknumber" value="10" />
+    <property name="EconomicValue" value="0" />
+    <property name="Group" value="Resources" />
+  </item>
+  <item name="PZAECM1AssemblyKitT19">
+    <!--Element appended by: "ZZPZAECM1Abrams"-->
+    <property name="Extends" value="resourceForgedSteel" />
+    <property name="CustomIcon" value="resourceRepairKit" />
+    <property name="DescriptionKey" value="PZAECM1AssemblyKitT19Desc" />
+    <property name="Stacknumber" value="10" />
+    <property name="EconomicValue" value="0" />
+    <property name="Group" value="Resources" />
+  </item>
 </items>
 <!-- Item limit: There can be 32k items in the game. IDs are generated internally on loading the game/items. -->
