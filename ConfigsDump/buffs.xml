@@ -69770,6 +69770,15 @@ RU: Оригинальные транспортные ресурсы AEC и вр
       <triggered_effect trigger="onSelfBuffRemove" action="RemoveToolbeltMessage" message_key="rsoRecipeSearchGuideReminder" />
     </effect_group>
   </buff>
+  <buff name="buffSakuraAmbushMark" hidden="true">
+    <!--Element appended by: "SakuraPreview"-->
+    <duration value="0" />
+    <effect_group>
+      <triggered_effect trigger="onSelfBuffStart" action="SetNavObject" nav_object="zombie" add="true" />
+      <triggered_effect trigger="onSelfBuffRemove" action="SetNavObject" nav_object="zombie" add="false" />
+      <triggered_effect trigger="onSelfBuffFinish" action="SetNavObject" nav_object="zombie" add="false" />
+    </effect_group>
+  </buff>
   <buff name="buffNerdBoots" hidden="true" icon_color="0,255,255">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <stack_type value="ignore" />
