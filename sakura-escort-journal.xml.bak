@@ -22,6 +22,7 @@
     <int>114935</int>
     <int>115175</int>
     <int>115184</int>
+    <int>115581</int>
   </EncounterIds>
   <Missions>
     <SakuraMissionState>
@@ -671,9 +672,40 @@
       <NpcId>115184</NpcId>
       <Tier>16</Tier>
       <Leader>EOS_0002908e50a64ea0b14ac31f97e68d34</Leader>
-      <Failure />
+      <Failure>服务器重新加载，未完成任务已取消</Failure>
       <TargetX>-1679.5</TargetX>
       <TargetZ>-1091.5</TargetZ>
+      <StartDistance>0</StartDistance>
+      <Phase>Failed</Phase>
+      <Paused>false</Paused>
+      <Guard>true</Guard>
+      <Waves>0</Waves>
+      <Elapsed>0</Elapsed>
+      <MissingSeconds>0</MissingSeconds>
+      <WaveDelay>0</WaveDelay>
+      <TerminalUtc>1791125247</TerminalUtc>
+      <Enemies />
+      <Members>
+        <EscortMember>
+          <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+          <NearSeconds>0</NearSeconds>
+          <Receipt>0</Receipt>
+        </EscortMember>
+        <EscortMember>
+          <Key>EOS_00025fe27d8444baa871ac91c524ca08</Key>
+          <NearSeconds>0</NearSeconds>
+          <Receipt>0</Receipt>
+        </EscortMember>
+      </Members>
+    </SakuraMissionState>
+    <SakuraMissionState>
+      <Id>46caf080dcd2403a9b3d5a7e28d377cb</Id>
+      <NpcId>115581</NpcId>
+      <Tier>16</Tier>
+      <Leader>EOS_0002908e50a64ea0b14ac31f97e68d34</Leader>
+      <Failure />
+      <TargetX>-1565.5</TargetX>
+      <TargetZ>-1148.5</TargetZ>
       <StartDistance>0</StartDistance>
       <Phase>Searching</Phase>
       <Paused>false</Paused>
@@ -855,6 +887,22 @@
       <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
       <QuestId>mintdispatcht16</QuestId>
       <Code>1682841501</Code>
+      <TraderId>-1</TraderId>
+      <Tier>16</Tier>
+      <Spawned>true</Spawned>
+    </SakuraRescueGrant>
+    <SakuraRescueGrant>
+      <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+      <QuestId>mintdispatcht16</QuestId>
+      <Code>-163262809</Code>
+      <TraderId>-1</TraderId>
+      <Tier>16</Tier>
+      <Spawned>false</Spawned>
+    </SakuraRescueGrant>
+    <SakuraRescueGrant>
+      <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+      <QuestId>mintdispatcht16</QuestId>
+      <Code>-28269469</Code>
       <TraderId>-1</TraderId>
       <Tier>16</Tier>
       <Spawned>false</Spawned>

@@ -4816,48 +4816,6 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
   <recipe name="steelShapes:VariantHelper" count="1" tags="packMuleCrafting">
     <ingredient name="resourceForgedSteel" count="10" />
   </recipe>
-  <recipe name="ammoPZAECMechaCell" count="20" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting" always_unlocked="false">
-    <!--Element appended by: "PZAEC_Mecha"-->
-    <ingredient name="resourceElectricParts" count="4" />
-    <ingredient name="resourceScrapPolymers" count="4" />
-    <ingredient name="resourceForgedSteel" count="2" />
-  </recipe>
-  <recipe name="ammoPZAECMechaMissile" count="1" craft_time="120" craft_area="workbench" tags="learnable,workbenchCrafting" always_unlocked="false">
-    <!--Element appended by: "PZAEC_Mecha"-->
-    <ingredient name="ammoRocketHE" count="1" />
-    <ingredient name="resourceElectricParts" count="8" />
-    <ingredient name="resourceMechanicalParts" count="4" />
-    <ingredient name="resourceForgedSteel" count="4" />
-  </recipe>
-  <recipe name="vehicleBusterDroneChassis" count="1" craft_time="900" craft_area="aecVehicleFinalAssemblyBench" crafting_category="AECvehicleFinalAssembly" tags="learnable" always_unlocked="false">
-    <!--Element appended by: "PZAEC_Mecha"-->
-    <ingredient name="resourceForgedSteel" count="26" />
-    <ingredient name="resourceMechanicalParts" count="35" />
-    <ingredient name="resourceElectricParts" count="29" />
-  </recipe>
-  <recipe name="vehicleBusterDronePlaceable" count="1" craft_time="1200" craft_area="aecVehicleFinalAssemblyBench" crafting_category="AECvehicleFinalAssembly" tags="learnable" always_unlocked="false">
-    <!--Element appended by: "PZAEC_Mecha"-->
-    <ingredient name="vehicleBusterDroneChassis" count="1" />
-    <ingredient name="smallEngine" count="1" />
-    <ingredient name="carBattery" count="1" />
-    <ingredient name="resourceLegendaryParts" count="1" />
-    <ingredient name="resourceMechanicalParts" count="20" />
-  </recipe>
-  <recipe name="pzaecFishingRodBasic" count="1" craft_time="30">
-    <!--Element appended by: "PZAEC_Fishing"-->
-    <ingredient name="resourceWood" count="20" />
-    <ingredient name="resourceForgedIron" count="2" />
-    <ingredient name="resourceScrapPolymers" count="10" />
-    <ingredient name="resourceCloth" count="5" />
-  </recipe>
-  <recipe name="pzaecFishingBaitWorm" count="5" craft_time="5">
-    <!--Element appended by: "PZAEC_Fishing"-->
-    <ingredient name="foodRottingFlesh" count="1" />
-  </recipe>
-  <recipe name="pzaecFishingMealGrilled" count="1" craft_time="20" craft_area="campfire" craft_tool="toolCookingGrill" tags="grill">
-    <!--Element appended by: "PZAEC_Fishing"-->
-    <ingredient name="pzaecFishingFishCarp" count="1" />
-  </recipe>
   <recipe name="modEnhancedSpear" count="1" craft_time="300" craft_area="workbench" tags="learnable,workbenchCrafting">
     <!--Element appended by: "ProjectZ"-->
     <ingredient name="meleeWpnSpearT3SteelSpearParts" count="50" />
@@ -69230,6 +69188,47 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceElectricParts" count="100" />
     <ingredient name="resourceSpring" count="50" />
   </recipe>
+  <recipe name="ammoPZAECMechaCell" count="20" craft_time="60" craft_area="workbench" tags="learnable,workbenchCrafting" always_unlocked="false">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <ingredient name="resourceElectricParts" count="4" />
+    <ingredient name="resourceScrapPolymers" count="4" />
+    <ingredient name="resourceForgedSteel" count="2" />
+  </recipe>
+  <recipe name="ammoPZAECMechaMissile" count="1" craft_time="120" craft_area="workbench" tags="learnable,workbenchCrafting" always_unlocked="false">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <ingredient name="ammoRocketHE" count="1" />
+    <ingredient name="resourceElectricParts" count="8" />
+    <ingredient name="resourceMechanicalParts" count="4" />
+    <ingredient name="resourceForgedSteel" count="4" />
+  </recipe>
+  <recipe name="vehicleCombatRobotChassis" count="1" craft_time="900" craft_area="aecVehicleFinalAssemblyBench" crafting_category="AECvehicleFinalAssembly" tags="learnable" always_unlocked="false">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <ingredient name="resourceForgedSteel" count="26" />
+    <ingredient name="resourceMechanicalParts" count="35" />
+    <ingredient name="resourceElectricParts" count="29" />
+  </recipe>
+  <recipe name="vehicleCombatRobotPlaceable" count="1" craft_time="1200" craft_area="aecVehicleFinalAssemblyBench" crafting_category="AECvehicleFinalAssembly" tags="learnable" always_unlocked="false">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <ingredient name="vehicleCombatRobotChassis" count="1" />
+    <ingredient name="smallEngine" count="1" />
+    <ingredient name="carBattery" count="1" />
+    <ingredient name="resourceLegendaryParts" count="1" />
+    <ingredient name="resourceMechanicalParts" count="20" />
+  </recipe>
+  <recipe name="vehicleCombatRobotCompleteChassis" count="1" craft_time="1350" craft_area="aecVehicleFinalAssemblyBench" crafting_category="AECvehicleFinalAssembly" tags="learnable" always_unlocked="false">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <ingredient name="resourceForgedSteel" count="39" />
+    <ingredient name="resourceMechanicalParts" count="53" />
+    <ingredient name="resourceElectricParts" count="44" />
+  </recipe>
+  <recipe name="vehicleCombatRobotCompletePlaceable" count="1" craft_time="1800" craft_area="aecVehicleFinalAssemblyBench" crafting_category="AECvehicleFinalAssembly" tags="learnable" always_unlocked="false">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <ingredient name="vehicleCombatRobotCompleteChassis" count="1" />
+    <ingredient name="smallEngine" count="1" />
+    <ingredient name="carBattery" count="1" />
+    <ingredient name="resourceLegendaryParts" count="2" />
+    <ingredient name="resourceMechanicalParts" count="30" />
+  </recipe>
   <recipe name="PZAECSteelCrateExpanded" count="1" always_unlocked="true" tags="packMuleCrafting">
     <!--Element appended by: "PZAEC_StorageExpansion"-->
     <ingredient name="cntSteelWritableCrate" count="1" />
@@ -69246,6 +69245,53 @@ either via a direct cvar change or via RecipeTagUnlock passive effect. cvar is n
     <ingredient name="resourceElectricParts" count="8" />
     <ingredient name="resourceScrapPolymers" count="10" />
     <ingredient name="resourceBrokenGlass" count="8" />
+  </recipe>
+  <recipe name="pzaecFishingRodBasic" count="1" craft_time="30">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <ingredient name="resourceWood" count="20" />
+    <ingredient name="resourceForgedIron" count="2" />
+    <ingredient name="resourceScrapPolymers" count="10" />
+    <ingredient name="resourceCloth" count="5" />
+  </recipe>
+  <recipe name="pzaecFishingBaitWorm" count="5" craft_time="5">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <ingredient name="foodRottingFlesh" count="1" />
+  </recipe>
+  <recipe name="pzaecFishingMealGrilled" count="1" craft_time="20" craft_area="campfire" craft_tool="toolCookingGrill" tags="grill">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <ingredient name="pzaecFishingMeatCarp" count="1" />
+  </recipe>
+  <recipe name="pzaecFishingMealCrucian" count="1" craft_time="20" craft_area="campfire" craft_tool="toolCookingGrill" tags="grill">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <ingredient name="pzaecFishingMeatCrucian" count="1" />
+  </recipe>
+  <recipe name="pzaecFishingMealGrassCarp" count="1" craft_time="20" craft_area="campfire" craft_tool="toolCookingGrill" tags="grill">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <ingredient name="pzaecFishingMeatGrassCarp" count="1" />
+  </recipe>
+  <recipe name="pzaecFishingMealSilverCarp" count="1" craft_time="20" craft_area="campfire" craft_tool="toolCookingGrill" tags="grill">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <ingredient name="pzaecFishingMeatSilverCarp" count="1" />
+  </recipe>
+  <recipe name="pzaecFishingMealBigheadCarp" count="1" craft_time="20" craft_area="campfire" craft_tool="toolCookingGrill" tags="grill">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <ingredient name="pzaecFishingMeatBigheadCarp" count="1" />
+  </recipe>
+  <recipe name="pzaecFishingMealWhiteStrip" count="1" craft_time="20" craft_area="campfire" craft_tool="toolCookingGrill" tags="grill">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <ingredient name="pzaecFishingMeatWhiteStrip" count="1" />
+  </recipe>
+  <recipe name="pzaecFishingMealBitterling" count="1" craft_time="20" craft_area="campfire" craft_tool="toolCookingGrill" tags="grill">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <ingredient name="pzaecFishingMeatBitterling" count="1" />
+  </recipe>
+  <recipe name="pzaecFishingMealSunfish" count="1" craft_time="20" craft_area="campfire" craft_tool="toolCookingGrill" tags="grill">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <ingredient name="pzaecFishingMeatSunfish" count="1" />
+  </recipe>
+  <recipe name="pzaecFishingMeatCarp" count="12" craft_time="5">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <ingredient name="pzaecFishingFishCarp" count="1" />
   </recipe>
   <recipe name="modPZAECWristShower" count="1" craft_area="workbench" craft_time="120" tags="learnable,workbenchCrafting" use_ingredient_modifier="false">
     <!--Element appended by: "PZAECPortableShower"-->

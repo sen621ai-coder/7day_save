@@ -43199,150 +43199,6 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Material" value="MresourceRockSmall" />
     <property name="Stacknumber" value="1" />
   </item>
-  <item name="vehicleBusterDronePlaceable">
-    <!--Element appended by: "PZAEC_Mecha"-->
-    <property name="Extends" value="vehicleTruck4x4Placeable" />
-    <property name="Tags" value="vehicle,varmor,vengine,vfuel,vlight,vstorage,canHaveCosmetic,PZAECMecha" />
-    <property name="CustomIcon" value="vehicleGyrocopterPlaceable" />
-    <property name="DescriptionKey" value="vehicleBusterDronePlaceableDesc" />
-    <property name="Meshfile" value="@:Entities/Vehicles/VTruck4x4/VTruck4x4P.prefab" />
-    <property name="EconomicValue" value="150000" />
-    <property name="UnlockedBy" value="craftingVehicles" />
-    <property class="Action1">
-      <property name="Vehicle" value="vehicleBusterDrone" />
-      <property name="VehicleSize" value="3.0, 3.2, 3.4" />
-    </property>
-    <effect_group name="Buster Base" tiered="false">
-      <passive_effect name="DegradationMax" operation="base_set" value="2000000" />
-      <passive_effect name="ModSlots" operation="base_set" value="4" />
-    </effect_group>
-    <property name="Stacknumber" value="1" />
-    <property name="RepairTools" value="resourceRepairKit" />
-  </item>
-  <item name="vehicleBusterDroneChassis">
-    <!--Element appended by: "PZAEC_Mecha"-->
-    <property name="Extends" value="vehicleWheels" />
-    <property name="CustomIcon" value="vehicleGyrocopterChassis" />
-    <property name="DescriptionKey" value="vehicleBusterDroneChassisDesc" />
-    <property name="UnlockedBy" value="craftingVehicles" />
-    <property name="Group" value="AECvehicleFinalAssembly" />
-    <property name="EconomicValue" value="25000" />
-  </item>
-  <item name="ammoPZAECMechaCell">
-    <!--Element appended by: "PZAEC_Mecha"-->
-    <property name="Extends" value="resourceForgedSteel" />
-    <property name="CustomIcon" value="resourceElectricParts" />
-    <property name="DescriptionKey" value="ammoPZAECMechaCellDesc" />
-    <property name="Stacknumber" value="50000">
-      <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
-      <!--Attribute "value" replaced by: "AEC_ENDGAME_OVERHAUL"-->
-    </property>
-    <property name="EconomicValue" value="240" />
-    <property name="Group" value="Ammo/Weapons" />
-  </item>
-  <item name="ammoPZAECMechaMissile">
-    <!--Element appended by: "PZAEC_Mecha"-->
-    <property name="Extends" value="ammoRocketHE" />
-    <property name="CustomIcon" value="ammoRocketHE" />
-    <property name="DescriptionKey" value="ammoPZAECMechaMissileDesc" />
-    <property name="Stacknumber" value="50000">
-      <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
-      <!--Attribute "value" replaced by: "AEC_ENDGAME_OVERHAUL"-->
-    </property>
-    <property name="EconomicValue" value="500" />
-    <property name="Group" value="Ammo/Weapons" />
-  </item>
-  <item name="pzaecFishingRodBasic">
-    <!--Element appended by: "PZAEC_Fishing"-->
-    <property name="Tags" value="tool,noMods,pzaecFishingRod" />
-    <property name="DisplayType" value="simpleTool" />
-    <property name="DescriptionKey" value="pzaecFishingRodBasicDesc" />
-    <property name="CustomIcon" value="meleeWpnSpearT0StoneSpear" />
-    <!-- Use the native stone-axe closed grip while the fishing renderer supplies the rod. -->
-    <property name="HoldType" value="32" />
-    <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Spear/spear_stone_Prefab.prefab" />
-    <property name="Material" value="MresourceWood" />
-    <property name="Weight" value="10" />
-    <property name="Stacknumber" value="1" />
-    <property name="EconomicValue" value="40" />
-    <property name="SellableToTrader" value="false" />
-    <property name="Group" value="Tools/Traps" />
-    <property name="SoundUnholster" value="weapon_unholster" />
-    <property name="SoundHolster" value="weapon_holster" />
-    <effect_group tiered="false">
-      <passive_effect name="ModSlots" operation="base_set" value="0" />
-    </effect_group>
-  </item>
-  <item name="pzaecFishingBaitWorm">
-    <!--Element appended by: "PZAEC_Fishing"-->
-    <property name="Tags" value="pzaecFishingBait" />
-    <property name="DescriptionKey" value="pzaecFishingBaitWormDesc" />
-    <property name="CustomIcon" value="foodRottingFlesh" />
-    <property name="HoldType" value="45" />
-    <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
-    <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
-    <property name="Material" value="Morganic" />
-    <property name="Stacknumber" value="20000">
-      <!--Attribute "value" replaced by: "AEC_ENDGAME_OVERHAUL"-->
-    </property>
-    <property name="EconomicValue" value="1" />
-    <property name="SellableToTrader" value="false" />
-    <property name="Group" value="Resources" />
-  </item>
-  <item name="pzaecFishingFishCarp">
-    <!--Element appended by: "PZAEC_Fishing"-->
-    <property name="Tags" value="pzaecFishingCatch" />
-    <property name="DescriptionKey" value="pzaecFishingFishCarpDesc" />
-    <property name="CustomIcon" value="foodRawMeat" />
-    <property name="HoldType" value="45" />
-    <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
-    <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
-    <property name="Material" value="Morganic" />
-    <property name="Stacknumber" value="20000">
-      <!--Attribute "value" replaced by: "AEC_ENDGAME_OVERHAUL"-->
-    </property>
-    <property name="EconomicValue" value="12" />
-    <property name="SellableToTrader" value="false" />
-    <property name="Group" value="Food/Cooking,CFFood/Cooking" />
-  </item>
-  <item name="pzaecFishingMealGrilled">
-    <!--Element appended by: "PZAEC_Fishing"-->
-    <property name="Tags" value="food,foodSkill,fitness,farmerFoodBonus" />
-    <property name="DescriptionKey" value="pzaecFishingMealGrilledDesc" />
-    <property name="CustomIcon" value="foodGrilledMeat" />
-    <property name="HoldType" value="31" />
-    <property name="DisplayType" value="food" />
-    <property name="Meshfile" value="@:Other/Items/Food/parcelGenericPrefab.prefab" />
-    <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
-    <property name="Material" value="Morganic" />
-    <property name="Stacknumber" value="20000">
-      <!--Attribute "value" replaced by: "AEC_ENDGAME_OVERHAUL"-->
-    </property>
-    <property name="EconomicValue" value="24" />
-    <property name="SellableToTrader" value="false" />
-    <property name="SoundPickup" value="meat_grilled_grab" />
-    <property name="SoundPlace" value="meat_grilled_place" />
-    <property name="Group" value="Food/Cooking,CFFood/Cooking" />
-    <property class="Action0">
-      <property name="Class" value="Eat" />
-      <property name="Delay" value="2.1" />
-      <property name="Sound_start" value="player_eating" />
-      <property name="SmellUse" value="25" />
-    </property>
-    <effect_group tiered="false" name="Fishing food">
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthFarmer" operation="set" value="5">
-        <requirement name="HasBuff" buff="buffFarmerSetBonus" />
-      </triggered_effect>
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="10" />
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodStaminaFarmer" operation="set" value="10">
-        <requirement name="HasBuff" buff="buffFarmerSetBonus" />
-      </triggered_effect>
-      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables" />
-      <display_value name="dSmellUse" value="25" />
-    </effect_group>
-  </item>
   <item name="armorRogueHelmetImp">
     <!--Element appended by: "ProjectZ"-->
     <property name="Extends" value="armorLightMaster" param1="CustomIcon" />
@@ -223111,6 +222967,293 @@ The example below represents the statement: [sampleVar0 == 0] OR [sampleVar1 == 
     <property name="Stacknumber" value="10" />
     <property name="EconomicValue" value="0" />
     <property name="Group" value="Resources" />
+  </item>
+  <item name="vehicleCombatRobotPlaceable">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <property name="Extends" value="vehicleTruck4x4Placeable" />
+    <property name="Tags" value="vehicle,varmor,vengine,vfuel,vlight,vstorage,canHaveCosmetic,PZAECMecha" />
+    <property name="CustomIcon" value="vehicleCombatRobotPlaceable" />
+    <property name="DescriptionKey" value="vehicleCombatRobotPlaceableDesc" />
+    <property name="Meshfile" value="@:Entities/Vehicles/VTruck4x4/VTruck4x4P.prefab" />
+    <property name="EconomicValue" value="150000" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property class="Action1">
+      <property name="Vehicle" value="vehicleCombatRobot" />
+      <property name="VehicleSize" value="3.0, 3.2, 3.4" />
+    </property>
+    <effect_group name="Buster Base" tiered="false">
+      <passive_effect name="DegradationMax" operation="base_set" value="2000000" />
+      <passive_effect name="ModSlots" operation="base_set" value="4" />
+    </effect_group>
+    <property name="Stacknumber" value="1" />
+    <property name="RepairTools" value="resourceRepairKit" />
+  </item>
+  <item name="vehicleCombatRobotChassis">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <property name="Extends" value="vehicleWheels" />
+    <property name="CustomIcon" value="vehicleGyroCopterChassis" />
+    <property name="DescriptionKey" value="vehicleCombatRobotChassisDesc" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property name="Group" value="AECvehicleFinalAssembly" />
+    <property name="EconomicValue" value="25000" />
+  </item>
+  <item name="ammoPZAECMechaCell">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <property name="Extends" value="resourceForgedSteel" />
+    <property name="CustomIcon" value="ammoPZAECMechaCell" />
+    <property name="DescriptionKey" value="ammoPZAECMechaCellDesc" />
+    <property name="Stacknumber" value="200" />
+    <property name="EconomicValue" value="240" />
+    <property name="Group" value="Ammo/Weapons" />
+  </item>
+  <item name="ammoPZAECMechaMissile">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <property name="Extends" value="ammoRocketHE" />
+    <property name="CustomIcon" value="ammoPZAECMechaMissile" />
+    <property name="DescriptionKey" value="ammoPZAECMechaMissileDesc" />
+    <property name="Stacknumber" value="20" />
+    <property name="EconomicValue" value="500" />
+    <property name="Group" value="Ammo/Weapons" />
+  </item>
+  <item name="vehicleCombatRobotCompletePlaceable">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <property name="Extends" value="vehicleTruck4x4Placeable" />
+    <property name="Tags" value="vehicle,varmor,vengine,vfuel,vlight,vstorage,canHaveCosmetic,PZAECMecha" />
+    <property name="CustomIcon" value="vehicleCombatRobotCompletePlaceable" />
+    <property name="DescriptionKey" value="vehicleCombatRobotCompletePlaceableDesc" />
+    <property name="Meshfile" value="@:Entities/Vehicles/VTruck4x4/VTruck4x4P.prefab" />
+    <property name="EconomicValue" value="225000" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property class="Action1">
+      <property name="Vehicle" value="vehicleCombatRobotComplete" />
+      <property name="VehicleSize" value="3.0, 3.2, 3.4" />
+    </property>
+    <effect_group name="Buster Base" tiered="false">
+      <passive_effect name="DegradationMax" operation="base_set" value="3000000" />
+      <passive_effect name="ModSlots" operation="base_set" value="4" />
+    </effect_group>
+    <property name="Stacknumber" value="1" />
+    <property name="RepairTools" value="resourceRepairKit" />
+  </item>
+  <item name="vehicleCombatRobotCompleteChassis">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <property name="Extends" value="vehicleWheels" />
+    <property name="CustomIcon" value="vehicleGyroCopterChassis" />
+    <property name="DescriptionKey" value="vehicleCombatRobotCompleteChassisDesc" />
+    <property name="UnlockedBy" value="craftingVehicles" />
+    <property name="Group" value="AECvehicleFinalAssembly" />
+    <property name="EconomicValue" value="37500" />
+  </item>
+  <item name="pzaecFishingRodBasic">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Tags" value="tool,noMods,pzaecFishingRod" />
+    <property name="DisplayType" value="simpleTool" />
+    <property name="DescriptionKey" value="pzaecFishingRodBasicDesc" />
+    <property name="CustomIcon" value="meleeWpnSpearT0StoneSpear" />
+    <!-- Use the native stone-axe closed grip while the fishing renderer supplies the rod. -->
+    <property name="HoldType" value="32" />
+    <property name="Meshfile" value="@:Other/Items/Weapons/Melee/Spear/spear_stone_Prefab.prefab" />
+    <property name="Material" value="MresourceWood" />
+    <property name="Weight" value="10" />
+    <property name="Stacknumber" value="1" />
+    <property name="EconomicValue" value="40" />
+    <property name="SellableToTrader" value="false" />
+    <property name="Group" value="Tools/Traps" />
+    <property name="SoundUnholster" value="weapon_unholster" />
+    <property name="SoundHolster" value="weapon_holster" />
+    <effect_group tiered="false">
+      <passive_effect name="ModSlots" operation="base_set" value="0" />
+    </effect_group>
+  </item>
+  <item name="pzaecFishingBaitWorm">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Tags" value="pzaecFishingBait" />
+    <property name="DescriptionKey" value="pzaecFishingBaitWormDesc" />
+    <property name="CustomIcon" value="foodRottingFlesh" />
+    <property name="HoldType" value="45" />
+    <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+    <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+    <property name="Material" value="Morganic" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="1" />
+    <property name="SellableToTrader" value="false" />
+    <property name="Group" value="Resources" />
+  </item>
+  <item name="pzaecFishingFishCarp">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Tags" value="pzaecFishingCatch" />
+    <property name="DescriptionKey" value="pzaecFishingFishCarpDesc" />
+    <property name="CustomIcon" value="foodRawMeat" />
+    <property name="HoldType" value="45" />
+    <property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab" />
+    <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+    <property name="Material" value="Morganic" />
+    <property name="Stacknumber" value="20" />
+    <property name="EconomicValue" value="12" />
+    <property name="SellableToTrader" value="false" />
+    <property name="Group" value="Food/Cooking,CFFood/Cooking" />
+  </item>
+  <item name="pzaecFishingMealGrilled">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Tags" value="food,foodSkill,fitness,farmerFoodBonus" />
+    <property name="DescriptionKey" value="pzaecFishingMealGrilledDesc" />
+    <property name="CustomIcon" value="foodGrilledMeat" />
+    <property name="HoldType" value="31" />
+    <property name="DisplayType" value="food" />
+    <property name="Meshfile" value="@:Other/Items/Food/parcelGenericPrefab.prefab" />
+    <property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab" />
+    <property name="Material" value="Morganic" />
+    <property name="Stacknumber" value="20" />
+    <property name="EconomicValue" value="24" />
+    <property name="SellableToTrader" value="false" />
+    <property name="SoundPickup" value="meat_grilled_grab" />
+    <property name="SoundPlace" value="meat_grilled_place" />
+    <property name="Group" value="Food/Cooking,CFFood/Cooking" />
+    <property class="Action0">
+      <property name="Class" value="Eat" />
+      <property name="Delay" value="2.1" />
+      <property name="Sound_start" value="player_eating" />
+      <property name="SmellUse" value="25" />
+    </property>
+    <effect_group tiered="false" name="Fishing food">
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="$foodAmountAdd" operation="add" value="10" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthAmount" operation="add" value="5" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodHealthFarmer" operation="set" value="5">
+        <requirement name="HasBuff" buff="buffFarmerSetBonus" />
+      </triggered_effect>
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar=".foodStaminaBonusAdd" operation="add" value="10" />
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="foodStaminaFarmer" operation="set" value="10">
+        <requirement name="HasBuff" buff="buffFarmerSetBonus" />
+      </triggered_effect>
+      <triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffProcessConsumables" />
+      <display_value name="dSmellUse" value="25" />
+    </effect_group>
+  </item>
+  <item name="pzaecFishingFishCrucian">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingFishCrucianDesc" />
+  </item>
+  <item name="pzaecFishingMealCrucian">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingMealGrilled" />
+    <property name="DescriptionKey" value="pzaecFishingMealCrucianDesc" />
+  </item>
+  <item name="pzaecFishingFishGrassCarp">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingFishGrassCarpDesc" />
+  </item>
+  <item name="pzaecFishingMealGrassCarp">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingMealGrilled" />
+    <property name="DescriptionKey" value="pzaecFishingMealGrassCarpDesc" />
+  </item>
+  <item name="pzaecFishingFishSilverCarp">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingFishSilverCarpDesc" />
+  </item>
+  <item name="pzaecFishingMealSilverCarp">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingMealGrilled" />
+    <property name="DescriptionKey" value="pzaecFishingMealSilverCarpDesc" />
+  </item>
+  <item name="pzaecFishingFishBigheadCarp">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingFishBigheadCarpDesc" />
+  </item>
+  <item name="pzaecFishingMealBigheadCarp">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingMealGrilled" />
+    <property name="DescriptionKey" value="pzaecFishingMealBigheadCarpDesc" />
+  </item>
+  <item name="pzaecFishingFishWhiteStrip">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingFishWhiteStripDesc" />
+  </item>
+  <item name="pzaecFishingMealWhiteStrip">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingMealGrilled" />
+    <property name="DescriptionKey" value="pzaecFishingMealWhiteStripDesc" />
+  </item>
+  <item name="pzaecFishingFishBitterling">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingFishBitterlingDesc" />
+  </item>
+  <item name="pzaecFishingMealBitterling">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingMealGrilled" />
+    <property name="DescriptionKey" value="pzaecFishingMealBitterlingDesc" />
+  </item>
+  <item name="pzaecFishingFishSunfish">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingFishSunfishDesc" />
+  </item>
+  <item name="pzaecFishingMealSunfish">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingMealGrilled" />
+    <property name="DescriptionKey" value="pzaecFishingMealSunfishDesc" />
+  </item>
+  <item name="pzaecFishingMeatCarp">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingMeatCarpDesc" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="2" />
+  </item>
+  <item name="pzaecFishingMeatCrucian">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingMeatCrucianDesc" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="2" />
+  </item>
+  <item name="pzaecFishingMeatGrassCarp">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingMeatGrassCarpDesc" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="2" />
+  </item>
+  <item name="pzaecFishingMeatSilverCarp">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingMeatSilverCarpDesc" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="2" />
+  </item>
+  <item name="pzaecFishingMeatBigheadCarp">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingMeatBigheadCarpDesc" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="2" />
+  </item>
+  <item name="pzaecFishingMeatWhiteStrip">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingMeatWhiteStripDesc" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="2" />
+  </item>
+  <item name="pzaecFishingMeatBitterling">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingMeatBitterlingDesc" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="2" />
+  </item>
+  <item name="pzaecFishingMeatSunfish">
+    <!--Element appended by: "PZAEC_Fishing"-->
+    <property name="Extends" value="pzaecFishingFishCarp" />
+    <property name="DescriptionKey" value="pzaecFishingMeatSunfishDesc" />
+    <property name="Stacknumber" value="100" />
+    <property name="EconomicValue" value="2" />
   </item>
 </items>
 <!-- Item limit: There can be 32k items in the game. IDs are generated internally on loading the game/items. -->
