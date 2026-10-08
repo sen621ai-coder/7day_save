@@ -1194,6 +1194,20 @@
         <unlock_entry item="modPZAECWristShower" unlock_tier="1" />
       </display_entry>
     </crafting_skill>
+    <!-- *** BACKPACK_SKILLS -->
+    <crafting_skill name="craftingBackpack" max_level="100" parent="attCrafting" name_key="craftingBackpackName" desc_key="craftingBackpackDesc" long_desc_key="craftingBackpackLongDesc" icon="ui_game_symbol_backpack">
+      <display_entry item="backpackSmall" unlock_level="5,10,15,20,25,30" />
+      <display_entry item="backpackMedium" unlock_level="40,45,50,55,60,65" />
+      <display_entry item="backpackLarge" unlock_level="75,80,85,90,95,100" />
+      <effect_group>
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="5,100" value="1" tags="backpackSmall" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="40,100" value="1" tags="backpackMedium" />
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="75,100" value="1" tags="backpackLarge" />
+        <passive_effect name="CraftingTier" operation="base_add" level="10,15,20,25,30,100" value="1,2,3,4,5,5" tags="backpackSmall" />
+        <passive_effect name="CraftingTier" operation="base_add" level="45,50,55,60,65,100" value="1,2,3,4,5,5" tags="backpackMedium" />
+        <passive_effect name="CraftingTier" operation="base_add" level="80,85,90,95,100" value="1,2,3,4,5" tags="backpackLarge" />
+      </effect_group>
+    </crafting_skill>
     <!-- *** MEDICAL_SKILLS -->
     <crafting_skill name="craftingMedical" max_level="75" parent="attCrafting" name_key="craftingMedicalName" desc_key="craftingMedicalDesc" long_desc_key="craftingMedicalLongDesc" icon="ui_game_symbol_medical">
       <display_entry icon="medicalFirstAidBandage,drugFortBites,drugVitamins,drugSteroids" name_key="medicalT1-1,medicalT1-2,medicalT1-3,medicalT1-4" has_quality="false" unlock_level="5,10,15,18">
@@ -1648,7 +1662,7 @@
         <unlock_entry item="vehicleTruck4x4Chassis,vehicleTruck4x4Accessories" unlock_tier="1" />
       </display_entry>
       <display_entry icon="vehicleGyrocopterPlaceable" name_key="vehiclesT5" has_quality="false" unlock_level="100">
-        <unlock_entry item="vehicleGyroCopterChassis,vehicleGyroCopterAccessories,vehicleMD500chassis,vehicleMD500accessories,vehicleApacheHelicopterChassis,vehicleApacheHelicopterAccessories,vehicleApacheHelicopterPlaceable,pzApacheRocket,pzApache30mm,pzApacheGuidedMissile,vehicleCombatRobotChassis,vehicleCombatRobotPlaceable,ammoPZAECMechaCell,ammoPZAECMechaMissile,vehicleCombatRobotCompleteChassis,vehicleCombatRobotCompletePlaceable" unlock_tier="1">
+        <unlock_entry item="vehicleGyroCopterChassis,vehicleGyroCopterAccessories,vehicleMD500chassis,vehicleMD500accessories,vehicleApacheHelicopterChassis,vehicleApacheHelicopterAccessories,vehicleApacheHelicopterPlaceable,pzApacheRocket,pzApache30mm,pzApacheGuidedMissile,vehicleCombatRobotChassis,vehicleCombatRobotPlaceable,ammoPZAECMechaCell,ammoPZAECMechaMissile,vehicleCombatRobotCompleteChassis,vehicleCombatRobotCompletePlaceable,vehiclePZAECMechaUltimateChassis,vehiclePZAECMechaUltimatePlaceable" unlock_tier="1">
           <!--Attribute "item" appended by: "PZAEC_Mecha"-->
           <!--Attribute "item" appended by: "ZZPZAECApacheFlight"-->
           <!--Attribute "item" appended by: "MD-500"-->
@@ -1738,7 +1752,7 @@
         <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100" value="1" tags="vehicleM1AbramsPlaceable,pzM1Shell,pzM1MGBelt,pzM1AAMissile,modPZAECM1Powertrain,modPZAECM1Economy,modPZAECM1Armor,modPZAECM1Corrosion,modPZAECM1Stabilizer,modPZAECM1Autoloader">
           <!--Element appended by: "ZZPZAECM1Abrams"-->
         </passive_effect>
-        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="vehicleCombatRobotChassis,vehicleCombatRobotPlaceable,ammoPZAECMechaCell,ammoPZAECMechaMissile,vehicleCombatRobotCompleteChassis,vehicleCombatRobotCompletePlaceable">
+        <passive_effect name="RecipeTagUnlocked" operation="base_set" level="100,100" value="1" tags="vehicleCombatRobotChassis,vehicleCombatRobotPlaceable,ammoPZAECMechaCell,ammoPZAECMechaMissile,vehicleCombatRobotCompleteChassis,vehicleCombatRobotCompletePlaceable,vehiclePZAECMechaUltimateChassis,vehiclePZAECMechaUltimatePlaceable">
           <!--Element appended by: "PZAEC_Mecha"-->
         </passive_effect>
       </effect_group>

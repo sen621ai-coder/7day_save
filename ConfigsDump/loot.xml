@@ -1813,6 +1813,11 @@
     <item group="groupArmorPartsChests" count="1" />
     <item group="groupAllArmor" loot_prob_template="ProbT0Delayed" force_prob="true" />
   </lootgroup>
+  <lootgroup name="groupPlayerBackpacks" loot_quality_template="armorQualityTemplate" abundance_type="Armor">
+    <item name="backpackSmall" count="1" loot_prob_template="ProbT1" />
+    <item name="backpackMedium" count="1" loot_prob_template="ProbT2" />
+    <item name="backpackLarge" count="1" loot_prob_template="ProbT3" />
+  </lootgroup>
   <lootgroup name="groupAmmoRocket">
     <item name="ammoRocketHE" count="1" />
     <item name="ammoRocketFrag" count="1" />
@@ -2992,6 +2997,7 @@
     <item name="explosivesSkillMagazine" />
     <!-- Savage_Country_AND_Trader_Joel_Magazines -->
     <item name="armorSkillMagazine" />
+    <item name="backpackSkillMagazine" />
     <!-- Pop-N-Pills_AND_Trader_Jen_Magazines -->
     <item name="medicalSkillMagazine" />
     <item name="knucklesSkillMagazine" />
@@ -3020,6 +3026,7 @@
     <item name="machineGunsSkillMagazine" count="2" />
     <item name="explosivesSkillMagazine" count="2" />
     <item name="armorSkillMagazine" count="2" />
+    <item name="backpackSkillMagazine" count="2" />
     <item name="roboticsSkillMagazine" count="2" />
     <item name="workstationSkillMagazine" count="2" />
     <item name="medicalSkillMagazine" count="2" />
@@ -3048,6 +3055,7 @@
     <item name="machineGunsSkillMagazine" count="2" />
     <item name="explosivesSkillMagazine" count="2" />
     <item name="armorSkillMagazine" count="2" />
+    <item name="backpackSkillMagazine" count="2" />
     <item name="roboticsSkillMagazine" count="2" />
     <item name="workstationSkillMagazine" count="2" />
     <item name="medicalSkillMagazine" count="2" />
@@ -7228,6 +7236,7 @@
   <!-- *** Savage_Country_Crate -->
   <lootgroup name="groupSavageCountryMagazines" abundance_type="Magazines">
     <item name="armorSkillMagazine" />
+    <item name="backpackSkillMagazine" />
     <item name="bowsSkillMagazine" />
     <item name="spearsSkillMagazine" />
     <item name="bladesSkillMagazine" />
@@ -7276,6 +7285,7 @@
   </lootgroup>
   <lootgroup name="groupSavageCountryCrate01">
     <item name="armorSkillMagazine" loot_prob_template="high" />
+    <item name="backpackSkillMagazine" loot_prob_template="high" />
     <item name="bowsSkillMagazine" loot_prob_template="high" />
     <item name="spearsSkillMagazine" loot_prob_template="high" />
     <item name="bladesSkillMagazine" loot_prob_template="high" />
@@ -7286,11 +7296,12 @@
     <item name="gunBowT1WoodenBowParts" count="1,4" loot_prob_template="medLow" />
   </lootgroup>
   <lootgroup name="groupSavageCountryCrate02">
+    <item name="resourceCloth" count="3,5" loot_prob_template="high" />
     <item group="groupSavageCountryBooks" loot_prob_template="medLow" tags="rangersProb,spearHunterProb,huntingProb,batterUpProb" />
     <item group="groupSavageCountryMagazines" loot_prob_template="medLow" tags="armorLightSkill,armorMediumSkill,armorHeavySkill,bowSkill,spearSkill,bladeSkill,clubSkill" />
-    <item name="resourceSewingKit" count="1,2" loot_prob_template="low" />
-    <item name="resourceCloth" count="3,5" loot_prob_template="high" />
+    <item group="groupPlayerBackpacks" loot_prob_template="med" tags="armorLightSkill,armorMediumSkill,armorHeavySkill" />
     <item group="groupMedicalCommon" loot_prob_template="med" tags="medicalSkill" />
+    <item name="resourceSewingKit" count="1,2" loot_prob_template="low" />
   </lootgroup>
   <lootgroup name="groupSavageCountryCrate03">
     <item group="groupWeaponsMeleeScaled" loot_prob_template="med" tags="spearSkill,clubSkill,sledgeSkill,knuckleSkill,bladeSkill,roboticsSkill" />
@@ -7519,6 +7530,7 @@
     <item name="explosivesSkillMagazine" />
     <item name="vehiclesSkillMagazine" />
     <item name="armorSkillMagazine" />
+    <item name="backpackSkillMagazine" />
     <item group="groupUrbanCombatBooks" loot_prob_template="low" tags="urbanProb" />
     <item group="groupPistolBooks" loot_prob_template="low" tags="pistolPeteProb" />
     <item group="groupEnforcerBooks" loot_prob_template="low" tags="enforcerProb" />
@@ -7565,6 +7577,7 @@
     <item name="explosivesSkillMagazine" />
     <item name="vehiclesSkillMagazine" />
     <item name="armorSkillMagazine" />
+    <item name="backpackSkillMagazine" />
     <item group="groupBatterUpBooks" loot_prob_template="low" tags="batterUpProb" />
     <item group="groupBarBrawlingBooks" loot_prob_template="low" tags="barBrawlingProb" />
     <item group="groupLuckyLooterBooks" loot_prob_template="low" tags="luckyProb" />
@@ -10630,7 +10643,7 @@
     <item name="cobweb" count="0" />
   </lootcontainer>
   <!-- "bag" container that gets dropped when another loot container is destroyed -->
-  <lootcontainer name="cntDropBag" count="0" size="9,10" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate">
+  <lootcontainer name="cntDropBag" count="0" size="8,15" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="qualBaseTemplate">
     <item name="cobweb" count="0" />
   </lootcontainer>
   <!-- wallSafe / deskSafe -->
@@ -51322,6 +51335,71 @@
     <item group="skillMagazines" loot_prob_template="medHigh" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
     <item group="groupChallengeRewardSkillMagazinesAll" loot_prob_template="high" tags="riflesCSM,explosivesCSM,spearsCSM,salvageToolsCSM,shotgunsCSM,clubsCSM,sledgehammersCSM,harvestingToolsCSM,knucklesCSM,machineGunsCSM,bowsCSM,handgunsCSM,bladesCSM,roboticsCSM,medicalCSM,electricianCSM,trapsCSM,workstationCSM,repairToolsCSM,vehiclesCSM,armorCSM,foodCSM,seedCSM" />
   </lootgroup>
+  <lootgroup name="PZAECBossBasicCraftingMaterials" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="resourceForgedIron" count="5,10" prob="0.50" />
+    <item name="resourceForgedSteel" count="5,10" prob="0.50" />
+  </lootgroup>
+  <lootgroup name="PZAECBossBasicArmorMaterials" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="resourceSewingKit" count="1,3" prob="0.50" />
+    <item name="armorParts" count="1,3" prob="0.35" />
+    <item name="resourceArmorCraftingKit" count="1,2" prob="0.10" />
+    <item name="resourceLegendaryParts" count="1" prob="0.05" />
+  </lootgroup>
+  <lootgroup name="PZAECBossBasicToolWeaponParts" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="gunBotRoboticsParts" count="1,3" />
+    <item name="gunBowT1WoodenBowParts" count="1,3" />
+    <item name="gunExplosivesT3RocketLauncherParts" count="1,3" />
+    <item name="gunHandgunT1PistolParts" count="1,3" />
+    <item name="gunMGT1AK47Parts" count="1,3" />
+    <item name="gunRifleT1HuntingRifleParts" count="1,3" />
+    <item name="gunShotgunT1DoubleBarrelParts" count="1,3" />
+    <item name="meleeToolAllSteelParts" count="1,3" />
+    <item name="meleeToolAxeT3ChainsawParts" count="1,3" />
+    <item name="meleeWpnBatonT2StunBatonParts" count="1,3" />
+    <item name="meleeWpnBladeT3MacheteParts" count="1,3" />
+    <item name="meleeWpnClubT3SteelClubParts" count="1,3" />
+    <item name="meleeWpnKnucklesT3SteelKnucklesParts" count="1,3" />
+    <item name="meleeWpnSledgeT3SteelSledgehammerParts" count="1,3" />
+    <item name="meleeWpnSpearT3SteelSpearParts" count="1,3" />
+  </lootgroup>
+  <lootgroup name="PZAECBossBasicVehicleParts" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="carBattery" count="1" />
+    <item name="smallEngine" count="1" />
+    <item name="vehicleBicycleChassis" count="1" />
+    <item name="vehicleBicycleHandlebars" count="1" />
+    <item name="vehicleGyroCopterAccessories" count="1" />
+    <item name="vehicleGyroCopterChassis" count="1" />
+    <item name="vehicleMD500accessories" count="1" />
+    <item name="vehicleMD500chassis" count="1" />
+    <item name="vehicleMinibikeChassis" count="1" />
+    <item name="vehicleMinibikeHandlebars" count="1" />
+    <item name="vehicleMotorcycleChassis" count="1" />
+    <item name="vehicleMotorcycleHandlebars" count="1" />
+    <item name="vehicleTruck4x4Accessories" count="1" />
+    <item name="vehicleTruck4x4Chassis" count="1" />
+    <item name="vehicleWheels" count="1" />
+  </lootgroup>
+  <lootgroup name="PZAECBossBasicMedicalSupplies" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item name="medicalFirstAidKit" count="1" prob="0.40" />
+    <item name="drugFortBites" count="1" prob="0.20" />
+    <item name="drugRecog" count="1" prob="0.20" />
+    <item name="drugAntibiotics" count="1" prob="0.05" />
+    <item name="drinkCanMegaCrush" count="1" prob="0.15" />
+  </lootgroup>
+  <lootgroup name="PZAECBossBasicMaterialSupplies" count="1">
+    <!--Element inserted by: "AEC_T16_RuntimeFix"-->
+    <item group="PZAECBossBasicCraftingMaterials" prob="0.23333333" />
+    <item group="PZAECBossBasicArmorMaterials" prob="0.10" />
+    <item group="PZAECBossBasicToolWeaponParts" prob="0.13333333" />
+    <item group="PZAECBossBasicVehicleParts" prob="0.06666667" />
+    <item name="casinoCoin" count="600,800" prob="0.06666667" />
+    <item group="PZAECBossBasicMedicalSupplies" prob="0.40" />
+  </lootgroup>
   <lootgroup name="PZAECBossLootBundleT16_Content" count="all">
     <!--Element appended by: "AECxProjectZ_Tweaks"-->
     <item group="groupAmmoImpLarge" count="6" prob="1" force_prob="true">
@@ -51340,45 +51418,19 @@
       <!--Attribute "group" replaced by: "AEC_T16_RuntimeFix"-->
       <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
     </item>
-    <item group="groupZpackBoss03" count="3">
-      <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
-    </item>
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT16_Content']/item[@group='groupZpackBoss03']")-->
     <item group="groupBossAlloys" count="2" prob=".80" force_prob="true">
       <!--Attribute "prob" replaced by: "AEC_T16_RuntimeFix"-->
       <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
     </item>
-    <item group="groupZpackBoss04" count="1" prob=".70" force_prob="true">
-      <!--Attribute "prob" replaced by: "AEC_T16_RuntimeFix"-->
-      <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
-    </item>
-    <item group="groupRareMods" count="1" prob=".50" force_prob="true">
-      <!--Attribute "prob" replaced by: "AEC_T16_RuntimeFix"-->
-      <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
-    </item>
-    <item group="groupUniqModsAll" count="1" prob=".35" force_prob="true">
-      <!--Attribute "prob" replaced by: "AEC_T16_RuntimeFix"-->
-      <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
-    </item>
-    <item group="PZAECBossLoot_UniqueMods_ByFamily" count="1" prob=".30" force_prob="true">
-      <!--Attribute "prob" replaced by: "AEC_T16_RuntimeFix"-->
-      <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
-    </item>
-    <item group="groupSkillBook" count="1" prob=".20" force_prob="true">
-      <!--Attribute "prob" replaced by: "AEC_T16_RuntimeFix"-->
-      <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
-    </item>
-    <item group="groupUnique_Weapon" count="1" prob=".20" force_prob="true">
-      <!--Attribute "prob" replaced by: "AEC_T16_RuntimeFix"-->
-      <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
-    </item>
-    <item group="groupLegend_Weapon" count="1" prob=".10" force_prob="true">
-      <!--Attribute "prob" replaced by: "AEC_T16_RuntimeFix"-->
-      <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
-    </item>
-    <item group="groupLegend_MeleeWeapon" count="1" prob=".12" force_prob="true">
-      <!--Attribute "prob" replaced by: "AEC_T16_RuntimeFix"-->
-      <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
-    </item>
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT16_Content']/item[@group='groupZpackBoss04']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT16_Content']/item[@group='groupRareMods']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT16_Content']/item[@group='groupUniqModsAll']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT16_Content']/item[@group='PZAECBossLoot_UniqueMods_ByFamily']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT16_Content']/item[@group='groupSkillBook']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT16_Content']/item[@group='groupUnique_Weapon']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT16_Content']/item[@group='groupLegend_Weapon']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT16_Content']/item[@group='groupLegend_MeleeWeapon']")-->
     <item group="groupUniqueParts" count="1" prob=".08" force_prob="true">
       <!--Attribute "prob" replaced by: "AEC_T16_RuntimeFix"-->
       <!--Attribute "count" replaced by: "AEC_T16_RuntimeFix"-->
@@ -51402,6 +51454,12 @@
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
     <item name="resourcePZAECSiegeCapacitorT16" count="1" prob="1" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECAdvancedFoodSupplyCrate" count="1" prob="0.50" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECBossBasicMaterialSupplies" count="3" prob="1" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
   </lootgroup>
@@ -52380,16 +52438,16 @@
       <!--Attribute "prob" added/overwritten by: "AEC_T16_RuntimeFix"-->
       <!--Attribute "group" replaced by: "AEC_T16_RuntimeFix"-->
     </item>
-    <item group="groupZpackBoss03" count="4" prob="1" force_prob="true" />
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT17_Content']/item[@group='groupZpackBoss03']")-->
     <item group="groupBossAlloys" count="3" prob=".90" force_prob="true" />
-    <item group="groupZpackBoss04" count="1" prob=".80" force_prob="true" />
-    <item group="groupRareMods" count="1" prob=".60" force_prob="true" />
-    <item group="groupUniqModsAll" count="1" prob=".45" force_prob="true" />
-    <item group="PZAECBossLoot_UniqueMods_ByFamily" count="1" prob=".40" force_prob="true" />
-    <item group="groupSkillBook" count="1" prob=".25" force_prob="true" />
-    <item group="groupUnique_Weapon" count="1" prob=".28" force_prob="true" />
-    <item group="groupLegend_Weapon" count="1" prob=".16" force_prob="true" />
-    <item group="groupLegend_MeleeWeapon" count="1" prob=".20" force_prob="true" />
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT17_Content']/item[@group='groupZpackBoss04']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT17_Content']/item[@group='groupRareMods']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT17_Content']/item[@group='groupUniqModsAll']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT17_Content']/item[@group='PZAECBossLoot_UniqueMods_ByFamily']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT17_Content']/item[@group='groupSkillBook']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT17_Content']/item[@group='groupUnique_Weapon']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT17_Content']/item[@group='groupLegend_Weapon']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT17_Content']/item[@group='groupLegend_MeleeWeapon']")-->
     <item group="groupUniqueParts" count="1" prob=".12" force_prob="true" />
     <item name="resourcePZAECMutantHeartT17" count="1" prob="1" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -52412,6 +52470,12 @@
     <item name="resourcePZAECSiegeCapacitorT17" count="1" prob="1" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
+    <item name="itemPZAECAdvancedFoodSupplyCrate" count="1" prob="0.60" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECBossBasicMaterialSupplies" count="4" prob="1" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
   </lootgroup>
   <lootcontainer name="PZAECBossLootBundleT17" count="1" size="7,8" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="empty" unique_item="true" ignore_loot_abundance="true" unmodified_lootstage="true">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -52427,16 +52491,16 @@
       <!--Attribute "prob" added/overwritten by: "AEC_T16_RuntimeFix"-->
       <!--Attribute "group" replaced by: "AEC_T16_RuntimeFix"-->
     </item>
-    <item group="groupZpackBoss03" count="5" prob="1" force_prob="true" />
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT18_Content']/item[@group='groupZpackBoss03']")-->
     <item group="groupBossAlloys" count="4" prob="1" force_prob="true" />
-    <item group="groupZpackBoss04" count="2" prob=".90" force_prob="true" />
-    <item group="groupRareMods" count="2" prob=".70" force_prob="true" />
-    <item group="groupUniqModsAll" count="1" prob=".55" force_prob="true" />
-    <item group="PZAECBossLoot_UniqueMods_ByFamily" count="1" prob=".50" force_prob="true" />
-    <item group="groupSkillBook" count="2" prob=".30" force_prob="true" />
-    <item group="groupUnique_Weapon" count="1" prob=".35" force_prob="true" />
-    <item group="groupLegend_Weapon" count="1" prob=".24" force_prob="true" />
-    <item group="groupLegend_MeleeWeapon" count="1" prob=".28" force_prob="true" />
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT18_Content']/item[@group='groupZpackBoss04']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT18_Content']/item[@group='groupRareMods']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT18_Content']/item[@group='groupUniqModsAll']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT18_Content']/item[@group='PZAECBossLoot_UniqueMods_ByFamily']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT18_Content']/item[@group='groupSkillBook']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT18_Content']/item[@group='groupUnique_Weapon']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT18_Content']/item[@group='groupLegend_Weapon']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT18_Content']/item[@group='groupLegend_MeleeWeapon']")-->
     <item group="groupUniqueParts" count="1" prob=".18" force_prob="true" />
     <item name="resourcePZAECMutantHeartT18" count="1" prob="1" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -52459,6 +52523,12 @@
     <item name="resourcePZAECSiegeCapacitorT18" count="1,2" prob="1" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
+    <item name="itemPZAECAdvancedFoodSupplyCrate" count="1" prob="0.70" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECBossBasicMaterialSupplies" count="5" prob="1" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
   </lootgroup>
   <lootcontainer name="PZAECBossLootBundleT18" count="1" size="7,8" sound_open="UseActions/open_garbage" sound_close="silencefiller" loot_quality_template="qualPlus1Template" destroy_on_close="empty" unique_item="true" ignore_loot_abundance="true" unmodified_lootstage="true">
     <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -52474,16 +52544,16 @@
       <!--Attribute "prob" added/overwritten by: "AEC_T16_RuntimeFix"-->
       <!--Attribute "group" replaced by: "AEC_T16_RuntimeFix"-->
     </item>
-    <item group="groupZpackBoss03" count="6" prob="1" force_prob="true" />
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT19_Content']/item[@group='groupZpackBoss03']")-->
     <item group="groupBossAlloys" count="5" prob="1" force_prob="true" />
-    <item group="groupZpackBoss04" count="2" prob="1" force_prob="true" />
-    <item group="groupRareMods" count="2" prob=".80" force_prob="true" />
-    <item group="groupUniqModsAll" count="2" prob=".65" force_prob="true" />
-    <item group="PZAECBossLoot_UniqueMods_ByFamily" count="1" prob=".60" force_prob="true" />
-    <item group="groupSkillBook" count="2" prob=".40" force_prob="true" />
-    <item group="groupUnique_Weapon" count="1" prob=".45" force_prob="true" />
-    <item group="groupLegend_Weapon" count="1" prob=".34" force_prob="true" />
-    <item group="groupLegend_MeleeWeapon" count="1" prob=".40" force_prob="true" />
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT19_Content']/item[@group='groupZpackBoss04']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT19_Content']/item[@group='groupRareMods']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT19_Content']/item[@group='groupUniqModsAll']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT19_Content']/item[@group='PZAECBossLoot_UniqueMods_ByFamily']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT19_Content']/item[@group='groupSkillBook']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT19_Content']/item[@group='groupUnique_Weapon']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT19_Content']/item[@group='groupLegend_Weapon']")-->
+    <!--Element removed by: "AEC_T16_RuntimeFix" (XPath: "/lootcontainers/lootgroup[@name='PZAECBossLootBundleT19_Content']/item[@group='groupLegend_MeleeWeapon']")-->
     <item group="groupUniqueParts" count="1" prob=".25" force_prob="true" />
     <item name="resourcePZAECMutantHeartT19" count="1" prob="1" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
@@ -52507,6 +52577,12 @@
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
     <item name="resourcePZAECSiegeCapacitorT19" count="1,2" prob="1" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item name="itemPZAECAdvancedFoodSupplyCrate" count="1" prob="0.80" force_prob="true">
+      <!--Element appended by: "AEC_T16_RuntimeFix"-->
+    </item>
+    <item group="PZAECBossBasicMaterialSupplies" count="6" prob="1" force_prob="true">
       <!--Element appended by: "AEC_T16_RuntimeFix"-->
     </item>
   </lootgroup>

@@ -5514,6 +5514,7 @@
       <action type="Sakura, Sakura.Preview" id="4" />
     </response>
     <response id="claim" text="sakuraNative_response_claim" nextstatementid="waiting">
+      <requirement type="SakuraClaim, Sakura.Preview" />
       <action type="Sakura, Sakura.Preview" id="22" />
     </response>
     <response id="done" text="sakuraNative_response_done"></response>
@@ -5699,6 +5700,7 @@
       <action type="Sakura, Sakura.Preview" id="4" />
     </response>
     <response id="claim" text="mintNative_response_claim" nextstatementid="waiting">
+      <requirement type="SakuraClaim, Sakura.Preview" />
       <action type="Sakura, Sakura.Preview" id="22" />
     </response>
     <response id="done" text="mintNative_response_done"></response>

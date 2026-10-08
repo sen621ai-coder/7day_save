@@ -555,6 +555,10 @@
     <property name="HeadExplosionDamageMultiplier" value=".41" />
     <property name="ChestExplosionDamageMultiplier" value=".41" />
     <property name="Buffs" value="buffStatusCheck01,buffStatusCheck02" />
+    <property name="MaxBagSize" value="176">
+      <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
+      <!--Attribute "value" replaced by: "ProjectZ"-->
+    </property>
     <array name="TokenManager">
       <item type="MeleeAttack" max="2" />
       <item type="RangedAttack" max="2" />
@@ -746,6 +750,17 @@
       <passive_effect name="CarryCapacity" operation="base_set" value="@.carryCapacityBase">
         <!--Attribute "value" replaced by: "ProjectZ"-->
       </passive_effect>
+      <!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar="backpackSandboxModifier" operation="set" value=".25"/> -->
+      <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar=".packmuleCapacityL1" operation="set" value="4" />
+      <!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar=".packmuleCapacityL1" operation="multiply" value="@backpackSandboxModifier"/> -->
+      <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar=".packmuleCapacityL2" operation="set" value="8" />
+      <!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar=".packmuleCapacityL2" operation="multiply" value="@backpackSandboxModifier"/> -->
+      <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar=".packmuleCapacityL3" operation="set" value="12" />
+      <!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar=".packmuleCapacityL3" operation="multiply" value="@backpackSandboxModifier"/> -->
+      <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar=".packmuleCapacityL4" operation="set" value="16" />
+      <!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar=".packmuleCapacityL4" operation="multiply" value="@backpackSandboxModifier"/> -->
+      <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar=".packmuleCapacityL5" operation="set" value="16" />
+      <!-- <triggered_effect trigger="onSelfEnteredGame" action="ModifyCVar" cvar=".packmuleCapacityL5" operation="multiply" value="@backpackSandboxModifier"/> -->
       <passive_effect name="BagSize" operation="base_set" value="176">
         <!--Attribute "value" replaced by: "AECxProjectZ_Tweaks"-->
         <!--Attribute "value" replaced by: "ProjectZ"-->
@@ -12719,7 +12734,7 @@
     <property name="SoundHurt" value="plaguepain" />
     <property name="SoundDeath" value="plaguedeath" />
     <property name="SoundSense" value="plaguesense" />
-    <property name="SoundStepType" value="barestep" />
+    <property name="SoundStepType" value="step" />
     <property name="ExperienceGain" value="^xpStrong01" />
     <property name="TimeStayAfterDeath" value="5">
       <!--Element inserted by: "ProjectZ"-->
@@ -291511,6 +291526,28 @@ Kinda sorta works but is buggy and we don't have time for that.
     <property name="NavObject" value="4x4" />
   </entity_class>
   <entity_class name="vehicleCombatRobotComplete">
+    <!--Element appended by: "PZAEC_Mecha"-->
+    <property name="Class" value="EntityVJeep" />
+    <property name="Tags" value="vehicle,usesGas" />
+    <property name="Prefab" value="MechaRuntime.prefab" />
+    <property name="ModelType" value="Standard" />
+    <property name="SurfaceCategory" value="metal" />
+    <property name="IgnoreTrigger" value="true" />
+    <property name="LootList" value="vehicle4x4Truck" />
+    <property name="IsEnemyEntity" value="false" />
+    <property class="Explosion">
+      <property name="ParticleIndex" value="29" />
+      <property name="RadiusBlocks" value="5" />
+      <property name="RadiusEntities" value="5" />
+      <property name="BlockDamage" value="100" />
+      <property name="EntityDamage" value="100" />
+    </property>
+    <property name="RotateToGround" value="true" />
+    <property name="Faction" value="none" />
+    <property name="MapIcon" value="ui_game_symbol_4x4" />
+    <property name="NavObject" value="4x4" />
+  </entity_class>
+  <entity_class name="vehiclePZAECMechaUltimate">
     <!--Element appended by: "PZAEC_Mecha"-->
     <property name="Class" value="EntityVJeep" />
     <property name="Tags" value="vehicle,usesGas" />

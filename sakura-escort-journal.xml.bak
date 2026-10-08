@@ -23,6 +23,7 @@
     <int>115175</int>
     <int>115184</int>
     <int>115581</int>
+    <int>116877</int>
   </EncounterIds>
   <Missions>
     <SakuraMissionState>
@@ -42,6 +43,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>11.044403076171875</WaveDelay>
       <TerminalUtc>1789457612</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies>
         <int>102814</int>
       </Enemies>
@@ -70,6 +72,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>12.0933837890625</WaveDelay>
       <TerminalUtc>1789466824</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies>
         <int>102824</int>
       </Enemies>
@@ -98,6 +101,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>30.092529296875</WaveDelay>
       <TerminalUtc>1789467302</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies>
         <int>102838</int>
       </Enemies>
@@ -126,6 +130,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1789704930</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -157,6 +162,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1789707792</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -188,6 +194,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1789725242</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -219,6 +226,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1789916335</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -250,6 +258,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1789964079</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -281,6 +290,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1789967276</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -312,6 +322,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1790002218</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -343,6 +354,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1790136891</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -374,6 +386,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1790143945</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -405,6 +418,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1790223770</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -436,6 +450,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1790227861</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -467,6 +482,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1790261992</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -498,6 +514,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>1.00244140625</WaveDelay>
       <TerminalUtc>1790265997</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -529,6 +546,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1790606468</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -560,6 +578,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1790655601</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -591,6 +610,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>1.00146484375</WaveDelay>
       <TerminalUtc>1790657240</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -622,6 +642,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1790678027</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -653,6 +674,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1790744107</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -684,6 +706,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>1791125247</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -703,9 +726,41 @@
       <NpcId>115581</NpcId>
       <Tier>16</Tier>
       <Leader>EOS_0002908e50a64ea0b14ac31f97e68d34</Leader>
-      <Failure />
+      <Failure>服务器重新加载，未完成任务已取消</Failure>
       <TargetX>-1565.5</TargetX>
       <TargetZ>-1148.5</TargetZ>
+      <StartDistance>0</StartDistance>
+      <Phase>Failed</Phase>
+      <Paused>false</Paused>
+      <Guard>true</Guard>
+      <Waves>0</Waves>
+      <Elapsed>0</Elapsed>
+      <MissingSeconds>0</MissingSeconds>
+      <WaveDelay>0</WaveDelay>
+      <TerminalUtc>1791435714</TerminalUtc>
+      <NpcRetired>true</NpcRetired>
+      <Enemies />
+      <Members>
+        <EscortMember>
+          <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+          <NearSeconds>0</NearSeconds>
+          <Receipt>0</Receipt>
+        </EscortMember>
+        <EscortMember>
+          <Key>EOS_00025fe27d8444baa871ac91c524ca08</Key>
+          <NearSeconds>0</NearSeconds>
+          <Receipt>0</Receipt>
+        </EscortMember>
+      </Members>
+    </SakuraMissionState>
+    <SakuraMissionState>
+      <Id>e01c3fdcc12d4a21b484350e2ded8c99</Id>
+      <NpcId>116877</NpcId>
+      <Tier>16</Tier>
+      <Leader>EOS_0002908e50a64ea0b14ac31f97e68d34</Leader>
+      <Failure />
+      <TargetX>-1592.5</TargetX>
+      <TargetZ>-1109.5</TargetZ>
       <StartDistance>0</StartDistance>
       <Phase>Searching</Phase>
       <Paused>false</Paused>
@@ -715,6 +770,7 @@
       <MissingSeconds>0</MissingSeconds>
       <WaveDelay>0</WaveDelay>
       <TerminalUtc>0</TerminalUtc>
+      <NpcRetired>false</NpcRetired>
       <Enemies />
       <Members>
         <EscortMember>
@@ -897,12 +953,20 @@
       <Code>-163262809</Code>
       <TraderId>-1</TraderId>
       <Tier>16</Tier>
-      <Spawned>false</Spawned>
+      <Spawned>true</Spawned>
     </SakuraRescueGrant>
     <SakuraRescueGrant>
       <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
       <QuestId>mintdispatcht16</QuestId>
       <Code>-28269469</Code>
+      <TraderId>-1</TraderId>
+      <Tier>16</Tier>
+      <Spawned>false</Spawned>
+    </SakuraRescueGrant>
+    <SakuraRescueGrant>
+      <Key>EOS_0002908e50a64ea0b14ac31f97e68d34</Key>
+      <QuestId>mintdispatcht16</QuestId>
+      <Code>-1882435329</Code>
       <TraderId>-1</TraderId>
       <Tier>16</Tier>
       <Spawned>false</Spawned>
